@@ -38,9 +38,10 @@ alwaysApply: false
 - Series title bar: **‹** back → Metals by series hub (`openSeriesHub`).
 - Entry detail: **‹** back → card list (not series).
 
-## Dashboard (mobile)
+## Series hub (mobile)
 
-- Catalog / tool grids stay **multi-column** (do not collapse to a single stack at ≤960px).
+- **2-column** series tile grid at ≤960px (not 3). Cap media/desc height (~7.5rem); drop the desktop `min-height: 280px` tower.
+- **All metals** tile spans full width.
 
 ## Cleanup
 
