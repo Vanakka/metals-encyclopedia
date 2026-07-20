@@ -582,6 +582,7 @@ function renderSeriesHub() {
           <p>Element families — alkali, transition, lanthanide, and the rest — not periodic-table column numbers.</p>
         </header>
         <section class="series-grid" aria-label="Metals hub">
+          ${tiles}
           <button type="button" class="series-all" data-series="all">
             <span class="series-tile-head">
               <span class="name-chip">All metals</span>
@@ -592,7 +593,6 @@ function renderSeriesHub() {
             </span>
             <span class="blurb">Every metallic and metalloid entry, one list.</span>
           </button>
-          ${tiles}
         </section>
       </main>
     </div>

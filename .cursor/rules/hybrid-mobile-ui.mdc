@@ -41,7 +41,7 @@ alwaysApply: false
 ## Series hub (mobile)
 
 - **2-column** series tile grid at ≤960px (not 3). Cap media/desc height (~7.5rem); drop the desktop `min-height: 280px` tower.
-- **All metals** tile spans full width.
+- **All metals** tile last, full width.
 
 ## Cleanup
 
