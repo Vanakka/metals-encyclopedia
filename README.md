@@ -9,6 +9,14 @@ npm install
 npm run dev
 ```
 
+## Hosting (Cloudflare Pages)
+
+`vite.config.js` uses `base: '/'` for a custom domain (or `*.pages.dev`) at the site root.
+
+Typical Pages settings: framework **None** or **Vite**, build `npm run build`, output `dist`.
+
+After deploy: **Custom domains** → add your domain (DNS on Cloudflare makes this easy).
+
 ## Data accuracy
 
 - **Numeric properties** (mass, electron config, state, discovery year, melting/boiling, density): sourced from PubChem’s periodic-table CSV (see `src/data/pubchem-periodictable.csv`).
