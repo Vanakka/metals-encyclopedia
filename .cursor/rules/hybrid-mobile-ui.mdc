@@ -1,0 +1,47 @@
+---
+description: Hybrid UI and mobile (≤960px) layout preferences for Metals Encyclopedia
+globs: src/**/*
+alwaysApply: false
+---
+
+# Hybrid mobile UI preferences
+
+## Scope
+
+- Mobile remodeled views ship under **`MOBILE_BROWSE_V2`** at **`max-width: 960px`** (`src/style.mobile-browse.css` + `isMobileBrowse()` in `main.js`).
+- **Desktop layouts stay unchanged** unless the user explicitly asks to change them.
+- Prefer implementing against established patterns over new HTML mockups when the direction is clear.
+
+## Visual tokens
+
+- Dark Hybrid console: `--bg #0b0d0e`, accent `--accent #ffb454`.
+- Grid / box separators use **`--sep-line`** (muted accent), including outer edges — not full-bright accent bars.
+- Fonts: JetBrains Mono (data/labels), Oswald / Archivo / Inter Tight as already wired — do not fall back to Inter/Roboto/system stacks for new UI.
+
+## Compare (mobile)
+
+- **Column-snap sheet** (former Mock B): sticky property gutter + equal metal columns; drag headers to reorder; no ←/→ buttons.
+- Bottom-sheet “Add metal” (no native `<select>`).
+- Temps: °C by default; tap a temp cell to toggle all to °F (`state.compareTempUnit`).
+
+## Table (mobile)
+
+- **Four-column sheet**: Element | Melting | Density | Conductivity.
+- Element column width follows the **longest name** in the current filter; numeric columns share remaining width.
+- Center header labels and numeric values; spell out headers (no σ).
+- No summary column on mobile.
+- Header taps sort: Element → `name`, Melting → `meltingDesc`, Density → `densityDesc`, Conductivity → `conductivityDesc`.
+- Row tap → encyclopedia entry (`mobilePane = "entry"`); defer re-render so the tap does not hit view tabs.
+
+## Navigation (mobile)
+
+- Series title bar: **‹** back → Metals by series hub (`openSeriesHub`).
+- Entry detail: **‹** back → card list (not series).
+
+## Dashboard (mobile)
+
+- Catalog / tool grids stay **multi-column** (do not collapse to a single stack at ≤960px).
+
+## Cleanup
+
+- Do not reintroduce `mockups/` HTML for Compare/Table unless the user asks for side-by-side design exploration again.
