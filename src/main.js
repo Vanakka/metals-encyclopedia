@@ -1,4 +1,6 @@
 import "./style.css";
+/* MOBILE_BROWSE_V2 — remove this import (+ style.mobile-browse.css) to revert mobile list/entry UX */
+import "./style.mobile-browse.css";
 import { metals } from "./data/metals.js";
 import {
   confidenceLabel,
@@ -17,6 +19,7 @@ import { getFilteredMetals, relativeConductivity } from "./lib/filter.js";
 import {
   COMPARE_LIMIT,
   COMPARE_PRESETS,
+  COMPARE_PROPERTIES,
   bestOfKeys,
   buildCompareRows,
   compareSummaryText,
@@ -74,6 +77,17 @@ const CONF_COLORS = {
   "unverified-model": "#ffb454"
 };
 
+/**
+ * MOBILE_BROWSE_V2 — compact list + list/entry split under 960px.
+ * REVERT: set to false (or delete style.mobile-browse.css import + related helpers).
+ */
+const MOBILE_BROWSE_V2 = true;
+const MOBILE_BROWSE_MQ = "(max-width: 960px)";
+
+function isMobileBrowse() {
+  return MOBILE_BROWSE_V2 && window.matchMedia(MOBILE_BROWSE_MQ).matches;
+}
+
 const state = {
   page: "dashboard",
   query: "",
@@ -84,7 +98,19 @@ const state = {
   compareKeys: ["copper", "silver"],
   compareNotice: "",
   compareQuery: "",
-  heroView: "photo"
+  heroView: "photo",
+  /** MOBILE_BROWSE_V2: "list" | "entry" — ignored on desktop */
+  mobilePane: "list",
+  /** MOBILE_BROWSE_V2: hero view picker expanded on mobile */
+  heroControlsOpen: false,
+  /** MOBILE_BROWSE_V2: series menu open on entry/list bar */
+  seriesMenuOpen: false,
+  /** Custom sort menu (avoids native select inside overflow) */
+  sortMenuOpen: false,
+  /** MOBILE_BROWSE_V2: custom compare add menu (avoids native select) */
+  compareAddMenuOpen: false,
+  /** MOBILE_BROWSE_V2: compare sheet temperature unit "C" | "F" */
+  compareTempUnit: "C"
 };
 
 const app = document.querySelector("#app");
@@ -127,6 +153,20 @@ function cubeGrad(family) {
     Actinide: "#e08a63"
   };
   return `linear-gradient(135deg, rgba(11, 13, 14, 0.85), rgba(11, 13, 14, 0.2)), ${famColors[family] || "#9fb3c4"}`;
+}
+
+function metalCardMedia(metal, { draggable = false } = {}) {
+  if (metal.imageUrl) {
+    const drag = draggable ? "" : ' draggable="false"';
+    return `<img src="${metal.imageUrl}" alt="" loading="lazy" decoding="async"${drag}>`;
+  }
+  const reason =
+    metal.atomicNumber >= 104
+      ? "No photo — synthetic; no macroscopic sample exists"
+      : metal.atomicNumber > 92
+        ? "No photo — scarce radioactive specimen"
+        : "No specimen photo on file";
+  return `<span class="card-fallback" style="background: ${cubeGrad(metal.family)}" aria-hidden="true"><span class="card-fallback-sym">${escapeHtml(metal.symbol)}</span><span class="card-fallback-note">${escapeHtml(reason)}</span></span>`;
 }
 
 function shellCounts(z) {
@@ -195,11 +235,203 @@ function openBrowse({ family = "all", view = "encyclopedia", selectFirst = true 
   state.family = family;
   state.view = view;
   state.query = "";
+  state.mobilePane = "list"; // MOBILE_BROWSE_V2
+  state.seriesMenuOpen = false;
   if (selectFirst) {
     const filtered = getFilteredMetals(metals, state);
     if (filtered.length) state.selectedKey = filtered[0].key;
   }
   renderApp();
+}
+
+let closeSeriesMenuListener = null;
+let closeHeroMenuListener = null;
+let closeSortMenuListener = null;
+let closeCompareAddListener = null;
+
+function clearSeriesMenuListener() {
+  if (closeSeriesMenuListener) {
+    document.removeEventListener("click", closeSeriesMenuListener);
+    closeSeriesMenuListener = null;
+  }
+}
+
+function clearHeroMenuListener() {
+  if (closeHeroMenuListener) {
+    document.removeEventListener("click", closeHeroMenuListener);
+    closeHeroMenuListener = null;
+  }
+}
+
+function clearSortMenuListener() {
+  if (closeSortMenuListener) {
+    document.removeEventListener("click", closeSortMenuListener);
+    closeSortMenuListener = null;
+  }
+}
+
+function clearCompareAddListener() {
+  if (closeCompareAddListener) {
+    document.removeEventListener("click", closeCompareAddListener);
+    closeCompareAddListener = null;
+  }
+}
+
+const SORT_OPTIONS = [
+  { value: "atomicNumber", label: "Atomic number" },
+  { value: "name", label: "Name" },
+  { value: "densityDesc", label: "Density" },
+  { value: "meltingDesc", label: "Melting point" },
+  { value: "conductivityDesc", label: "Conductivity" }
+];
+
+function sortPickerHtml() {
+  return `
+    <div class="sort-wrap">
+      <button
+        type="button"
+        class="sort-trigger"
+        id="sort-trigger"
+        aria-haspopup="listbox"
+        aria-expanded="${state.sortMenuOpen ? "true" : "false"}"
+        aria-controls="sort-menu"
+      >
+        Sort <span aria-hidden="true">▾</span>
+      </button>
+      <div class="sort-menu" id="sort-menu" role="listbox" aria-label="Sort by" ${state.sortMenuOpen ? "" : "hidden"}>
+        ${SORT_OPTIONS.map(
+          (o) =>
+            `<button type="button" role="option" data-sort="${o.value}" aria-selected="${o.value === state.sort}">${escapeHtml(o.label)}</button>`
+        ).join("")}
+      </div>
+    </div>`;
+}
+
+function bindSortPicker() {
+  clearSortMenuListener();
+  document.querySelector("#sort-trigger")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    state.sortMenuOpen = !state.sortMenuOpen;
+    if (state.sortMenuOpen) {
+      state.seriesMenuOpen = false;
+      clearSeriesMenuListener();
+    }
+    const wrap = document.querySelector(".sort-wrap");
+    const menu = document.querySelector("#sort-menu");
+    const trigger = document.querySelector("#sort-trigger");
+    if (!wrap || !menu || !trigger) {
+      renderBrowse();
+      return;
+    }
+    trigger.setAttribute("aria-expanded", state.sortMenuOpen ? "true" : "false");
+    if (state.sortMenuOpen) menu.removeAttribute("hidden");
+    else menu.setAttribute("hidden", "");
+    if (state.sortMenuOpen) {
+      closeSortMenuListener = (ev) => {
+        if (ev.target.closest?.(".sort-wrap")) return;
+        clearSortMenuListener();
+        state.sortMenuOpen = false;
+        menu.setAttribute("hidden", "");
+        trigger.setAttribute("aria-expanded", "false");
+      };
+      setTimeout(() => document.addEventListener("click", closeSortMenuListener), 0);
+    }
+  });
+  document.querySelectorAll("#sort-menu [data-sort]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      clearSortMenuListener();
+      state.sort = btn.dataset.sort;
+      state.sortMenuOpen = false;
+      const menu = document.querySelector("#sort-menu");
+      const trigger = document.querySelector("#sort-trigger");
+      menu?.setAttribute("hidden", "");
+      trigger?.setAttribute("aria-expanded", "false");
+      document.querySelectorAll("#sort-menu [data-sort]").forEach((b) => {
+        b.setAttribute("aria-selected", b.dataset.sort === state.sort ? "true" : "false");
+      });
+      refreshMetalList();
+    });
+  });
+}
+
+function setFamilyFilter(family) {
+  clearSeriesMenuListener();
+  state.family = family;
+  state.seriesMenuOpen = false;
+  const next = getFilteredMetals(metals, state);
+  if (next.length && !next.some((m) => m.key === state.selectedKey)) {
+    state.selectedKey = next[0].key;
+  }
+  renderBrowse();
+}
+
+function seriesPickerHtml(seriesLabel) {
+  return `
+    <div class="entry-series">
+      <button
+        type="button"
+        class="entry-series-name"
+        id="entry-series-trigger"
+        aria-haspopup="listbox"
+        aria-expanded="${state.seriesMenuOpen ? "true" : "false"}"
+        aria-controls="entry-series-menu"
+      >
+        ${escapeHtml(seriesLabel)}
+      </button>
+      <div
+        class="entry-series-menu"
+        id="entry-series-menu"
+        role="listbox"
+        aria-label="Series"
+        ${state.seriesMenuOpen ? "" : "hidden"}
+      >
+        <button type="button" role="option" data-family="all" aria-selected="${state.family === "all"}">All series</button>
+        ${families
+          .map(
+            (f) =>
+              `<button type="button" role="option" data-family="${escapeHtml(f)}" aria-selected="${f === state.family}">${escapeHtml(f)}</button>`
+          )
+          .join("")}
+      </div>
+    </div>`;
+}
+
+function bindSeriesPicker() {
+  clearSeriesMenuListener();
+  document.querySelector("#entry-series-trigger")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    state.seriesMenuOpen = !state.seriesMenuOpen; // MOBILE_BROWSE_V2
+    if (state.seriesMenuOpen) {
+      state.heroControlsOpen = false;
+      clearHeroMenuListener();
+    }
+    renderBrowse();
+  });
+  document.querySelectorAll("#entry-series-menu [data-family]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      setFamilyFilter(btn.dataset.family);
+    });
+  });
+  if (state.seriesMenuOpen) {
+    closeSeriesMenuListener = (e) => {
+      if (
+        e.target.closest?.(
+          ".entry-series, .search-sort, .mobile-series-bar, .sort-wrap, .view-tabs, .browse-crumbs"
+        )
+      ) {
+        return;
+      }
+      clearSeriesMenuListener();
+      state.seriesMenuOpen = false;
+      const menu = document.querySelector("#entry-series-menu");
+      const trigger = document.querySelector("#entry-series-trigger");
+      menu?.setAttribute("hidden", "");
+      trigger?.setAttribute("aria-expanded", "false");
+    };
+    setTimeout(() => document.addEventListener("click", closeSeriesMenuListener), 0);
+  }
 }
 
 function bindTipFollow() {
@@ -325,10 +557,13 @@ function renderSeriesHub() {
       const img = familyImage(family);
       return `
         <button type="button" class="series-tile" data-series="${escapeHtml(family)}">
-          ${img ? `<img src="${img}" alt="" loading="lazy" decoding="async">` : ""}
-          <span class="shade" aria-hidden="true"></span>
-          <span class="name-chip">${escapeHtml(family)}</span>
-          <span class="count-chip">${count} metal${count === 1 ? "" : "s"} →</span>
+          <span class="series-tile-head">
+            <span class="name-chip">${escapeHtml(family)}</span>
+            <span class="count-chip">${count}</span>
+          </span>
+          <span class="series-tile-media">
+            ${img ? `<img src="${img}" alt="" loading="lazy" decoding="async">` : ""}
+          </span>
           <span class="blurb">${escapeHtml(SERIES_BLURBS[family] || "Metals in this series.")}</span>
         </button>`;
     })
@@ -348,9 +583,14 @@ function renderSeriesHub() {
         </header>
         <section class="series-grid" aria-label="Metals hub">
           <button type="button" class="series-all" data-series="all">
-            <span class="title">All metals</span>
-            <span class="copy">Every metallic and metalloid entry, one list.</span>
-            <span class="meta">${metals.length} entries →</span>
+            <span class="series-tile-head">
+              <span class="name-chip">All metals</span>
+              <span class="count-chip">${metals.length}</span>
+            </span>
+            <span class="series-tile-desc">
+              The full catalog — alkali through actinide, plus metalloids. One searchable list with photos, properties, production notes, and compare tools. No series filter applied.
+            </span>
+            <span class="blurb">Every metallic and metalloid entry, one list.</span>
           </button>
           ${tiles}
         </section>
@@ -365,13 +605,20 @@ function renderSeriesHub() {
 }
 
 function renderBrowse() {
+  clearSeriesMenuListener();
+  clearHeroMenuListener();
+  clearSortMenuListener();
+  state.sortMenuOpen = false;
   const filtered = getFilteredMetals(metals, state);
   const seriesLabel = state.family === "all" ? "All metals" : state.family;
   const showToolbar = state.view !== "compare";
+  const mobilePane =
+    isMobileBrowse() && state.view === "encyclopedia" ? state.mobilePane : isMobileBrowse() ? "list" : "desktop";
+  const onMobileEntry = mobilePane === "entry";
 
   app.innerHTML = `
     <div class="console-shell">
-      <main class="browse-main">
+      <main class="browse-main" data-mobile-pane="${mobilePane}" data-view="${state.view}">
         <nav class="browse-crumbs" aria-label="Breadcrumb">
           <button type="button" class="crumb-link" data-nav="home">Console</button>
           <span aria-hidden="true">/</span>
@@ -379,6 +626,7 @@ function renderBrowse() {
           <span aria-hidden="true">/</span>
           <span>${escapeHtml(seriesLabel)}</span>
           <span class="view-tabs" role="group" aria-label="View mode">
+            <button type="button" class="mobile-console" data-nav="home">Console</button>
             <button type="button" data-view="encyclopedia" aria-pressed="${state.view === "encyclopedia"}">Entry</button>
             <button type="button" data-view="compare" aria-pressed="${state.view === "compare"}">Compare</button>
             <button type="button" data-view="table" aria-pressed="${state.view === "table"}">Table</button>
@@ -396,26 +644,57 @@ function renderBrowse() {
         </div>`
             : ""
         }
+        ${
+          onMobileEntry
+            ? ""
+            : `<div class="mobile-series-bar">
+          <button type="button" class="back-series" id="mobile-back-series" aria-label="Back to metals by series">‹</button>
+          ${seriesPickerHtml(seriesLabel)}
+          ${showToolbar ? `<span class="mobile-series-count">${filtered.length} shown</span>` : ""}
+        </div>`
+        }
         <div id="browse-content"></div>
       </main>
     </div>
   `;
 
-  document.querySelector('[data-nav="home"]')?.addEventListener("click", goHome);
+  document.querySelectorAll('[data-nav="home"]').forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      clearSeriesMenuListener();
+      clearSortMenuListener();
+      clearHeroMenuListener();
+      goHome();
+    });
+  });
   document.querySelector('[data-nav="series"]')?.addEventListener("click", openSeriesHub);
+  document.querySelector("#mobile-back-series")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    clearSeriesMenuListener();
+    clearSortMenuListener();
+    clearHeroMenuListener();
+    clearCompareAddListener();
+    openSeriesHub();
+  });
   document.querySelectorAll("[data-view]").forEach((btn) => {
-    btn.addEventListener("click", () => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      clearSeriesMenuListener();
+      clearSortMenuListener();
+      clearHeroMenuListener();
+      clearCompareAddListener();
       state.view = btn.dataset.view;
+      if (state.view !== "encyclopedia") state.mobilePane = "list"; // MOBILE_BROWSE_V2
+      state.seriesMenuOpen = false;
+      state.sortMenuOpen = false;
+      state.heroControlsOpen = false;
+      state.compareAddMenuOpen = false;
       renderBrowse();
     });
   });
   document.querySelector("#family-filter")?.addEventListener("change", (e) => {
-    state.family = e.target.value;
-    const next = getFilteredMetals(metals, state);
-    if (next.length && !next.some((m) => m.key === state.selectedKey)) {
-      state.selectedKey = next[0].key;
-    }
-    renderBrowse();
+    setFamilyFilter(e.target.value);
   });
 
   const content = document.querySelector("#browse-content");
@@ -429,6 +708,58 @@ function renderBrowse() {
     content.innerHTML = renderTable(filtered);
     bindTable();
   }
+  if (!onMobileEntry) bindSeriesPicker();
+}
+
+function metalCardsHtml(filtered) {
+  return filtered
+    .map((m) => {
+      const r = relativeConductivity(m);
+      const current = m.key === state.selectedKey ? ' aria-current="true"' : "";
+      const sigma = hasValue(r) ? `σ ${r.toFixed(0)}%` : "σ —";
+      const meta =
+        state.family !== "all" && state.family === m.family
+          ? sigma
+          : `${escapeHtml(m.family)} · ${sigma}`;
+      return `
+        <button type="button" class="metal-card" data-key="${m.key}"${current}>
+          ${metalCardMedia(m)}
+          <span class="shade" aria-hidden="true"></span>
+          <strong class="name">${escapeHtml(m.name)}</strong>
+          <span class="row">
+            <span class="meta">${meta}</span>
+            <span class="symbol">${escapeHtml(m.symbol)}</span>
+          </span>
+        </button>`;
+    })
+    .join("");
+}
+
+function bindMetalCards() {
+  document.querySelectorAll(".metal-card[data-key]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.selectedKey = btn.dataset.key;
+      if (isMobileBrowse()) state.mobilePane = "entry"; // MOBILE_BROWSE_V2
+      renderBrowse();
+    });
+  });
+}
+
+/** Update list/count without remounting search/sort (keeps focus + native select open). */
+function refreshMetalList() {
+  const filtered = getFilteredMetals(metals, state);
+  const cards = document.querySelector(".metal-cards");
+  if (!cards) {
+    renderBrowse();
+    return filtered;
+  }
+  cards.innerHTML = metalCardsHtml(filtered) || '<p class="empty-state">No elements match that search.</p>';
+  bindMetalCards();
+  const count = document.querySelector(".mobile-series-count");
+  if (count) count.textContent = `${filtered.length} shown`;
+  const deskCount = document.querySelector(".browse-toolbar .count");
+  if (deskCount) deskCount.textContent = `${filtered.length} shown`;
+  return filtered;
 }
 
 function renderEncyclopedia(filtered) {
@@ -437,22 +768,7 @@ function renderEncyclopedia(filtered) {
   const shells = atomShells(metal.atomicNumber);
   const faces = ["rotateY(0deg)", "rotateY(90deg)", "rotateY(180deg)", "rotateY(270deg)", "rotateX(90deg)", "rotateX(-90deg)"];
   const grad = cubeGrad(metal.family);
-  const list = filtered
-    .map((m) => {
-      const r = relativeConductivity(m);
-      const current = m.key === state.selectedKey ? ' aria-current="true"' : "";
-      return `
-        <button type="button" class="metal-card" data-key="${m.key}"${current}>
-          ${m.imageUrl ? `<img src="${m.imageUrl}" alt="" loading="lazy" decoding="async">` : ""}
-          <span class="shade" aria-hidden="true"></span>
-          <strong class="name">${escapeHtml(m.name)}</strong>
-          <span class="row">
-            <span class="meta">${escapeHtml(m.family)} · ${hasValue(r) ? `σ ${r.toFixed(0)}%` : "σ —"}</span>
-            <span class="symbol">${escapeHtml(m.symbol)}</span>
-          </span>
-        </button>`;
-    })
-    .join("");
+  const list = metalCardsHtml(filtered);
 
   const statCards = [
     {
@@ -555,34 +871,55 @@ function renderEncyclopedia(filtered) {
   const heroPhoto = state.heroView === "photo";
   const hero3d = state.heroView === "3d";
   const heroAtomic = state.heroView === "atomic";
+  const mobilePane = isMobileBrowse() ? state.mobilePane : "desktop";
 
   return `
-    <section class="browse-layout">
+    <section class="browse-layout" data-mobile-pane="${mobilePane}">
       <aside class="metal-aside" aria-label="Filtered metals">
         <div class="search-sort">
           <input id="metal-search" type="search" autocomplete="off" placeholder="Search — Copper, Kroll, toxic" aria-label="Search" value="${escapeHtml(state.query)}" />
-          <span class="sort-wrap">Sort <span aria-hidden="true">▾</span>
-            <select id="sort-select" aria-label="Sort by">
-              <option value="atomicNumber" ${state.sort === "atomicNumber" ? "selected" : ""}>Atomic number</option>
-              <option value="name" ${state.sort === "name" ? "selected" : ""}>Name</option>
-              <option value="densityDesc" ${state.sort === "densityDesc" ? "selected" : ""}>Density</option>
-              <option value="meltingDesc" ${state.sort === "meltingDesc" ? "selected" : ""}>Melting point</option>
-              <option value="conductivityDesc" ${state.sort === "conductivityDesc" ? "selected" : ""}>Conductivity</option>
-            </select>
-          </span>
+          ${sortPickerHtml()}
         </div>
-        <div class="metal-cards">
-          ${list || '<p class="empty-state">No elements match that search.</p>'}
+        <div class="metal-cards-scroll">
+          <div class="metal-cards">
+            ${list || '<p class="empty-state">No elements match that search.</p>'}
+          </div>
         </div>
       </aside>
       <article>
+        <div class="mobile-entry-bar">
+          <button type="button" class="back-list" id="mobile-back-list" aria-label="Back to list">‹</button>
+          ${seriesPickerHtml(state.family === "all" ? "All metals" : state.family)}
+          <div class="hero-controls hero-controls--bar" role="group" aria-label="Hero view" data-open="${state.heroControlsOpen ? "true" : "false"}">
+            <button type="button" class="hero-controls-toggle" id="hero-controls-toggle" aria-expanded="${state.heroControlsOpen ? "true" : "false"}" aria-controls="hero-controls-panel">
+              ${heroPhoto ? "Photo" : hero3d ? "3D" : "Atomic"} ▾
+            </button>
+            <div class="hero-controls-panel" id="hero-controls-panel">
+              <button type="button" data-hero="photo" aria-pressed="${heroPhoto}">Photo</button>
+              <button type="button" data-hero="3d" aria-pressed="${hero3d}">3D Sample</button>
+              <button type="button" data-hero="atomic" aria-pressed="${heroAtomic}">Atomic</button>
+              <span class="meta">${escapeHtml(metal.family)}</span>
+              <span class="meta">Z ${metal.atomicNumber}</span>
+              <span class="meta">Disc. ${escapeHtml(metal.yearDiscovered || "unknown")}</span>
+            </div>
+          </div>
+        </div>
         <figure class="hero">
           ${
             heroPhoto
               ? metal.imageUrl
                 ? `<img class="hero-blur" src="${metal.imageUrl}" alt="" aria-hidden="true" loading="lazy" decoding="async" />
                    <img class="hero-photo" src="${metal.imageUrl}" alt="${escapeHtml(metal.name)} sample" loading="lazy" decoding="async" />`
-                : `<div class="hero-fallback-symbol">${escapeHtml(metal.symbol)}</div>`
+                : `<div class="hero-fallback-symbol" style="background: ${cubeGrad(metal.family)}">
+                     <span class="hero-fallback-sym">${escapeHtml(metal.symbol)}</span>
+                     <span class="hero-fallback-note">${
+                       metal.atomicNumber >= 104
+                         ? "No photo — synthetic; no macroscopic sample exists"
+                         : metal.atomicNumber > 92
+                           ? "No photo — scarce radioactive specimen"
+                           : "No specimen photo on file"
+                     }</span>
+                   </div>`
               : ""
           }
           ${
@@ -604,14 +941,16 @@ function renderEncyclopedia(filtered) {
                 </div>`
               : ""
           }
-          <div class="hero-controls" role="group" aria-label="Hero view">
-            <button type="button" data-hero="photo" aria-pressed="${heroPhoto}">Photo</button>
-            <button type="button" data-hero="3d" aria-pressed="${hero3d}">3D Sample</button>
-            <button type="button" data-hero="atomic" aria-pressed="${heroAtomic}">Atomic</button>
-            <span class="meta">${escapeHtml(metal.family)}</span>
-            <span class="meta">Z ${metal.atomicNumber}</span>
-            <span class="meta">Disc. ${escapeHtml(metal.yearDiscovered || "unknown")}</span>
-  </div>
+          <div class="hero-controls hero-controls--float" role="group" aria-label="Hero view">
+            <div class="hero-controls-panel">
+              <button type="button" data-hero="photo" aria-pressed="${heroPhoto}">Photo</button>
+              <button type="button" data-hero="3d" aria-pressed="${hero3d}">3D Sample</button>
+              <button type="button" data-hero="atomic" aria-pressed="${heroAtomic}">Atomic</button>
+              <span class="meta">${escapeHtml(metal.family)}</span>
+              <span class="meta">Z ${metal.atomicNumber}</span>
+              <span class="meta">Disc. ${escapeHtml(metal.yearDiscovered || "unknown")}</span>
+            </div>
+          </div>
           <div class="hero-fade" aria-hidden="true"></div>
           <h2 class="hero-title">${escapeHtml(metal.name)}</h2>
         </figure>
@@ -633,22 +972,6 @@ function renderEncyclopedia(filtered) {
               <h3>Handling note</h3>
               <p>${escapeHtml(metal.safety || "No handling note recorded.")}</p>
             </section>
-            <section class="sources-block">
-              <h3>Sources & confidence — narrative: <span style="color:${CONF_COLORS[metal.narrativeConfidence] || "#d7dde0"}">${confidenceLabel(metal.narrativeConfidence)}</span></h3>
-              <p class="note">Numeric identity and thermo/density fields track PubChem’s periodic-table dataset. Conductivity, hardness, and abundance come from the prior PeriodicTable.com/Wolfram-backed set. Narratives are built from RSC Periodic Table text; where a USGS Mineral Commodity Summaries 2025 chapter exists, production is dual-sourced and marked Confirmed.</p>
-              <div class="source-columns">
-                <ul>${narrativeSources || "<li>None listed</li>"}</ul>
-  <div>
-                  <ul>${propertySources}</ul>
-                  <p><a href="${metal.pubchemUrl}" target="_blank" rel="noopener">Open PubChem element page</a></p>
-                  <p class="note">Specimen image: ${escapeHtml(metal.imageCredit || "No image on file")}${
-                    metal.imageSourceUrl
-                      ? ` — <a href="${metal.imageSourceUrl}" target="_blank" rel="noopener">source</a>`
-                      : ""
-                  }</p>
-                </div>
-              </div>
-            </section>
           </div>
           <aside style="display:grid;gap:16px;align-content:start;">
             <section class="data-sheet" aria-label="Scientific facts">
@@ -660,7 +983,28 @@ function renderEncyclopedia(filtered) {
               <button type="button" class="btn-ghost" id="open-compare">Open compare</button>
             </div>
           </aside>
-  </div>
+        </div>
+        <details class="sources-block">
+          <summary>
+            Sources & confidence — narrative:
+            <span style="color:${CONF_COLORS[metal.narrativeConfidence] || "#d7dde0"}">${confidenceLabel(metal.narrativeConfidence)}</span>
+          </summary>
+          <div class="sources-body">
+            <p class="note">Numeric identity and thermo/density fields track PubChem’s periodic-table dataset. Conductivity, hardness, and abundance come from the prior PeriodicTable.com/Wolfram-backed set. Narratives are built from RSC Periodic Table text; where a USGS Mineral Commodity Summaries 2025 chapter exists, production is dual-sourced and marked Confirmed.</p>
+            <div class="source-columns">
+              <ul>${narrativeSources || "<li>None listed</li>"}</ul>
+              <div>
+                <ul>${propertySources}</ul>
+                <p><a href="${metal.pubchemUrl}" target="_blank" rel="noopener">Open PubChem element page</a></p>
+                <p class="note">Specimen image: ${escapeHtml(metal.imageCredit || "No image on file")}${
+                  metal.imageSourceUrl
+                    ? ` — <a href="${metal.imageSourceUrl}" target="_blank" rel="noopener">source</a>`
+                    : ""
+                }</p>
+              </div>
+            </div>
+          </div>
+        </details>
       </article>
 </section>
   `;
@@ -669,21 +1013,54 @@ function renderEncyclopedia(filtered) {
 function bindEncyclopedia(filtered) {
   document.querySelector("#metal-search")?.addEventListener("input", (e) => {
     state.query = e.target.value;
+    refreshMetalList();
+  });
+  document.querySelector("#metal-search")?.addEventListener("mousedown", (e) => {
+    e.stopPropagation();
+  });
+  document.querySelector("#metal-search")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+  bindSortPicker();
+  bindMetalCards();
+  document.querySelector("#mobile-back-list")?.addEventListener("click", () => {
+    state.mobilePane = "list"; // MOBILE_BROWSE_V2
+    state.heroControlsOpen = false;
+    state.seriesMenuOpen = false;
+    state.sortMenuOpen = false;
+    clearSeriesMenuListener();
+    clearHeroMenuListener();
+    clearSortMenuListener();
     renderBrowse();
   });
-  document.querySelector("#sort-select")?.addEventListener("change", (e) => {
-    state.sort = e.target.value;
+  bindSeriesPicker();
+  document.querySelector("#hero-controls-toggle")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    clearHeroMenuListener();
+    state.heroControlsOpen = !state.heroControlsOpen; // MOBILE_BROWSE_V2
+    if (state.heroControlsOpen) {
+      state.seriesMenuOpen = false;
+      state.sortMenuOpen = false;
+      clearSeriesMenuListener();
+      clearSortMenuListener();
+    }
     renderBrowse();
   });
-  document.querySelectorAll(".metal-card[data-key]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      state.selectedKey = btn.dataset.key;
+  if (state.heroControlsOpen) {
+    clearHeroMenuListener();
+    closeHeroMenuListener = (e) => {
+      if (e.target.closest?.(".hero-controls--bar")) return;
+      clearHeroMenuListener();
+      state.heroControlsOpen = false;
       renderBrowse();
-    });
-  });
+    };
+    setTimeout(() => document.addEventListener("click", closeHeroMenuListener), 0);
+  }
   document.querySelectorAll("[data-hero]").forEach((btn) => {
     btn.addEventListener("click", () => {
+      clearHeroMenuListener();
       state.heroView = btn.dataset.hero;
+      if (isMobileBrowse()) state.heroControlsOpen = false; // MOBILE_BROWSE_V2
       renderBrowse();
     });
   });
@@ -727,7 +1104,161 @@ function compareAddOptions(query = "") {
     .join("");
 }
 
+function compareAddCandidates(query = "") {
+  const q = query.trim().toLowerCase();
+  return metals
+    .slice()
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .filter((m) => {
+      if (!q) return true;
+      return (
+        m.name.toLowerCase().includes(q) ||
+        m.symbol.toLowerCase().includes(q) ||
+        m.family.toLowerCase().includes(q) ||
+        m.key.includes(q)
+      );
+    });
+}
+
+function propLabelWordsHtml(label) {
+  return String(label)
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => `<span>${escapeHtml(w)}</span>`)
+    .join("");
+}
+
+function mobileCompareDelta(row, cell, index, selected) {
+  if (index === 0) return cell.isBest ? "max" : "baseline";
+  if (row.type !== "number") return cell.delta;
+  const prop = COMPARE_PROPERTIES.find((p) => p.id === row.id);
+  if (!prop) return compactDelta(cell.delta);
+  const base = prop.get(selected[0]);
+  const val = prop.get(selected[index]);
+  if (!hasValue(base) || !hasValue(val) || typeof base !== "number" || typeof val !== "number" || base === 0) {
+    return compactDelta(cell.delta);
+  }
+  const pct = Math.round(((val - base) / Math.abs(base)) * 100);
+  return `${pct > 0 ? "+" : ""}${pct}%`;
+}
+
+/** Narrow-column text for mobile sheet cells (temps: °C or °F). */
+function mobileCompareCellText(row, cell, selected, index) {
+  if (row.id === "meltingPoint" || row.id === "boilingPoint") {
+    const prop = COMPARE_PROPERTIES.find((p) => p.id === row.id);
+    const v = prop?.get(selected[index]);
+    if (!hasValue(v) || typeof v !== "number") return cell.text === "Unavailable" ? "—" : cell.text;
+    if (state.compareTempUnit === "F") {
+      const f = (v * 9) / 5 + 32;
+      return `${formatNumber(f, 1)} °F`;
+    }
+    return `${formatNumber(v, 1)} °C`;
+  }
+  return cell.text;
+}
+
+function renderCompareMobile() {
+  const selected = compareMetals();
+  const rows = buildCompareRows(selected);
+  const n = Math.max(selected.length, 1);
+
+  const presets = COMPARE_PRESETS.map(
+    (p) =>
+      `<button type="button" class="btn-ghost preset-btn" data-preset="${p.id}">${escapeHtml(p.label)}</button>`
+  ).join("");
+
+  const addItems = compareAddCandidates(state.compareQuery || "")
+    .map((m) => {
+      const inSet = state.compareKeys.includes(m.key);
+      return `<button type="button" data-add-key="${m.key}" ${inSet ? "disabled" : ""}>${escapeHtml(m.name)} <span>${escapeHtml(m.symbol)}${inSet ? " · in set" : ""}</span></button>`;
+    })
+    .join("");
+
+  const gutterProps = rows
+    .map((row) => `<div class="compare-sheet-prop">${propLabelWordsHtml(row.label)}</div>`)
+    .join("");
+
+  const cols = selected
+    .map((m, i) => {
+      const cells = rows
+        .map((row) => {
+          const cell = row.cells[i];
+          const sub = mobileCompareDelta(row, cell, i, selected);
+          const text = mobileCompareCellText(row, cell, selected, i);
+          const isTemp = row.id === "meltingPoint" || row.id === "boilingPoint";
+          const tempAttrs = isTemp
+            ? ` data-temp-toggle="1" role="button" tabindex="0" title="Tap to switch °C / °F" aria-label="Temperature in °${state.compareTempUnit}, tap to switch"`
+            : "";
+          return `
+            <div class="compare-sheet-cell ${cell.isBest ? "is-best" : ""}${isTemp ? " is-temp" : ""}"${tempAttrs}>
+              <span class="num"><span class="num-text">${escapeHtml(text)}</span>${cell.isBest ? '<span class="star" aria-label="Row leader">★</span>' : ""}</span>
+              <span class="sub">${escapeHtml(sub)}</span>
+            </div>`;
+        })
+        .join("");
+      return `
+        <div class="compare-sheet-col ${i === 0 ? "is-baseline" : ""}" data-compare-key="${m.key}">
+          <div class="compare-sheet-head" data-drag-head="${m.key}" title="Drag to reorder">
+            <button type="button" class="remove" data-remove="${m.key}" aria-label="Remove ${escapeHtml(m.name)}">×</button>
+            ${metalCardMedia(m)}
+            <span class="name">${escapeHtml(m.name)}</span>
+          </div>
+          ${cells}
+        </div>`;
+    })
+    .join("");
+
+  const production = selected
+    .map(
+      (m) => `
+      <p><strong>${escapeHtml(m.name)}</strong> ${escapeHtml(m.production)}</p>`
+    )
+    .join("");
+
+  return `
+    <section class="compare-mobile">
+      <p class="compare-mobile-meta">Up to ${COMPARE_LIMIT} · first is baseline</p>
+      <div class="compare-presets" role="group" aria-label="Best-of presets">${presets}</div>
+      <div class="compare-mobile-tools">
+        <button type="button" class="compare-add-trigger" id="compare-add-trigger" aria-haspopup="dialog" aria-expanded="${state.compareAddMenuOpen ? "true" : "false"}">
+          Add metal… <span aria-hidden="true">${state.compareAddMenuOpen ? "▴" : "▾"}</span>
+        </button>
+        <button type="button" class="btn-ghost" id="copy-compare">Copy</button>
+        <button type="button" class="btn-ghost" id="clear-compare">Clear</button>
+      </div>
+      ${state.compareNotice ? `<p class="notice">${escapeHtml(state.compareNotice)}</p>` : ""}
+      ${
+        selected.length
+          ? `<div class="compare-sheet" aria-label="Comparison sheet">
+        <div class="compare-sheet-gutter">
+          <div class="compare-sheet-corner" aria-hidden="true"></div>
+          ${gutterProps}
+        </div>
+        <div class="compare-sheet-cols" style="grid-template-columns: repeat(${n}, minmax(0, 1fr));">
+          ${cols}
+        </div>
+      </div>
+      <p class="compare-mobile-hint">${n} across · drag headers to reorder</p>`
+          : `<p class="empty-state">No metals selected. Use Add metal… or a preset.</p>`
+      }
+      <details class="compare-production">
+        <summary>How they are made</summary>
+        <div class="compare-production-body">${production || "<p>Add metals to see production notes.</p>"}</div>
+      </details>
+      <div class="compare-add-backdrop" id="compare-add-backdrop" ${state.compareAddMenuOpen ? "" : "hidden"}></div>
+      <div class="compare-add-sheet" id="compare-add-sheet" role="dialog" aria-modal="true" aria-labelledby="compare-add-title" ${state.compareAddMenuOpen ? "" : "hidden"}>
+        <div class="compare-add-grab" aria-hidden="true"></div>
+        <h3 id="compare-add-title">Add metal</h3>
+        <input type="search" id="add-search" placeholder="Search — Copper…" aria-label="Filter metals to add" value="${escapeHtml(state.compareQuery || "")}" />
+        <div class="compare-add-list" role="listbox">${addItems}</div>
+      </div>
+    </section>
+  `;
+}
+
 function renderCompare() {
+  if (isMobileBrowse()) return renderCompareMobile();
+
   const selected = compareMetals();
   const rows = buildCompareRows(selected);
   const options = compareAddOptions(state.compareQuery || "");
@@ -737,7 +1268,7 @@ function renderCompare() {
       const selectedCls = m.key === state.selectedKey ? " is-selected" : "";
       return `
         <div class="compare-card${selectedCls}" draggable="true" data-compare-key="${m.key}">
-          ${m.imageUrl ? `<img src="${m.imageUrl}" alt="" loading="lazy" decoding="async" draggable="false">` : ""}
+          ${metalCardMedia(m)}
           <span class="shade" aria-hidden="true"></span>
           <button type="button" class="remove" data-remove="${m.key}" aria-label="Remove ${escapeHtml(m.name)}">×</button>
           <button type="button" class="select" data-select="${m.key}">
@@ -870,8 +1401,206 @@ function addMetalToCompare(key) {
   } else {
     state.compareKeys = next;
     state.compareNotice = "";
+    state.compareAddMenuOpen = false;
+    state.compareQuery = "";
   }
   renderBrowse();
+}
+
+function fitCompareSheetLabels() {
+  document.querySelectorAll(".compare-sheet-prop").forEach((cell) => {
+    const spans = [...cell.querySelectorAll("span")];
+    const cs = getComputedStyle(cell);
+    const padY = (parseFloat(cs.paddingTop) || 0) + (parseFloat(cs.paddingBottom) || 0);
+    const maxH = Math.max(6, (cell.clientHeight - padY) / Math.max(spans.length, 1));
+    spans.forEach((span) => {
+      let lo = 6;
+      let hi = maxH;
+      let best = lo;
+      while (lo <= hi) {
+        const mid = (lo + hi) / 2;
+        span.style.fontSize = `${mid}px`;
+        if (span.scrollWidth <= span.clientWidth + 0.5) {
+          best = mid;
+          lo = mid + 0.25;
+        } else {
+          hi = mid - 0.25;
+        }
+      }
+      span.style.fontSize = `${Math.min(best, maxH)}px`;
+    });
+  });
+
+  document.querySelectorAll(".compare-sheet-head .name").forEach((el) => {
+    const cs = getComputedStyle(el);
+    const padY = (parseFloat(cs.paddingTop) || 0) + (parseFloat(cs.paddingBottom) || 0);
+    // Strict: never taller than the bar’s inner height
+    const maxPx = Math.max(6, el.clientHeight - padY);
+    let lo = 6;
+    let hi = maxPx;
+    let best = lo;
+    while (lo <= hi) {
+      const mid = (lo + hi) / 2;
+      el.style.fontSize = `${mid}px`;
+      if (el.scrollWidth <= el.clientWidth + 0.5) {
+        best = mid;
+        lo = mid + 0.25;
+      } else {
+        hi = mid - 0.25;
+      }
+    }
+    el.style.fontSize = `${Math.min(best, maxPx)}px`;
+  });
+
+  document.querySelectorAll(".compare-sheet-cell .num-text").forEach((el) => {
+    const cell = el.closest(".compare-sheet-cell");
+    if (!cell) return;
+    const cs = getComputedStyle(cell);
+    const padY = (parseFloat(cs.paddingTop) || 0) + (parseFloat(cs.paddingBottom) || 0);
+    const maxPx = Math.max(6, Math.min(14, (cell.clientHeight - padY) * 0.55));
+    let lo = 6;
+    let hi = maxPx;
+    let best = lo;
+    while (lo <= hi) {
+      const mid = (lo + hi) / 2;
+      el.style.fontSize = `${mid}px`;
+      if (el.scrollWidth <= el.clientWidth + 0.5) {
+        best = mid;
+        lo = mid + 0.25;
+      } else {
+        hi = mid - 0.25;
+      }
+    }
+    el.style.fontSize = `${Math.min(best, maxPx)}px`;
+  });
+}
+
+function setCompareAddOpen(open) {
+  state.compareAddMenuOpen = open;
+  const backdrop = document.querySelector("#compare-add-backdrop");
+  const sheet = document.querySelector("#compare-add-sheet");
+  const trigger = document.querySelector("#compare-add-trigger");
+  if (!backdrop || !sheet || !trigger) return;
+  trigger.setAttribute("aria-expanded", open ? "true" : "false");
+  const chevron = trigger.querySelector("span");
+  if (chevron) chevron.textContent = open ? "▴" : "▾";
+  if (open) {
+    backdrop.removeAttribute("hidden");
+    sheet.removeAttribute("hidden");
+    requestAnimationFrame(() => {
+      backdrop.classList.add("is-open");
+      sheet.classList.add("is-open");
+    });
+  } else {
+    backdrop.classList.remove("is-open");
+    sheet.classList.remove("is-open");
+    backdrop.setAttribute("hidden", "");
+    sheet.setAttribute("hidden", "");
+  }
+}
+
+function bindCompareMobileAdd() {
+  clearCompareAddListener();
+  const trigger = document.querySelector("#compare-add-trigger");
+  const backdrop = document.querySelector("#compare-add-backdrop");
+  if (!trigger) return;
+
+  if (state.compareAddMenuOpen) {
+    backdrop?.classList.add("is-open");
+    document.querySelector("#compare-add-sheet")?.classList.add("is-open");
+  }
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setCompareAddOpen(!state.compareAddMenuOpen);
+  });
+  backdrop?.addEventListener("click", () => setCompareAddOpen(false));
+
+  document.querySelector("#add-search")?.addEventListener("input", (e) => {
+    state.compareQuery = e.target.value;
+    const list = document.querySelector(".compare-add-list");
+    if (!list) return;
+    list.innerHTML = compareAddCandidates(state.compareQuery)
+      .map((m) => {
+        const inSet = state.compareKeys.includes(m.key);
+        return `<button type="button" data-add-key="${m.key}" ${inSet ? "disabled" : ""}>${escapeHtml(m.name)} <span>${escapeHtml(m.symbol)}${inSet ? " · in set" : ""}</span></button>`;
+      })
+      .join("");
+    list.querySelectorAll("[data-add-key]").forEach((btn) => {
+      btn.addEventListener("click", () => addMetalToCompare(btn.dataset.addKey));
+    });
+  });
+
+  document.querySelectorAll(".compare-add-list [data-add-key]").forEach((btn) => {
+    btn.addEventListener("click", () => addMetalToCompare(btn.dataset.addKey));
+  });
+}
+
+function bindCompareSheetReorder() {
+  const colsRoot = document.querySelector(".compare-sheet-cols");
+  if (!colsRoot) return;
+
+  const colNodes = () => [...colsRoot.querySelectorAll(".compare-sheet-col[data-compare-key]")];
+  let dragKey = null;
+  let activePointer = null;
+
+  const clearDropTargets = () => {
+    colNodes().forEach((el) => el.classList.remove("is-drop-target"));
+  };
+
+  const colFromPoint = (x, y) => {
+    const hit = document.elementFromPoint(x, y);
+    return hit?.closest?.(".compare-sheet-col[data-compare-key]") || null;
+  };
+
+  const finishReorder = (fromKey, toKey) => {
+    clearDropTargets();
+    colNodes().forEach((el) => el.classList.remove("is-dragging"));
+    dragKey = null;
+    activePointer = null;
+    if (!fromKey || !toKey || fromKey === toKey) return;
+    state.compareKeys = reorderCompareKeys(state.compareKeys, fromKey, toKey);
+    state.compareNotice = "";
+    renderBrowse();
+  };
+
+  colsRoot.querySelectorAll(".compare-sheet-head").forEach((head) => {
+    head.addEventListener("pointerdown", (e) => {
+      if (e.target.closest?.(".remove")) return;
+      if (e.button != null && e.button !== 0) return;
+      const col = head.closest(".compare-sheet-col[data-compare-key]");
+      if (!col) return;
+      dragKey = col.dataset.compareKey;
+      activePointer = e.pointerId;
+      col.classList.add("is-dragging");
+      head.setPointerCapture(e.pointerId);
+      e.preventDefault();
+    });
+
+    head.addEventListener("pointermove", (e) => {
+      if (activePointer !== e.pointerId || !dragKey) return;
+      const target = colFromPoint(e.clientX, e.clientY);
+      clearDropTargets();
+      if (target && target.dataset.compareKey !== dragKey) {
+        target.classList.add("is-drop-target");
+      }
+    });
+
+    const endPointer = (e) => {
+      if (activePointer !== e.pointerId || !dragKey) return;
+      const fromKey = dragKey;
+      const target = colFromPoint(e.clientX, e.clientY);
+      try {
+        head.releasePointerCapture(e.pointerId);
+      } catch {
+        /* ignore */
+      }
+      finishReorder(fromKey, target?.dataset?.compareKey);
+    };
+
+    head.addEventListener("pointerup", endPointer);
+    head.addEventListener("pointercancel", endPointer);
+  });
 }
 
 function bindCompare() {
@@ -905,6 +1634,45 @@ function bindCompare() {
       renderBrowse();
     });
   });
+
+  document.querySelector("#clear-compare")?.addEventListener("click", () => {
+    state.compareKeys = [state.selectedKey];
+    state.compareNotice = "";
+    renderBrowse();
+  });
+  document.querySelector("#copy-compare")?.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(compareSummaryText(compareMetals()));
+      state.compareNotice = "Comparison copied to clipboard.";
+    } catch {
+      state.compareNotice = "Could not copy automatically — select the table manually.";
+    }
+    renderBrowse();
+  });
+
+  if (isMobileBrowse()) {
+    bindCompareMobileAdd();
+    bindCompareSheetReorder();
+    document.querySelectorAll("[data-temp-toggle]").forEach((el) => {
+      const toggle = (e) => {
+        e.stopPropagation();
+        state.compareTempUnit = state.compareTempUnit === "C" ? "F" : "C";
+        renderBrowse();
+      };
+      el.addEventListener("click", toggle);
+      el.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          toggle(e);
+        }
+      });
+    });
+    requestAnimationFrame(() => {
+      fitCompareSheetLabels();
+      document.fonts?.ready?.then(() => fitCompareSheetLabels());
+    });
+    return;
+  }
 
   let dragKey = null;
   const cardsRoot = document.querySelector(".compare-cards");
@@ -982,23 +1750,75 @@ function bindCompare() {
     select.innerHTML = `<option value="">Add metal…</option>${compareAddOptions(state.compareQuery)}`;
     if ([...select.options].some((o) => o.value === current)) select.value = current;
   });
-  document.querySelector("#clear-compare")?.addEventListener("click", () => {
-    state.compareKeys = [state.selectedKey];
-    state.compareNotice = "";
-    renderBrowse();
-  });
-  document.querySelector("#copy-compare")?.addEventListener("click", async () => {
-    try {
-      await navigator.clipboard.writeText(compareSummaryText(compareMetals()));
-      state.compareNotice = "Comparison copied to clipboard.";
-    } catch {
-      state.compareNotice = "Could not copy automatically — select the table manually.";
-    }
-    renderBrowse();
-  });
+}
+
+function tableMobileNum(value, format) {
+  if (!hasValue(value)) return "—";
+  return format(value);
+}
+
+function tableMobileConductivity(value) {
+  if (!hasValue(value)) return "—";
+  const fmt = (n, maxFrac) =>
+    Number(n).toLocaleString(undefined, {
+      maximumFractionDigits: maxFrac,
+      minimumFractionDigits: 0
+    });
+  if (value >= 1e6) return `${fmt(value / 1e6, 1)}M`;
+  if (value >= 1e3) return `${fmt(value / 1e3, 1)}k`;
+  return fmt(value, 0);
+}
+
+function renderTableMobile(filtered) {
+  const longestName = filtered.reduce((a, m) => (m.name.length > a.length ? m.name : a), "Element");
+  const rows = filtered
+    .map((m) => {
+      const melt = tableMobileNum(m.meltingPoint, (v) => formatNumber(v, 0));
+      const dens = tableMobileNum(m.density, (v) => formatNumber(v, 2));
+      const cond = tableMobileConductivity(m.conductivity);
+      const condUnit =
+        !hasValue(m.conductivity) ? "" : m.conductivity >= 1e6 ? " MS/m" : m.conductivity >= 1e3 ? " kS/m" : " S/m";
+      const condSpoken = !hasValue(m.conductivity)
+        ? "unavailable"
+        : `${cond.replace(/[Mk]$/, "")}${condUnit}`;
+      const selected = m.key === state.selectedKey ? " is-selected" : "";
+      const current = m.key === state.selectedKey ? ' aria-current="true"' : "";
+      const label = `${m.name}: melting ${melt} °C, density ${dens} g/cm³, conductivity ${condSpoken}`;
+      return `
+      <li>
+        <button type="button" class="table-mobile-row${selected}" data-row-key="${m.key}"${current} aria-label="${escapeHtml(label)}">
+          <span class="table-mobile-cell table-mobile-cell--id">
+            <span class="name">${escapeHtml(m.name)}</span>
+            <span class="series">${escapeHtml(m.family)}</span>
+          </span>
+          <span class="table-mobile-cell table-mobile-cell--num" aria-hidden="true">${escapeHtml(melt)}</span>
+          <span class="table-mobile-cell table-mobile-cell--num" aria-hidden="true">${escapeHtml(dens)}</span>
+          <span class="table-mobile-cell table-mobile-cell--num" aria-hidden="true">${escapeHtml(cond)}</span>
+        </button>
+      </li>`;
+    })
+    .join("");
+
+  return `
+    <section class="table-mobile" aria-label="Metals table">
+      <p class="table-mobile-meta">${filtered.length} metals · tap for entry</p>
+      <div class="table-mobile-sheet">
+        <div class="table-mobile-head" role="row">
+          <button type="button" class="table-mobile-cell table-mobile-cell--id${state.sort === "name" ? " is-sorted" : ""}" data-table-sort="name" aria-pressed="${state.sort === "name"}">Element</button>
+          <button type="button" class="table-mobile-cell table-mobile-cell--num${state.sort === "meltingDesc" ? " is-sorted" : ""}" data-table-sort="meltingDesc" aria-pressed="${state.sort === "meltingDesc"}">Melting</button>
+          <button type="button" class="table-mobile-cell table-mobile-cell--num${state.sort === "densityDesc" ? " is-sorted" : ""}" data-table-sort="densityDesc" aria-pressed="${state.sort === "densityDesc"}">Density</button>
+          <button type="button" class="table-mobile-cell table-mobile-cell--num${state.sort === "conductivityDesc" ? " is-sorted" : ""}" data-table-sort="conductivityDesc" aria-pressed="${state.sort === "conductivityDesc"}">Conductivity</button>
+        </div>
+        <ul class="table-mobile-list">${rows}</ul>
+      </div>
+      <span class="table-mobile-id-sizer" aria-hidden="true">${escapeHtml(longestName)}</span>
+    </section>
+  `;
 }
 
 function renderTable(filtered) {
+  if (isMobileBrowse()) return renderTableMobile(filtered);
+
   const rows = filtered
     .map(
       (m) => `
@@ -1037,14 +1857,41 @@ function renderTable(filtered) {
 }
 
 function bindTable() {
+  fitTableMobileIdColumn();
+  document.querySelectorAll("[data-table-sort]").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      state.sort = btn.dataset.tableSort;
+      renderBrowse();
+    });
+  });
   document.querySelectorAll("[data-row-key]").forEach((row) => {
-    row.addEventListener("click", () => {
+    row.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
       state.selectedKey = row.dataset.rowKey;
       state.view = "encyclopedia";
-      renderBrowse();
+      if (isMobileBrowse()) state.mobilePane = "entry"; // MOBILE_BROWSE_V2
+      // Defer so the same tap cannot hit the view-tabs after DOM replace
+      setTimeout(() => renderBrowse(), 0);
     });
   });
 }
 
+function fitTableMobileIdColumn() {
+  const root = document.querySelector(".table-mobile");
+  const sizer = root?.querySelector(".table-mobile-id-sizer");
+  if (!root || !sizer) return;
+  root.style.setProperty("--table-id-w", `${Math.ceil(sizer.getBoundingClientRect().width)}px`);
+}
+
 bindTipFollow();
 renderApp();
+
+/* MOBILE_BROWSE_V2: re-render when crossing the mobile breakpoint */
+if (MOBILE_BROWSE_V2 && typeof window.matchMedia === "function") {
+  window.matchMedia(MOBILE_BROWSE_MQ).addEventListener("change", () => {
+    if (state.page === "browse") renderBrowse();
+  });
+}
