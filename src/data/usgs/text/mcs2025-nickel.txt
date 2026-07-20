@@ -1,0 +1,156 @@
+124
+                                                        NICKEL
+                             (Data in metric tons, nickel content, unless otherwise specified)
+
+ Domestic Production and Use: In 2024, the underground Eagle Mine in Michigan produced approximately
+ 8,000 tons of nickel in concentrate, which was exported to smelters in Canada and overseas. Nickel in crystalline
+ sulfate was produced as a byproduct of smelting and refining platinum-group-metal ores mined in Montana. In
+ Missouri, a company produced nickel-copper-cobalt concentrate from historic mine tailings. In the United States, the
+ leading uses for primary nickel were alloys and steels, electroplating, and other uses including catalysts and
+ chemicals. Stainless and alloy steel and nickel-containing alloys typically account for more than 85% of domestic
+ consumption.
+
+  Salient Statistics—United States:                          2020          2021          2022          2023     2024e
+  Production:
+    Mine                                                   16,700       18,400          17,500        16,400     8,000
+    Refinery, byproduct                                        W            W               W             W         W
+    Secondary                                             111,000      100,000         e
+                                                                                        97,000       e
+                                                                                                      90,000    92,000
+  Imports:
+    Ores and concentrates                                      95           18           (1)           4            10
+    Primary                                               105,000      108,000      127,000      112,000       100,000
+    Secondary                                              31,800       34,400       37,300       39,700        40,000
+  Exports:
+    Ores and concentrates                                  13,400        14,900        15,200         9,100      5,000
+    Primary                                                11,300        11,600        11,100        12,200     17,000
+    Secondary                                              46,300        29,200        44,400        56,800     48,000
+  Consumption:
+    Reported, primary                                      96,900       92,100     e
+                                                                                    100,000      e
+                                                                                                  110,000      110,000
+    Reported, secondary, purchased scrape                 110,000      100,000       e
+                                                                                      97,000       e
+                                                                                                    90,000      92,000
+    Apparent, primary2                                     94,100       97,500     e
+                                                                                    120,000      e
+                                                                                                  100,000       84,000
+    Apparent, total3                                      205,000      198,000     e
+                                                                                    210,000      e
+                                                                                                  190,000      180,000
+  Price, average annual, London Metal Exchange
+    (LME), cash:
+    Dollars per metric ton                                 13,772        18,476        25,815        21,495     17,000
+    Dollars per pound                                        6.25          8.38         11.71          9.75       7.70
+  Stocks, yearend:
+    Consumer                                               26,900        25,100        23,200        21,600     22,000
+    LME U.S. warehouses                                     1,734         1,296             6         1,506        400
+  Net import reliance4, 5 as a percentage of total             46            49            55            53         48
+    apparent consumptione
+
+ Recycling: Most secondary nickel was in the form of nickel content of stainless-steel scrap. Nickel in alloyed form
+ was recovered from the processing of nickel-containing waste. Most recycled nickel was used to produce new alloys
+ and stainless steel. In 2024, nickel recovered from scrap accounted for approximately 54% of apparent consumption.
+
+ Import Sources (2020–23): Primary nickel: Canada, 46%; Norway, 11%; Australia, 8%; Brazil, 6%; and other, 29%.
+ Nickel-containing scrap, including nickel content of stainless-steel scrap: Canada, 41%; Mexico, 27%; United
+ Kingdom, 9%; Russia, 4%, and other, 19%.
+
+  Tariff:   Item                                                  Number                    Normal Trade Relations
+                                                                                                  12–31–24
+  Nickel ores and concentrates, nickel content                2604.00.0040                          Free.
+  Ferronickel                                                 7202.60.0000                          Free.
+  Unwrought nickel, not alloyed                               7502.10.0000                          Free.
+  Nickel waste and scrap                                      7503.00.0000                          Free.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile:6 The U.S. Department of Energy is holding approximately 9,700 tons of radiologically
+ contaminated nickel at Paducah, KY.
+
+
+
+
+ Prepared by Andrew A. Stewart [(703) 648–7723, astewart@usgs.gov]
+                                                                                                                                              125
+                                                                    NICKEL
+Events, Trends, and Issues: In 2024, the annual average LME nickel cash price was estimated to have decreased
+by 21% compared with that in 2023. Prices continued their downward trend, having ended 2023 at an average price
+of $16,400 per metric ton, largely owing to continued surplus of nickel from Indonesia. In early 2024, supply concerns
+related to nickel asset closures, delays in issuing new nickel mining quotas in Indonesia, social unrest in New
+Caledonia, and a ban on nickel from Russia increased the LME nickel cash price to about $19,000 per metric ton.
+However, by June, supply concerns had subsided, and the LME annual average cash price decreased to about
+$16,000 per metric ton by November.
+
+In May, the U.S. Department of Defense under the Defense Production Act, Title III, awarded a grant of $7 million to a
+Missouri company to develop a hydrometallurgical demonstration plant to produce cobalt and nickel products. The
+plant would be capable of extracting the metals from a variety of feedstocks.
+
+Estimated global nickel mine production decreased to an estimated 3.7 million tons in 2024, even though production
+in Indonesia increased by an estimated 8%. Production in Australia and the Philippines declined by an estimated 26%
+and 20%, respectively, after multiple companies reduced or halted production owing to unfavorable market conditions
+related to declining prices and increased production in Indonesia. In New Caledonia, production decreased by an
+estimated 52% owing to widespread unrest in addition to reduced global nickel prices. In June, a company began
+commercial production at a new nickel sulfide mine in Kalumbila, Zambia.
+
+World Mine Production and Reserves: Reserves for China and the United States were revised based on company
+and Government reports.
+
+                                                                Mine production                                                 Reserves7
+                                                                  2023      2024e
+United States                                                    16,400     8,000                                              310,000
+                                                                                                                                 8
+
+Australia                                                      149,000    110,000                                           24,000,000
+                                                                                                                            9
+
+Brazil                                                           82,700    77,000                                           16,000,000
+Canada                                                         159,000    190,000                                            2,200,000
+China                                                         e
+                                                               117,000    120,000                                            4,400,000
+Indonesia                                                    2,030,000 2,200,000                                            55,000,000
+New Caledonia10                                                231,000    110,000                                            7,100,000
+Philippines                                                   e
+                                                               413,000    330,000                                            4,800,000
+Russia                                                         210,000    210,000                                            8,300,000
+Other countries                                                 340,000   300,000                                           >9,100,000
+  World total (rounded)                                      3,750,000 3,700,000                                          >130,000,000
+
+World Resources:7 Globally, nickel resources have been estimated to contain more than 350 million tons of nickel,
+with 54% in laterites and 35% in magmatic sulfide deposits. Hydrothermal systems such as iron-nickel alloy,
+sedimentary-hosted polymetallic, and volcanogenic massive sulfide deposits, as well as seafloor manganese crusts
+and nodules contain 10%, and miscellaneous resources such as tailings, 1%.
+
+Substitutes: Low-nickel, duplex, or ultrahigh-chromium stainless steels have been substituted for austenitic grades in
+construction. Nickel-free specialty steels are sometimes used in place of stainless steel in the power-generating and
+petrochemical industries. Titanium alloys can substitute for nickel metal or nickel-base alloys in corrosive chemical
+environments.
+
+
+
+
+e
+  Estimated. W Withheld to avoid disclosing company proprietary data.
+1
+  Less than ½ unit.
+2
+  Defined as primary imports – primary exports ± adjustments for industry stock changes, excluding secondary consumer stocks.
+3
+  Defined as apparent primary consumption + reported secondary consumption.
+4
+  Defined as imports – exports ± adjustments for consumer stock changes.
+5
+  Includes the nickel content of stainless steel and alloy scrap. Excluding scrap, net import reliance would be nearly 100%.
+6
+  See Appendix B for definitions.
+7
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+8
+  Includes reserve data for three projects. An additional three domestic projects have defined resources but have not yet defined reserves.
+9
+  For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 8.6 million tons.
+10
+   Overseas territory of France.
+
+                                                     U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

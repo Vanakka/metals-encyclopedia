@@ -1,0 +1,13 @@
+{
+  "key": "thorium",
+  "name": "Thorium",
+  "atomicNumber": 90,
+  "url": "https://periodic-table.rsc.org/element/90/thorium",
+  "slug": "thorium",
+  "fetchedAt": "2026-07-20T01:47:09.621Z",
+  "appearance": "A weakly radioactive, silvery metal.",
+  "uses": "Thorium is an important alloying agent in magnesium, as it imparts greater strength and creep resistance at high temperatures. Thorium oxide is used as an industrial catalyst. Thorium can be used as a source of nuclear power. It is about three times as abundant as uranium and about as abundant as lead, and there is probably more energy available from thorium than from both uranium and fossil fuels. India and China are in the process of developing nuclear power plants with thorium reactors, but this is still a very new technology. Thorium dioxide was formerly added to glass during manufacture to increase the refractive index, producing thoriated glass for use in high-quality camera lenses.",
+  "naturalAbundance": "Thorium is found as the minerals thorite, uranothorite and thorianite. It is also found in monazite, which is the most important commercial source. Several methods are used to produce the metal, such as reducing thorium oxide with calcium or electrolysis of the fluoride.",
+  "biologicalRole": "Thorium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

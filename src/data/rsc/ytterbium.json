@@ -1,0 +1,13 @@
+{
+  "key": "ytterbium",
+  "name": "Ytterbium",
+  "atomicNumber": 70,
+  "url": "https://periodic-table.rsc.org/element/70/ytterbium",
+  "slug": "ytterbium",
+  "fetchedAt": "2026-07-20T01:46:36.740Z",
+  "appearance": "A soft, silvery metal. It slowly oxidises in air, forming a protective surface layer.",
+  "uses": "Ytterbium is beginning to find a variety of uses, such as in memory devices and tuneable lasers. It can also be used as an industrial catalyst and is increasingly being used to replace other catalysts considered to be too toxic and polluting.",
+  "naturalAbundance": "In common with many lanthanide elements, ytterbium is found principally in the mineral monazite. It can be extracted by ion exchange and solvent extraction.",
+  "biologicalRole": "Ytterbium has no known biological role. It has low toxicity.",
+  "ok": true
+}

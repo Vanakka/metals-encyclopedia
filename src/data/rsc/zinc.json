@@ -1,0 +1,13 @@
+{
+  "key": "zinc",
+  "name": "Zinc",
+  "atomicNumber": 30,
+  "url": "https://periodic-table.rsc.org/element/30/zinc",
+  "slug": "zinc",
+  "fetchedAt": "2026-07-20T01:45:32.781Z",
+  "appearance": "A silvery-white metal with a blue tinge. It tarnishes in air.",
+  "uses": "Most zinc is used to galvanise other metals, such as iron, to prevent rusting. Galvanised steel is used for car bodies, street lamp posts, safety barriers and suspension bridges. Large quantities of zinc are used to produce die-castings, which are important in the automobile, electrical and hardware industries. Zinc is also used in alloys such as brass, nickel silver and aluminium solder. Zinc oxide is widely used in the manufacture of very many products such as paints, rubber, cosmetics, pharmaceuticals, plastics, inks, soaps, batteries, textiles and electrical equipment. Zinc sulfide is used in making luminous paints, fluorescent lights and x-ray screens.",
+  "naturalAbundance": "Zinc is found in several ores, the principal ones being zinc blende (zinc sulfide) and calamine (zinc silicate). The principal mining areas are in China, Australia and Peru. Commercially, zinc is obtained from its ores by concentrating and roasting the ore, then reducing it to zinc by heating with carbon or by electrolysis. World production is more than 11 million tonnes a year.",
+  "biologicalRole": "Zinc is essential for all living things, forming the active site in over 20 metallo-enzymes. The average human body contains about 2.5 grams and takes in about 15 milligrams per day. Some foods have above average levels of zinc, including herring, beef, lamb, sunflower seeds and cheese. Zinc can be carcinogenic in excess. If freshly formed zinc(II) oxide is inhaled, a disorder called the ‘oxide shakes’ or ‘zinc chills’ can occur.",
+  "ok": true
+}

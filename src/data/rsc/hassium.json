@@ -1,0 +1,13 @@
+{
+  "key": "hassium",
+  "name": "Hassium",
+  "atomicNumber": 108,
+  "url": "https://periodic-table.rsc.org/element/108/hassium",
+  "slug": "hassium",
+  "fetchedAt": "2026-07-20T01:47:42.218Z",
+  "appearance": "A highly radioactive metal, of which only a few atoms have ever been made.",
+  "uses": "At present it is only used in research.",
+  "naturalAbundance": "Hassium does not occur naturally and it will probably never be isolated in observable quantities. It is created by bombarding lead with iron atoms",
+  "biologicalRole": "Hassium has no known biological role.",
+  "ok": true
+}

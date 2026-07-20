@@ -1,0 +1,13 @@
+{
+  "key": "francium",
+  "name": "Francium",
+  "atomicNumber": 87,
+  "url": "https://periodic-table.rsc.org/element/87/francium",
+  "slug": "francium",
+  "fetchedAt": "2026-07-20T01:47:04.053Z",
+  "appearance": "An intensely radioactive metal.",
+  "uses": "Francium has no uses, having a half life of only 22 minutes.",
+  "naturalAbundance": "Francium is obtained by the neutron bombardment of radium in a nuclear reactor. It can also be made by bombarding thorium with protons.",
+  "biologicalRole": "Francium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

@@ -1,0 +1,13 @@
+{
+  "key": "gadolinium",
+  "name": "Gadolinium",
+  "atomicNumber": 64,
+  "url": "https://periodic-table.rsc.org/element/64/gadolinium",
+  "slug": "gadolinium",
+  "fetchedAt": "2026-07-20T01:46:25.849Z",
+  "appearance": "A soft, silvery metal that reacts with oxygen and water.",
+  "uses": "Gadolinium has useful properties in alloys. As little as 1% gadolinium can improve the workability of iron and chromium alloys, and their resistance to high temperatures and oxidation. It is also used in alloys for making magnets, electronic components and data storage disks. Its compounds are useful in magnetic resonance imaging (MRI), particularly in diagnosing cancerous tumours. Gadolinium is excellent at absorbing neutrons, and so is used in the core of nuclear reactors.",
+  "naturalAbundance": "In common with other lanthanides, gadolinium is mainly found in the minerals monazite and bastnaesite. It can be commercially prepared from these minerals by ion exchange and solvent extraction. It is also prepared by reducing anhydrous gadolinium fluoride with calcium metal.",
+  "biologicalRole": "Gadolinium has no known biological role, and has low toxicity.",
+  "ok": true
+}

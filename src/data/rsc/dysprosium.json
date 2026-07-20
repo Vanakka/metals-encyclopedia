@@ -1,0 +1,13 @@
+{
+  "key": "dysprosium",
+  "name": "Dysprosium",
+  "atomicNumber": 66,
+  "url": "https://periodic-table.rsc.org/element/66/dysprosium",
+  "slug": "dysprosium",
+  "fetchedAt": "2026-07-20T01:46:29.463Z",
+  "appearance": "A bright, silvery metallic element.",
+  "uses": "As a pure metal it is little used, because it reacts readily with water and air. Dysprosium’s main use is in alloys for neodymium-based magnets. This is because it is resistant to demagnetisation at high temperatures. This property is important for magnets used in motors or generators. These magnets are used in wind turbines and electrical vehicles, so demand for dysprosium is growing rapidly. Dysprosium iodide is used in halide discharge lamps. The salt enables the lamps to give out a very intense white light. A dysprosium oxide-nickel cermet (a composite material of ceramic and metal) is used in nuclear reactor control rods. It readily absorbs neutrons, and does not swell or contract when bombarded with neutrons for long periods.",
+  "naturalAbundance": "In common with many other lanthanides, dysprosium is found in the minerals monazite and bastnaesite. It is also found in smaller quantities in several other minerals such as xenotime and fergusonite. It can be extracted from these minerals by ion exchange and solvent extraction. It can also be prepared by the reduction of dysprosium trifluoride with calcium metal.",
+  "biologicalRole": "Dysprosium has no known biological role. It has low toxicity.",
+  "ok": true
+}

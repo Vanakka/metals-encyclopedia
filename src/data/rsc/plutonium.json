@@ -1,0 +1,13 @@
+{
+  "key": "plutonium",
+  "name": "Plutonium",
+  "atomicNumber": 94,
+  "url": "https://periodic-table.rsc.org/element/94/plutonium",
+  "slug": "plutonium",
+  "fetchedAt": "2026-07-20T01:47:16.893Z",
+  "appearance": "A radioactive, silvery metal.",
+  "uses": "Plutonium was used in several of the first atomic bombs, and is still used in nuclear weapons. The complete detonation of a kilogram of plutonium produces an explosion equivalent to over 10,000 tonnes of chemical explosive. Plutonium is also a key material in the development of nuclear power. It has been used as a source of energy on space missions, such as the Mars Curiosity Rover and the New Horizons spacecraft on its way to Pluto.",
+  "naturalAbundance": "The greatest source of plutonium is the irradiation of uranium in nuclear reactors. This produces the isotope plutonium-239, which has a half-life of 24,400 years. Plutonium metal is made by reducing plutonium tetrafluoride with calcium.",
+  "biologicalRole": "Plutonium has no known biological role. It is extremely toxic due to its radioactivity.",
+  "ok": true
+}

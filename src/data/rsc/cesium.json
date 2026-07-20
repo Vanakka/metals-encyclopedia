@@ -1,0 +1,13 @@
+{
+  "key": "cesium",
+  "name": "Cesium",
+  "atomicNumber": 55,
+  "url": "https://periodic-table.rsc.org/element/55/caesium",
+  "slug": "caesium",
+  "fetchedAt": "2026-07-20T01:46:09.388Z",
+  "appearance": "Caesium is a soft, gold-coloured metal that is quickly attacked by air and reacts explosively in water.",
+  "uses": "The most common use for caesium compounds is as a drilling fluid. They are also used to make special optical glass, as a catalyst promoter, in vacuum tubes and in radiation monitoring equipment. One of its most important uses is in the ‘caesium clock’ (atomic clock). These clocks are a vital part of the internetand mobile phone networks, as well as Global Positioning System (GPS) satellites. They give the standard measure of time: the electron resonance frequency of the caesium atom is 9,192,631,770 cycles per second. Some caesium clocks are accurate to 1 second in 15 million years.",
+  "naturalAbundance": "Caesium is found in the minerals pollucite and lepidolite. Pollucite is found in great quantities at Bernic Lake,Manitoba, Canada and in the USA, and from this source the element can be prepared. However, most commercialproduction is as a by-product of lithium production.",
+  "biologicalRole": "Caesium has no known biological role. Caesium compounds, such as caesium chloride, are low hazard.",
+  "ok": true
+}

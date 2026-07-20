@@ -1,0 +1,13 @@
+{
+  "key": "cobalt",
+  "name": "Cobalt",
+  "atomicNumber": 27,
+  "url": "https://periodic-table.rsc.org/element/27/cobalt",
+  "slug": "cobalt",
+  "fetchedAt": "2026-07-20T01:45:27.372Z",
+  "appearance": "A lustrous, silvery-blue metal. It is magnetic.",
+  "uses": "Cobalt, like iron, can be magnetised and so is used to make magnets. It is alloyed with aluminium and nickel to make particularly powerful magnets. Other alloys of cobalt are used in jet turbines and gas turbine generators, where high-temperature strength is important. Cobalt metal is sometimes used in electroplating because of its attractive appearance, hardness and resistance to corrosion. Cobalt salts have been used for centuries to produce brilliant blue colours in paint, porcelain, glass, pottery and enamels. Radioactive cobalt-60 is used to treat cancer and, in some countries, to irradiate food to preserve it.",
+  "naturalAbundance": "Cobalt is found in the minerals cobaltite, skutterudite and erythrite. Important ore deposits are found in DR Congo, Canada, Australia, Zambia and Brazil. Most cobalt is formed as a by-product of nickel refining. A huge reserve of several transition metals (including cobalt) can be found in strange nodules on the floors of the deepest oceans. The nodules are manganese minerals that take millions of years to form, and together they contain many tonnes of cobalt.",
+  "biologicalRole": "Cobalt is an essential trace element, and forms part of the active site of vitamin B12. The amount we need is very small, and the body contains only about 1 milligram. Cobalt salts can be given to certain animals in small doses to correct mineral deficiencies. In large doses cobalt is carcinogenic. Cobalt-60 is a radioactive isotope. It is an important source of gamma-rays. It is widely used in cancer treatment, as a tracer and for radiotherapy.",
+  "ok": true
+}

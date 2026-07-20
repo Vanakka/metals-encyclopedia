@@ -1,0 +1,13 @@
+{
+  "key": "tin",
+  "name": "Tin",
+  "atomicNumber": 50,
+  "url": "https://periodic-table.rsc.org/element/50/tin",
+  "slug": "tin",
+  "fetchedAt": "2026-07-20T01:46:03.803Z",
+  "appearance": "A soft, pliable metal. Below 13°C it slowly changes to a powder form.",
+  "uses": "Tin has many uses. It takes a high polish and is used to coat other metals to prevent corrosion, such as in tin cans, which are made of tin-coated steel. Alloys of tin are important, such as soft solder, pewter, bronze and phosphor bronze. A niobium-tin alloy is used for superconducting magnets. Most window glass is made by floating molten glass on molten tin to produce a flat surface. Tin salts sprayed onto glass are used to produce electrically conductive coatings. The most important tin salt used is tin(II) chloride, which is used as a reducing agent and as a mordant for dyeing calico and silk. Tin(IV) oxide is used for ceramics and gas sensors. Zinc stannate (Zn2SnO4) is a fire-retardant used in plastics. Some tin compounds have been used as anti-fouling paint for ships and boats, to prevent barnacles. However, even at low levels these compounds are deadly to marine life, especially oysters. Its use has now been banned in most countries.",
+  "naturalAbundance": "Tin is found principally in the ore cassiterite (tin(IV) oxide). It is mainly found in the ‘tin belt’ stretching through China, Thailand and Indonesia. It is also mined in Peru, Bolivia and Brazil. It is obtained commercially by reducing the ore with coal in a furnace.",
+  "biologicalRole": "Tin has no known biological role in humans, although it may be essential to some species. The metal is non-toxic, but organo-tin compounds can be poisonous and must be handled with care. Plants easily absorb tin.",
+  "ok": true
+}

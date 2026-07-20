@@ -1,0 +1,13 @@
+{
+  "key": "osmium",
+  "name": "Osmium",
+  "atomicNumber": 76,
+  "url": "https://periodic-table.rsc.org/element/76/osmium",
+  "slug": "osmium",
+  "fetchedAt": "2026-07-20T01:46:47.669Z",
+  "appearance": "A shiny, silver metal that resists corrosion. It is the densest of all the elements and is twice as dense as lead.",
+  "uses": "Osmium has only a few uses. It is used to produce very hard alloys for fountain pen tips, instrument pivots, needles and electrical contacts. It is also used in the chemical industry as a catalyst.",
+  "naturalAbundance": "Osmium occurs uncombined in nature and also in the mineral osmiridium (an alloy with iridium). Most osmium is obtained commercially from the wastes of nickel refining.",
+  "biologicalRole": "Osmium has no known biological role. The metal is not toxic, but its oxide is volatile and very toxic, causing lung, skin and eye damage.",
+  "ok": true
+}

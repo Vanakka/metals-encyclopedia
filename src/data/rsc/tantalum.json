@@ -1,0 +1,13 @@
+{
+  "key": "tantalum",
+  "name": "Tantalum",
+  "atomicNumber": 73,
+  "url": "https://periodic-table.rsc.org/element/73/tantalum",
+  "slug": "tantalum",
+  "fetchedAt": "2026-07-20T01:46:42.241Z",
+  "appearance": "A shiny, silvery metal that is very resistant to corrosion.",
+  "uses": "One of the main uses of tantalum is in the production of electronic components. An oxide layer which forms on the surface of tantalum can act as an insulating (dielectric) layer. Because tantalum can be used to coat other metals with a very thin layer, a high capacitance can be achieved in a small volume. This makes tantalum capacitors attractive for portable electronics such as mobile phones. Tantalum causes no immune response in mammals, so has found wide use in the making of surgical implants. It can replace bone, for example in skull plates; as foil or wire it connects torn nerves; and as woven gauze it binds abdominal muscle. It is very resistant to corrosion and so is used in equipment for handling corrosive materials. It has also found uses as electrodes for neon lights, AC/DC rectifiers and in glass for special lenses. Tantalum alloys can be extremely strong and have been used for turbine blades, rocket nozzles and nose caps for supersonic aircraft.",
+  "naturalAbundance": "Tantalum is sometimes, but only rarely, found uncombined in nature. It occurs mainly in the mineral columbite-tantalite, which also contains other metals including niobium. It is mined in many places including Australia, Canada and Brazil. There are several complicated steps involved in separating the tantalum from the niobium. A lot of tantalum is obtained commercially as a by-product of tin extraction.",
+  "biologicalRole": "Tantalum has no known biological role. It is non-toxic.",
+  "ok": true
+}

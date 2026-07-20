@@ -1,0 +1,13 @@
+{
+  "key": "boron",
+  "name": "Boron",
+  "atomicNumber": 5,
+  "url": "https://periodic-table.rsc.org/element/5/boron",
+  "slug": "boron",
+  "fetchedAt": "2026-07-20T01:45:03.656Z",
+  "appearance": "Pure boron is a dark amorphous powder.",
+  "uses": "Amorphous boron is used as a rocket fuel igniter and in pyrotechnic flares. It gives the flares a distinctive green colour. The most important compounds of boron are boric (or boracic) acid, borax (sodium borate) and boric oxide. These can be found in eye drops, mild antiseptics, washing powders and tile glazes. Borax used to be used to make bleach and as a food preservative. Boric oxide is also commonly used in the manufacture of borosilicate glass (Pyrex). It makes the glass tough and heat resistant. Fibreglass textiles and insulation are made from borosilcate glass. Sodium octaborate is a flame retardant. The isotope boron-10 is good at absorbing neutrons. This means it can be used to regulate nuclear reactors. It also has a role in instruments used to detect neutrons.",
+  "naturalAbundance": "Boron occurs as an orthoboric acid in some volcanic spring waters, and as borates in the minerals borax and colemanite. Extensive borax deposits are found in Turkey. However, by far the most important source of boron is rasorite. This is found in the Mojave Desert in California, USA. High-purity boron is prepared by reducing boron trichloride or tribromide with hydrogen, on electrically heated filaments. Impure, or amorphous, boron can be prepared by heating the trioxide with magnesium powder.",
+  "biologicalRole": "Boron is essential for the cell walls of plants. It is not considered poisonous to animals, but in higher doses it can upset the body’s metabolism. We take in about 2 milligrams of boron each day from our food, and about 60 grams in a lifetime. Some boron compounds are being studied as a possible treatment for brain tumours.",
+  "ok": true
+}

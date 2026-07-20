@@ -1,0 +1,138 @@
+136
+                                           PLATINUM-GROUP METALS
+                               (Palladium, platinum, iridium, osmium, rhodium, and ruthenium)
+                   [Data in kilograms, platinum-group-metal (PGM) content, unless otherwise specified]
+
+ Domestic Production and Use: One company in Montana mined and processed PGMs with an estimated value of
+ about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also
+ were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign
+ companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions
+ from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and
+ medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer
+ ceramic capacitors; glass manufacturing; investment; jewelry; and laboratory equipment.
+
+  Salient Statistics—United States:                    2020          2021          2022          2023         2024e
+  Mine production:1
+    Palladium                                        14,600        13,700        10,100        10,300          8,000
+    Platinum                                          4,200         4,020         3,000         3,040          2,000
+  Imports for consumption:2
+    Palladium                                        76,400        72,600        65,200        66,900        69,000
+    Platinum                                         64,900        67,900        64,200        66,800        72,000
+    PGM waste and scrap                             185,000       160,000        41,500        32,000        36,000
+    Iridium                                           1,620         2,310         1,610         2,040         1,400
+    Osmium                                                1             1             1            —              1
+    Rhodium                                          20,700        16,500        13,200        12,100        15,000
+    Ruthenium                                        13,900        18,000        13,300        10,800        10,000
+  Exports:3
+    Palladium                                        48,600        43,900        42,200        33,600        39,000
+    Platinum                                         28,900        29,400        23,100        11,300        12,000
+    PGM waste and scrap                              33,200        37,800        35,200        13,900        13,000
+    Rhodium                                           1,480         1,350           717           453         1,000
+    Other PGMs                                        1,440         2,180         1,010           845         2,000
+  Consumption, apparent:4,5
+    Palladium                                        82,300        81,400        74,100        88,600        83,000
+    Platinum                                         47,300        51,100        52,900        67,000        71,000
+  Price, dollars per troy ounce:6
+    Palladium                                      2,205.27      2,419.18      2,133.81      1,351.66            980
+    Platinum                                         886.02      1,094.31        966.54        973.00            950
+    Iridium                                        1,633.51      5,158.40      4,581.93      4,672.78          4,800
+    Rhodium                                       11,205.06     20,254.10     15,585.00      6,660.58          4,600
+    Ruthenium                                        271.83        576.12        577.02        466.49            440
+  Employment, mine, number                            1,480         1,600         1,560         1,450            900
+  Net import reliance5, 7 as a percentage of
+    apparent consumption:
+    Palladium                                            34             35            31            38            36
+    Platinum                                             76             75            78            83            85
+
+ Recycling: About 120,000 kilograms of palladium and platinum were recovered globally from new and old scrap in
+ 2024, including about 45,000 kilograms of palladium and 8,500 kilograms of platinum recovered from automobile
+ catalytic converters in the United States.
+
+ Import Sources (2020–23): Palladium: Russia, 32%; South Africa, 32%; Belgium, 8%, Italy, 8%; and other, 20%.
+ Platinum: South Africa, 45%; Belgium, 12%; Germany, 10%; Italy, 9%; and other, 24%.
+
+ Tariff: All unwrought and semimanufactured forms of PGMs are imported duty free. See footnote 2 for specific
+ Harmonized Tariff Schedule of the United States codes.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+
+
+
+ Prepared by Ruth F. Schulte [(703) 648–4963, rschulte@usgs.gov]
+                                                                                                                                              137
+                                                PLATINUM-GROUP METALS
+Government Stockpile:8
+
+                                          FY 2024                                                   FY 2025
+Material                Potential acquisitions Potential disposals                Potential acquisitions Potential disposals
+Iridium                           —                    15                                   —                     15
+Platinum                          —                   261                                   —                   261
+
+Events, Trends, and Issues: Production at a domestic mine continued, but the company placed one of its operations
+on care-and-maintenance status and reduced the number of its employees owing to the high cost of operations and
+decreases in PGM prices. Production of PGMs in South Africa, the world’s leading producer of PGM-containing mined
+material, decreased compared with that in 2023 owing to declining prices, higher costs associated with deep-level
+mining, labor disputes, and ongoing disruptions to the supply of electricity. Production in Russia, the world’s leading
+producer of mined palladium, decreased owing to disruptions from natural disasters, lower metal grades and ore
+recovery, ongoing issues related to the Russia-Ukraine conflict, and planned outages at a major metallurgical plant.
+
+The estimated annual average price for iridium in 2024 increased by 3% compared with the average price in 2023
+whereas the estimated annual average prices for rhodium decreased by 31% for rhodium, by 27% for palladium, by
+6% for ruthenium, and slightly for platinum compared with annual average prices in 2023. Price decreases were
+attributed to decreased demand, investor uncertainty, and oversupply.
+
+World Mine Production and Reserves: Reserves for Russia were revised based on a Government report.
+
+                                                           Mine production                                              PGM reserves9
+                                                  Palladium                 Platinum
+                                                2023      2024e          2023       2024e
+United States                                 10,300      8,000          3,040      2,000                                        820,000
+Canada                                        16,100     15,000          5,170      5,200                                        310,000
+Russiae                                       87,000     75,000        21,000      18,000                                   10
+                                                                                                                              16,000,000
+South Africa                                  74,900     72,000       125,000     120,000                                     63,000,000
+Zimbabwe                                      15,900     15,000        19,200      19,000                                      1,200,000
+Other countries                                4,200      4,200          5,710      4,600                                             NA
+  World total (rounded)                      208,000    190,000       179,000     170,000                                   >81,000,000
+
+World Resources:9 World resources of PGMs are estimated to total more than 100 million kilograms. The largest
+resources and reserves are in the Bushveld Complex in South Africa.
+
+Substitutes: Palladium has been used as a substitute for platinum in most gasoline-engine catalytic converters
+because of the historically lower price for palladium relative to that of platinum. About 25% of palladium can routinely
+be substituted for platinum in diesel catalytic converters; the proportion can be as much as 50% in some applications.
+For some industrial end uses, one PGM can substitute for another, but with losses in efficiency.
+
+
+
+
+e
+  Estimated. NA Not available. — Zero.
+1
+  Estimated from published sources.
+2
+  Includes data for the following Harmonized Tariff Schedule of the United States codes: 7110.11.0010, 7110.11.0020, 7110.11.0050,
+7110.19.0000, 7110.21.0000, 7110.29.0000, 7110.31.0000, 7110.39.0000, 7110.41.0010, 7110.41.0020, 7110.41.0030, 7110.49.0010, and
+7118.90.0020; 7112.92.0000 (2020–21); and 7112.92.0100 (2022–24).
+3
+  Includes data for the following Schedule B numbers: 7110.11.0000, 7110.19.0000, 7110.21.0000, 7110.29.0000, 7110.31.0000, 7110.39.0000,
+7110.41.0000, and 7110.49.0000; 7112.92.0000 (2020–21); and 7112.92.0100 (2022–24).
+4
+  Defined as primary production + secondary production + imports – exports.
+5
+  Excludes imports and (or) exports of waste and scrap.
+6
+  Engelhard unfabricated metal average annual prices. Source: S&P Global Platts Metals Week.
+7
+  Defined as imports – exports.
+8
+  See Appendix B for definitions.
+9
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+10
+   Reserves for Russia are based on the Russian Classification system A+B+C1+C2, where C2 are deposits that are being developed or prepared
+for development.
+
+                                                  U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

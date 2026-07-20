@@ -1,0 +1,13 @@
+{
+  "key": "tungsten",
+  "name": "Tungsten",
+  "atomicNumber": 74,
+  "url": "https://periodic-table.rsc.org/element/74/tungsten",
+  "slug": "tungsten",
+  "fetchedAt": "2026-07-20T01:46:44.047Z",
+  "appearance": "A shiny, silvery-white metal.",
+  "uses": "Tungsten was used extensively for the filaments of old-style incandescent light bulbs, but these have been phased out in many countries. This is because they are not very energy efficient; they produce much more heat than light. Tungsten has the highest melting point of all metals and is alloyed with other metals to strengthen them. Tungsten and its alloys are used in many high-temperature applications, such as arc-welding electrodes and heating elements in high-temperature furnaces. Tungsten carbide is immensely hard and is very important to the metal-working, mining and petroleum industries. It is made by mixing tungsten powder and carbon powder and heating to 2200°C. It makes excellent cutting and drilling tools, including a new ‘painless’ dental drill which spins at ultra-high speeds. Calcium and magnesium tungstates are widely used in fluorescent lighting.",
+  "naturalAbundance": "The principal tungsten-containing ores are scheelite and wolframite. The metal is obtained commercially by reducing tungsten oxide with hydrogen or carbon.",
+  "biologicalRole": "Tungsten is the heaviest metal to have a known biological role. Some bacteria use tungsten in an enzyme to reduce carboxylic acids to aldehydes.",
+  "ok": true
+}

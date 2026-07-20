@@ -1,0 +1,13 @@
+{
+  "key": "vanadium",
+  "name": "Vanadium",
+  "atomicNumber": 23,
+  "url": "https://periodic-table.rsc.org/element/23/vanadium",
+  "slug": "vanadium",
+  "fetchedAt": "2026-07-20T01:45:20.136Z",
+  "appearance": "A silvery metal that resists corrosion.",
+  "uses": "About 80% of the vanadium produced is used as a steel additive. Vanadium-steel alloys are very tough and are used for armour plate, axles, tools, piston rods and crankshafts. Less than 1% of vanadium, and as little chromium, makes steel shock resistant and vibration resistant. Vanadium alloys are used in nuclear reactors because of vanadium’s low neutron-absorbing properties. Vanadium(V) oxide is used as a pigment for ceramics and glass, as a catalyst and in producing superconducting magnets.",
+  "naturalAbundance": "Vanadium is found in about 65 different minerals including vanadinite, carnotite and patronite. It is also found in phosphate rock, certain iron ores and some crude oils in the form of organic complexes. Vanadium metal is obtained by reducing vanadium(V) oxide with calcium in a pressure vessel. Vanadium of high purity can be obtained by reducing vanadium(III) chloride with magnesium.",
+  "biologicalRole": "Vanadium is essential to some species, including humans, although we need very little. We take in just 0.01 milligrams each day, and this is more than sufficient for our needs. In some compounds vanadium can become toxic.",
+  "ok": true
+}

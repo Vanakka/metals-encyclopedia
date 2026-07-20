@@ -1,0 +1,140 @@
+150
+                                                          SALT
+                                (Data in thousand metric tons unless otherwise specified)
+
+ Domestic Production and Use: Domestic production of salt was an estimated 40 million tons in 2024. The quantity
+ of salt sold or used in 2024 was an estimated 39 million tons with a total estimated value of $2.5 billion. Salt was
+ produced by 26 companies that operated 64 plants in 16 States. The top producing States were Kansas, Louisiana,
+ Michigan, New York, Ohio, Texas, and Utah. These seven States produced about 95% of the salt in the United States
+ in 2024. The estimated percentage of salt sold or used was, by type, salt in brine, 42%; rock salt, 40%; solar salt, 9%;
+ and vacuum pan salt, 9%.
+
+ Highway deicing accounted for about 41% of total salt consumed. The chemical industry accounted for about 39% of
+ total salt sales, with salt in brine accounting for 91% of the salt used for chemical feedstock. Chlorine and caustic
+ soda manufacturers were the main consumers within the chemical industry. The remaining markets for salt were
+ distributors, 9%; food processing, 4%; agricultural, 3%; general industrial, 2%; primary water treatment, 1%; and
+ miscellaneous, 1%.
+
+  Salient Statistics—United States:1                                        2020      2021     2022      2023        2024e
+  Production                                                               42,600    39,300   39,400   e
+                                                                                                        42,000      40,000
+  Sold or used by producers                                                39,600    39,800   40,600   e
+                                                                                                        41,000      39,000
+  Imports for consumption                                                  15,800    17,700   18,300    15,700      14,000
+  Exports                                                                   1,250     1,010      886     2,260       1,900
+  Consumption:
+    Apparent2                                                              54,200    56,400   58,000   e
+                                                                                                        54,000      51,000
+    Reported                                                               44,000    47,100   45,300   e
+                                                                                                        45,000      43,000
+  Price, average unit value of bulk, pellets and packaged salt, free on
+    board (f.o.b.) mine and plant, dollars per metric ton:
+    Vacuum and open pan salt                                               212.21    203.72   217.58        e
+                                                                                                             220       230
+    Solar salt                                                             122.77    153.52   128.87        e
+                                                                                                             140       140
+    Rock salt                                                               61.71     59.88    56.86         e
+                                                                                                              56        56
+    Salt in brine                                                            8.36      8.14     9.11           e
+                                                                                                                9       10
+  Employment, mine and plant, numbere                                       4,000     4,000    4,100       4,100     4,100
+  Net import reliance3 as a percentage of apparent consumption                 27        30       30           25       24
+
+ Recycling: None.
+
+ Import Sources (2020–23): Canada, 29%; Chile, 27%; Mexico, 14%; Egypt, 8%; and other, 22%.
+
+  Tariff:   Item                                                  Number                    Normal Trade Relations
+                                                                                                  12–31–24
+  Salt (sodium chloride)                                       2501.00.0000                         Free.
+
+ Depletion Allowance: 10% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Consumption of salt in 2024 decreased compared with consumption in recent years as
+ road salt use declined. Increased energy costs resulted in increased processing and especially transportation costs
+ which negatively affected the ability to import and export salt at competitive prices for some international transactions.
+
+ For much of the 2023–24 winter, temperatures were near or above average with lower or average precipitation
+ throughout most of the traditional U.S. snowbelt. The number of winter weather events including freezing rain, sleet,
+ and snow is a better predictor of demand for rock salt than total snowfall. Several low snowfall or icing events usually
+ require more salt for highway deicing than a single large snowfall event. Rock salt imports in 2024 were estimated to
+ have decreased compared with those in 2023 because consumption by many local and State transportation
+ departments was slightly less or unchanged from the previous year and stockpiles of domestically sourced salt were
+ sufficient to meet demand in many areas.
+
+
+
+
+ Prepared by Wallace P. Bolen [Contact JohnRyan MacGregor, (703) 648–7743, jmacgregor@usgs.gov]
+                                                                                                                               151
+                                                                   SALT
+For the 2024–25 winter, the National Oceanic and Atmospheric Administration (NOAA) predicted a developing
+La Niña weather pattern. This historically favors storm tracks along the northern United States and a warmer-than-
+average temperature pattern in the southern tier of the continental United States. NOAA forecasted drier-than-
+average conditions for the Gulf Coast, the Southeast, and the Southwest but wetter-than-average conditions across
+the Great Lakes and Northwest regions of the United States. Much of the Great Plains, the Middle Atlantic, and the
+Northeast are expected to experience average precipitation amounts with a slight chance of warmer-than-average
+conditions. These forecasts indicate that demand for rock salt could increase slightly compared with that in previous
+season in some locales in the United States.
+
+Demand for salt brine used in the chloralkali industry was expected to increase in 2024 as demand for caustic soda
+and polyvinyl chloride increases globally, especially in Asia. Salt exports from Australia and India have increased in
+recent years to meet the increasing demand.
+
+World Production and Reserves:
+
+                                                      Mine productione                               Reserves4
+                                                       2023      2024
+United States1                                       42,000     40,000                   Large. Economic and subeconomic
+Australia                                            12,000     13,000                   deposits of salt are substantial in
+Belarus                                               2,000      2,100                   principal salt-producing countries.
+Brazil                                                6,600      6,600                   The oceans contain a virtually
+Bulgaria                                              3,000      3,000                   inexhaustible supply of salt.
+Canada                                               12,000     12,000
+Chile                                                10,000     11,000
+China                                                54,000     55,000
+Egypt                                                 2,300      2,300
+France                                                4,600      5,000
+Germany                                              15,000     16,000
+India                                                27,000     28,000
+Iran                                                  2,700      2,700
+Italy                                                 1,800      1,900
+Mexico                                                8,700      9,000
+Netherlands                                           5,300      6,000
+Pakistan                                              3,100      3,000
+Poland                                                4,500      4,600
+Russia                                                8,200      8,000
+Saudi Arabia                                          2,500      2,400
+Spain                                                 3,900      4,000
+Turkey                                                9,100      9,000
+United Kingdom                                        2,700      2,800
+Other countries                                      27,000     28,000
+   World total (rounded)                            270,000    280,000
+
+World Resources:4 World continental resources of salt are vast, and the salt content in the oceans is nearly unlimited.
+Domestic resources of rock salt and salt from brine are primarily in Kansas, Louisiana, Michigan, New York, Ohio, and
+Texas. Saline lakes and solar evaporation salt facilities are in Arizona, California, Nevada, New Mexico, Oklahoma,
+and Utah. Almost every country in the world has salt deposits or solar evaporation operations of various sizes.
+
+Substitutes: No economic substitutes or alternatives for salt exist in most applications. Calcium chloride and calcium
+magnesium acetate, hydrochloric acid, and potassium chloride can be substituted for salt in deicing, certain chemical
+processes, and food flavoring, but at a higher cost.
+
+
+
+
+e
+ Estimated.
+1
+ Excludes production from Puerto Rico.
+2
+ Defined as sold or used by producers + imports – exports.
+3
+ Defined as imports – exports.
+4
+ See Appendix C for resource and reserve definitions and information concerning data sources.
+
+                                                   U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

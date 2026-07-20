@@ -1,0 +1,13 @@
+{
+  "key": "europium",
+  "name": "Europium",
+  "atomicNumber": 63,
+  "url": "https://periodic-table.rsc.org/element/63/europium",
+  "slug": "europium",
+  "fetchedAt": "2026-07-20T01:46:24.000Z",
+  "appearance": "A soft, silvery metal that tarnishes quickly and reacts with water.",
+  "uses": "Europium is used in the printing of euro banknotes. It glows red under UV light, and forgeries can be detected by the lack of this red glow. Low-energy light bulbs contain a little europium to give a more natural light, by balancing the blue (cold) light with a little red (warm) light. Europium is excellent at absorbing neutrons, making it valuable in control rods for nuclear reactors. Europium-doped plastic has been used as a laser material. It is also used in making thin super-conducting alloys.",
+  "naturalAbundance": "In common with other lanthanides, europium is mainly found in the minerals monazite and bastnaesite. It can be prepared from these minerals. However, the usual method of preparation is by heating europium(Ill) oxide with an excess of lanthanum under vacuum.",
+  "biologicalRole": "Europium has no known biological role. It has low toxicity.",
+  "ok": true
+}

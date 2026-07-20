@@ -1,0 +1,116 @@
+182
+                                                     THORIUM
+                                    (Data in kilograms unless otherwise specified)
+
+ Domestic Production and Use: The world’s primary source of thorium is the rare-earth and thorium phosphate
+ mineral monazite. In 2024, monazite may have been produced as a separated concentrate or included as an
+ accessory mineral in heavy-mineral concentrates, but thorium was not separated or recovered by any domestic
+ facility. Essentially, all thorium compounds and alloys consumed by the domestic industry were derived from imports.
+ The number of companies that processed or fabricated various forms of thorium for commercial use was not
+ available. Thorium’s use in most products was generally limited because of concerns over its naturally occurring
+ radioactivity. Imports of thorium compounds are sporadic owing to changes in consumption and fluctuations in
+ consumer inventory levels. The estimated value of thorium compounds imported for consumption by the domestic
+ industry in 2024 was $120,000 (based on data through August 2024), compared with $928,000 in 2023.
+
+  Salient Statistics—United States:                             2020       2021       2022        2023      2024e
+  Production, mine (monazite)1                              2
+                                                             960,000         W          W           W          W
+  Imports for consumption:
+    Ore and concentrates (monazite)                             3,000    16,000          —          —           —
+    Compounds (oxide, nitrate, and so forth)                    1,920     5,790       1,930     13,300       4,400
+  Exports:
+    Ore and concentrates (monazite)                          958,000         —       22,000         —          —
+    Compounds (oxide, nitrate, and so forth)3                 60,300     45,600      25,900     65,000     50,000
+  Consumption, apparent:4
+    Ore and concentrates (monazite)                             3,000         W          W           W          W
+    Compounds (oxide, nitrate, and so forth)                      NA         NA         NA          NA         NA
+  Price, average unit value of imports, compounds,
+    dollars per kilogram:5
+    India                                                         NA         NA         NA          74         NA
+    France                                                        29         29         26          29         27
+  Net import reliance6 as a percentage of apparent                NA         NA         NA          NA         NA
+    consumption
+
+ Recycling: None.
+
+ Import Sources (2020–23): Ores and concentrates (monazite): China, 84%; and United Kingdom, 16%. Thorium
+ compounds: India, 52%; France, 48%; and other, <1%.
+
+  Tariff:   Item                                                Number                  Normal Trade Relations
+                                                                                              12–31–24
+  Thorium ore and concentrates (monazite)                   2612.20.0000                        Free.
+  Thorium compounds                                         2844.30.1000                  5.5% ad valorem.
+
+ Depletion Allowance: Monazite, 22% on thorium content and 14% on rare-earth and yttrium content (domestic);
+ 14% (foreign).
+
+ Government Stockpile: None.
+
+
+
+
+ Prepared by Kristin N. Sheaffer [(703) 648–4954, ksheaffer@usgs.gov]
+                                                                                                                                                    183
+                                                                   THORIUM
+Events, Trends, and Issues: Domestic demand for thorium alloys, compounds, and metals was limited. In addition
+to research purposes, various commercial uses of thorium included catalysts, high-temperature ceramics,
+magnetrons in microwave ovens, metal-halide lamps, nuclear medicine, optical coatings, tungsten filaments, and
+welding electrodes.
+
+Exports of unspecified thorium compounds were 44,100 kilograms through August 2024 with a unit value of $73 per
+kilogram. Owing to variations in the type and purity of thorium compounds, the unit value of exports can vary widely by
+month and by exporting customs district.
+
+Globally, monazite was produced primarily for its rare-earth-element content, and only a small fraction of the
+byproduct thorium was recovered and consumed. Thorium consumption worldwide is relatively small compared with
+that of most other mineral commodities. In international trade, China was the leading importer of monazite; Nigeria,
+Madagascar, Thailand, and Indonesia were China’s leading import sources, in descending order of quantity.
+
+Several companies and countries were active in the pursuit of commercializing a new generation of nuclear reactors
+that would use thorium as a fuel material. Thorium-based nuclear research and development programs have been or
+were underway in Australia, Belgium, Brazil, Canada, China, Czechia, Denmark, Finland, France, Germany, India,
+Israel, Italy, Japan, the Republic of Korea, the Netherlands, Norway, Russia, the United Kingdom, and the United States.
+
+World Mine Production and Reserves:7 Production and reserves are associated with the recovery of monazite in
+heavy-mineral-sand deposits. Without demand for the rare earths, monazite likely would not be recovered for its
+thorium content under current market conditions.
+
+World Resources:7 The world’s leading thorium resources are found in placer, carbonatite, and vein-type deposits.
+Thorium is found in several minerals, including monazite, thorianite, and thorite. According to the World Nuclear
+Association,8 worldwide identified thorium resources were an estimated 6.4 million tons of thorium. Thorium resources
+are found throughout the world, most notably in Australia, Brazil, India, and the United States. India has the largest
+resources (850,000 tons), followed by Brazil (630,000 tons), and Australia and the United States (600,000 tons each).
+
+Substitutes: Nonradioactive substitutes have been developed for many applications of thorium. Yttrium compounds
+have replaced thorium compounds in incandescent lamp mantles. A magnesium alloy containing lanthanides, yttrium,
+and zirconium can substitute for magnesium-thorium alloys in aerospace applications. Cerium, lanthanum, yttrium,
+and zirconium oxides can substitute for thorium in welding electrodes. Several replacement materials (such as yttrium
+fluoride and proprietary materials) are in use as optical coatings instead of thorium fluoride.
+
+
+
+
+e
+  Estimated. NA Not available. W Withheld to avoid disclosing company proprietary data. — Zero.
+1
+  Monazite may have been produced as a separate concentrate or included as an accessory mineral in heavy-mineral concentrates.
+2
+  Estimated to be equal to exports.
+3
+  Includes material that may have been misclassified.
+4
+  Defined as production + imports – exports. Production is only for ore and concentrates. Monazite is produced for the production of rare-earth
+compounds and not for thorium recovery. The apparent consumption calculation for thorium compounds results in a negative value for thorium
+compounds.
+5
+  Calculated from U.S. Census Bureau import data.
+6
+  Defined as imports – exports; however, a meaningful net import reliance could not be calculated owing to uncertainties in the classification of
+material being imported and exported.
+7
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+8
+  Source: World Nuclear Association, 2017, Thorium: London, United Kingdom, World Nuclear Association, February.
+
+                                                      U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

@@ -1,0 +1,13 @@
+{
+  "key": "terbium",
+  "name": "Terbium",
+  "atomicNumber": 65,
+  "url": "https://periodic-table.rsc.org/element/65/terbium",
+  "slug": "terbium",
+  "fetchedAt": "2026-07-20T01:46:27.651Z",
+  "appearance": "A soft, silvery metal.",
+  "uses": "Terbium is used to dope calcium fluoride, calcium tungstate and strontium molybdate, all used in solid-state devices. It is also used in low-energy lightbulbs and mercury lamps. It has been used to improve the safety of medical x-rays by allowing the same quality image to be produced with a much shorter exposure time. Terbium salts are used in laser devices. An alloy of terbium, dysprosium and iron lengthens and shortens in a magnetic field. This effect forms the basis of loudspeakers that sit on a flat surface, such as a window pane, which then acts as the speaker.",
+  "naturalAbundance": "Terbium can be recovered from the minerals monazite and bastnaesite by ion exchange and solvent extraction. It is also obtained from euxenite, a complex oxide containing 1% or more of terbium. The metal is usually produced commercially by reducing the anhydrous fluoride or chloride with calcium metal, under a vacuum. It is also possible to produce the metal by the electrolysis of terbium oxide in molten calcium chloride.",
+  "biologicalRole": "Terbium has no known biological role. It has low toxicity.",
+  "ok": true
+}

@@ -1,0 +1,13 @@
+{
+  "key": "copernicium",
+  "name": "Copernicium",
+  "atomicNumber": 112,
+  "url": "https://periodic-table.rsc.org/element/112/copernicium",
+  "slug": "copernicium",
+  "fetchedAt": "2026-07-20T01:47:49.461Z",
+  "appearance": "A highly radioactive metal, of which only a few atoms have ever been made. It is thought to be unreactive and more like a noble gas than a metal.",
+  "uses": "At present, it is only used in research.",
+  "naturalAbundance": "Copernicium is a man-made element of which only a few atoms have ever been made. It is formed by fusing lead and zinc atoms in a heavy ion accelerator.",
+  "biologicalRole": "It has no known biological role.",
+  "ok": true
+}

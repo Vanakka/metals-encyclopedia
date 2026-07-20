@@ -1,0 +1,13 @@
+{
+  "key": "palladium",
+  "name": "Palladium",
+  "atomicNumber": 46,
+  "url": "https://periodic-table.rsc.org/element/46/palladium",
+  "slug": "palladium",
+  "fetchedAt": "2026-07-20T01:45:56.520Z",
+  "appearance": "A shiny, silvery-white metal that resists corrosion.",
+  "uses": "Most palladium is used in catalytic converters for cars. It is also used in jewellery and some dental fillings and crowns. White gold is an alloy of gold that has been decolourised by alloying with another metal, sometimes palladium. It is used in the electronics industry in ceramic capacitors, found in laptop computers and mobile phones. These consist of layers of palladium sandwiched between layers of ceramic. Finely divided palladium is a good catalyst and is used for hydrogenation and dehydrogenation reactions. Hydrogen easily diffuses through heated palladium and this provides a way of separating and purifying the gas.",
+  "naturalAbundance": "Palladium has been found uncombined in nature, in Brazil, but most is found in sulfide minerals such as braggite. It is extracted commercially as a by-product of nickel refining. It is also extracted as a by-product of copper and zinc refining.",
+  "biologicalRole": "Palladium has no known biological role. It is non-toxic.",
+  "ok": true
+}

@@ -1,0 +1,13 @@
+{
+  "key": "californium",
+  "name": "Californium",
+  "atomicNumber": 98,
+  "url": "https://periodic-table.rsc.org/element/98/californium",
+  "slug": "californium",
+  "fetchedAt": "2026-07-20T01:47:24.129Z",
+  "appearance": "Californium is a radioactive metal.",
+  "uses": "Californium is a very strong neutron emitter. It is used in portable metal detectors, for identifying gold and silver ores, to identify water and oil layers in oil wells and to detect metal fatigue and stress in aeroplanes.",
+  "naturalAbundance": "Californium did not exist in weighable amounts until ten years after its discovery. It is prepared, in milligram amounts only, by the neutron bombardment of plutonium-239.",
+  "biologicalRole": "Californium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

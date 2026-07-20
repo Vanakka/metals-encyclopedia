@@ -1,0 +1,13 @@
+{
+  "key": "erbium",
+  "name": "Erbium",
+  "atomicNumber": 68,
+  "url": "https://periodic-table.rsc.org/element/68/erbium",
+  "slug": "erbium",
+  "fetchedAt": "2026-07-20T01:46:33.058Z",
+  "appearance": "A soft, silvery metallic element.",
+  "uses": "Erbium finds little use as a metal because it slowly tarnishes in air and is attacked by water. When alloyed with metals such as vanadium, erbium lowers their hardness and improves their workability. Erbium oxide is occasionally used in infrared absorbing glass, for example safety glasses for welders and metal workers. When erbium is added to glass it gives the glass a pink tinge. It is used to give colour to some sunglasses and imitation gems. Broadband signals, carried by fibre optic cables, are amplified by including erbium in the glass fibre.",
+  "naturalAbundance": "Erbium is found principally in the minerals monazite and bastnaesite. It can be extracted by ion exchange and solvent extraction.",
+  "biologicalRole": "Erbium has no known biological role, and has low toxicity.",
+  "ok": true
+}

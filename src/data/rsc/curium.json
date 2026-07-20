@@ -1,0 +1,13 @@
+{
+  "key": "curium",
+  "name": "Curium",
+  "atomicNumber": 96,
+  "url": "https://periodic-table.rsc.org/element/96/curium",
+  "slug": "curium",
+  "fetchedAt": "2026-07-20T01:47:20.497Z",
+  "appearance": "A radioactive metal that is silver in colour. It tarnishes rapidly in air.",
+  "uses": "Curium has been used to provide power to electrical equipment used on space missions.",
+  "naturalAbundance": "Curium can be made in very small amounts by the neutron bombardment of plutonium in a nuclear reactor. Minute amounts may exist in natural deposits of uranium. Only a few grams are produced each year.",
+  "biologicalRole": "Curium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

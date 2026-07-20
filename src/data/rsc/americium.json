@@ -1,0 +1,13 @@
+{
+  "key": "americium",
+  "name": "Americium",
+  "atomicNumber": 95,
+  "url": "https://periodic-table.rsc.org/element/95/americium",
+  "slug": "americium",
+  "fetchedAt": "2026-07-20T01:47:18.702Z",
+  "appearance": "Americium is a silvery, shiny radioactive metal.",
+  "uses": "Americium is commonly used in smoke alarms, but has few other uses. It has the potential to be used in spacecraft batteries in the future. Currently plutonium is used but availability is poor so alternatives are being considered. It is of interest as part of the decay sequence that occurs in nuclear power production.",
+  "naturalAbundance": "Americium occurs naturally in uranium minerals, but only in trace amounts. The main source of the element is the neutron bombardment of plutonium in nuclear reactors. A few grams are produced in this way each year. It is also formed when nuclear weapons are detonated.",
+  "biologicalRole": "Americium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

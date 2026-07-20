@@ -1,0 +1,13 @@
+{
+  "key": "copper",
+  "name": "Copper",
+  "atomicNumber": 29,
+  "url": "https://periodic-table.rsc.org/element/29/copper",
+  "slug": "copper",
+  "fetchedAt": "2026-07-20T01:45:30.980Z",
+  "appearance": "A reddish-gold metal that is easily worked and drawn into wires.",
+  "uses": "Historically, copper was the first metal to be worked by people. The discovery that it could be hardened with a little tin to form the alloy bronze gave the name to the Bronze Age. Traditionally it has been one of the metals used to make coins, along with silver and gold. However, it is the most common of the three and therefore the least valued. All US coins are now copper alloys, and gun metals also contain copper. Most copper is used in electrical equipment such as wiring and motors. This is because it conducts both heat and electricity very well, and can be drawn into wires. It also has uses in construction (for example roofing and plumbing), and industrial machinery (such as heat exchangers). Copper sulfate is used widely as an agricultural poison and as an algicide in water purification. Copper compounds, such as Fehling’s solution, are used in chemical tests for sugar detection.",
+  "naturalAbundance": "Copper metal does occur naturally, but by far the greatest source is in minerals such as chalcopyrite and bornite. Copper is obtained from these ores and minerals by smelting, leaching and electrolysis. The major copper-producing countries are Chile, Peru and China.",
+  "biologicalRole": "Copper is an essential element. An adult human needs around 1.2 milligrams of copper a day, to help enzymes transfer energy in cells. Excess copper is toxic. Genetic diseases, such as Wilson’s disease and Menkes’ disease, can affect the body’s ability to use copper properly. Unlike mammals, which use iron (in haemoglobin) to transport oxygen around their bodies, some crustaceans use copper complexes.",
+  "ok": true
+}

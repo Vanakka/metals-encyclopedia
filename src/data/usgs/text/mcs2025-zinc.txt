@@ -1,0 +1,145 @@
+202
+                                                          ZINC
+                          (Data in thousand metric tons, zinc content, unless otherwise specified)
+
+ Domestic Production and Use: The estimated value of zinc mined in 2024 was $2.4 billion. Zinc was mined in
+ five States at six mining operations by five companies. Two smelter facilities, one primary and one secondary,
+ operated by two companies, accounted for most of the commercial-grade zinc metal produced in the United States.
+ Of the total reported zinc consumed, most was used to produce galvanized steel, followed by brass and bronze,
+ zinc-base alloys, and other uses.
+
+  Salient Statistics—United States:                                     2020       2021      2022     2023       2024e
+  Production:
+    Mine, zinc in concentrates                                           723        704        763     767        750
+    Refined zince, 1                                                     180        220        220     220        220
+  Imports for consumption:
+    Ores and concentrates                                                  3         13          5      18         15
+    Refined zinc                                                         700        701        762     705        600
+  Exports:
+    Ores and concentrates                                                546        644        644     641        580
+    Refined zinc                                                           2         13          8       3          2
+  Shipments from Government stockpile2                                    —          —           1      NA         NA
+  Consumption, apparent, refined zinc3                                   878        908        974     921        820
+  Price, average, cents per pound:
+    North American4                                                     110.8     145.8      190.2    151.3       144
+    London Metal Exchange (LME), cash                                   102.7     136.3      158.1    120.1       126
+  Stocks, reported producer and consumer, refined zinc, yearend          120       115        134      120        120
+  Employment, number:
+    Mine and mill5                                                      2,360     2,480      2,500    2,630      2,500
+    Smelter, primary                                                      220       220        220      340        340
+  Net import reliance6 as a percentage of apparent consumption:
+    Ores and concentrates                                                   E         E          E        E          E
+    Refined zinc                                                           79        76         77       76         73
+
+ Recycling: Refined zinc produced in the United States was recovered from secondary materials at both primary and
+ secondary smelters. These secondary materials included galvanizing residues and crude zinc oxide recovered from
+ electric arc furnace dust.
+
+ Import Sources (2020–23): Ores and concentrates: Peru, 42%; Turkey, 25%; Canada, 16%; Republic of Korea,
+ 10%; and other, 7%. Refined metal: Canada, 59%; Mexico, 16%; Republic of Korea, 7%; Peru, 7%; and other, 11%.
+ Waste and scrap (gross weight): Canada, 64%; Mexico, 34%; and other, 2%. Combined total (includes gross weight
+ of waste and scrap): Canada, 58%; Mexico, 16%; Republic of Korea, 7%; Peru, 7%; and other, 12%.
+
+  Tariff:    Item                                                 Number                   Normal Trade Relations
+                                                                                                 12–31–24
+  Zinc ores and concentrates, zinc content                     2608.00.0030                        Free.
+  Zinc oxide; zinc peroxide                                    2817.00.0000                        Free.
+  Zinc sulfate                                                 2833.29.4500                  1.6% ad valorem.
+  Unwrought zinc, not alloyed:
+    Containing 99.99% or more zinc                             7901.11.0000                   1.5% ad valorem.
+    Containing less than 99.99% zinc:
+      Casting-grade                                            7901.12.1000                    3% ad valorem.
+      Other                                                    7901.12.5000                   1.5% ad valorem.
+  Zinc alloys                                                  7901.20.0000                    3% ad valorem.
+  Zinc waste and scrap                                         7902.00.0000                        Free.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile:7
+
+                                       FY 2024                                           FY 2025
+  Material          Potential acquisitions Potential disposals        Potential acquisitions Potential disposals
+  Zinc                        —                   2.27                          —                   2.27
+
+ Prepared by Amy C. Tolcin [(703) 648–4940, atolcin@usgs.gov]
+                                                                                                                                             203
+                                                                   ZINC
+Events, Trends, and Issues: U.S. zinc mine production was estimated to have decreased slightly in 2024 compared
+with that in 2023. There was no production at the Middle Tennessee zinc mines after operations were suspended in
+November 2023. During the closure, drilling work was conducted to define additional zinc, germanium, and gallium
+resources. Domestic refined production was estimated to have remained unchanged in 2024 compared with that in
+the previous year, and apparent consumption decreased alongside an estimated 15% decrease in net imports of
+refined zinc. Galvanized steel was the leading use of refined zinc in the United States. In September, the U.S.
+Department of Commerce initiated antidumping and countervailing investigations on corrosion-resistant steel,
+including galvanized steel, imported from 10 trading partners. In October, the U.S. International Trade Commission
+preliminarily determined that U.S. industry was materially injured by these imports. Final determinations were
+expected to be made in 2025.
+
+The annual average LME cash price for Special High Grade (SHG) zinc was projected to decrease by 5% in 2024
+from that in 2023. The monthly average North American premium to the LME cash price continued to decrease during
+2024 as in 2023 but remained high compared with historical levels. According to the International Lead and Zinc
+Study Group,8 estimated global refined zinc production in 2024 was forecast to decrease by 1.8% to 13.7 million tons
+owing to a limited availability of concentrates, and estimated metal consumption was forecast to increase by 1.8% to
+13.8 million tons, resulting in a production-to-consumption deficit of 164,000 tons.
+
+World Mine Production and Reserves: Reserves for China, India, Kazakhstan, Peru, Russia, South Africa,
+Sweden, and the United States were revised based on company and Government reports.
+
+                                                          Mine production9                                            Reserves10
+                                                            2023      2024e
+United States                                                767        750                                                 9,200
+Australia                                                  1,090      1,100                                              11
+                                                                                                                           64,000
+Bolivia                                                      492        510                                                    NA
+China                                                      4,060      4,000                                                46,000
+India                                                       e
+                                                             854        860                                                 9,800
+Kazakhstan                                                   340        370                                                 7,600
+Mexico                                                       584        700                                                14,000
+Peru                                                       1,470      1,300                                                20,000
+Russia                                                      e
+                                                             300        310                                                29,000
+South Africa                                                 198        120                                                 5,900
+Sweden                                                       218        240                                                 3,900
+Other countries                                            1,690      1,700                                                25,000
+  World total (rounded)                                   12,100    12,000                                                230,000
+
+World Resources:10 Identified zinc resources of the world are about 1.9 billion tons.
+
+Substitutes: Aluminum and plastics substitute for galvanized sheet in automobiles; aluminum alloys, cadmium, paint, and
+plastic coatings replace zinc coatings in other applications. Aluminum- and magnesium-base alloys are major substitutes
+for zinc-base diecasting alloys. Many elements are substitutes for zinc in chemical, electronic, and pigment uses.
+
+
+
+e
+  Estimated. E Net exporter. NA Not available. — Zero.
+1
+  Includes primary and secondary zinc metal production.
+2
+  Defined as changes in total inventory from prior yearend inventory. If negative, increase in inventory. Beginning in 2023, Government stock
+changes no longer available.
+3
+  Defined for 2020–22 as refined production + refined imports – refined exports ± adjustments for Government stock changes. Beginning in 2023,
+Government stock changes no longer included.
+4
+  Source: S&P Global Platts Metals Week, North American SHG zinc; based on the LME cash price plus premium.
+5
+  Includes mine and mill employment at zinc-containing deposits. Excludes office workers. Source: Mine Safety and Health Administration.
+6
+  Defined for 2020–22 as imports – exports ± adjustments for Government stock changes. Beginning in 2023, Government stock changes no longer
+included.
+7
+  See Appendix B for definitions.
+8
+  Source: International Lead and Zinc Study Group, 2024, ILZSG session/forecasts: Lisbon, Portugal, International Lead and Zinc Study Group
+press release, September 30, [4] p.
+9
+  Zinc content of concentrates and direct shipping ores.
+10
+   See Appendix C for resource and reserve definitions and information concerning data sources.
+11
+   For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 21 million tons.
+
+                                                   U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

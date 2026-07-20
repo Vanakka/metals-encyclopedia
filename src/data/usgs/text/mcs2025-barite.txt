@@ -1,0 +1,134 @@
+40
+                                                           BARITE
+                                   (Data in thousand metric tons unless otherwise specified)
+
+ Domestic Production and Use: In 2024, three companies mined barite at four operations in Nevada. Mine
+ production increased, but data were withheld to avoid disclosing company proprietary data. An estimated 2.3 million
+ tons of barite (from domestic production and imports) was sold by crushers and grinders operating in nine States.
+
+ Typically, more than 90% of the barite sold in the United States is used as a weighting agent in fluids used in the
+ drilling of oil and natural gas wells. The majority of Nevada crude barite was ground in Nevada and then sold to
+ companies drilling in the Central and Western United States. Because of the higher cost of rail and truck
+ transportation compared to ocean freight, offshore drilling operations in the Gulf of Mexico and onshore drilling
+ operations in other regions primarily used imported barite.
+
+ Barite also is used as a filler, extender, or weighting agent in products such as paints, plastics, and rubber. Some
+ specific applications include use in automobile brake and clutch pads, in automobile paint primer for metal protection
+ and gloss, as a weighting agent in rubber, and in the cement jacket around underwater petroleum pipelines. In the
+ metal-casting industry, barite is part of the mold-release compounds. Because barite significantly blocks X-ray and
+ gamma-ray emissions, it is used as aggregate in high-density concrete for radiation shielding around X-ray units in
+ hospitals, nuclear powerplants, and university nuclear research facilities. Ultrapure barite is used as a contrast
+ medium in X-ray and computed tomography examinations of the gastrointestinal tract.
+
+     Salient Statistics—United States:                                     2020      2021        2022    2023       2024e
+     Production:
+       Sold or used, mine                                                     W        W           W       W           W
+       Ground and crushed1                                                 1,410    1,670       2,220   2,260       2,300
+     Imports:2
+       For consumption                                                     1,480    1,660       2,330   2,420       2,000
+       General                                                               869    1,440       1,890   2,220       1,900
+     Exports3                                                                 48       62          87      75          65
+     Consumption, apparent (crude and ground)4                                W        W           W       W           W
+     Price, average unit value, ground, ex-works, dollars per metric ton     183      167         145     223         220
+     Employment, mine and mill, numbere                                      360      330         380     440         440
+     Net import reliance5 as a percentage of apparent consumption            >75      >75         >75     >75         >75
+
+ Recycling: None.
+
+ Import Sources (2020–23): India, 40%; China,6 25%; Morocco, 17%; Mexico, 14%; and other, 4%.
+
+     Tariff:   Item                                                  Number                    Normal Trade Relations
+                                                                                                     12–31–24
+     Ground barite                                               2511.10.1000                          Free.
+     Crude barite                                                2511.10.5000                   $1.25 per metric ton.
+     Barium compounds:
+      Barium oxide, hydroxide, and peroxide                      2816.40.2000                     2% ad valorem.
+      Barium chloride                                            2827.39.4500                    4.2% ad valorem.
+      Barium sulfate, precipitated                               2833.27.0000                    0.6% ad valorem.
+      Barium carbonate, precipitated                             2836.60.0000                    2.3% ad valorem.
+
+ Depletion Allowance: 14% (domestic and foreign).
+
+ Government Stockpile: None.
+
+
+
+
+ Prepared by Ji-Eun Kim [(703) 648–7717, ji-eunkim@usgs.gov]
+                                                                                                                                                      41
+                                                                   BARITE
+Events, Trends, and Issues: Rig counts for oil and gas production are often used as an indicator of barite
+consumption. However, barite use per rig has been increasing owing to deeper oil and gas wells that require fewer
+rigs for oil and gas production. Through October 2024, the world annual average rig count excluding the United States
+was 1,169 compared with 1,154 in 2023. Increases in worldwide rig counts contributed to a slight increase in world
+barite production. At the beginning of 2024, the number of drill rigs7 operating in the United States was 622; by the
+end of October 2024, the number of rigs operating had declined to 585. Rig counts remained 39% lower than that in
+the same period in 2019 before the global coronavirus disease 2019 (COVID-19) pandemic in 2020. Despite the
+slowing pace of domestic drill counts, barite sales were estimated to have increased slightly.
+
+World Mine Production and Reserves: In response to concerns about dwindling global reserves of 4.2-specific-
+gravity barite used by the oil- and gas-drilling industry, the American Petroleum Institute issued an alternate
+specification for 4.1-specific-gravity weighting agents in 2010. Estimated reserves data were included only if
+developed since the adoption of the 4.1-specific-gravity standard. Reserves for China, Iran, and Turkey were revised
+based on company and Government reports.
+
+                                                                  Mine productione                                            Reserves8
+                                                                    2023       2024
+United States                                                          W         W                                                     NA
+China                                                              2,000      2,100                                               110,000
+India                                                              2,600      2,600                                                51,000
+Iran                                                                 300        310                                               100,000
+Kazakhstan                                                           650        650                                                85,000
+Laos                                                                 300        300                                                    NA
+Mexico                                                               320        330                                                    NA
+Morocco                                                            1,000      1,000                                                    NA
+Pakistan                                                             130        130                                                    NA
+Russia                                                               250        250                                                12,000
+Turkey                                                              9
+                                                                     216        220                                                34,000
+Other countries                                                       314       320                                                    NA
+   World total (rounded)                                         10
+                                                                   8,080    10
+                                                                              8,200                                                    NA
+
+World Resources:8 In the United States, identified resources of barite were estimated to be 150 million tons, and
+undiscovered resources contributed an additional 150 million tons. The world’s barite resources in all categories were
+about 2 billion tons, but only about 740 million tons were identified resources.
+
+Substitutes: Owing to technical and economic factors, there are no large-scale alternatives to barite in oil- and gas-
+drilling fluids. Calcium carbonate, hematite, ilmenite, and manganese tetroxide are the most common alternatives
+used in specific circumstances. Some technical literature and patents also mention use of celestite, iron carbonate,
+and strontium carbonate, but these are not estimated to be widely used.
+
+
+
+
+e
+  Estimated. NA Not available. W Withheld to avoid disclosing company proprietary data.
+1
+  Imported and domestic barite, crushed and ground, sold or used by domestic grinding establishments.
+2
+  Includes data for the following Harmonized Tariff Schedule of the United States codes: 2511.10.1000, 2511.10.5000, and 2833.27.0000. General
+imports and imports for consumption data differ because of barite processed in free trade zones. General import data reports the form of imported
+barite at the time it entered the United States, whereas imports for consumption data reports crude barite processed in free trade zones as ground.
+Imports for consumption may not be immediately reported depending on processing time.
+3
+  Includes data for the following Schedule B numbers: 2511.10.1000 and 2833.27.0000.
+4
+  Defined as mine production (sold or used) + imports for consumption – exports.
+5
+  Defined as imports for consumption – exports.
+6
+  Includes Hong Kong.
+7
+  Source: Baker Hughes Co., 2024, North America rotary rig count: Baker Hughes Co. (Accessed October 24, 2024, at
+https://bakerhughesrigcount.gcs-web.com/na-rig-count.)
+8
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+9
+  Reported.
+10
+   Excludes U.S. production.
+
+                                                     U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

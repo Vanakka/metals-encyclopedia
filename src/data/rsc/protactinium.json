@@ -1,0 +1,13 @@
+{
+  "key": "protactinium",
+  "name": "Protactinium",
+  "atomicNumber": 91,
+  "url": "https://periodic-table.rsc.org/element/91/protactinium",
+  "slug": "protactinium",
+  "fetchedAt": "2026-07-20T01:47:11.468Z",
+  "appearance": "A silvery, radioactive metal.",
+  "uses": "Protactinium is little used outside of research.",
+  "naturalAbundance": "Small amounts of protactinium are found naturally in uranium ores. It is also found in spent fuel rods from nuclear reactors, from which it is extracted.",
+  "biologicalRole": "Protactinium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

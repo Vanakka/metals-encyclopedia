@@ -1,0 +1,13 @@
+{
+  "key": "actinium",
+  "name": "Actinium",
+  "atomicNumber": 89,
+  "url": "https://periodic-table.rsc.org/element/89/actinium",
+  "slug": "actinium",
+  "fetchedAt": "2026-07-20T01:47:07.799Z",
+  "appearance": "Actinium is a soft, silvery-white radioactive metal. It glows blue in the dark because its intense radioactivity excites the air around it.",
+  "uses": "Actinium is a very powerful source of alpha rays, but is rarely used outside research.",
+  "naturalAbundance": "Actinium used for research purposes is made by the neutron bombardment of radium-226. Actinium also occurs naturally in uranium ores.",
+  "biologicalRole": "Actinium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

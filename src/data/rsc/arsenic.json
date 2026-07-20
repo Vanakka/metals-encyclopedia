@@ -1,0 +1,13 @@
+{
+  "key": "arsenic",
+  "name": "Arsenic",
+  "atomicNumber": 33,
+  "url": "https://periodic-table.rsc.org/element/33/arsenic",
+  "slug": "arsenic",
+  "fetchedAt": "2026-07-20T01:45:38.315Z",
+  "appearance": "Arsenic is a semi-metal. In its metallic form it is bright, silver-grey and brittle.",
+  "uses": "Arsenic is a well-known poison. Arsenic compounds are sometimes used as rat poisons and insecticides but their use is strictly controlled. Surprisingly, arsenic can also have medicinal applications. In Victorian times, Dr Fowler’s Solution (potassium arsenate dissolved in water) was a popular cure-all tonic that was even used by Charles Dickens. Today, organoarsenic compounds are added to poultry feed to prevent disease and improve weight gain. Arsenic is used as a doping agent in semiconductors (gallium arsenide) for solid-state devices. It is also used in bronzing, pyrotechnics and for hardening shot. Arsenic compounds can be used to make special glass and preserve wood.",
+  "naturalAbundance": "A small amount of arsenic is found in its native state. It is mainly found in minerals. The most common arsenic-containing mineral is arsenopyrite. Others include realgar, orpiment and enargite. Most arsenic is produced as a by-product of copper and lead refining. It can be obtained from arsenopyrite by heating, causing the arsenic to sublime and leave behind iron(II) sulfide.",
+  "biologicalRole": "Some scientists think that arsenic may be an essential element in our diet in very, very low doses. In small doses it is toxic and a suspected carcinogen. Once inside the body it bonds to atoms in the hair, so analysing hair samples can show whether someone has been exposed to arsenic. Some foods, such as prawns, contain a surprising amount of arsenic in a less harmful, organic form.",
+  "ok": true
+}

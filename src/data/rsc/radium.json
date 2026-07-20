@@ -1,0 +1,13 @@
+{
+  "key": "radium",
+  "name": "Radium",
+  "atomicNumber": 88,
+  "url": "https://periodic-table.rsc.org/element/88/radium",
+  "slug": "radium",
+  "fetchedAt": "2026-07-20T01:47:05.883Z",
+  "appearance": "A soft, shiny and silvery radioactive metal.",
+  "uses": "Radium now has few uses, because it is so highly radioactive. Radium-223 is sometimes used to treat prostate cancer that has spread to the bones. Because bones contain calcium and radium is in the same group as calcium, it can be used to target cancerous bone cells. It gives off alpha particles that can kill the cancerous cells. Radium used to be used in luminous paints, for example in clock and watch dials. Although the alpha rays could not pass through the glass or metal of the watch casing, it is now considered to be too hazardous to be used in this way.",
+  "naturalAbundance": "Radium is present in all uranium ores, and could be extracted as a by-product of uranium refining. Uranium ores from DR Congo and Canada are richest in radium. Today radium is extracted from spent fuel rods from nuclear reactors. Annual production of this element is fewer than 100 grams per year.",
+  "biologicalRole": "Radium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

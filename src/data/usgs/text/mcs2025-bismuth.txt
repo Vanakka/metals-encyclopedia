@@ -1,0 +1,132 @@
+46
+                                                         BISMUTH
+                                       (Data in metric tons unless otherwise specified)
+
+ Domestic Production and Use: The United States ceased production of primary refined bismuth in 1997 and is
+ highly import reliant. Bismuth is contained in some lead ores mined domestically. However, the last domestic primary
+ lead smelter closed at yearend 2013; since then, all lead concentrates have been exported for smelting.
+
+ Most domestic bismuth consumption was for chemicals used in cosmetic, industrial, laboratory, and pharmaceutical
+ applications. Bismuth use in pharmaceuticals included bismuth subsalicylate (the active ingredient in over-the-counter
+ stomach remedies) and other compounds used to treat burns, intestinal disorders, and stomach ulcers. Bismuth
+ compounds such as bismuth nitrate, bismuth oxychloride, and bismuth vanadate are also used in industrial
+ applications for the manufacture of ceramic glazes, crystalware, high-performance pigments, and pearlescent pigments.
+
+ Bismuth has a wide variety of metallurgical applications, including use as an additive to improve metal integrity of
+ malleable cast iron in the foundry industry and as a nontoxic replacement for lead in brass, free-machining aluminum
+ alloys and steels, and solders. The use of bismuth in brass for pipe fittings, fixtures, and water meters increased after
+ 2014, when the definition of “lead-free” under the Safe Drinking Water Act was modified to reduce the maximum lead
+ content of “lead-free” pipes and plumbing fixtures to 0.25% from 8%. The melting point of bismuth is relatively low at
+ 271 degrees Celsius. Bismuth is an important component of various fusible alloys that can be used in holding devices
+ for grinding optical lenses, as plugs for abandoned oil wells, as a temporary filler to prevent damage to tubes in
+ bending operations, as a triggering mechanism for fire sprinklers, and in other applications in which a low melting
+ point is ideal. Bismuth-tellurium-oxide alloy film paste is used in the manufacture of semiconductor devices.
+
+     Salient Statistics—United States:                                    2020      2021     2022     2023     2024e
+     Production:
+       Refinery                                                              —        —        —         —         —
+       Secondary (scrap)e                                                    80       80       80        80        80
+     Imports for consumption, metal, alloys, and scrap:
+       Containing more than 99.99% bismuth, by weight                       NA        NA      740       731      650
+       Other                                                                NA        NA    2,340     1,110    1,200
+         Total1                                                          1,650     1,980    3,080     1,840    1,800
+     Exports, metal, alloys, and scrap:
+       Containing more than 99.99% bismuth, by weight                         NA      NA      144       131      560
+       Other                                                                  NA      NA      360       329      600
+         Total2                                                              699   1,010      503       460    1,200
+     Consumption:
+       Apparent3                                                         1,210     1,030    2,600     1,450       760
+       Reported                                                            513       597      724       691       700
+     Price, average,4 dollars per pound                                   2.73      3.74     3.90      4.08      5.30
+     Stocks, yearend, consumer, bismuth metal                              271       297      356       365       365
+     Net import reliance5 as a percentage of apparent consumption           93        92       97        94        89
+
+ Recycling: Recycled bismuth-containing alloy scrap was thought to compose up to 3% to 10% of U.S. bismuth
+ apparent consumption for the years 2020–24.
+
+ Import Sources (2020–23): China,6 67%; Republic of Korea, 23%; and other, 10%.
+
+     Tariff:   Item                                                 Number                 Normal Trade Relations
+                                                                                                 12–31–24
+     Bismuth and articles thereof, including waste and
+       scrap:
+       Containing more than 99.99% of bismuth,                  8106.10.0000                         Free.
+         by weight
+       Other                                                    8106.90.0000                         Free.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile: None.
+
+
+
+
+ Prepared by Kateryna Klochko [(703) 648–4977, kklochko@usgs.gov]
+                                                                                                                                                 47
+                                                                BISMUTH
+Events, Trends, and Issues: In 2024, average monthly prices for bismuth (in-warehouse, Rotterdam) increased from
+$3.89 per pound in January to $6.29 per pound in October. The estimated annual average price in 2024 was
+$5.30 per pound, a 30% increase from that in 2023, and the highest annual average price since 2018. Bismuth metal
+prices have been increasing worldwide and particularly in China since 2023. China, the leading producer and exporter
+of bismuth, reportedly experienced high feedstock prices as competition for bismuth ore increased among domestic
+smelters. United States bismuth metal imports (under Harmonized System code 8106) from China decreased by 40%
+to 580 tons in 2024 from 964 tons in 2023.
+
+Estimated world production of bismuth was 16,000 tons in 2024 compared with 16,200 tons in 2023. Reported
+bismuth production capacities were unavailable.
+
+World Refinery Production and Capacity:
+
+                                                                 Refinery productione                 Production capacity
+                                                                      2023      2024e
+United States                                                           —          —                                         NA
+Bolivia                                                                 68         70                                        NA
+Bulgaria                                                                46         50                                        NA
+China                                                               13,300     13,000                                        NA
+Japan                                                                  500        500                                        NA
+Kazakhstan                                                             180        180                                        NA
+Korea, Republic of                                                   1,000      1,000                                        NA
+Laos                                                                81,150      1,100                                        NA
+  World total (rounded)                                             16,200     16,000                                        NA
+
+World Resources:7 Bismuth reserves and resources data were generally not reported at a mine or country level and
+thus difficult to quantify. Bismuth minerals rarely occur in sufficient quantities to be mined as principal products;
+bismuth is produced most often as a byproduct during the processing of lead ores. In China and Vietnam, bismuth is
+also produced as a byproduct or coproduct of tungsten and other metal ore processing. In Japan and the Republic of
+Korea, bismuth is produced as a byproduct or coproduct of zinc ore processing. The Tasna Mine in Bolivia, which has
+been inactive since 1996, and a mine in China are the only mines where bismuth has been the primary product.
+
+Substitutes: Bismuth compounds can be replaced in pharmaceutical applications by alumina, antibiotics, calcium
+carbonate, and magnesia. Titanium-dioxide-coated mica flakes and fish-scale extracts are substitutes in certain
+pigment uses. Cadmium, indium, lead, and tin can partially replace bismuth in low-temperature solders. Resins can
+replace bismuth alloys for holding metal shapes during machining, and glycerin-filled glass bulbs can replace bismuth
+alloys in triggering devices for fire sprinklers. Free-machining alloys can contain lead, selenium, or tellurium as a
+replacement for bismuth. Bismuth is an environmentally friendly substitute for lead in plumbing and many other
+applications, including fishing weights, hunting ammunition, lubricating greases, and soldering alloys.
+
+
+
+
+e
+ Estimated. NA Not available. — Zero.
+1
+ Includes data for the following Harmonized Tariff Schedule of the United States codes: 8106.00.0000 (for the years 2020–21), and 8106.10.0000
+and 8106.90.0000 (for the years 2022–24).
+2
+ Includes data for the following Schedule B numbers: 8106.00.0000 (for the years 2020–21), and 8106.10.0000 and 8106.90.0000 (for the years
+2022–24).
+3
+ Defined as secondary production + imports – exports ± adjustments for industry stock changes.
+4
+ Prices are based on 99.99%-purity metal at warehouse (Rotterdam) in minimum lots of 1 ton. Source: Fastmarkets.
+5
+ Defined as imports – exports ± adjustments for industry stock changes.
+6
+ Includes Hong Kong.
+7
+ See Appendix C for resource and reserve definitions and information concerning data sources.
+8
+ Reported.
+
+                                                   U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

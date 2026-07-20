@@ -1,0 +1,13 @@
+{
+  "key": "antimony",
+  "name": "Antimony",
+  "atomicNumber": 51,
+  "url": "https://periodic-table.rsc.org/element/51/antimony",
+  "slug": "antimony",
+  "fetchedAt": "2026-07-20T01:46:05.633Z",
+  "appearance": "Antimony is a semi-metal. In its metallic form it is silvery, hard and brittle.",
+  "uses": "Antimony is used in the electronics industry to make some semiconductor devices, such as infrared detectors and diodes. It is alloyed with lead or other metals to improve their hardness and strength. A lead-antimony alloy is used in batteries. Other uses of antimony alloys include type metal (in printing presses), bullets and cable sheathing. Antimony compounds are used to make flame-retardant materials, paints, enamels, glass and pottery.",
+  "naturalAbundance": "Antimony is not an abundant element but is found in small quantities in over 100 mineral species. It is most often found as antimony(III) sulfide. It is extracted by roasting the antimony(III) sulfide to the oxide, and then reducing with carbon. Antimony can also be found as the native metal. China produces 88% of the world’s antimony. Other producers are Bolivia, Russia and Tajikistan.",
+  "biologicalRole": "Antimony and many of its compounds are toxic.",
+  "ok": true
+}

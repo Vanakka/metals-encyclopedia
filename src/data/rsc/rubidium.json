@@ -1,0 +1,13 @@
+{
+  "key": "rubidium",
+  "name": "Rubidium",
+  "atomicNumber": 37,
+  "url": "https://periodic-table.rsc.org/element/37/rubidium",
+  "slug": "rubidium",
+  "fetchedAt": "2026-07-20T01:45:40.132Z",
+  "appearance": "A soft metal that ignites in the air and reacts violently with water.",
+  "uses": "Rubidium is little used outside research. It has been used as a component of photocells, to remove traces of oxygen from vacuum tubes and to make special types of glass. It is easily ionised so was considered for use in ion engines, but was found to be less effective than caesium. It has also been proposed for use as a working fluid for vapour turbines and in thermoelectric generators. Rubidium nitrate is sometimes used in fireworks to give them a purple colour.",
+  "naturalAbundance": "Rubidium occurs in the minerals pollucite, carnallite, leucite and lepidolite. It is recovered commercially from lepidolite as a by-product of lithium extraction. Potassium minerals and brines also contain rubidium and are another commercial source.",
+  "biologicalRole": "Rubidium has no known biological role and is non-toxic. However, because of its chemical similarity to potassium we absorb it from our food, and the average person has stores of about half a gram. It is slightly radioactive and so has been used to locate brain tumours, as it collects in tumours but not in normal tissue.",
+  "ok": true
+}

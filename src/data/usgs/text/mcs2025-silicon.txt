@@ -1,0 +1,139 @@
+160
+                                                      SILICON
+                       (Data in thousand metric tons, silicon content, unless otherwise specified)
+
+ Domestic Production and Use: Ferrosilicon and silicon metal were produced at five facilities in 2024, all east of the
+ Mississippi River. An additional silicon metal facility was idled at the end of 2023 owing to poor market conditions.
+ Most ferrosilicon was consumed in the ferrous foundry and steel industries, predominantly in the Eastern United
+ States, and was sourced primarily from domestic quartzite (silica). The main consumers of silicon metal were
+ producers of aluminum alloys and the chemical industry, in particular for the manufacture of silicones. Silicon metal
+ may be further processed into ultra-high-purity semiconductor- or solar-grades, commonly referred to as polysilicon.
+ Four companies produced polysilicon in the United States.
+
+  Salient Statistics—United States:                                      2020     2021      2022       2023   2024e
+  Production, ferrosilicon1 and silicon metal2                             W        W         W          W       W
+  Imports for consumption:
+    Ferrosilicon, all grades                                              140       125      175        153     150
+    Silicon metal                                                          97        97      116         79     110
+  Exports:
+    Ferrosilicon, all grades                                                4         7         9         5       4
+    Silicon metal                                                          32        53        47        42      40
+  Consumption, apparent,3 ferrosilicon1 and silicon metal2                 W         W         W         W       W
+  Price, average, cents per pound of silicon:
+    Ferrosilicon, 50% silicon4                                         103.38   137.94       NA         NA       NA
+    Ferrosilicon, 75% silicon5                                          87.40   192.28    312.10     142.23     130
+    Silicon metal2, 5                                                   96.84   220.31    361.86     179.69     180
+  Stocks, producer, ferrosilicon1 and silicon metal,2 yearend              W        11        17         15      14
+  Net import reliance6 as a percentage of apparent consumption:
+    Ferrosilicon, all grades                                              >50      <50       >50        >50     >50
+    Silicon metal2                                                        <50      <25       <50        <50     <50
+      Total                                                               <50      <50       <50        <50     <50
+
+ Recycling: Insignificant.
+
+ Import Sources (2020–23): Ferrosilicon: Russia, 37%; Brazil, 14%; Canada, 13%; Malaysia, 9%; and other, 27%.
+ Silicon metal: Brazil, 38%; Canada, 28%; Norway, 13%; Australia, 5%; and other, 16%. Total: Brazil, 24%; Russia,
+ 23%; Canada, 19%; Malaysia, 7%; and other, 27%.
+
+  Tariff:   Item                                                        Number            Normal Trade Relations
+                                                                                                12–31–24
+  Silicon:
+    More than or equal to 99.99% silicon                            2804.61.0000                  Free.
+    More than or equal to 99.00% but less than 99.99% silicon       2804.69.1000             5.3% ad valorem.
+    Other                                                           2804.69.5000             5.5% ad valorem.
+  Ferrosilicon:
+    More than 55% but less than or equal to 80% silicon:
+       More than 3% calcium                                         7202.21.1000             1.1% ad valorem.
+       Other                                                        7202.21.5000             1.5% ad valorem.
+    More than 80% but less than or equal to 90% silicon             7202.21.7500             1.9% ad valorem.
+    More than 90% silicon                                           7202.21.9000             5.8% ad valorem.
+    Other:
+       More than 2% magnesium                                       7202.29.0010                     Free.
+       Other                                                        7202.29.0050                     Free.
+
+ Depletion Allowance: Quartzite, 14% (domestic and foreign); gravel, 5% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Combined domestic ferrosilicon and silicon metal production in 2024 was withheld to
+ avoid disclosing proprietary information but was estimated to be less than that in 2023. The January through
+ September 2024 average U.S. spot price for 75%-grade ferrosilicon was almost 9% less than the annual average
+ price in 2023, and the average U.S. spot price of silicon metal was 180.00 cents per pound compared with the annual
+ average of 179.69 cents per pound in 2023.
+
+
+ Prepared by Emily K. Schnebele [(703) 648–4945, eschnebele@usgs.gov]
+                                                                                                                                           161
+                                                               SILICON
+Since the CHIPS and Science Act was signed into law in 2022, the U.S. Department of Commerce announced as of
+October 2024 preliminary agreements with 20 companies for 32 semiconductor manufacturing projects in 20 States.
+In total, these projects have received almost $34 billion of the available $39 billion in direct funding and almost
+$29 billion in loans. The Department of Commerce planned to allocate the remaining funds to CHIPS and Science Act
+grantees by the end of 2024.
+
+As part of a new integrated silicon-based solar supply chain facility in Georgia, production of silicon solar modules
+began in April 2024. The facility was expected to be fully operational in 2025 and will manufacture silicon ingots,
+wafers, cells, and modules. In Washington, a solar-grade polysilicon production facility was restarted after being idle
+since 2019. Shipment of the polysilicon was pending following third party quality testing. In Montana, a facility stopped
+production of its electronic-grade polysilicon to focus on silicon gas production.
+
+Excluding the United States, ferrosilicon accounted for more than 50% of world silicon production on a silicon-content
+basis in 2024. China accounted almost 80% of total global estimated production of silicon materials in 2024. Global
+production of silicon materials, on a silicon-content basis, was estimated to have increased slightly from that in 2023.
+In 2024, Canada’s Minister of Energy and Natural Resources added silicon metal to its critical minerals list and silicon
+metal was included as a strategic raw material in the European Union’s Critical Raw Materials Act owing to its
+importance in the manufacture of semiconductor chips, the electronics market, and solar power generation.
+
+World Production:
+
+                                                           Ferrosilicone                        Silicon metale
+                                                       2023            2024                 2023            2024
+United States                                             W              W                     W                W
+Australia                                                 —              —                     39               40
+Bhutan                                                    82             80                    —                —
+Brazil                                                   190            200                   196              190
+Canada                                                    23             20                    29               30
+China                                                  3,640          3,500                 3,630           3,900
+France                                                    23             20                    90               90
+Germany                                                   —              —                     59               60
+Iceland                                                   73             70                    24               20
+India                                                     59             60                    —                —
+Kazakhstan                                               127            130                     7                7
+Malaysia                                                  91            130                    —                —
+Norway                                                   176            180                   123              120
+Poland                                                    33             30                    —                —
+Russia                                                   473            470                    54               50
+South Africa                                              37             40                    13               10
+Spain                                                     44             40                     5                5
+Other countries                                          119            130                    11               78
+  World total (rounded)7                               5,190          5,100                 4,280           4,600
+
+World Resources:8 World and domestic resources for making silicon metal and alloys are abundant and, in most
+producing countries, adequate to supply world requirements for many decades. The source of the silicon is silica in
+various natural forms, such as quartzite.
+
+Substitutes: Aluminum, silicon carbide, and silicomanganese can be substituted for ferrosilicon in some applications.
+Gallium arsenide and germanium are the principal substitutes for silicon in semiconductor and infrared applications.
+e
+  Estimated. NA Not available. W Withheld to avoid disclosing company proprietary data. — Zero.
+1
+  Ferrosilicon grades include the two standard grades of ferrosilicon—50% silicon and 75% silicon—plus miscellaneous silicon alloys.
+2
+  Metallurgical-grade silicon metal.
+3
+  Defined as production + imports – exports ± adjustments for industry stock changes.
+4
+  Source: CRU Group, transaction prices based on weekly averages. Average spot prices for ferrosilicon, 50% grade, were discontinued in
+April 2022.
+5
+  Source: S&P Global Platts Metals Week, mean import prices based on monthly averages. Estimated 2024 price is the mean based on monthly
+average of January through September 2024.
+6
+  Defined as imports – exports ± adjustments for industry stock changes.
+7
+  Excludes U.S. production.
+8
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+
+                                                  U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

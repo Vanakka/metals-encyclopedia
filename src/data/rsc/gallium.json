@@ -1,0 +1,13 @@
+{
+  "key": "gallium",
+  "name": "Gallium",
+  "atomicNumber": 31,
+  "url": "https://periodic-table.rsc.org/element/31/gallium",
+  "slug": "gallium",
+  "fetchedAt": "2026-07-20T01:45:34.576Z",
+  "appearance": "Gallium is a soft, silvery-white metal, similar to aluminium.",
+  "uses": "Gallium arsenide has a similar structure to silicon and is a useful silicon substitute for the electronics industry. It is an important component of many semiconductors. It is also used in red LEDs (light emitting diodes) because of its ability to convert electricity to light. Solar panels on the Mars Exploration Rover contained gallium arsenide. Gallium nitride is also a semiconductor. It has particular properties that make it very versatile. It has important uses in Blu-ray technology, mobile phones, blue and green LEDs and pressure sensors for touch switches. Gallium readily alloys with most metals. It is particularly used in low-melting alloys. It has a high boiling point, which makes it ideal for recording temperatures that would vaporise a thermometer.",
+  "naturalAbundance": "It is present in trace amounts in the minerals diaspore, sphalerite, germanite, bauxite and coal. It is mainly produced as a by-product of zinc refining. The metal can be obtained by electrolysis of a solution of gallium(III) hydroxide in potassium hydroxide.",
+  "biologicalRole": "Gallium has no known biological role. It is non-toxic.",
+  "ok": true
+}

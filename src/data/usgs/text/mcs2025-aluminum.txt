@@ -1,0 +1,148 @@
+32
+                                                      ALUMINUM1
+                                  (Data in thousand metric tons unless otherwise specified)
+
+ Domestic Production and Use: In 2024, two companies operated four primary aluminum smelters in four States.
+ Two of these smelters operated at full capacity throughout the year, whereas two smelters operated at reduced
+ capacity. One smelter located in Hawesville, KY, has been temporarily shut down since 2022, and another smelter in
+ New Madrid, MO, was temporarily shut down in January. Domestic smelter capacity was 1.36 million tons per year in
+ 2024, unchanged from that in 2023. Estimated primary production decreased by 11% from that in 2023, whereas
+ estimated secondary production from new and old scrap was 5% more than that in 2023. Based on published prices,
+ the value of primary aluminum production was about $1.9 billion, 9% less than that in 2023. The estimated average
+ annual U.S. market price increased by 3% from that in 2023. Transportation applications accounted for 36% of
+ domestic consumption; the remainder was used in packaging, 23%; building, 14%; electrical, 9%; consumer durables
+ and machinery, 8% each; and other, 2%.
+
+     Salient Statistics—United States:                                 2020      2021         2022     2023    2024e
+     Production:
+       Primary                                                        1,010        889          861      750      670
+       Secondary (from old scrap)                                     1,420      1,520        1,480    1,560    1,600
+       Secondary (from new scrap)                                     1,630      1,780        1,920    1,870    2,000
+     Imports for consumption:
+       Crude and semimanufactures                                     4,260      4,820        5,710    4,890    4,800
+       Scrap                                                            542        679          685      677      660
+     Exports:
+       Crude and semimanufactures                                       906        900        1,040    1,230    1,400
+       Scrap                                                          1,840      2,100        2,000    2,060    1,600
+     Consumption, apparent2                                           3,930      4,020        4,890    4,150    4,300
+     Supply, apparent3                                                5,560      5,800        6,810    6,010    6,300
+     Price, ingot, average U.S. market (spot), cents per pound4        89.7      138.5        152.6    125.9      130
+     Stocks, yearend:
+       Aluminum industry                                              1,490     1,870     2,050        1,820    1,600
+       London Metal Exchange (LME), U.S. warehouses5                    235        69         9            5       10
+     Employment, number6                                             30,100    28,900    30,200       30,500   30,000
+     Net import reliance7 as a percentage of apparent consumption        38        40        52           44       47
+
+ Recycling: In 2024, aluminum recovered from purchased scrap in the United States was about 3.6 million tons, of
+ which about 56% came from new scrap (manufacturing) and 44% from old scrap (discarded aluminum products).
+ Aluminum recovered from old scrap was equivalent to about 37% of apparent consumption.
+
+ Import Sources (2020–23): Canada, 56%; United Arab Emirates, 8%; Bahrain, 4%; China,8 3%; and other, 29%.
+
+     Tariff:   Item                                                 Number                    Normal Trade Relations
+                                                                                                    12–31–24
+     Aluminum, not alloyed:
+       Unwrought (in coils)                                    7601.10.3000                     2.6% ad valorem.
+       Unwrought (greater than 99.8% aluminum)                 7601.10.6030                          Free.
+     Aluminum alloys, unwrought (billet)                       7601.20.9045                          Free.
+     Aluminum scrap:
+       Used beverage container scrap                           7602.00.0035                           Free.
+       Industrial process scrap                                7602.00.0095                           Free.
+       Other                                                   7602.00.0097                           Free.
+
+ Depletion Allowance: Not applicable.1
+
+ Government Stockpile:9
+
+                                                  FY 2024                                     FY 2025
+                                       Potential          Potential                Potential          Potential
+     Material                         acquisitions        disposals               acquisitions        disposals
+     Aluminum, high-purity and           18.5                —                       3.2                 —
+       alloys
+
+
+
+ Prepared by Adam M. Merrill [(703) 648–7715, amerrill@usgs.gov]
+                                                                                                                                                     33
+                                                                ALUMINUM
+Events, Trends, and Issues: In January 2024, a 263,000-ton-per-year primary aluminum smelter in New Madrid,
+MO, shut down its full production with no scheduled restart. In June, a Republic of Korea-based auto parts
+manufacturer opened a $128 million production and casting facility in Tuskegee, AL. The facility produced aluminum
+components for an automobile manufacturing plant in Montgomery, AL. In September, construction began on a
+$40 million aluminum recycling facility in Russellville, KY, which will process dross and scrap from a nearby aluminum
+casting plant. Also in September, a United Arab Emirates-based aluminum producer announced the acquisition of a
+110,000-ton-per-year United States-based secondary aluminum producer located in Rosemont, MN.
+
+In March, the U.S. Department of Energy announced grants to four aluminum operations, including $500 million to
+build a new aluminum smelter within the Ohio River and Mississippi River Basins; $75 million to build a low-carbon
+aluminum casting plant in Ravenswood, WV; $67.3 million to build a low-waste recycling facility in Wabash, IN; and
+$22.3 million to upgrade casting and rolling equipment at a casting and rolling mill in Fort Lupton, CO. In July, the
+U.S. Department of Defense awarded $23 million to increase aluminum casting capacity by as much as 136,000 tons
+per year at an aluminum rolling facility in Muscle Shoals, AL.
+
+In April, the United States coordinated with the United Kingdom to ban imports of aluminum from Russia into both
+countries and to restrict the sale of these metals on global metal exchanges and in over-the-counter derivative
+trading. In July, the United States imposed 10% duties on imports of aluminum products and derivative aluminum
+products from Mexico that contain primary aluminum for which the primary or secondary country of smelt or the most
+recent country of cast was Belarus, China, Iran, or Russia. In September, the United States increased tariffs on
+aluminum products imported from China, from 0%–7.5% to 25%.
+
+World Smelter Production and Capacity: Capacity data for China, India, and other countries were revised based on
+company and Government reports.
+
+                                                    Smelter production                                            Yearend capacity
+                                                       2023       2024e                                       2023               2024e
+United States                                           750         670                                       1,360              1,360
+Australia                                             1,560       1,500                                       1,730              1,730
+Bahrain                                               1,620       1,600                                       1,600              1,600
+Brazil                                                1,020       1,100                                       1,280              1,280
+Canada                                               e
+                                                      3,200       3,300                                       3,270              3,270
+China                                               41,600       43,000                                      44,400             44,700
+Iceland                                                e
+                                                        770         780                                         880                880
+India                                                e
+                                                      4,100       4,200                                       4,100              4,200
+Malaysia                                               e
+                                                        940         870                                       1,080              1,080
+Norway                                               e
+                                                      1,300       1,300                                       1,460              1,460
+Russia                                               e
+                                                      3,700       3,800                                       4,080              4,080
+United Arab Emirates                                  2,660       2,700                                       2,790              2,790
+Other countries                                       6,780       6,800                                      10,300             10,000
+  World total (rounded)                             70,000       72,000                                      78,300             78,400
+
+World Resources:10 Global resources of bauxite are estimated to be between 55 billion and 75 billion tons and are
+sufficient to meet world demand for aluminum metal well into the future.
+
+Substitutes: Composites can substitute for aluminum in aircraft fuselages and wings. Glass, paper, plastics, and
+steel can substitute for aluminum in packaging. Composites, magnesium, steel, and titanium can substitute for
+aluminum in ground transportation uses. Composites, steel, vinyl, and wood can substitute for aluminum in
+construction. Copper can replace aluminum in electrical and heat-exchange applications.
+e
+ Estimated. — Zero.
+1
+ See also the Bauxite and Alumina chapter.
+2
+ Defined as primary production + secondary production from old scrap + imports – exports ± adjustments for stock changes; excludes imported scrap.
+3
+ Defined as primary production + secondary production + imports – exports ± adjustments for stock changes; excludes imported scrap.
+4
+ Source: S&P Global Platts Metals Week.
+5
+ Includes off-warrant stocks of primary and alloyed aluminum.
+6
+ Alumina and aluminum production workers (North American Industry Classification System—3313). Source: U.S. Department of Labor, Bureau of
+Labor Statistics.
+7
+ Defined as imports – exports ± adjustments for industry stock changes; excludes imported scrap.
+8
+ Includes Hong Kong.
+9
+ See Appendix B for definitions.
+10
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+
+                                                     U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

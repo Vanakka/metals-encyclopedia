@@ -1,0 +1,13 @@
+{
+  "key": "polonium",
+  "name": "Polonium",
+  "atomicNumber": 84,
+  "url": "https://periodic-table.rsc.org/element/84/polonium",
+  "slug": "polonium",
+  "fetchedAt": "2026-07-20T01:47:02.203Z",
+  "appearance": "A silvery-grey, radioactive semi-metal.",
+  "uses": "Polonium is an alpha-emitter, and is used as an alpha-particle source in the form of a thin film on a stainless steel disc. These are used in antistatic devices and for research purposes. A single gram of polonium will reach a temperature of 500°C as a result of the alpha radiation emitted. This makes it useful as a source of heat for space equipment. It can be mixed or alloyed with beryllium to provide a source of neutrons.",
+  "naturalAbundance": "Polonium is a very rare natural element. It is found in uranium ores but it is uneconomical to extract it. It is obtained by bombarding bismuth-209 with neutrons to give bismuth-210, which then decays to form polonium. All the commercially produced polonium in the world is made in Russia.",
+  "biologicalRole": "Polonium has no known biological role. It is highly toxic due to its radioactivity.",
+  "ok": true
+}

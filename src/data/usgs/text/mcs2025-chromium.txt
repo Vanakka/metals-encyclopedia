@@ -1,0 +1,145 @@
+58
+                                                      CHROMIUM
+                        (Data in thousand metric tons, chromium content, unless otherwise specified)
+
+ Domestic Production and Use: In 2024, the United States consumed an estimated 4% of world chromite ore
+ production in various forms of imported materials, such as chromite ore, chromium chemicals, ferrochromium,
+ chromium metal, and stainless steel. Imported chromite ore was consumed by one chemical company to produce
+ chromium chemicals. Stainless-steel and heat-resisting-steel producers were the leading consumers of
+ ferrochromium. Stainless steels and superalloys require the addition of chromium via ferrochromium or chromium-
+ containing scrap. The value of chromium material consumption was estimated to be $900 million in 2024 (as
+ measured by the value of net imports, excluding stainless steel), which was a 6% increase from $846 million in 2023.
+
+     Salient Statistics—United States:                                    2020      2021     2022       2023    2024e
+     Production:
+       Mine                                                                   —       —        —          —       —
+       Secondary1                                                            119     114       91        126     100
+     Imports for consumption2                                                448     571      610        451     500
+     Exports2                                                                138     114      132        148     160
+     Shipments from Government stockpile3                                      5       7        5        NA      NA
+     Consumption (includes recycling):
+       Reported                                                              387     364      275       e
+                                                                                                         290     300
+       Apparent4                                                             433     579      574        429     440
+     Price:5
+       Chromite ore (gross weight), dollars per metric ton                   158    199       277        321     340
+       Ferrochromium (chromium content), dollars per pound6                  0.89   1.50      3.19       2.55    1.80
+       Chromium metal (gross weight), dollars per pound                      3.10   4.23      7.20       5.05    5.60
+     Stocks, consumer, yearend                                                  6      6         5         e
+                                                                                                            5       5
+     Net import reliance7 as a percentage of apparent consumption              73     80        84         71      77
+
+ Recycling: In 2024, recycled chromium (contained in reported stainless-steel scrap receipts) accounted for 23% of
+ apparent consumption.
+
+ Import Sources (2020–23): Chromite (ores and concentrates): South Africa, 96%; Turkey, 3%; and other, 1%.
+ Chromium-containing scrap:8 Canada, 51%; Mexico, 43%; and other, 6%.
+ Chromium (primary metal):9 South Africa, 25%; Kazakhstan, 14%; Finland, 7%; Russia, 6%; and other, 48%.
+ Chromium-containing chemicals: Kazakhstan, 24%; China,10 18%; Germany, 17%; Italy, 12%; and other, 29%.
+ Total imports: South Africa, 32%; Kazakhstan, 11%; Canada, 6%; Finland, 6%; and other, 45%.
+
+     Tariff:   Item                                                 Number                 Normal Trade Relations
+                                                                                                 12–31–24
+     Chromium ores and concentrates:
+      Not more than 40% chromic oxide (Cr2O3)                  2610.00.0020                          Free.
+      More than 40% but less than 46% Cr2O3                    2610.00.0040                          Free.
+      More than or equal to 46% Cr2O3                          2610.00.0060                          Free.
+     Ferrochromium:
+      More than 4% carbon                                      7202.41.0000                  1.9% ad valorem.
+      More than 3% but less than 4% carbon                     7202.49.1000                  1.9% ad valorem.
+      More than 0.5% but less than 3% carbon                   7202.49.5010                  3.1% ad valorem.
+      Not more than 0.5% carbon                                7202.49.5090                  3.1% ad valorem.
+     Ferrosilicon chromium                                     7202.50.0000                  10% ad valorem.
+     Stainless-steel scrap                                     7204.21.0000                       Free.
+     Chromium metal:
+      Unwrought, powder                                        8112.21.0000                   3% ad valorem.
+      Waste and scrap                                          8112.22.0000                       Free.
+      Other                                                    8112.29.0000                   3% ad valorem.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+
+
+
+ Prepared by Ruth F. Schulte [(703) 648–4963, rschulte@usgs.gov]
+                                                                                                                                                    59
+                                                               CHROMIUM
+Government Stockpile (gross weight):11
+
+                                           FY 2024                                                     FY 2025
+Material                 Potential acquisitions Potential disposals                  Potential acquisitions Potential disposals
+Ferrochromium12                    —                  21.8                                     —                  21.8
+Chromium metal                     —                    0.454                                  —                    0.454
+
+Events, Trends, and Issues: South Africa was the leading chromite ore producer. Global chromite ore mine
+production was estimated to have increased by 4 in% 2024 compared with production in 2023. Production in
+South Africa, the world’s leading producer of chromite, increased by an estimated 7% compared with production in
+2023, largely owing to an increase in the average price of chromite ore. However, challenges related to deep-level
+mining, increased labor costs, ongoing issues with rail transportation, and an unreliable supply of electricity could
+affect production in South Africa.
+
+China was the leading ferrochromium- and stainless-steel-producing country and the leading chromium-consuming
+country. However, the production of stainless steel in China has been affected by oversupply, decreases in consumer
+demand, and escalating trade tensions, which have led to decreases in the price of ferrochromium.
+
+World Mine Production (gross weight) and Reserves: Reserves for Kazakhstan were revised based on a
+Government report.
+
+                                                               Mine production                             Reserves13
+                                                                 (marketable)                          (shipping grade)14
+                                                                2023      2024e
+United States                                                     —           —                                630
+Brazil                                                         1,420      1,400                              6,600
+Finland                                                        1,910      1,900                              8,300
+Indiae                                                         4,100      4,100                             79,000
+Kazakhstane                                                    6,000      6,500                            320,000
+South Africa                                                  19,700     21,000                            200,000
+Turkey                                                         8,160      8,000                             27,000
+Zimbabwe                                                       1,070      1,100                            540,000
+Other countries                                                2,880      2,900                                NA
+  World total (rounded)                                       45,200     47,000                         >1,200,000
+
+World Resources:13 World resources are greater than 12 billion tons of shipping-grade chromite, sufficient to meet
+conceivable demand for centuries. World chromium resources are heavily geographically concentrated (95%) in
+Kazakhstan and southern Africa; United States chromium resources are mostly in the Stillwater Complex in Montana.
+
+Substitutes: Chromium has no substitute in stainless steel, the leading end use, or in superalloys, the major strategic
+end use. Chromium-containing scrap can substitute for ferrochromium in some metallurgical uses.
+
+
+e
+ Estimated. NA Not available. — Zero.
+1
+ Secondary production is based on reported receipts of all types of stainless-steel scrap.
+2
+ Includes chromium chemicals, chromium metal, chromite ores, ferrochromium, ferrosilicon chromium, and stainless-steel products and scrap.
+3
+ Defined as change in total inventory from prior yearend inventory. Beginning in 2023, Government stock changes no longer available.
+4
+ Defined for 2020–22 as production (from mines and secondary) + imports – exports ± adjustments for Government and industry stock changes.
+Beginning in 2023, Government stock changes no longer included.
+5
+ Source: Argus Media Group, Argus Non-Ferrous Markets.
+6
+ Excludes ferrosilicon chromium.
+7
+ Defined for 2020–22 as imports – exports ± adjustments for Government and industry stock changes. Beginning in 2023, Government stock
+changes no longer included.
+8
+ Includes chromium metal scrap and stainless-steel scrap.
+9
+ Includes chromium metal, ferrochromium, and stainless steel.
+10
+  Includes Hong Kong.
+11
+  See Appendix B for definitions.
+12
+  High-carbon and low-carbon ferrochromium, combined.
+13
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+14
+  Units are thousand metric tons gross weight of shipping-grade chromite ore, which is deposit quantity and grade normalized to 45% Cr2O3, except
+for the United States, where grade is normalized to 7% Cr2O3, and Finland, where grade is normalized to 26% Cr2O3.
+
+                                                    U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

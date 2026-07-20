@@ -1,0 +1,13 @@
+{
+  "key": "ruthenium",
+  "name": "Ruthenium",
+  "atomicNumber": 44,
+  "url": "https://periodic-table.rsc.org/element/44/ruthenium",
+  "slug": "ruthenium",
+  "fetchedAt": "2026-07-20T01:45:52.871Z",
+  "appearance": "A shiny, silvery metal.",
+  "uses": "Many new uses are emerging for ruthenium. Most is used in the electronics industry for chip resistors and electrical contacts. Ruthenium oxide is used in the chemical industry to coat the anodes of electrochemical cells for chlorine production. Ruthenium is also used in catalysts for ammonia and acetic acid production. Ruthenium compounds can be used in solar cells, which turn light energy into electrical energy. Ruthenium is one of the most effective hardeners for platinum and palladium, and is alloyed with these metals to make electrical contacts for severe wear resistance. It is used in some jewellery as an alloy with platinum.",
+  "naturalAbundance": "Ruthenium is one of the rarest metals on Earth. It is found uncombined in nature; however, it is more commonly found associated with other platinum metals in the minerals pentlandite and pyroxinite. It is obtained commercially from the wastes of nickel refining.",
+  "biologicalRole": "Ruthenium has no known biological role. Ruthenium(IV) oxide is highly toxic.",
+  "ok": true
+}

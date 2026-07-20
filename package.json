@@ -1,0 +1,17 @@
+{
+  "name": "metals-encyclopedia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build-metals.mjs && vite build",
+    "build:data": "node scripts/build-metals.mjs",
+    "scrape:rsc": "node scripts/scrape-rsc.mjs",
+    "upgrade:narratives": "node scripts/upgrade-narratives.mjs && node scripts/build-metals.mjs",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.1.1"
+  }
+}

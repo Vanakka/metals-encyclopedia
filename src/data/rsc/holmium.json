@@ -1,0 +1,13 @@
+{
+  "key": "holmium",
+  "name": "Holmium",
+  "atomicNumber": 67,
+  "url": "https://periodic-table.rsc.org/element/67/holmium",
+  "slug": "holmium",
+  "fetchedAt": "2026-07-20T01:46:31.264Z",
+  "appearance": "A bright, silvery metal.",
+  "uses": "Holmium can absorb neutrons, so it is used in nuclear reactors to keep a chain reaction under control. Its alloys are used in some magnets.",
+  "naturalAbundance": "Holmium is found as a minor component of the minerals monazite and bastnaesite. It is extracted from those ores that are processed to extract yttrium. It is obtained by ion exchange and solvent extraction.",
+  "biologicalRole": "Holmium has no known biological role, and is non-toxic.",
+  "ok": true
+}

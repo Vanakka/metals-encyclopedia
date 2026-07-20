@@ -1,0 +1,141 @@
+114
+                                             MAGNESIUM METAL1
+                               (Data in thousand metric tons unless otherwise specified)
+
+ Domestic Production and Use: One company in Utah had a smelter to recover primary magnesium from brines
+ from the Great Salt Lake in Utah by an electrolytic process but production was estimated to have stopped in 2022.
+ Secondary magnesium was recovered from scrap at smelters that produced magnesium ingot and castings and from
+ aluminum alloy scrap at secondary aluminum smelters. Castings, principally used for the automotive industry,
+ accounted for 65% of reported consumption. Aluminum-base alloys that were used for packaging, transportation, and
+ other applications accounted for 22% of primary magnesium metal consumption; desulfurization of iron and steel, 6%;
+ and all other uses, 7%. About 45% of secondary magnesium was consumed for structural uses, and about 55% was
+ used in aluminum alloys.
+
+  Salient Statistics—United States:                                     2020     2021      2022     2023     2024e
+  Production:
+    Primary                                                               W        W         W        —         —
+    Secondary (new and old scrap)                                         95      103       115      108       110
+  Imports for consumption                                                 65       50       107       88        90
+  Exports                                                                 15       10         9        5         3
+  Consumption:
+    Reported, primary                                                     54        48       50       53        50
+    Apparent2                                                             W         W        W        W         W
+  Price, annual average:3
+    U.S. spot Western, dollars per pound                                2.48      3.73      7.59    5.00      3.50
+    European free market, dollars per metric ton                       2,149     5,011     5,206   3,240     2,900
+  Stocks, producer, yearend                                               W         W         W       W         W
+  Employment, numbere                                                    400       400       400     200       200
+  Net import reliance4 as a percentage of apparent consumption           >25       >25       >75     >75       >75
+
+ Recycling: In 2024, about 27,000 tons of secondary magnesium was recovered from old scrap and 86,000 tons was
+ recovered from new scrap. Aluminum-base alloys accounted for about 50% of the secondary magnesium recovered,
+ and magnesium-based castings, ingot, and other materials accounted for about 50%.
+
+ Import Sources (2020–23): Magnesium metal (99.8% purity): Israel, 40%; Turkey, 34%; Russia, 12%; China, 5%;
+ and other, 9%. Magnesium alloys (magnesium content): Czechia, 27%; Taiwan, 16%; Israel, 12%; Republic of Korea,
+ 12%; and other, 33%. Sheet, powder, and other (magnesium content): Austria, 25%; Mexico, 25%; China,5 17%;
+ Taiwan, 12%; and other, 21%. Scrap: Canada, 37%; Mexico, 16%; China, 15%; India, 8%; and other, 24%. Combined
+ total (includes magnesium content of alloys, metal, powder, scrap, sheet, and other): Israel, 17%; Canada, 15%;
+ Turkey, 12%; Czechia, 9%; and other, 47%.
+
+  Tariff:   Item                           Number                             Normal Trade Relations
+                                                                                     12–31–24
+  Unwrought metal                      8104.11.0000                              8% ad valorem.
+  Unwrought alloys                     8104.19.0000                             6.5% ad valorem.
+  Waste and scrap                      8104.20.0000                                   Free.
+  Powders and granules                 8104.30.0000                             4.4% ad valorem.
+  Wrought metal                        8104.90.0000              14.8¢/kg on magnesium content + 3.5% ad valorem.
+
+ Depletion Allowance: Dolomite, 14% (domestic and foreign); magnesium chloride (from brine wells), 5% (domestic
+ and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Production capacity was idle throughout 2024 at the only U.S. primary magnesium
+ smelter. On September 29, 2021, the producer of primary magnesium in Utah declared force majeure on supply
+ contracts, citing equipment failures. Details on the expected restart date were not reported by the company.
+ According to information from the State of Utah, royalty payments for magnesium metal production ceased in 2022. At
+ the end of November 2024, the company laid off 186 employees. The announcement cited discontinuation of lithium
+ carbonate production from its lake brine; many of these employees were likely to have worked on magnesium
+ production prior to the equipment failures in 2021.
+
+
+
+
+ Prepared by E. Lee Bray [(703) 648–4979, lbray@usgs.gov]
+                                                                                                                                      115
+                                                        MAGNESIUM METAL
+Magnesium prices in the United States generally decreased throughout the year. Import prices in the United States
+started the year at $3.80 per pound and gradually decreased to $3.25 per pound at the end of November. The price
+decrease was attributed to decreased demand from aluminum smelters, many of which had significant stocks at the
+start of the year, as well as secondary aluminum smelters preferring to consume scrap with a high magnesium
+content. Also, one primary aluminum smelter in Missouri ceased production in January, further decreasing demand
+for magnesium for aluminum alloys.
+
+Magnesium prices in Europe generally decreased throughout the year. Prices in Europe started the year in a range of
+$3,050 to $3,200 per ton and gradually decreased to a range of $2,700 to $2,800 per ton at the end of November.
+The price decrease in Europe was attributed to decreased demand and steady production in China, without major
+disruption for environmental regulatory enforcement or shortages of coke gas, as was experienced in recent prior
+years. Coke gas is the energy source used by many magnesium producers in China, the leading supplier of
+magnesium to consumers in Europe. The 2024 annual average price range for magnesium in Europe was estimated
+to be 10% less than that in 2023.
+
+In February, the U.S. Department of Defense awarded $28 million in financing through the Defense Production Act
+Title III program to a company developing a pilot plant in California to produce magnesium metal from sea brine. In
+April, the company signed an agreement to purchase magnesium chloride from a company that produces salt from
+seawater. In June, the company announced that it had produced and sold commercial quality magnesium metal from
+its pilot-plant operations.
+
+World Primary Production and Reserves:
+
+                                                                  Smelter productione                      Smelter capacitye
+                                                                      2023       2024                                  2024
+United States                                                             —         —                                   6
+                                                                                                                         64
+Brazil                                                                   20        20                                     22
+China                                                                 6
+                                                                       805        950                                 1,800
+Iran                                                                       5         5                                     6
+Israel                                                                  6
+                                                                         17        20                                   6
+                                                                                                                          34
+Kazakhstan                                                               22        20                                     30
+Russia                                                                   18        15                                     81
+Turkey                                                                    13       15                                   6
+                                                                                                                          15
+Other countries                                                           —         —                                     52
+   World total (rounded)                                               900      1,000                                 2,100
+
+World Resources:7 Resources from which magnesium may be recovered range from large to virtually unlimited and
+are globally widespread. Resources of dolomite, serpentine, and magnesium-bearing evaporite minerals are
+enormous. Magnesium-bearing brines are estimated to constitute a resource in the billions of tons, and magnesium
+could be recovered from seawater along world coastlines.
+
+Substitutes: Aluminum and zinc may substitute for magnesium in castings and wrought products. The relatively light
+weight of magnesium is an advantage over aluminum and zinc in castings and wrought products in most applications;
+however, its high cost is a disadvantage relative to these substitutes. For iron and steel desulfurization, calcium
+carbide may be used instead of magnesium. Magnesium is preferred to calcium carbide for desulfurization of iron and
+steel because calcium carbide produces acetylene in the presence of water.
+
+
+
+
+e
+  Estimated. W Withheld to avoid disclosing company proprietary data. — Zero.
+1
+  See also the Magnesium Compounds chapter.
+2
+  Defined as primary production + secondary production from old scrap + imports – exports ± adjustments for industry stock changes.
+3
+  Source: S&P Global Platts Metals Week.
+4
+  Defined as imports – exports ± adjustments for industry stock changes.
+5
+  Includes Hong Kong.
+6
+  Reported.
+7
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+
+                                                    U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

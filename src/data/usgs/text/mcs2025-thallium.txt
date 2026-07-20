@@ -1,0 +1,114 @@
+180
+                                                      THALLIUM
+                                      (Data in kilograms unless otherwise specified)
+
+ Domestic Production and Use: There has been no domestic production of thallium since 1981. Small quantities are
+ consumed annually, but variations in pricing and value complicate making accurate estimates of consumption value.
+ The primary end uses included the following: radioisotope thallium-201 used for medical purposes in cardiovascular
+ imaging; thallium used as an activator (sodium iodide crystal doped with thallium) in electronics for photoelectric cells
+ and gamma radiation detection; thallium-barium-calcium-copper-oxide high-temperature superconductors; thallium
+ used in lenses, prisms, and windows for infrared detection and transmission equipment; thallium-arsenic-selenium
+ crystal filters used for light diffraction in acousto-optical measuring devices; and thallium used in mercury alloys for
+ low temperature low-temperature thermometers and switches. Other uses include as an additive in glass to increase
+ its refractive index and density, a catalyst for organic compound synthesis, a component in high-density liquids
+ (thallium malonate formate or Clerici solution) for gravity separation of minerals.
+
+  Salient Statistics—United States:                                      2020      2021       2022       2023      2024e
+  Production, refinery                                                     —         —          —          —          —
+  Imports for consumption:
+    Unwrought metal and metal powders                                       57         —         —         13         —
+    Waste and scrap                                                         —          —         13        —          (1)
+    Other articles                                                          —          7         —       2
+                                                                                                          300         —
+  Exports:
+    Unwrought metal and powders                                           300        190        —           1         —
+    Waste and scrap                                                       359         —         —          —          —
+    Other articles                                                        580        378     2,150      3,800        152
+  Consumption, estimated3                                                  57          7        13         13         —
+  Price, metal, dollars per kilograme, 4                                8,200      8,400     9,400      8,800      9,500
+  Net import reliance5 as a percentage of estimated consumption           NA         NA        NA         NA         NA
+
+ Recycling: None.
+
+ Import Sources (2020–2023): Mexico, 77%; Russia, 15%, France, 3%, Japan, 3%; and other, 2%.
+
+  Tariff:   Item                                                  Number                   Normal Trade Relations
+                                                                                                 12–31–24
+  Unwrought and powders                                        8112.51.0000                   4% ad valorem.
+  Waste and scrap                                              8112.52.0000                        Free.
+  Other                                                        8112.59.0000                   4% ad valorem.
+
+ Depletion Allowance: 14% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: As of September 2024, there were no reported imports or exports of unwrought
+ thallium metal. However, according to data from the U.S. Census Bureau, a significant quantity of thallium waste and
+ scrap (1,620 kilograms) was imported to Puerto Rico from the Dominican Republic in July 2024, marking a notable
+ shift as this country had not been an import source in previous years. This was likely due to the misclassification of
+ commodities such as medical devices or equipment containing thallium. Exports of thallium articles also decreased
+ significantly to 152 kilograms in 2024 from 3,800 kilograms in 2023 and 2,150 kilograms in 2022. Data on inventory
+ for domestic use remained unavailable.
+
+
+
+
+ Prepared by Souleymane H. Saloum [(703) 648–7790, ssaloum@usgs.gov]
+                                                                                                                                             181
+                                                              THALLIUM
+The primary global uses for thallium include gamma radiation detection equipment, high-temperature
+superconductors, infrared optical materials, low-melting glass, photoelectric cells, and radioisotopes. Demand for
+thallium in medical nuclear imaging applications continued to decline owing to the superior performance and
+availability of alternatives, such as technetium-99m, although thallium was still used in certain cardiovascular stress
+tests. Research continued into innovative applications for thallium, including enhancements in scintillators for
+radiation detection and new thallium compounds for optoelectronic devices.
+
+Thallium metal and its compounds are highly toxic materials and are strictly controlled to prevent harm to humans and
+the environment. Thallium and its compounds can enter the human body by skin contact, ingestion, or inhalation of
+dust or fumes. Under its national primary drinking water regulations, the U.S. Environmental Protection Agency has
+set an enforceable Maximum Contaminant Level of 2 parts per billion thallium in drinking water.
+
+World Refinery Production and Reserves:6 Thallium is produced commercially in only a few countries as a
+byproduct recovered from flue dust in the roasting of copper, lead, and zinc ores. Because most producers withhold
+thallium production data, global production data were limited. In 2023 (the latest year for which data were available),
+global production of thallium was estimated to be about 10,000 kilograms. China, Kazakhstan, and Russia were
+estimated to be leading producers of primary thallium. Substantial thallium-rich deposits have been identified in Brazil,
+China, North Macedonia, and Russia. Quantitative estimates of reserves were not available, owing to the difficulty in
+identifying deposits where thallium can be extracted economically. Previous estimates of reserves were based on the
+thallium content of zinc ores.
+
+World Resources:6 Although thallium is reasonably abundant in the Earth’s crust, estimated at about 0.7 part per
+million, it exists mostly in association with potassium minerals in clays, granites, and soils, and it is not generally
+considered to be commercially recoverable from those materials. The major source of recoverable thallium is from
+trace amounts found in sulfide ores of copper, lead, zinc, and other metallic elements. As such, world resources of
+thallium are adequate to supply world requirements.
+
+Substitutes: Although other materials and formulations can substitute for thallium in gamma radiation detection
+equipment and optics used for infrared detection and transmission, thallium materials are presently superior and more
+cost effective for these very specialized uses. The medical isotope technetium-99m can be used in cardiovascular-
+imaging applications instead of thallium. Nontoxic substitutes, such as tungsten compounds, are being marketed as
+substitutes for thallium in high-density liquids for gravity separation of minerals.
+
+
+
+
+e
+ Estimated. NA Not available. — Zero.
+1
+ Imports of thallium waste and scrap, HTS code 8112.52.000, were reported by the U.S. Census Bureau as 1,620 kilograms in 2024. However, this
+number may include material that may have been misclassified.
+2
+ Includes material that may have been misclassified.
+3
+ Estimated to be equal to imports for 2020–22 and 2024. In 2023, consumption was estimated to be equal to imports of unwrought metal and metal
+powders.
+4
+ Estimated average price of thallium 99.99%-pure granules in 100-gram lots from three retailers and producers as of October 31, 2024.
+5
+ Defined as imports – exports. Consumption and exports of unwrought thallium were from imported material or from a drawdown in unreported
+inventories.
+6
+ See Appendix C for resource and reserve definitions and information concerning data sources.
+
+                                                   U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

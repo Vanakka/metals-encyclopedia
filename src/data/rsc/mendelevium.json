@@ -1,0 +1,13 @@
+{
+  "key": "mendelevium",
+  "name": "Mendelevium",
+  "atomicNumber": 101,
+  "url": "https://periodic-table.rsc.org/element/101/mendelevium",
+  "slug": "mendelevium",
+  "fetchedAt": "2026-07-20T01:47:29.551Z",
+  "appearance": "A radioactive metal, of which only a few atoms have ever been created.",
+  "uses": "Mendelevium is used only for research.",
+  "naturalAbundance": "Mendelevium does not occur naturally. It is made by bombarding einsteinium with alpha particles (helium ions).",
+  "biologicalRole": "Mendelevium has no known biological role.",
+  "ok": true
+}

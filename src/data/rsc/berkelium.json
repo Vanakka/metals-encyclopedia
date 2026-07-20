@@ -1,0 +1,13 @@
+{
+  "key": "berkelium",
+  "name": "Berkelium",
+  "atomicNumber": 97,
+  "url": "https://periodic-table.rsc.org/element/97/berkelium",
+  "slug": "berkelium",
+  "fetchedAt": "2026-07-20T01:47:22.296Z",
+  "appearance": "Berkelium is a radioactive, silvery metal.",
+  "uses": "Because it is so rare, berkelium has no commercial or technological use at present.",
+  "naturalAbundance": "Less than a gram of berkelium is made each year. It is made in nuclear reactors by the neutron bombardment of plutonium-239.",
+  "biologicalRole": "Berkelium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

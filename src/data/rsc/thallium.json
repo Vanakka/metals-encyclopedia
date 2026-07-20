@@ -1,0 +1,13 @@
+{
+  "key": "thallium",
+  "name": "Thallium",
+  "atomicNumber": 81,
+  "url": "https://periodic-table.rsc.org/element/81/thallium",
+  "slug": "thallium",
+  "fetchedAt": "2026-07-20T01:46:56.715Z",
+  "appearance": "A soft, silvery-white metal that tarnishes easily.",
+  "uses": "The use of thallium is limited as it is a toxic element. Thallium sulfate was employed as a rodent killer – it is odourless and tasteless – but household use of this poison has been prohibited in most developed countries. Most thallium is used by the electronics industry in photoelectric cells. Thallium oxide is used to produce special glass with a high index of refraction, and also low melting glass that becomes fluid at about 125K. An alloy of mercury containing 8% thallium has a melting point 20°C lower than mercury alone. This can be used in low temperature thermometers and switches.",
+  "naturalAbundance": "Thallium is found in several ores. One of these is pyrites, which is used to produce sulfuric acid. Some thallium is obtained from pyrites, but it is mainly obtained as a by-product of copper, zinc and lead refining. Thallium is also present in manganese nodules found on the ocean floor.",
+  "biologicalRole": "Thallium has no known biological role. It is very toxic and there is evidence that the vapour is both teratogenic (disturbs the development of an embryo or foetus) and carcinogenic. It can displace potassium around the body affecting the central nervous system.",
+  "ok": true
+}

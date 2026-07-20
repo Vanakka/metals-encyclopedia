@@ -1,0 +1,156 @@
+162
+                                                           SILVER
+                              (Data in metric tons,1 silver content, unless otherwise specified)
+
+ Domestic Production and Use: In 2024, U.S. mines produced approximately 1,100 tons of silver with an estimated
+ value of $960 million. Silver was produced at 4 silver mines and as a byproduct or coproduct from 31 domestic base-
+ and precious-metal operations. Silver was produced in 12 States, and Alaska continued as the country’s leading
+ silver-producing State, followed by Idaho. There were 24 U.S. refiners that reported production of commercial-grade
+ silver with an estimated total output of 2,400 tons from domestic and foreign ores and concentrates and from new and
+ old scrap. The physical properties of silver include high ductility, electrical conductivity, malleability, and reflectivity. In
+ 2024, the estimated domestic uses for silver were physical investment (bars), 30%; electrical and electronics, 29%;
+ coins and medals, 12%; photovoltaics (PV), 12%; jewelry and silverware, 6%; brazing and solder, 4%; and other
+ industrial uses and photography, 7%. Other applications for silver include use in antimicrobial bandages, clothing,
+ pharmaceuticals, and plastics; batteries; bearings; brazing and soldering; catalytic converters in automobiles;
+ electroplating; inks; mirrors; photography; photovoltaic solar cells; water purification; wood treatment; and processing
+ of spent ethylene oxide catalysts. Mercury and silver, the main components of dental amalgam, are biocides, and
+ their use in amalgam inhibits recurrent decay.
+
+  Salient Statistics—United States:                                             2020       2021      2022      2023      2024e
+  Production:
+    Mine                                                                        1,080     1,020     1,010      1,020     1,100
+    Refinery:
+      Primary                                                                   1,360     1,920     1,850      1,140     1,200
+      Secondary (new and old scrap)                                               582       908     1,090      1,150     1,200
+  Imports for consumption2                                                      6,730     6,160     4,490      4,950     4,200
+  Exports2                                                                        141       137       276         73       140
+  Consumption, apparent3                                                        8,250     7,950     6,320      7,070     6,400
+  Price, bullion, average, dollars per troy ounce4                              20.58     25.23     21.88      23.54     27.70
+  Stocks, yearend:
+    Industry                                                                      55         56        55         27        35
+    Treasury5                                                                    498        498       498        498       498
+    New York Commodities Exchange—COMEX                                       12,334     11,064     9,299      8,643     9,520
+  Employment, mine and mill, number6                                           1,175      1,440     1,396      1,455     1,400
+  Net import reliance7 as a percentage of apparent consumption                    80         76        67         69        64
+
+ Recycling: In 2024, approximately 1,200 tons of silver was recovered from new and old scrap, accounting for about
+ 19% of apparent consumption.
+
+ Import Sources (2020–23):2 Mexico, 44%; Canada, 17%; Republic of Korea, 5%; Poland, 5%; and other, 29%.
+
+  Tariff:   Item                                                      Number                    Normal Trade Relations
+                                                                                                        12–31–24
+  Silver ores and concentrates                                    2616.10.0040                  0.8 ¢/kg on lead content.
+  Bullion                                                         7106.91.1010                            Free.
+  Dore                                                            7106.91.1020                            Free.
+
+ Depletion Allowance: 15% (domestic), 14% (foreign).
+
+ Government Stockpile: The U.S. Department of the Treasury maintains stocks of silver (see salient statistics above).
+
+ Events, Trends, and Issues: The estimated average silver price in 2024 was $27.70 per troy ounce, 18% higher
+ than the average price in 2023. The price began the year at $24.00 per troy ounce and decreased to the low of
+ $22.00 per troy ounce on January 22. During the first 10 months of 2024, the price reached a high of $34.60 per troy
+ ounce on October 22.
+
+ In 2024, global consumption of silver was an estimated 37,000 tons, a slight increase from that in 2023. Coin and bar
+ consumption decreased by 13% in 2024, but consumption of silver for industrial uses was estimated to have
+ increased by 9% compared with that in 2023 owing to growth in the global economy, which was expected to increase
+ demand for consumer electronics, and rising electric vehicle output. Consumption of silver in jewelry and silverware
+ was estimated to have increased by 4% and 7%, respectively. Global consumption of silver exceeded supply and was
+ cited as a reason for price increases in 2024.8
+
+
+
+ Prepared by Anne M. Hartingh [(703) 648–4985, ahartingh@usgs.gov]
+                                                                                                                                                  163
+                                                                    SILVER
+World silver mine production decreased in 2024 to an estimated 25,000 tons compared with 25,500 tons in 2023.
+Domestic silver mine production was estimated to have increased by 6% in 2024. The Rochester Mine in Nevada was
+ramping up an expansion project and the Lucky Friday Mine in Idaho resumed production in January 2024 after a fire
+in August 2023.
+
+World Mine Production and Reserves: Reserves for China, Peru, and Poland were revised based on Government
+reports.
+
+                                                                     Mine production                                          Reserves9
+                                                                      2023     2024e
+United States                                                        1,020     1,100                                               23,000
+Argentina                                                              808       800                                                6,500
+Australia                                                            1,030     1,000                                             10
+                                                                                                                                   94,000
+Bolivia                                                              1,350     1,300                                               22,000
+Canada                                                                 306       300                                                4,900
+Chile                                                                1,260     1,200                                               26,000
+China                                                                3,400     3,300                                               70,000
+India                                                                  813       800                                                8,000
+Kazakhstan                                                             985     1,000                                                  NA
+Mexico                                                               6,290     6,300                                               37,000
+Peru                                                                 3,200     3,100                                             140,000
+Poland                                                               1,320     1,300                                               61,000
+Russia                                                               1,240     1,200                                               92,000
+Sweden                                                                 404       400                                                  NA
+Other countries                                                      2,050     2,100                                               57,000
+  World total (rounded)                                             25,500    25,000                                             640,000
+
+World Resources:9 Although silver was a principal product at several mines, silver was primarily obtained as a
+byproduct from lead-zinc, copper, and gold mines, in descending order of silver production. The polymetallic ore
+deposits from which silver was recovered account for more than two-thirds of U.S. and world resources of silver. Most
+recent silver discoveries have been associated with gold occurrences; however, copper and lead-zinc occurrences
+that contain byproduct silver will continue to account for a significant share of reserves and resources in the future.
+
+Substitutes: Digital imaging, film with reduced silver content, silverless black-and-white film, and xerography
+substitute for traditional photographic applications for silver. Surgical pins and plates may be made with stainless
+steel, tantalum, and titanium in place of silver. Stainless steel may be substituted for silver flatware. Nonsilver
+batteries may replace silver batteries in some applications. Aluminum and rhodium may be used to replace silver that
+was traditionally used in mirrors and other reflecting surfaces. Silver may be used to replace more costly metals in
+catalytic converters for off-road vehicles.
+
+
+
+
+Estimated. NA Not available.
+e
+
+
+One metric ton (1,000 kilograms) = 32,150.7 troy ounces.
+1
+
+
+Silver content of base metal ores and concentrates, ash and residues, refined bullion, and dore; excludes coinage and waste and scrap material.
+2
+
+
+Defined as mine production + secondary production + imports – exports ± adjustments for Government and industry stock changes.
+3
+
+
+Engelhard’s industrial bullion quotations. Source: S&P Global Platts Metals Week.
+4
+
+
+Source: U.S. Mint. Balance in U.S. Mint only; includes deep storage and working stocks.
+5
+
+
+Source: U.S. Department of Labor, Mine Safety and Health Administration (MSHA). Only includes mines where silver is the primary product.
+6
+
+
+Defined as imports – exports ± adjustments for Government and industry stock changes.
+7
+
+
+Source: Metals Focus, 2024, World silver survey 2024: Silver Institute, prepared by Metals Focus, 88 p. (Accessed October 10, 2024, at
+8
+
+
+https://www.silverinstitute.org/wp-content/uploads/2024/04/World-Silver-Survey-2024.pdf.)
+See Appendix C for resource and reserve definitions and information concerning data sources.
+9
+
+10
+    For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 27,000 tons.
+
+                                                      U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

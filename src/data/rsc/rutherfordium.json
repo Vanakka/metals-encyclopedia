@@ -1,0 +1,13 @@
+{
+  "key": "rutherfordium",
+  "name": "Rutherfordium",
+  "atomicNumber": 104,
+  "url": "https://periodic-table.rsc.org/element/104/rutherfordium",
+  "slug": "rutherfordium",
+  "fetchedAt": "2026-07-20T01:47:34.974Z",
+  "appearance": "A radioactive metal that does not occur naturally. Relatively few atoms have ever been made.",
+  "uses": "At present, it is only used in research.",
+  "naturalAbundance": "Rutherfordium is a transuranium element. It is created by bombarding californium-249 with carbon-12 nuclei.",
+  "biologicalRole": "Rutherfordium has no known biological role.",
+  "ok": true
+}

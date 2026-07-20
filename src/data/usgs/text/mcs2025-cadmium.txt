@@ -1,0 +1,145 @@
+52
+                                                       CADMIUM
+                                      (Data in metric tons unless otherwise specified)
+
+ Domestic Production and Use: One company operating in Tennessee recovered an estimated 300 tons of primary
+ cadmium metal valued at $1.2 million as a byproduct of zinc leaching from roasted sulfide concentrates at the only
+ domestic zinc smelter. In 2024, with a shift in focus to lithium-ion battery recycling, a company in Ohio that had been
+ recovering secondary cadmium metal shut down its nickel cadmium (NiCd) battery recycling line. Another battery
+ recycling company, established in Ohio in 2022, processed both consumer and industrial NiCd batteries for salable
+ metals and was recovering cadmium metal in 2024 and planned to refine it to battery-grade purity. Cadmium metal
+ and compounds are mainly consumed for NiCd batteries, but also for alloys, coatings, and pigments. An increasing
+ use for cadmium was in cadmium-telluride (CdTe) thin-film solar panels, and in cadmium-zinc-telluride (CdZnTe)
+ substrates for radiation detectors and imaging applications.
+
+     Salient Statistics—United States:                                 2020       2021      2022       2023      2024e
+     Production:
+       Primary, refined1                                                211        241       212        375       300
+       Secondary                                                         W          W         W          W         W
+     Imports for consumption:
+       Unwrought cadmium and powders                                    282        155        99         72         7
+       Wrought cadmium and other articles                                 3          2         1          1         3
+       Cadmium waste and scrap                                           90         85        40         (2)       26
+       Cadmium oxide                                                     28         14        33         37        17
+       Cadmium sulfide                                                    4         —         (2)        —         20
+       Cadmium pigments and preparations based on cadmium                69        101       146        147       120
+         compounds
+     Exports:
+       Unwrought cadmium and powders                                      4         51        68        100        20
+       Wrought cadmium and other articles                               482        217        60         21        30
+       Cadmium waste and scrap                                           (2)        —          2         14        —
+       Cadmium pigments and preparations based on cadmium             2,120        550       747        947       500
+         compounds
+     Consumption of metal, apparent3                                      W         W          W         W          W
+     Price, metal, annual average,4 dollars per kilogram                2.29      2.56       3.42      4.06        4.1
+     Net import reliance5 as a percentage of apparent consumption       <75       <50        <25          E          E
+
+ Recycling: Secondary cadmium is mainly recovered from spent consumer and industrial NiCd batteries. Other waste
+ and scrap from which cadmium can be recycled includes copper-cadmium alloy scrap, some complex nonferrous
+ alloy scrap, cadmium-containing dust from electric-arc furnaces, and CdTe solar panels.
+
+ Import Sources (2020–23):6 China,7 34%; Germany, 31%; Australia, 23%; Peru, 10%; and other, 2%.
+
+     Tariff:   Item                                                 Number                 Normal Trade Relations
+                                                                                                 12–31–24
+     Cadmium oxide                                             2825.90.7500                        Free.
+     Cadmium sulfide                                           2830.90.2000                  3.1% ad valorem.
+     Pigments and preparations based on cadmium                3206.49.6010                  3.1% ad valorem.
+       compounds
+     Cadmium waste and scrap                                   8112.61.0000                        Free.
+     Unwrought cadmium and powders                             8112.69.1000                        Free.
+     Wrought cadmium and other articles                        8112.69.9000                   4.4% ad valorem.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile:8 The fiscal year (FY) 2025 potential acquisitions include 2,800 square centimeters of
+ CdZnTe substrates, a 180% increase from 1,000 square centimeters in FY 2024.
+
+ Events, Trends, and Issues:
+
+ For the second consecutive year, the United States was a net exporter of cadmium. Average prices for cadmium
+ decreased midyear, reflecting the seasonal buying patterns in India, and ended the year higher than those in January.
+ India was the leading importer of cadmium metal; more than 11,400 tons were imported in 2023, and almost
+ 6,000 tons as of August 2024. Though significant quantities of cadmium sponge were produced in India as a
+ Prepared by Robert M. Callaghan [(703) 648–7709, rcallaghan@usgs.gov]
+                                                                                                                                                53
+                                                              CADMIUM
+byproduct of zinc smelting, no production of cadmium metal was reported as of August 2024 in monthly statistics
+published by the Indian Bureau of Mines. Based on estimated production of cadmium as well as imports and exports,
+China replaced India as the leading consumer of cadmium in 2024.
+
+Cadmium use in semiconductors continued to increase, especially CdTe in thin-film solar panels. The Inflation
+Reduction Act of 2022 provided tax incentives to transition to clean energy including for the domestic manufacturing
+of solar modules and components. The leading domestic CdTe solar panel manufacturer, based in Ohio, began
+commercial production in the third quarter of 2024 at a fourth facility, located in Alabama, that increased
+manufacturing capacity to almost 11 gigawatts (GW) per year. A fifth site was under construction in Louisiana and
+was expected to add another 3.5 GW per year in the second half of 2025. Worldwide, capacity was about 21 GW per
+year including a facility in India that opened in early 2024. In January, the National Renewable Energy Laboratory,
+administrator of the 3-year Cadmium Telluride Photovoltaics Accelerator Program, announced that $1.8 million had
+been awarded in a second round of contracts to support development of CdTe solar cells that would be more efficient
+and have a lower cost.
+
+World Refinery Production and Reserves:
+
+                                                 Refinery productione                                      Reserves9
+                                                   2023         2024
+United States1                                     10
+                                                     375          300                       Quantitative estimates of reserves
+Australia                                            900          900                       were not available. The cadmium
+Bulgaria                                             310          300                       content of typical zinc ores
+Canada                                            1,800         1,700                       averages about 0.03%. See the
+China                                             9,300         9,300                       Zinc chapter for zinc reserves.
+Germany                                                —          170
+Japan                                             1,800         1,700
+Kazakhstan                                        1,000         1,000
+Korea, Republic of                                4,500         4,500
+Mexico                                          10
+                                                  1,020         1,200
+Netherlands                                        10
+                                                     726          400
+Norway                                               420          350
+Peru                                               10
+                                                     494          620
+Poland                                               250          250
+Russia                                            1,000           800
+Uzbekistan                                            220         200
+  World total (rounded)                         24,100         24,000
+
+World Resources:9 Cadmium is generally recovered from zinc ores and concentrates. Sphalerite, the most
+economically significant zinc ore mineral, commonly contains minor amounts of cadmium, which shares certain
+similar chemical properties with zinc and often substitutes for zinc in the sphalerite crystal lattice. The cadmium
+mineral greenockite is frequently associated with weathered sphalerite and wurtzite.
+
+Substitutes: Batteries with other chemistries, particularly lithium-ion, can replace NiCd batteries in many
+applications. Except where the surface characteristics of a coating are critical (for example, fasteners for aircraft),
+coatings such as zinc-nickel can be substituted for cadmium in many plating applications. Cerium sulfide is used as a
+replacement for cadmium pigments, mostly in plastics. Barium stabilizers can replace barium-cadmium stabilizers in
+flexible polyvinyl chloride (PVC) applications. Thin-film technologies based on copper-indium-gallium-selenide and
+perovskite materials continued to be investigated but were not yet commercially feasible.
+
+e
+  Estimated. E Net exporter. W Withheld to avoid disclosing company proprietary data. — Zero.
+1
+  Cadmium metal produced as a byproduct of zinc refining.
+2
+  Less than ½ unit.
+3
+  Defined as primary production + secondary production + imports of unwrought cadmium and powders – exports of unwrought cadmium and powders.
+4
+  Average free market price for 99.95% purity in 10-ton lots; cost, insurance, and freight; global ports. Source: Fastmarkets MB.
+5
+  Defined as imports of unwrought cadmium and powders – exports of unwrought cadmium and powders.
+6
+  Unwrought cadmium and powders; Harmonized Tariff Schedule of the United States code 8107.20.0000 for 2019–21 and 8112.69.1000 beginning
+in 2022.
+7
+  Includes Hong Kong.
+8
+  See Appendix B for definitions.
+9
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+10
+   Reported.
+
+                                                   U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

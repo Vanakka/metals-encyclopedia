@@ -1,0 +1,13 @@
+{
+  "key": "silicon",
+  "name": "Silicon",
+  "atomicNumber": 14,
+  "url": "https://periodic-table.rsc.org/element/14/silicon",
+  "slug": "silicon",
+  "fetchedAt": "2026-07-20T01:45:11.011Z",
+  "appearance": "The element, when ultrapure, is a solid with a blue-grey metallic sheen.",
+  "uses": "Silicon is one of the most useful elements to mankind. Most is used to make alloys including aluminium-silicon and ferro-silicon (iron-silicon). These are used to make dynamo and transformer plates, engine blocks, cylinder heads and machine tools and to deoxidise steel. Silicon is also used to make silicones. These are silicon-oxygen polymers with methyl groups attached. Silicone oil is a lubricant and is added to some cosmetics and hair conditioners. Silicone rubber is used as a waterproof sealant in bathrooms and around windows, pipes and roofs. The element silicon is used extensively as a semiconductor in solid-state devices in the computer and microelectronics industries. For this, hyperpure silicon is needed. The silicon is selectively doped with tiny amounts of boron, gallium, phosphorus or arsenic to control its electrical properties. Granite and most other rocks are complex silicates, and these are used for civil engineering projects. Sand (silicon dioxide or silica) and clay (aluminium silicate) are used to make concrete and cement. Sand is also the principal ingredient of glass, which has thousands of uses. Silicon, as silicate, is present in pottery, enamels and high-temperature ceramics. Silicon carbides are important abrasives and are also used in lasers.",
+  "naturalAbundance": "Silicon makes up 27.7% of the Earth’s crust by mass and is the second most abundant element (oxygen is the first). It does not occur uncombined in nature but occurs chiefly as the oxide (silica) and as silicates. The oxide includes sand, quartz, rock crystal, amethyst, agate, flint and opal. The silicate form includes asbestos, granite, hornblende, feldspar, clay and mica. Elemental silicon is produced commercially by reducing sand with carbon in an electric furnace. High-purity silicon, for the electronics industry, is prepared by the thermal decomposition of ultra-pure trichlorosilane, followed by recrystallisation.",
+  "biologicalRole": "Silicon is essential to plant life but its use in animal cells is uncertain. Phytoliths are tiny particles of silica that form within some plants. Since these particles do not rot they remain in fossils and provide us with useful evolutionary evidence. Silicon is non-toxic but some silicates, such as asbestos, are carcinogenic. Workers, such as miners and stonecutters, who are exposed to siliceous dust can develop a serious lung disease called silicosis.",
+  "ok": true
+}

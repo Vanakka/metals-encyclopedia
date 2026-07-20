@@ -1,0 +1,13 @@
+{
+  "key": "nobelium",
+  "name": "Nobelium",
+  "atomicNumber": 102,
+  "url": "https://periodic-table.rsc.org/element/102/nobelium",
+  "slug": "nobelium",
+  "fetchedAt": "2026-07-20T01:47:31.348Z",
+  "appearance": "Nobelium is a radioactive metal. Only a few atoms have ever been made. Its half-life is only 58 minutes.",
+  "uses": "Nobelium has no uses outside research.",
+  "naturalAbundance": "Nobelium is made by bombarding curium with carbon in a device called a cyclotron.",
+  "biologicalRole": "Nobelium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

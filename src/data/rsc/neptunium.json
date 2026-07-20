@@ -1,0 +1,13 @@
+{
+  "key": "neptunium",
+  "name": "Neptunium",
+  "atomicNumber": 93,
+  "url": "https://periodic-table.rsc.org/element/93/neptunium",
+  "slug": "neptunium",
+  "fetchedAt": "2026-07-20T01:47:15.098Z",
+  "appearance": "A radioactive metal.",
+  "uses": "Neptunium is little used outside research. The isotope neptunium-237 has been used in neutron detectors.",
+  "naturalAbundance": "Neptunium is obtained as a by-product from nuclear reactors. It is extracted from the spent uranium fuel rods. Trace quantities occur naturally in uranium ores.",
+  "biologicalRole": "Neptunium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

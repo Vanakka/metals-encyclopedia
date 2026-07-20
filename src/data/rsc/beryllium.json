@@ -1,0 +1,13 @@
+{
+  "key": "beryllium",
+  "name": "Beryllium",
+  "atomicNumber": 4,
+  "url": "https://periodic-table.rsc.org/element/4/beryllium",
+  "slug": "beryllium",
+  "fetchedAt": "2026-07-20T01:45:01.703Z",
+  "appearance": "Beryllium is a silvery-white metal. It is relatively soft and has a low density.",
+  "uses": "Beryllium is used in alloys with copper or nickel to make gyroscopes, springs, electrical contacts, spot-welding electrodes and non-sparking tools. Mixing beryllium with these metals increases their electrical and thermal conductivity. Other beryllium alloys are used as structural materials for high-speed aircraft, missiles, spacecraft and communication satellites. Beryllium is relatively transparent to X-rays so ultra-thin beryllium foil is finding use in X-ray lithography. Beryllium is also used in nuclear reactors as a reflector or moderator of neutrons. The oxide has a very high melting point making it useful in nuclear work as well as having ceramic applications.",
+  "naturalAbundance": "Beryllium is found in about 30 different mineral species. The most important are beryl (beryllium aluminium silicate) and bertrandite (beryllium silicate). Emerald and aquamarine are precious forms of beryl. The metal is usually prepared by reducing beryllium fluoride with magnesium metal.",
+  "biologicalRole": "Beryllium and its compounds are toxic and carcinogenic. If beryllium dust or fumes are inhaled, it can lead to an incurable inflammation of the lungs called berylliosis.",
+  "ok": true
+}

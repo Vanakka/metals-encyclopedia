@@ -1,0 +1,13 @@
+{
+  "key": "cadmium",
+  "name": "Cadmium",
+  "atomicNumber": 48,
+  "url": "https://periodic-table.rsc.org/element/48/cadmium",
+  "slug": "cadmium",
+  "fetchedAt": "2026-07-20T01:46:00.161Z",
+  "appearance": "Cadmium is a silvery metal with a bluish tinge to its surface.",
+  "uses": "Cadmium is a poison and is known to cause birth defects and cancer. As a result, there are moves to limit its use. 80% of cadmium currently produced is used in rechargeable nickel-cadmium batteries. However, they are gradually being phased out and replaced with nickel metal hydride batteries. Cadmium was often used to electroplate steel and protect it from corrosion. It is still used today to protect critical components of aeroplanes and oil platforms. Other past uses of cadmium included phosphors in cathode ray tube colour TV sets, and yellow, orange and red pigments. Cadmium absorbs neutrons and so is used in rods in nuclear reactors to control atomic fission.",
+  "naturalAbundance": "The only mineral containing significant quantities of cadmium is greenockite (cadmium sulfide). It is also present in small amounts in sphalerite. Almost all commercially produced cadmium is obtained as a by-product of zinc refining.",
+  "biologicalRole": "Cadmium is toxic, carcinogenic and teratogenic (disturbs the development of an embryo or foetus). On average we take in as little as 0.05 milligrams per day. But it accumulates in the body, and so on average we store about 50 milligrams. Before the dangers of cadmium were fully understood, welders and other metal workers were at risk of becoming ill. In 1966 some welders working on the Severn Road Bridge became ill from breathing in cadmium fumes.",
+  "ok": true
+}

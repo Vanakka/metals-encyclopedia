@@ -1,0 +1,143 @@
+112
+                                         MAGNESIUM COMPOUNDS1
+             [Data in thousand metric tons, magnesium oxide (MgO) content,2 unless otherwise specified]
+
+ Domestic Production and Use: In 2024, most U.S. magnesium compounds were produced from seawater and
+ natural brines. The value of shipments of all types of magnesium compounds (excluding magnesium chloride) was
+ estimated to be $450 million compared with $449 million (revised) in 2023. Magnesium compounds were recovered
+ from seawater by one company in California and another company in Delaware, from well brines by one company in
+ Michigan, and from lake brines by two companies in Utah. Magnesite was mined by one company in Nevada. One
+ company in Washington sold and processed stockpiled olivine.
+
+ In the United States, about 78% of magnesium compounds were consumed in the form of caustic-calcined magnesia,
+ magnesium chloride, magnesium hydroxide, and magnesium sulfates across the following industries and uses, in
+ descending order of quantity, environmental, chemical, agricultural, and deicing. The remaining magnesium
+ compounds were consumed for refractories in the form of dead-burned magnesia, fused magnesia, and olivine.
+
+  Salient Statistics—United States:                                   2020    2021      2022     2023     2024e
+  Production                                                           363      432      412      428       430
+  Shipments (gross weight)                                             547      634      606      616       620
+  Imports for consumption                                              480      655      598      491       520
+  Exports                                                               66       86      104       89        65
+  Consumption, apparent3                                               777    1,001      906      830       890
+  Employment, plant, numbere                                           260      270      280      270       270
+  Net import reliance4 as a percentage of apparent consumption          53       57       55       48        52
+
+ Recycling: Some magnesia-based refractories are recycled as construction aggregate, reused in refractory, and as
+ foundry sand.
+
+ Import Sources (2020–23): Caustic-calcined magnesia: China,5 73%; Canada, 21%; and other, 6%.
+ Crude magnesite: China,5 94%; Japan, 3%; and other, 3%. Dead-burned and fused magnesia: China,5 70%; Brazil,
+ 18%; Turkey, 3%; and other, 9%. Magnesium chloride: Israel, 56%; Netherlands, 24%; Austria, 5%; and other, 15%.
+ Magnesium hydroxide: Mexico, 59%; Netherlands, 14%; Israel, 13%; Japan, 5%; and other, 9%. Magnesium sulfates:
+ China,5 56%; Germany, 11%; India, 11%; Vietnam, 7%; and other, 15%. Total imports: China,5 61%; Israel, 9%;
+ Brazil, 8%; Canada, 8%; and other, 14%.
+
+  Tariff:   Item                                                 Number               Normal Trade Relations
+                                                                                            12–31–24
+  Crude magnesite                                          2519.10.0000                       Free.
+  Dead-burned and fused magnesia                           2519.90.1000                       Free.
+  Caustic-calcined magnesia                                2519.90.2000                       Free.
+  Kieserite                                                2530.20.1000                       Free.
+  Epsom salts                                              2530.20.2000                       Free.
+  Magnesium hydroxide and peroxide                         2816.10.0000                 3.1% ad valorem.
+  Magnesium chloride                                       2827.31.0000                 1.5% ad valorem.
+  Magnesium sulfate (synthetic)                            2833.21.0000                 3.7% ad valorem.
+
+ Depletion Allowance: Brucite, 10% (domestic and foreign); dolomite, magnesite, and magnesium carbonate, 14%
+ (domestic and foreign); magnesium chloride (from brine wells), 5% (domestic and foreign); and olivine, 22%
+ (domestic) and 14% (foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: In 2024, China was the leading producer of magnesia and magnesite and remained the
+ principal exporter of magnesia to the United States and much of the world. Based on domestic import data for the
+ year through August, imports from China of caustic-calcined magnesia increased by 90%, and imports of dead
+ burned and fused magnesias from China decreased by 41% compared with those in the same period in 2023. The
+ decrease in dead burned and fused magnesia imports was likely due to the slight decrease in U.S. crude steel
+ production (based on data available through September). Dead burned and fused magnesia were consumed as
+ refractories in steel production. In 2024, estimated domestic apparent consumption of magnesium compounds
+ increased by 7% from that in 2023.
+
+
+
+
+ Prepared by Vanessa Londono [(703) 648–7736, vlondono@usgs.gov]
+                                                                                                                                          113
+                                                MAGNESIUM COMPOUNDS
+In March, the U.S. Forest Service suspended the use of magnesium chloride-based aerial fire retardants for 2024
+after inspections revealed corrosion in airtankers used for distributing the fire retardants. The magnesium chloride-
+based fire retardant was supplied by the largest domestic producer.
+
+In May, a Finland-based specialty alloy producer acquired the mining rights for magnesite mines in Serbia from a
+Serbian-based refractory producer. The magnesite was supplied to the company’s beneficiation plant in Cacak and
+sintered in its 100,000-ton-per-year production facility in Kraljevo.
+
+World Magnesite Mine Production and Reserves (gross weight):6 In addition to magnesite reserves, vast
+reserves of magnesium exist in well and lake brines and seawater from which magnesium compounds can be
+recovered. Reserves for China were revised based on Government reports.
+
+                                                                Mine productione                                     Reserves7
+                                                                 2023       2024
+United States                                                       W          W                                         35,000
+Australia                                                         500         490                                      8
+                                                                                                                        280,000
+Austria                                                           771         760                                        49,000
+Brazil                                                          1,800       1,800                                       200,000
+Canada                                                            150         150                                            NA
+China                                                          13,000      13,000                                       680,000
+Greece                                                            393         390                                       280,000
+India                                                            9
+                                                                  123         160                                        66,000
+Iran                                                              216         210                                        10,000
+Russia                                                          2,500       2,500                                     2,300,000
+Slovakia                                                         9
+                                                                  391         380                                     1,200,000
+Spain                                                             680         670                                        35,000
+Turkey                                                         9
+                                                                1,330       1,300                                       110,000
+Other countries                                                    373        370                                     2,500,000
+   World total (rounded)                                    10
+                                                              22,200    10
+                                                                          22,000                                      7,700,000
+
+World Resources:7 Resources from which magnesium compounds can be recovered range from large to virtually
+unlimited and are globally widespread. Identified world magnesite and brucite resources total 13 billion tons and
+several million tons, respectively. Resources of dolomite, forsterite, magnesium-bearing evaporite minerals, and
+magnesia-bearing brines are estimated to constitute a resource of billions of tons. Magnesium hydroxide can be
+recovered from seawater. Serpentine could be used as a source of magnesia but global resources, including in
+tailings of asbestos mines, have not been quantified but are estimated to be very large.
+
+Substitutes: Alumina, chromite, and silica substitute for magnesia in some refractory applications.
+
+
+
+
+e
+  Estimated. NA Not available. W Withheld to avoid disclosing company proprietary data.
+1
+  See also the Magnesium Metal chapter.
+2
+  Reported as magnesium content through Mineral Commodity Summaries 2016. Based on input from consumers, producers, and others involved in
+the industry, reporting magnesium compound data in terms of magnesium oxide (MgO) content was determined to be more useful than reporting in
+terms of magnesium content. Calculations were made using MgO contents: magnesite, 47.8%; magnesium chloride, 42.3%; magnesium hydroxide,
+69.1%; and magnesium sulfate, 33.5%.
+3
+  Defined as production + imports – exports.
+4
+  Defined as imports – exports.
+5
+  Includes Hong Kong.
+6
+  Gross weight of magnesite (magnesium carbonate) in thousand tons.
+7
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+8
+  For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 37 million tons.
+9
+  Reported.
+10
+   Excludes U.S. production.
+
+                                                  U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

@@ -1,0 +1,13 @@
+{
+  "key": "silver",
+  "name": "Silver",
+  "atomicNumber": 47,
+  "url": "https://periodic-table.rsc.org/element/47/silver",
+  "slug": "silver",
+  "fetchedAt": "2026-07-20T01:45:58.352Z",
+  "appearance": "Silver is a relatively soft, shiny metal. It tarnishes slowly in air as sulfur compounds react with the surface forming black silver sulfide.",
+  "uses": "Sterling silver contains 92.5% silver. The rest is copper or some other metal. It is used for jewellery and silver tableware, where appearance is important. Silver is used to make mirrors, as it is the best reflector of visible light known, although it does tarnish with time. It is also used in dental alloys, solder and brazing alloys, electrical contacts and batteries. Silver paints are used for making printed circuits. Silver bromide and iodide were important in the history of photography, because of their sensitivity to light. Even with the rise of digital photography, silver salts are still important in producing high-quality images and protecting against illegal copying. Light-sensitive glass (such as photochromic lenses) works on similar principles. It darkens in bright sunlight and becomes transparent in low sunlight. Silver has antibacterial properties and silver nanoparticles are used in clothing to prevent bacteria from digesting sweat and forming unpleasant odours. Silver threads are woven into the fingertips of gloves so that they can be used with touchscreen phones.",
+  "naturalAbundance": "Silver occurs uncombined, and in ores such as argentite and chlorargyrite (horn silver). However, it is mostly extracted from lead-zinc, copper, gold and copper-nickel ores as a by-product of mining for these metals. The metal is recovered either from the ore, or during the electrolytic refining of copper. World production is about 20,000 tonnes per year.",
+  "biologicalRole": "Silver has no known biological role. Chronic ingestion or inhalation of silver compounds can lead to a condition known as argyria, which results in a greyish pigmentation of the skin and mucous membranes. Silver has antibacterial properties and can kill lower organisms quite effectively.",
+  "ok": true
+}

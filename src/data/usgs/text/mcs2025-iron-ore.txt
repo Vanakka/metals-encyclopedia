@@ -1,0 +1,146 @@
+100
+                                                      IRON ORE1
+                          (Data in thousand metric tons, usable ore, unless otherwise specified)
+
+ Domestic Production and Use: In 2024, eight open pit iron ore mines (each with associated concentration and
+ pelletizing plants) in Michigan, Minnesota, and Utah shipped 98% of domestic usable iron ore products for
+ consumption in the steel industry in the United States. The remaining 2% of domestic iron ore products were
+ consumed in nonsteel end uses. In 2024, the United States produced iron ore with an estimated value of $5.5 billion,
+ a 2% increase from $5.37 billion in 2023. Four iron metallic plants—one direct-reduced iron (DRI) plant in Louisiana
+ and three hot-briquetted iron (HBI) plants in Indiana, Ohio, and Texas—operated during the year to supply
+ steelmaking raw materials with an estimated value of $1.8 billion. The United States was estimated to have produced
+ 1.8% and consumed 1.5% of the world’s iron ore output.
+
+  Salient Statistics—United States:                                       2020      2021      2022      2023     2024e
+  Production:
+    Iron ore                                                            37,200    47,900    40,100    44,700    48,000
+    Iron metallics                                                       3,350     5,010     5,240     5,480     5,300
+  Shipments                                                             37,400    47,600    40,400    46,400    45,000
+  Imports for consumption                                                3,240     3,740     3,040     3,540     2,600
+  Exports                                                               10,400    14,400    11,400    11,100    10,000
+  Consumption, Apparent2                                                30,300    37,300    32,000    38,800    37,000
+  Price, average unit value reported by mines, dollars per metric ton    82.25    141.78    156.42    120.36       115
+  Stocks, mine, dock, and consuming plant, yearend                       3,230     3,510     3,250     1,500     4,000
+  Employment, mine, concentrating and pelletizing plant, number          4,390     4,980     4,790     4,810     5,000
+  Net import reliance3 as a percentage of apparent consumption               E         E         E         E         E
+
+ Recycling: None. See the Iron and Steel Scrap chapter.
+
+ Import Sources (2020–23): Brazil, 47%; Canada, 30%; Sweden, 13%; Bahrain, 3%; and other, 7%.
+
+  Tariff:   Item                                                  Number                   Normal Trade Relations
+                                                                                                 12–31–24
+  Iron ores and concentrates:
+    Concentrates                                              2601.11.0030                           Free.
+    Coarse ores                                               2601.11.0060                           Free.
+    Other ores                                                2601.11.0090                           Free.
+    Pellets                                                   2601.12.0030                           Free.
+    Briquettes                                                2601.12.0060                           Free.
+    Sinter                                                    2601.12.0090                           Free.
+    Roasted iron pyrites                                      2601.20.0000                           Free.
+
+ Depletion Allowance: 15% (domestic), 14% (foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Iron ore production in 2024 was estimated to have increased likely owing to
+ replenishing stocks. Domestic iron ore production was estimated to be 48 million tons in 2024, a 7% increase from
+ 44.7 million tons in 2023. Overall, global prices of iron ore decreased, with an average unit value of $112.06 per ton in
+ the first 9 months of 2024. Pig iron production and raw steel production were estimated to have remained unchanged
+ at 22 million tons and 81 million tons, respectively, in 2024. The World Steel Association4 estimated global finished
+ steel demand decreased by 0.9% in 2024. Global end-use consumption of steel products was expected to decrease
+ slightly in 2024 owing to global declines or slowdowns in the automotive sector, housing construction, and the
+ manufacturing sector; these decreases were partly offset by investments in climate change mitigation, manufacturing
+ facilities, and public infrastructure.
+
+ In February, one company received water permits that would allow for the construction, operation, and closure of a
+ mine permitted for up to 11.5 million tons per year of iron ore mining and processing northeast of Reno, NV. The
+ company also planned to include a colocated merchant pig iron plant at the mine site. In May, one company began
+ production of direct-reduction (DR)-grade iron ore pellets in Hibbing, MN, using an upgrade of the plant’s existing
+ production technology that allows for a 4-million-ton-per-year production capacity of DR-grade iron ore pellets with a
+ 67% iron or higher grade that are ideal for consumption in DRI production or in steelmaking furnaces as a higher
+ quality feedstock.
+
+
+ Prepared by Candice C. Tuck [(703) 648–4912, ctuck@usgs.gov]
+                                                                                                                                                    101
+                                                                  IRON ORE
+Development of one of the world’s largest high-grade iron ore deposits, located in Guinea, was expected by yearend
+2024 after its ownership was split into a partnership that included the Government of Guinea and multiple
+international steel companies. Production was expected to start in 2025, and a full production rate of 60 million tons
+per year was expected by 2028.
+
+The China Iron and Steel Association, an organization that collects data and information on China’s steelmaking
+industry, called for a cut in production in domestic steelmaking, citing rapidly declining prices and the need to balance
+supply with demand. Following the announcement, China’s National Development and Reform Commission cited
+plans to continue focusing on decarbonization and energy reduction strategies, as well as support for high-quality
+steelmaking companies and cracking down on illegal or inefficient steelmaking capacity.
+
+In June, Canada’s Critical Minerals List was updated to include high-purity iron, citing the necessity of that mineral’s
+role in decarbonization throughout the steel supply chain.
+
+World Mine Production and Reserves: Reserves for Iran, Peru, Russia, South Africa, and the United States were
+revised based on company and Government reports.
+
+                                                       Mine production                                                    Reserves5
+                                                 Usable ore            Iron content                                (million metric tons)
+                                             2023        2024e       2023       2024e                            Crude ore Iron content
+United States                              44,700       48,000     28,200      30,000                                  3,600           2,300
+Australia                                 953,000     930,000    589,000      580,000                               6
+                                                                                                                     58,000         6
+                                                                                                                                     27,000
+Brazil                                    445,000     440,000    280,000      280,000                                34,000          15,000
+Canada                                     59,400       54,000     35,700      32,000                                  6,000           2,300
+Chile                                      18,100       18,000     11,400      11,000                                     NA               NA
+China                                     278,000     270,000    174,000      170,000                                20,000            6,900
+India                                     278,000     270,000    172,000      170,000                                  5,500           3,400
+Iran                                      e
+                                           85,400       90,000    e
+                                                                   55,900      59,000                                  3,800           1,500
+Kazakhstan                                 28,900       30,000       8,890       9,200                                 2,500              900
+Mauritania                                 14,100       15,000       8,790       9,400                                    NA               NA
+Mexico                                       8,500       8,000       5,350       5,000                                    NA               NA
+Peru                                       20,900       21,000     14,100      14,000                                  2,600           1,500
+Russia                                     90,900       91,000     53,300      53,000                                35,000          14,000
+South Africa                               63,200       66,000     40,200      42,000                                    930              590
+Sweden                                     28,900       28,000     20,400      20,000                                  1,300              600
+Turkey                                     16,800       18,000     10,100      11,000                                    150               99
+Ukraine                                   e
+                                           41,700       42,000    e
+                                                                   26,100      26,000                                 7
+                                                                                                                       6,500          7
+                                                                                                                                       2,300
+Other countries                             52,300      64,000      29,900     37,000                                17,000             8,500
+   World total (rounded)                2,530,000 2,500,000 1,560,000 1,600,000                                    200,000           88,000
+
+World Resources:5 U.S. resources are estimated to be 110 billion tons of usable iron ore containing about 27 billion
+tons of iron. U.S. resources are mainly low-grade taconite-type ores from the Lake Superior district that require
+beneficiation and agglomeration prior to commercial use. World resources are estimated to be greater than 800 billion
+tons of iron ore containing more than 230 billion tons of iron.
+
+Substitutes: The only source of primary iron is iron ore, used directly as direct-shipping ore or converted to
+briquettes, concentrates, DRI, iron nuggets, pellets, or sinter. DRI, iron nuggets, and scrap are extensively used for
+steelmaking in electric arc furnaces and in iron and steel foundries. Technological advancements have been made
+that allow hematite to be recovered from tailings basins and pelletized.
+
+e
+  Estimated. E Net exporter. NA Not available. — Zero.
+1
+  Data are for iron ore used as a raw material in steelmaking—excluding iron metallics such as DRI, HBI, and iron nuggets—unless otherwise
+specified. See also the Iron and Steel and the Iron and Steel Scrap chapters.
+2
+  Defined as production + imports – exports ± adjustments for industry stock changes.
+3
+  Defined as imports – exports ± adjustments for industry stock changes.
+4
+  Source: World Steel Association, 2024, worldsteel short range outlook October 2024: Brussels, Belgium, World Steel Association press release,
+October 14, 3 p.
+5
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+6
+  For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 23 billion tons of crude ore and 10 billion tons of iron content.
+7
+  For Ukraine, reserves consist of the A and B categories of the Soviet reserves classification system.
+
+                                                      U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

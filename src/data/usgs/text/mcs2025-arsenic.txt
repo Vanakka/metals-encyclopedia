@@ -1,0 +1,144 @@
+36
+                                                         ARSENIC
+                              (Data in metric tons, arsenic content,1 unless otherwise specified)
+
+ Domestic Production and Use: Arsenic trioxide and primary arsenic metal have not been produced in the
+ United States since 1985. The principal use for arsenic compounds was in herbicides and insecticides. Arsenic
+ trioxide was predominantly used for the production of arsenic acid, which is a key ingredient in the production of
+ chromated copper arsenate (CCA) preservatives. CCA preservatives are used for the pressure treating of lumber for
+ primarily nonresidential applications such as light poles, marine applications, and retaining walls. Seven companies
+ produced CCA-treated wood in the United States in 2024. High-purity (99.9999%) arsenic metal was used to produce
+ gallium-arsenide (GaAs) semiconductors for solar cells, space research, and telecommunications; germanium-
+ arsenide-selenide specialty optical materials; and indium-gallium-arsenide (InGaAs) for use in shortwave infrared
+ technology. Arsenic metal was used as an antifriction additive for bearings, to harden lead shot and clip-on wheel
+ weights, and to strengthen the grids in lead-acid storage batteries. The estimated value of arsenic compounds and
+ metal imported domestically in 2024 was $11 million. Given that arsenic metal has not been produced domestically
+ since 1985, it is likely that only a small portion of the material reported by the U.S. Census Bureau as arsenic exports
+ was pure arsenic metal, and most of the material that was reported under this category reflects the gross weight of
+ alloys, compounds, residues, scrap, and waste products containing arsenic. Therefore, the estimated consumption
+ reported under U.S. salient statistics reflects only imports of arsenic products. Domestically, the leading uses of
+ arsenic were as follows: herbicides and insecticides and wood preservatives, 84%; semiconductor, 5%; metallurgical,
+ 3%; and other, 8%.
+
+     Salient Statistics—United States:                                      2020     2021      2022    2023    2024e
+     Imports for consumption:2
+       Arsenic metal                                                         522       835      934     612       530
+       Compounds                                                           7,690     4,730    9,190   5,810    3
+                                                                                                                8,600
+         Total                                                             8,220     5,560   10,100   6,430     9,100
+     Exports, all forms of arsenic (gross weight)                             29        31       82      40      3
+                                                                                                                  570
+     Consumption, estimated, all forms of arsenic4                         8,220     5,560   10,100   6,430     9,100
+     Price, metal, annual average, U.S. warehouse,5                         1.08      1.11     1.67    2.05         2
+       dollars per pound
+     Net import reliance6 as a percentage of estimated                       100       100      100     100        100
+       consumption, all forms of arsenic
+
+ Recycling: Arsenic metal was contained in new scrap recycled during GaAs semiconductor manufacturing.
+ Arsenic-containing process water was internally recycled at wood treatment plants where CCA was used. Although
+ scrap electronic circuit boards, relays, and switches may contain arsenic, no arsenic was known to have been
+ recovered during the recycling process to recover other contained metals. No arsenic was recovered domestically
+ from arsenic-containing residues and dusts generated at nonferrous smelters in the United States.
+
+ Import Sources (2020–23):2 Arsenic acid: Malaysia, 99%; and other, 1%. Arsenic metal: China,7 96%; Japan, 3%;
+ and other, 1%. Arsenic trioxide: China, 58%; Morocco, 34%; Belgium, 5%; and other, 3%. All forms of arsenic: China,7
+ 52%; Morocco, 26%; Malaysia, 16%; Belgium, 4%; and other, 2%.
+
+     Tariff:   Item                                                 Number                   Normal Trade Relations
+                                                                                                   12–31–24
+     Arsenic metal                                              2804.80.0000                         Free.
+     Arsenic acid                                               2811.19.1000                   2.3% ad valorem.
+     Arsenic trioxide                                           2811.29.1000                         Free.
+     Arsenic trichloride                                        2812.19.0010                   3.7% ad valorem.
+     Arsenic sulfide                                            2813.90.1000                         Free.
+
+ Depletion Allowance: 14% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Peru, China, and Morocco, in descending order of production, continued to be the
+ leading global producers of arsenic trioxide, accounting for about 95% of estimated world production in 2024. China
+ and the Republic of Korea accounted for 92% of United States imports of arsenic trioxide in 2024. China supplied
+ 96% of United States arsenic metal imports through July 2024. Malaysia supplied all the arsenic acid that was
+ imported through July 2024.
+
+
+
+ Prepared by Micheal W. George [(703) 648–4962, mgeorge@usgs.gov]
+                                                                                                                                                      37
+                                                                  ARSENIC
+High-purity arsenic metal was used to produce GaAs, indium-arsenide, and InGaAs semiconductors that were used in
+aerospace devices, biomedical devices, military applications, mobile devices, optoelectronic devices, photovoltaic
+applications, satellites, and wireless communications. Total revenues from GaAs devices increased in 2024 because
+of an increase in the deployment of fifth-generation networks and consumer devices. A variety of GaAs wafer
+manufacturers ranging from large, multinational corporations to small, privately owned companies competed in this
+industry, but the top six producers accounted for more than 75% of the global market. See also the Gallium chapter.
+
+World Production and Capacity:
+
+                                                                          Productione, 8                        Refinery capacity
+                                                                        (arsenic trioxide,                      (arsenic trioxide,
+                                                                          gross weight)                          gross weight)9
+                                                                        2023          2024e                           2024e
+United States                                                              —              —                               —
+Belgium                                                                 1,000         1,000                           1,500
+China                                                                  24,000        24,000                          30,000
+Japane                                                                     40             40                              60
+Morocco                                                                 6,000         6,000                            8,000
+Peru                                                                   30,000        27,000                          37,000
+Russiae                                                                   500            200                           4,000
+  World total (rounded)                                                61,500        58,000                          81,000
+
+World Resources:10 Arsenic may be obtained from copper, gold, and lead smelter flue dust, as well as from roasting
+arsenopyrite, the most abundant ore mineral of arsenic. Arsenic has been recovered from orpiment and realgar in
+China, Peru, and the Philippines and from copper-gold ores in Chile, and arsenic is associated with gold occurrences
+in Canada. Orpiment and realgar from gold mines in Sichuan Province, China, were stockpiled for later recovery of
+arsenic. Arsenic also may be recovered from enargite, a copper mineral. Arsenic trioxide was produced at the
+hydrometallurgical complex of Guemassa, near Marrakech, Morocco, from cobalt-arsenide ore from the Bou Azzer Mine.
+World reserve data were unavailable but were estimated to be more than 20 times world production.
+
+Substitutes: Substitutes for CCA in wood treatment include alkaline copper quaternary, ammoniacal copper
+quaternary, ammoniacal copper zinc arsenate, alkaline copper quaternary boron-based preservatives, copper azole,
+copper citrate, and copper naphthenate. Treated wood substitutes include concrete, plastic composite material,
+plasticized wood scrap, or steel. Silicon-based complementary metal-oxide semiconductor power amplifiers compete
+with GaAs power amplifiers in midtier third-generation cellular handsets. Many semiconductor manufacturers were
+moving away from GaAs- and silicon-based lateral diffused metal-oxide-semiconductor field-effect transistors to those
+using gallium nitride. Indium phosphide components can be substituted for GaAs-based infrared laser diodes in some
+specific-wavelength applications, and helium-neon lasers compete with GaAs in visible laser diode applications.
+Silicon is the principal competitor with GaAs in solar-cell applications. In many defense-related applications,
+GaAs-based integrated circuits are used because of their unique properties, and no effective substitutes exist for
+GaAs in these applications. In heterojunction bipolar transistors, GaAs is being replaced in some applications by
+silicon-germanium.
+
+
+
+
+e
+  Estimated. — Zero.
+1
+  Arsenic content of arsenic metal is 100%; arsenic content of arsenic compounds is 58.2% for arsenic acids, 60.7% for arsenic sulfides, 41.33% for
+arsenic trichloride, and 75.71% for arsenic trioxide.
+2
+  Arsenic content calculated from the reported gross weight of imports. See footnote 1 for content percentages of arsenic metal and compounds.
+3
+  In 2024, includes arsenic trichloride; imports were 450 tons, arsenic content, and exports were 380 tons, gross weight. There were no trade data
+for arsenic trichloride in previous years.
+4
+  Estimated to be the same as total imports.
+5
+  Minimum 99% arsenic. Source: Argus Media Group, Argus Non-Ferrous Markets.
+6
+  Defined as imports.
+7
+  Includes Hong Kong.
+8
+  Includes calculated arsenic trioxide equivalent of output of elemental arsenic compounds other than arsenic trioxide; inclusion of such materials
+would not duplicate reported arsenic trioxide production. Chile and Mexico were thought to be significant producers of commercial-grade arsenic
+trioxide but have reported no production in recent years.
+9
+  Yearend operation capacity.
+10
+   See Appendix C for resource and reserve definitions and information concerning data sources.
+
+                                                     U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

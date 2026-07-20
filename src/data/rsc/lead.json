@@ -1,0 +1,13 @@
+{
+  "key": "lead",
+  "name": "Lead",
+  "atomicNumber": 82,
+  "url": "https://periodic-table.rsc.org/element/82/lead",
+  "slug": "lead",
+  "fetchedAt": "2026-07-20T01:46:58.536Z",
+  "appearance": "A dull, silvery-grey metal. It is soft and easily worked into sheets.",
+  "uses": "This easily worked and corrosion-resistant metal has been used for pipes, pewter and paint since Roman times. It has also been used in lead glazes for pottery and, in this century, insecticides, hair dyes and as an anti-knocking additive for petrol. All these uses have now been banned, replaced or discouraged as lead is known to be detrimental to health, particularly that of children. Lead is still widely used for car batteries, pigments, ammunition, cable sheathing, weights for lifting, weight belts for diving, lead crystal glass, radiation protection and in some solders. It is often used to store corrosive liquids. It is also sometimes used in architecture, for roofing and in stained glass windows.",
+  "naturalAbundance": "Lead is chiefly obtained from the mineral galena by a roasting process. At least 40% of lead in the UK is recycled from secondary sources such as scrap batteries and pipes.",
+  "biologicalRole": "Lead has no known biological role. It can accumulate in the body and cause serious health problems. It is toxic, teratogenic (disturbs the development of an embryo or foetus) and carcinogenic. Daily intake of lead from all sources is about 0.1 milligrams. The average human body stores about 120 milligrams of lead in the bones.",
+  "ok": true
+}

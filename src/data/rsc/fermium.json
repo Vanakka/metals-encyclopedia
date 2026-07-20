@@ -1,0 +1,13 @@
+{
+  "key": "fermium",
+  "name": "Fermium",
+  "atomicNumber": 100,
+  "url": "https://periodic-table.rsc.org/element/100/fermium",
+  "slug": "fermium",
+  "fetchedAt": "2026-07-20T01:47:27.761Z",
+  "appearance": "A radioactive metal obtained only in microgram quantities.",
+  "uses": "Fermium has no uses outside research.",
+  "naturalAbundance": "Fermium can be obtained, in microgram quantities, from the neutron bombardment of plutonium in a nuclear reactor.",
+  "biologicalRole": "Fermium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

@@ -1,0 +1,133 @@
+164
+                                                      SODA ASH
+                                (Data in thousand metric tons unless otherwise specified)
+
+ Domestic Production and Use: The total value of domestic soda ash (sodium carbonate) produced in 2024 was an
+ estimated $2.5 billion1 and the quantity produced was an estimated 12 million tons, 10% more than that in 2023. The
+ U.S. soda ash industry consisted of four companies in Wyoming operating five plants and one company in California
+ operating one plant. The five producing companies have a combined nameplate capacity of 13.9 million tons per year
+ (15.3 million short tons per year). Borax, salt, and sodium sulfate were produced as coproducts of sodium carbonate
+ production in California. Chemical caustic soda, sodium bicarbonate, and sodium sulfite were manufactured as
+ coproducts at several of the Wyoming soda ash plants. Sodium bicarbonate was produced at an operation in
+ Colorado using soda ash feedstock shipped from the company’s Wyoming facility.
+
+ Based on 2024 quarterly reports, the estimated distribution of soda ash by end use was glass, 45%; chemicals, 29%;
+ miscellaneous uses, 9%; distributors, 7%; soap and detergents, 5%; flue gas desulfurization, 3%; pulp and paper,
+ 1%; and water treatment, 1%.
+
+  Salient Statistics—United States:                                      2020     2021        2022     2023     2024e
+  Production2                                                            9,990   11,300      11,300   10,900   12,000
+  Imports for consumption                                                   98      130          61       45       10
+  Exports                                                                5,590    6,840       6,470    6,650    7,400
+  Consumption:
+    Apparent3                                                            4,490    4,570       4,760    4,380    4,600
+    Reported                                                             4,440    4,640       4,640    4,460    4,200
+  Price, average unit value of sales (natural source), free on board
+    (f.o.b.) mine or plant:
+    Dollars per metric ton                                              140.70   133.37      178.52   211.48      220
+    Dollars per short ton                                               127.64   120.99      161.95   191.85      200
+  Stocks, producer, yearend                                                305      278         364      251      300
+  Employment, mine and plant, numbere                                    2,400    2,400       2,400    2,400    2,400
+  Net import reliance4 as a percentage of apparent consumption               E        E           E        E        E
+
+ Recycling: No soda ash was recycled by producers; however, glass container producers use cullet glass, thereby
+ reducing soda ash consumption.
+
+ Import Sources (2020–23): Turkey, 92%; and other, 8%.
+
+  Tariff:   Item                                                  Number                    Normal Trade Relations
+                                                                                                  12–31–24
+  Disodium carbonate                                           2836.20.0000                   1.2% ad valorem.
+
+ Depletion Allowance: Natural, 14% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Domestic production of soda ash in 2024 was estimated to have increased by 10%
+ compared with that in 2023, and estimated exports increased by 11%. Reported consumption decreased by 6%, and
+ apparent consumption decreased by 3% compared with that in 2023. More than one-half of U.S. soda ash production
+ was exported in 2024.
+
+ Relatively low production costs and lower environmental impacts provided natural soda ash producers in Turkey and
+ the United States some advantage over producers of synthetic soda ash. The production of synthetic soda ash
+ normally consumes more energy and releases more carbon dioxide than that of natural soda ash.
+
+
+
+
+ Prepared by JohnRyan MacGregor [(703) 648–7743, jmacgregor@usgs.gov]
+                                                                                                                                                      165
+                                                                 SODA ASH
+In 2024, China produced an estimated 36 million tons of soda ash (most of which was synthetic) and was the leading
+global producer followed by, in descending order, the United States and Turkey. Together, China, Turkey, and the
+United States accounted for 81% of global soda ash production in 2024.
+
+In mid-2023, China expanded its production capacity for natural soda ash by approximately 5 million tons per year
+with the opening of a new mining and production facility. These new operations contributed to a 10% increase in
+China’s production in 2024 compared with production in 2023.
+
+World Mine Production and Reserves:
+
+                                                                          Mine production                                Reserves5, 6
+                                                                          2023      2024e
+Natural:
+ United States                                                          10,900          12,000                            7
+                                                                                                                           23,000,000
+ Botswana                                                                  262             270                                 16,000
+ Ethiopia                                                                   e
+                                                                             18             20                                400,000
+ Kenya                                                                    e
+                                                                           300             300                                  7,000
+ Turkey8                                                               e
+                                                                        11,500          11,000                                840,000
+ Other countries9                                                           NA              NA                                280,000
+    World total, natural (rounded)                                      23,000          24,000                             25,000,000
+World total, synthetic                                                  45,900          49,000                                     XX
+ World total, natural and synthetic (rounded)                           68,800          73,000                                     XX
+
+World Resources:6 Natural soda ash is obtained from trona and sodium carbonate-rich brines. The world’s largest
+deposit of trona is in the Green River Basin of Wyoming. About 47 billion tons of identified soda ash resources could
+be recovered from the 56 billion tons of bedded trona and the 47 billion tons of interbedded or intermixed trona and
+halite, which are in beds more than 1.2 meters thick. Underground room-and-pillar mining, using conventional and
+continuous mining, is the primary method of mining Wyoming trona ore. This method has an average 45% mining
+recovery, whereas average recovery from solution mining is 30%. Improved solution-mining techniques, such as
+horizontal drilling to establish communication between well pairs, could increase this extraction rate and enable
+companies to develop some of the deeper trona beds. Wyoming trona resources are being depleted at the rate of
+about 15 million tons per year (8.3 million tons of soda ash). Searles Lake and Owens Lake in California contain an
+estimated 810 million tons of soda ash reserves. At least 95 natural sodium carbonate deposits have been identified
+in the world, the resources of only some of which have been quantified. Although soda ash can be manufactured from
+salt and limestone, both of which are practically inexhaustible, synthetic soda ash is costlier to produce and generates
+environmental wastes.
+
+Substitutes: Caustic soda can be substituted for soda ash in certain uses, particularly in the pulp and paper, water
+treatment, and certain chemical sectors. Soda ash, soda liquors, or trona can be used as feedstock to manufacture
+chemical caustic soda, which is an alternative to electrolytic caustic soda.
+
+
+
+
+e
+  Estimated. E Net exporter. NA Not available. XX Not applicable.
+1
+  Does not include values for soda liquors and mine waters.
+2
+  Natural only.
+3
+  Defined as production + imports – exports ± adjustments for industry stock changes.
+4
+  Defined as imports – exports ± adjustments for industry stock changes.
+5
+  The reported quantities are sodium carbonate only. About 1.8 tons of trona yield 1 ton of sodium carbonate.
+6
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+7
+  From trona, nahcolite, and dawsonite deposits, in order of abundance and commercial significance.
+8
+  Turkey is estimated to produce synthetic soda ash; however, because the majority of soda ash production is from natural trona, Turkey’s
+production is included in “World total, natural.”
+9
+  China is estimated to produce natural trona; however, because the majority of soda ash production is synthetic, China’s production is included in
+“World total, synthetic.”
+
+                                                     U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

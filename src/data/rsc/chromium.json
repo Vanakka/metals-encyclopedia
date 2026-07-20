@@ -1,0 +1,13 @@
+{
+  "key": "chromium",
+  "name": "Chromium",
+  "atomicNumber": 24,
+  "url": "https://periodic-table.rsc.org/element/24/chromium",
+  "slug": "chromium",
+  "fetchedAt": "2026-07-20T01:45:21.938Z",
+  "appearance": "A hard, silvery metal with a blue tinge.",
+  "uses": "Chromium is used to harden steel, to manufacture stainless steel (named as it won’t rust) and to produce several alloys. Chromium plating can be used to give a polished mirror finish to steel. Chromium-plated car and lorry parts, such as bumpers, were once very common. It is also possible to chromium plate plastics, which are often used in bathroom fittings. About 90% of all leather is tanned using chrome. However, the waste effluent is toxic so alternatives are being investigated. Chromium compounds are used as industrial catalysts and pigments (in bright green, yellow, red and orange colours). Rubies get their red colour from chromium, and glass treated with chromium has an emerald green colour.",
+  "naturalAbundance": "Chromium is found mainly in chromite. This ore is found in many places including South Africa, India, Kazakhstan and Turkey. Chromium metal is usually produced by reducing chromite with carbon in an electric-arc furnace, or reducing chromium(III) oxide with aluminium or silicon.",
+  "biologicalRole": "Chromium is an essential trace element for humans because it helps us to use glucose. However, it is poisonous in excess. We take in about 1 milligram a day. Foods such as brewer’s yeast, wheat germ and kidney are rich in chromium.",
+  "ok": true
+}

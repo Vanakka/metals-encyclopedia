@@ -1,0 +1,13 @@
+{
+  "key": "lanthanum",
+  "name": "Lanthanum",
+  "atomicNumber": 57,
+  "url": "https://periodic-table.rsc.org/element/57/lanthanum",
+  "slug": "lanthanum",
+  "fetchedAt": "2026-07-20T01:46:13.136Z",
+  "appearance": "A soft, silvery-white metal. It rapidly tarnishes in air and burns easily when ignited.",
+  "uses": "Lanthanum metal has no commercial uses. However, its alloys have a variety of uses. A lanthanum-nickel alloy is used to store hydrogen gas for use in hydrogen-powered vehicles. Lanthanum is also found in the anode of nickel metal hydride batteries used in hybrid cars. Lanthanum is an important component of mischmetal alloy (about 20%). The best-known use for this alloy is in ‘flints’ for cigarette lighters. ‘Rare earth’ compounds containing lanthanum are used extensively in carbon lighting applications, such as studio lighting and cinema projection. They increase the brightness and give an emission spectrum similar to sunlight. Lanthanum(III) oxide is used in making special optical glasses, as it improves the optical properties and alkali resistance of the glass. Lanthanum salts are used in catalysts for petroleum refining. The ion La3+ is used as a biological tracer for Ca2+, and radioactive lanthanum has been tested for use in treating cancer.",
+  "naturalAbundance": "Lanthanum is found in ‘rare earth’ minerals, principally monazite (25% lanthanum) and bastnaesite (38% lanthanum). Ion-exchange and solvent extraction techniques are used to isolate the ‘rare earth’ elements from the minerals. Lanthanum metal is usually obtained by reducing the anhydrous fluoride with calcium.",
+  "biologicalRole": "Lanthanum has no known biological role. Both the element and its compounds are moderately toxic.",
+  "ok": true
+}

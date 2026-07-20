@@ -1,0 +1,13 @@
+{
+  "key": "platinum",
+  "name": "Platinum",
+  "atomicNumber": 78,
+  "url": "https://periodic-table.rsc.org/element/78/platinum",
+  "slug": "platinum",
+  "fetchedAt": "2026-07-20T01:46:51.315Z",
+  "appearance": "A shiny, silvery-white metal as resistant to corrosion as gold.",
+  "uses": "Platinum is used extensively for jewellery. Its main use, however, is in catalytic converters for cars, trucks and buses. This accounts for about 50% of demand each year. Platinum is very effective at converting emissions from the vehicle’s engine into less harmful waste products. Platinum is used in the chemicals industry as a catalyst for the production of nitric acid, silicone and benzene. It is also used as a catalyst to improve the efficiency of fuel cells. The electronics industry uses platinum for computer hard disks and thermocouples. Platinum is also used to make optical fibres and LCDs, turbine blades, spark plugs, pacemakers and dental fillings. Platinum compounds are important chemotherapy drugs used to treat cancers.",
+  "naturalAbundance": "Platinum is found uncombined in alluvial deposits. Most commercially produced platinum comes from South Africa, from the mineral cooperite (platinum sulfide). Some platinum is prepared as a by-product of copper and nickel refining.",
+  "biologicalRole": "Platinum has no known biological role. It is non-toxic.",
+  "ok": true
+}

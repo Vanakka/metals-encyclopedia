@@ -1,0 +1,13 @@
+{
+  "key": "hafnium",
+  "name": "Hafnium",
+  "atomicNumber": 72,
+  "url": "https://periodic-table.rsc.org/element/72/hafnium",
+  "slug": "hafnium",
+  "fetchedAt": "2026-07-20T01:46:40.453Z",
+  "appearance": "A shiny, silvery metal that resists corrosion and can be drawn into wires.",
+  "uses": "Hafnium is a good absorber of neutrons and is used to make control rods, such as those found in nuclear submarines. It also has a very high melting point and because of this is used in plasma welding torches. Hafnium has been successfully alloyed with several metals including iron, titanium and niobium. Hafnium oxide is used as an electrical insulator in microchips, while hafnium catalysts have been used in polymerisation reactions.",
+  "naturalAbundance": "Most zirconium ores contain around 5% hafnium. The metal can be prepared by reducing hafnium tetrachloride with sodium or magnesium.",
+  "biologicalRole": "Hafnium has no known biological role, and it has low toxicity.",
+  "ok": true
+}

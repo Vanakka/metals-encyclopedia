@@ -1,0 +1,13 @@
+{
+  "key": "germanium",
+  "name": "Germanium",
+  "atomicNumber": 32,
+  "url": "https://periodic-table.rsc.org/element/32/germanium",
+  "slug": "germanium",
+  "fetchedAt": "2026-07-20T01:45:36.415Z",
+  "appearance": "A silvery-white semi-metal. It is brittle.",
+  "uses": "Germanium is a semiconductor. The pure element was commonly doped with arsenic, gallium or other elements and used as a transistor in thousands of electronic applications. Today, however, other semiconductors have replaced it. Germanium oxide has a high index of refraction and dispersion. This makes it suitable for use in wide-angle camera lenses and objective lenses for microscopes. This is now the major use for this element. Germanium is also used as an alloying agent (adding 1% germanium to silver stops it from tarnishing), in fluorescent lamps and as a catalyst. Both germanium and germanium oxide are transparent to infrared radiation and so are used in infrared spectroscopes.",
+  "naturalAbundance": "Germanium ores are very rare. They are found in small quantities as the minerals germanite and argyrodite. Germanium minerals are also present in zinc ores, and commercial production of germanium is carried out by processing zinc smelter flue dust. It can also be recovered from the by-products of combustion of certain coals.",
+  "biologicalRole": "Germanium has no known biological role. The element is non-toxic. Certain germanium compounds have low toxicity in mammals, while being effective against some bacteria. This has led some scientists to study their potential use in pharmaceuticals.",
+  "ok": true
+}

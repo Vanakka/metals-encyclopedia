@@ -1,0 +1,13 @@
+{
+  "key": "molybdenum",
+  "name": "Molybdenum",
+  "atomicNumber": 42,
+  "url": "https://periodic-table.rsc.org/element/42/molybdenum",
+  "slug": "molybdenum",
+  "fetchedAt": "2026-07-20T01:45:49.201Z",
+  "appearance": "A shiny, silvery metal.",
+  "uses": "Molybdenum has a very high melting point so it is produced and sold as a grey powder. Many molybdenum items are formed by compressing the powder at a very high pressure. Most molybdenum is used to make alloys. It is used in steel alloys to increase strength, hardness, electrical conductivity and resistance to corrosion and wear. These ‘moly steel’ alloys are used in parts of engines. Other alloys are used in heating elements, drills and saw blades. Molybdenum disulfide is used as a lubricant additive. Other uses for molybdenum include catalysts for the petroleum industry, inks for circuit boards, pigments and electrodes.",
+  "naturalAbundance": "The main molybdenum ore is molybdenite (molybdenum disulfide). It is processed by roasting to form molybdenum oxide, and then reducing to the metal. The main mining areas are in the USA, China, Chile and Peru. Some molybdenum is obtained as a by-product of tungsten and copper production. World production is around 200,000 tonnes per year.",
+  "biologicalRole": "Although it is toxic in anything other than small quantities, molybdenum is an essential element for animals and plants. There are about 50 different enzymes used by plants and animals that contain molybdenum. One of these is nitrogenase, found in nitrogen-fixing bacteria that make nitrogen from the air available to plants. Leguminous plants have root nodules that contain these nitrogen-fixing bacteria.",
+  "ok": true
+}

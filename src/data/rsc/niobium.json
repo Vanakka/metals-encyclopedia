@@ -1,0 +1,13 @@
+{
+  "key": "niobium",
+  "name": "Niobium",
+  "atomicNumber": 41,
+  "url": "https://periodic-table.rsc.org/element/41/niobium",
+  "slug": "niobium",
+  "fetchedAt": "2026-07-20T01:45:47.396Z",
+  "appearance": "A silvery metal that is very resistant to corrosion due to a layer of oxide on its surface.",
+  "uses": "Niobium is used in alloys including stainless steel. It improves their strength, particularly at low temperatures. Alloys containing niobium are used in jet engines and rockets, beams and girders for buildings and oil rigs, and oil and gas pipelines. This element also has superconducting properties. It is used in superconducting magnets for particle accelerators, MRI scanners and NMR equipment. Niobium oxide compounds are added to glass to increase the refractive index, which allows corrective glasses to be made with thinner lenses.",
+  "naturalAbundance": "The main source of this element is the mineral columbite. This mineral also contains tantalum and the two elements are mined together. Columbite is found in Canada, Brazil, Australia, Nigeria and elsewhere. Some niobium is also produced as a by-product of tin extraction.",
+  "biologicalRole": "Niobium has no known biological role.",
+  "ok": true
+}

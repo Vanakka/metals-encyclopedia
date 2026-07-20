@@ -1,0 +1,13 @@
+{
+  "key": "rhodium",
+  "name": "Rhodium",
+  "atomicNumber": 45,
+  "url": "https://periodic-table.rsc.org/element/45/rhodium",
+  "slug": "rhodium",
+  "fetchedAt": "2026-07-20T01:45:54.678Z",
+  "appearance": "A hard, shiny, silvery metal.",
+  "uses": "The major use of rhodium is in catalytic converters for cars (80%). It reduces nitrogen oxides in exhaust gases. Rhodium is also used as catalysts in the chemical industry, for making nitric acid, acetic acid and hydrogenation reactions. It is used to coat optic fibres and optical mirrors, and for crucibles, thermocouple elements and headlight reflectors. It is used as an electrical contact material as it has a low electrical resistance and is highly resistant to corrosion.",
+  "naturalAbundance": "Rhodium is the rarest of all non-radioactive metals. It occurs uncombined in nature, along with other platinum metals, in river sands in North and South America. It is also found in the copper-nickel sulfide ores of Ontario, Canada. Rhodium is obtained commercially as a by-product of copper and nickel refining. World production is about 30 tonnes per year.",
+  "biologicalRole": "Rhodium has no known biological role. It is a suspected carcinogen.",
+  "ok": true
+}

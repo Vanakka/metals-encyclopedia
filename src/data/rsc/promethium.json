@@ -1,0 +1,13 @@
+{
+  "key": "promethium",
+  "name": "Promethium",
+  "atomicNumber": 61,
+  "url": "https://periodic-table.rsc.org/element/61/promethium",
+  "slug": "promethium",
+  "fetchedAt": "2026-07-20T01:46:20.367Z",
+  "appearance": "A radioactive metal.",
+  "uses": "Most promethium is used only in research. A little promethium is used in specialised atomic batteries. These are roughly the size of a drawing pin and are used for pacemakers, guided missiles and radios. The radioactive decay of promethium is used to make a phosphor give off light and this light is converted into electricity by a solar cell. Promethium can also be used as a source of x-rays and radioactivity in measuring instruments.",
+  "naturalAbundance": "Promethium’s longest-lived isotope has a half-life of only 18 years. For this reason it is not found naturally on Earth. It has been found that a star in the Andromeda galaxy is manufacturing promethium, but it is not known how. Promethium can be produced by irradiating neodymium and praseodymium with neutrons, deuterons and alpha particles. It can also be prepared by ion exchange of nuclear reactor fuel processing wastes.",
+  "biologicalRole": "Promethium has no known biological role.",
+  "ok": true
+}

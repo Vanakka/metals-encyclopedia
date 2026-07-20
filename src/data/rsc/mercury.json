@@ -1,0 +1,13 @@
+{
+  "key": "mercury",
+  "name": "Mercury",
+  "atomicNumber": 80,
+  "url": "https://periodic-table.rsc.org/element/80/mercury",
+  "slug": "mercury",
+  "fetchedAt": "2026-07-20T01:46:54.910Z",
+  "appearance": "A liquid, silvery metal.",
+  "uses": "Mercury has fascinated people for millennia, as a heavy liquid metal. However, because of its toxicity, many uses of mercury are being phased out or are under review. It is now mainly used in the chemical industry as catalysts. It is also used in some electrical switches and rectifiers. Previously its major use was in the manufacture of sodium hydroxide and chlorine by electrolysis of brine. These plants will all be phased out by 2020. It was also commonly used in batteries, fluorescent lights, felt production, thermometers and barometers. Again, these uses have been phased out. Mercury easily forms alloys, called amalgams, with other metals such as gold, silver and tin. The ease with which it amalgamates with gold made it useful in recovering gold from its ores. Mercury amalgams were also used in dental fillings. Mercuric sulfide (vermilion) is a high-grade, bright-red paint pigment, but is very toxic so is now only used with great care.",
+  "naturalAbundance": "Mercury rarely occurs uncombined in nature, but can be found as droplets in cinnabar (mercury sulfide) ores. China and Kyrgyzstan are the main producers of mercury. The metal is obtained by heating cinnabar in a current of air and condensing the vapour.",
+  "biologicalRole": "Mercury has no known biological role, but is present in every living thing and widespread in the environment. Every mouthful of food we eat contains a little mercury. Our daily intake is less than 0.01 milligrams (about 0.3 grams in a lifetime), and this we can cope with easily. However, in much higher doses it is toxic and one form of mercury – methylmercury – is particularly dangerous. It can accumulate in the flesh of fish and be eaten by people, making them ill.",
+  "ok": true
+}

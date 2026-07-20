@@ -1,0 +1,135 @@
+138
+                                                       POTASH
+              [Data in thousand metric tons, potassium oxide (K2O) equivalent, unless otherwise specified]
+
+ Domestic Production and Use: In 2024, the estimated sales value of marketable potash, free on board (f.o.b.) mine,
+ was $530 million, which was 6% higher than that in 2023. The majority of U.S. production was from southeastern New
+ Mexico, where two companies operated two underground mines and one deep-well solution mine. Sylvinite and
+ langbeinite ores in New Mexico were beneficiated by flotation, dissolution-recrystallization, heavy-media separation,
+ solar evaporation, and (or) combinations of these processes. In Utah, two companies operated three facilities. One
+ company extracted underground sylvinite ore by deep-well solution mining. Solar evaporation crystallized the sylvinite
+ ore from the brine solution, and a flotation process separated the muriate of potash (MOP) from byproduct sodium
+ chloride. The firm also processed subsurface brines by solar evaporation and flotation to produce MOP at its other
+ facility. Another company processed brine from the Great Salt Lake by solar evaporation to produce potassium sulfate
+ or sulfate of potash (SOP) and other byproducts.
+
+ Potash denotes a variety of mined and manufactured salts that contain the element potassium in water-soluble form.
+ In agriculture, the term potash refers to potassic fertilizers, which are potassium chloride (KCl), SOP, and potassium
+ magnesium sulfate (SOPM) or langbeinite. MOP is an agriculturally acceptable mix of KCl (95% pure or greater) and
+ sodium chloride for fertilizer use. The fertilizer industry used about 85% of U.S. potash sales, and the remainder was
+ used for chemical and industrial applications. About 70% of the potash produced was SOPM and SOP, which are
+ required to fertilize certain chloride-sensitive crops. The remainder of production was MOP and was used for
+ agricultural and chemical applications.
+
+  Salient Statistics—United States:                                   2020     2021      2022       2023         2024e
+  Production, marketable1                                               460      480       430        390          420
+  Sales by producers, marketable1                                       500      490       400        400          440
+  Imports for consumption                                             5,370    6,480     4,940      5,680        6,100
+  Exports                                                               147      112       267        165          100
+  Consumption, apparent1, 2                                           5,700    6,900     5,100      5,900        6,400
+  Price, average, f.o.b. mine, dollars per metric ton of K2O
+    equivalent:
+    All products3                                                       850    1,120     1,790      1,250        1,220
+    MOP                                                                 450      650       980        620          630
+  Employment, mine and mill, numbere                                    900      900       900        900          900
+  Net import reliance4 as a percentage of apparent consumption           92       93        92         93           93
+
+ Recycling: None.
+
+ Import Sources (2020–23): Canada, 79%; Russia, 11%; Belarus, 4%; Israel, 3%; and other, 3%.
+
+  Tariff:   Item                                                  Number                  Normal Trade Relations
+                                                                                                12–31–24
+  Potassium nitrate                                           2834.21.0000                        Free.
+  Potassium chloride                                          3104.20.0000                        Free.
+  Potassium chloride, less than or equal to 62% K2O           3104.20.0010                        Free.
+  Potassium chloride, greater than 62% K2O                    3104.20.0050                        Free.
+  Potassium sulfate                                           3104.30.0000                        Free.
+  Potassic fertilizers, other                                 3104.90.0100                        Free.
+
+ Depletion Allowance: 14% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Domestic consumption, production, and sales of potash all were estimated to have
+ increased in 2024. Good weather during the planting seasons and steady potash prices for farmers contributed to the
+ increase in consumption. World potash consumption was estimated to have been 38.8 million tons in 2024, an increase
+ from 37.5 million tons in 2023. World consumption was projected to increase to 40.9 million tons in 2025. Asia and
+ South America were the regions with the highest growth in consumption.
+
+ World potash production was estimated to have increased in 2024, with Belarus and Canada having the largest
+ increases in production from that in 2023. Canada was the leading exporter of potash in the world in 2024, as it
+ increased sales to meet growth in world consumption. Belarus production almost returned to levels prior to 2022, when
+ the European Union and the United States placed sanctions on the State-run Belarusian potash-exporting company.
+ Prepared by Stephen M. Jasinski [(703) 648–7711, sjasinsk@usgs.gov]
+                                                                                                                                  139
+                                                                   POTASH
+Exports from Belarus, however, where still much lower than those prior to 2022, when Lithuania terminated the contract
+that allowed Belarus to export potash from the port of Klaipeda. In 2024, Belarus exported potash via several Russian
+ports. It also sent shipments by rail, primarily to China.
+
+World annual potash production capacity was 65.2 million tons in 2024 and projected to increase to about 76.0 million
+tons of K2O by 2028. Most of the increase would be MOP from new mines and expansion projects in Laos and
+Russia. New MOP mines in Belarus, Brazil, Canada, Ethiopia, Morocco, and Spain were planned to begin operation
+past 2028.
+
+World Mine Production and Reserves: Reserves for Laos, Russia, and Spain were revised based on Government
+reports.
+
+                                                 Mine production                                          Reserves5
+                                                  2023     2024e                               Recoverable ore K2O equivalent
+United States1                                     390       420                                       970,000         220,000
+Belarus                                         e
+                                                 4,500     7,000                                     3,300,000         750,000
+Brazil                                            e
+                                                   300       360                                        10,000            2,300
+Canada                                          13,500    15,000                                     4,500,000       1,100,000
+Chile                                             e
+                                                   600       750                                            NA         100,000
+China                                           e
+                                                 6,000     6,300                                            NA         180,000
+Germany                                         e
+                                                 2,700     3,000                                            NA         150,000
+Israel                                           2,330     2,400                                            NA          6
+                                                                                                                         Large
+Jordan                                           1,700     1,800                                            NA          6
+                                                                                                                         Large
+Laos                                            e
+                                                 1,500     1,500                                            NA       1,000,000
+Russia                                          e
+                                                 9,000     9,000                                            NA         920,000
+Spain                                              367       400                                            NA         100,000
+Other countries                                     435      440                                     1,500,000         300,000
+  World total (rounded)                         43,300    48,000                                   >10,000,000      >4,800,000
+
+World Resources:5 Estimated domestic potash resources total about 7 billion tons. Most of these lie at depths
+between 1,800 and 3,100 meters in a 3,110-square-kilometer area of Montana and North Dakota as an extension of
+the Williston Basin deposits in Manitoba and Saskatchewan, Canada. The Paradox Basin in Utah contains resources
+of about 2 billion tons, mostly at depths of more than 1,200 meters. The Holbrook Basin of Arizona contains resources
+of about 0.7 billion to 2.5 billion tons. A large potash resource lies about 2,100 meters under central Michigan and
+contains more than 75 million tons. Estimated world resources total about 250 billion tons.
+
+Substitutes: No substitutes exist for potassium as an essential plant nutrient and as an essential nutritional requirement
+for animals and humans. Manure and glauconite (greensand) are low-potassium-content materials that can be
+profitably transported only short distances to crop fields. Glauconite is used as a potassium source for organic farming.
+
+
+
+
+e
+  Estimated. NA Not available.
+1
+  Data are rounded to no more than two significant digits to avoid disclosing company proprietary data.
+2
+  Defined as sales + imports – exports.
+3
+  Includes MOP, SOP, and SOPM. Does not include other chemical compounds that contain potassium.
+4
+  Defined as imports – exports.
+5
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+6
+  Israel and Jordan recover potash from the Dead Sea, which contains nearly 2 billion tons of potassium chloride.
+
+                                                     U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

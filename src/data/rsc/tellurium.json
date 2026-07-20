@@ -1,0 +1,13 @@
+{
+  "key": "tellurium",
+  "name": "Tellurium",
+  "atomicNumber": 52,
+  "url": "https://periodic-table.rsc.org/element/52/tellurium",
+  "slug": "tellurium",
+  "fetchedAt": "2026-07-20T01:46:07.549Z",
+  "appearance": "A semi-metal usually obtained as a grey powder.",
+  "uses": "Tellurium is used in alloys, mostly with copper and stainless steel, to improve their machinability. When added to lead it makes it more resistant to acids and improves its strength and hardness. Tellurium has been used to vulcanise rubber, to tint glass and ceramics, in solar cells, in rewritable CDs and DVDs and as a catalyst in oil refining. It can be doped with silver, gold, copper or tin in semiconductor applications.",
+  "naturalAbundance": "Tellurium is present in the Earth’s crust only in about 0.001 parts per million. Tellurium minerals include calaverite, sylvanite and tellurite. It is also found uncombined in nature, but only very rarely. It is obtained commercially from the anode muds produced during the electrolytic refining of copper. These contain up to about 8% tellurium.",
+  "biologicalRole": "Tellurium has no known biological role. It is very toxic and teratogenic (disturbs the development of an embryo or foetus). Workers exposed to very small quantities of tellurium in the air develop ‘tellurium breath’, which has a garlic-like odour.",
+  "ok": true
+}

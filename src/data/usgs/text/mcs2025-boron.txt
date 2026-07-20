@@ -1,0 +1,135 @@
+48
+                                                            BORON
+                                    (Data in thousand metric tons unless otherwise specified)
+
+ Domestic Production and Use: Three companies in southern California produced borates in 2024, and most of the
+ boron products consumed in the United States were manufactured domestically. Estimated boron production
+ increased in 2024 compared with production in 2023. U.S. boron production and consumption data were withheld to
+ avoid disclosing company proprietary data. The leading boron producer mined borate ores, which contain the
+ minerals kernite, tincal, and ulexite, by open pit methods and operated associated compound plants. Kernite was
+ used to produce boric acid, tincal was used to produce sodium borate, and ulexite was used as a primary ingredient
+ in the manufacture of a variety of specialty glasses and ceramics. A second company produced borates from brines
+ extracted through solution-mining techniques. A third company began mining borates using solution mining
+ techniques in January 2024. Boron minerals and chemicals were principally consumed in the north-central and
+ eastern United States. In 2024, the glass and ceramics industries remained the leading domestic users of boron
+ products. Boron also was used as a component in abrasives, cleaning products, insecticides, insulation, and in the
+ production of semiconductors.
+
+     Salient Statistics—United States:                                      2020      2021        2022    2023   2024e
+     Production                                                               W         W           W       W       W
+     Imports for consumption:
+       Refined borax                                                           174     232         168     156       160
+       Boric acid                                                               39      54          48      38        42
+       Colemanite (calcium borates)                                             18       3           1       2         1
+       Ulexite (sodium borates)                                                 41      49          38      20        37
+     Exports:
+       Boric acid                                                              257     280         239     253       240
+       Refined borax                                                           594     607         651     604       590
+     Consumption, apparent1                                                     W       W           W       W         W
+     Price, average unit value of imports, cost, insurance, and freight,       380     394         485     606       560
+       dollars per metric ton
+     Employment, number                                                     1,330    1,330       1,400   1,430   1,500
+     Net import reliance2 as a percentage of apparent consumption               E        E           E       E       E
+
+ Recycling: Insignificant.
+
+ Import Sources (2020–23): All forms: Turkey, 90%; Bolivia, 6%; and other, 4%.
+
+     Tariff:   Item                                                   Number                    Normal Trade Relations
+                                                                                                      12–31–24
+     Natural borates:
+      Sodium (ulexite)                                             2528.00.0005                        Free.
+      Calcium (colemanite)                                         2528.00.0010                        Free.
+     Boric acids                                                   2810.00.0000                   1.5% ad valorem.
+     Borates, refined borax:
+      Anhydrous                                                    2840.11.0000                   0.3% ad valorem.
+      Non-anhydrous                                                2840.19.0000                   0.1% ad valorem.
+
+ Depletion Allowance: Borax, 14% (domestic and foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Elemental boron is a metalloid with limited commercial applications. Although the term
+ “boron” is commonly referenced, it does not occur in nature in an elemental state. Boron combines with oxygen and
+ other elements to form boric acid or inorganic salts called borates. Boron compounds, chiefly borates, are
+ commercially important; therefore, boron products are priced and sold based on their boric oxide (B2O3) content,
+ varying by ore and compound and by the absence or presence of calcium and sodium. Four borate minerals—
+ colemanite, kernite, tincal, and ulexite—account for 90% of the borate minerals used by industry worldwide. Although
+ borates were used in more than 300 applications, more than three-quarters of world consumption was used in
+ ceramics, detergents, fertilizers, and glass.
+
+
+
+
+ Prepared by Amanda S. Brioche [(703) 648–7747, abrioche@usgs.gov]
+                                                                                                                                           49
+                                                                   BORON
+China, India, Canada, Indonesia, and Mexico, in decreasing order of tonnage, were the countries that imported the
+largest quantities of refined borates from the United States in 2024. Domestic shipments of boric acid were sent to
+China, the Netherlands, the Republic of Korea, Taiwan, and Brazil, in decreasing order of tonnage. Because China has
+low-grade boron reserves and demand for boron is anticipated to rise in that country, imports from the United States
+were expected to remain steady during the next several years.
+
+Interests and investments in boron derivatives continued domestically and abroad. The U.S. Department of Defense
+under the Defense Production Act, Title III, awarded $49.6 million to a company headquartered in Golden, CO, in
+December 2023. The funding was to be used to increase domestic boron carbide production capacity. In April 2024, a
+domestic company began boric acid production at its small-scale boron facility in Newberry Springs, CA. It began
+mining borates in January 2024. This facility’s initial production capacity was about 1,800 tons per year, and the
+company planned to increase production to about 8,200 tons per year in the future. The small-scale boron facility was
+expected to focus on specialty boron products for industries related to defense, electric transportation, food security,
+and global decarbonization.
+
+One Australia-based mine developer progressed toward construction of its boric acid project in Nevada. In
+September 2024, the Bureau of Land Management completed its final environmental impact statement and determined
+that development of the project may proceed. Once constructed, the project was expected to have a 26-year mine life
+and produce about 175,000 tons per year of boric acid. Initial production was expected to begin in 2028.
+
+About 18 months after opening its first boron carbide facility in March 2023, Turkey opened another boron facility, the
+Bigadiç Granular Boron Production Facility, in September 2024. The new facility was expected to primarily produce
+granulated pipes for the fertilizer industry. This facility has a production capacity of 35,000 tons per year. By the end
+of August 2024, borate production in Turkey had increased by 36% compared with that in the same period in 2023.
+
+World Production and Reserves: Reserve data for China were revised based on Government reports.
+
+                                                               Production—All formse                                           Reserves3
+                                                                 2023            2024
+United States                                                       W               W                                             48,000
+Argentina, crude ore                                              160             160                                                 NA
+Bolivia, ulexite                                                  140             230                                                 NA
+Chile, ulexite                                                    420             420                                             35,000
+China, boric oxide equivalent                                     300             340                                              9,100
+Germany, compounds                                                 38              40                                                 NA
+Peru, crude borates                                               300             300                                              4,000
+Russia, datolite ore                                               80              80                                             40,000
+Turkey, refined borates                                         2,500           3,000                                            950,000
+  World total4                                                     XX              XX                                                 XX
+
+World Resources:3 Deposits of borates are associated with volcanic activity and arid climates, with the largest
+economically viable deposits in the Mojave Desert of the United States, the Alpide belt along the southern margin of
+Eurasia, and the Andean belt of South America. U.S. deposits consist primarily of tincal, kernite, and borates
+contained in brines, and to a lesser extent, ulexite and colemanite. About 70% of all deposits in Turkey are
+colemanite, primarily used in the production of heat-resistant glass. At current levels of consumption, world resources
+are adequate for the foreseeable future.
+
+Substitutes: The substitution of other materials for boron is possible in detergents, enamels, insulation, and soaps.
+Sodium percarbonate can replace borates in detergents and requires lower temperatures to undergo hydrolysis,
+which is an environmental consideration. Some enamels can use other glass-producing substances, such as
+phosphates. Insulation substitutes include cellulose, foams, and mineral wools. In soaps, sodium and potassium salts
+of fatty acids can act as cleaning and emulsifying agents.
+
+
+
+
+e
+ Estimated. E Net exporter. NA Not available. W Withheld to avoid disclosing company proprietary data. XX Not applicable.
+1
+ Defined as production + imports – exports.
+2
+ Defined as imports – exports.
+3
+ See Appendix C for resource and reserve definitions and information concerning data sources.
+4
+ World totals cannot be calculated because production and reserves are not reported in a consistent manner by all countries.
+
+                                                    U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

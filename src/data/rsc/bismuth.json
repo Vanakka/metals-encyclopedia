@@ -1,0 +1,13 @@
+{
+  "key": "bismuth",
+  "name": "Bismuth",
+  "atomicNumber": 83,
+  "url": "https://periodic-table.rsc.org/element/83/bismuth",
+  "slug": "bismuth",
+  "fetchedAt": "2026-07-20T01:47:00.354Z",
+  "appearance": "Bismuth is a high-density, silvery, pink-tinged metal.",
+  "uses": "Bismuth metal is brittle and so it is usually mixed with other metals to make it useful. Its alloys with tin or cadmium have low melting points and are used in fire detectors and extinguishers, electric fuses and solders. Bismuth oxide is used as a yellow pigment for cosmetics and paints, while bismuth(III) chloride oxide (BiClO) gives a pearly effect to cosmetics. Basic bismuth carbonate is taken in tablet or liquid form for indigestion as ‘bismuth mixture’.",
+  "naturalAbundance": "Bismuth occurs as the native metal, and in ores such as bismuthinite and bismite. The major commercial source of bismuth is as a by-product of refining lead, copper, tin, silver and gold ores.",
+  "biologicalRole": "Bismuth has no known biological role, and is non-toxic.",
+  "ok": true
+}

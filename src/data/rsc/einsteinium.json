@@ -1,0 +1,13 @@
+{
+  "key": "einsteinium",
+  "name": "Einsteinium",
+  "atomicNumber": 99,
+  "url": "https://periodic-table.rsc.org/element/99/einsteinium",
+  "slug": "einsteinium",
+  "fetchedAt": "2026-07-20T01:47:25.954Z",
+  "appearance": "A radioactive metal, only a few milligrams of which are made each year.",
+  "uses": "Einsteinium has no uses outside research.",
+  "naturalAbundance": "Einsteinium can be obtained in milligram quantities from the neutron bombardment of plutonium in a nuclear reactor.",
+  "biologicalRole": "Einsteinium has no known biological role. It is toxic due to its radioactivity.",
+  "ok": true
+}

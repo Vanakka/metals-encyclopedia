@@ -1,0 +1,131 @@
+170
+                                                       STRONTIUM
+                            (Data in metric tons, strontium content, unless otherwise specified)
+
+ Domestic Production and Use: Domestic apparent consumption of strontium compounds and minerals decreased
+ by 23% in 2024 compared with that in 2023. The apparent consumption of strontium compounds increased by 22%,
+ but apparent consumption of the strontium mineral celestite decreased by 95%. Although deposits of strontium
+ minerals occur widely throughout the United States, none have been mined since 1959. Large-scale domestic
+ production of strontium carbonate, the principal strontium compound, ceased in 2006. Virtually all the strontium
+ mineral celestite consumed in the United States since 2006 is estimated to have been used as an additive in drilling
+ fluids for oil and natural-gas wells. A few domestic companies manufactured and (or) distributed small quantities of
+ downstream strontium chemicals from imported strontium carbonate.
+
+ Based on import data, the estimated end-use distribution in the United States for strontium, including celestite and
+ strontium compounds, was ceramic ferrite magnets, 40%; pyrotechnics and signals, 40%; drilling fluids, 2%; and other
+ uses, including electrolytic production of zinc, glass, master alloys, and pigments and fillers,18%.
+
+  Salient Statistics—United States:                                        2020     2021     2022      2023    2024e
+  Production                                                                 —        —        —         —        —
+  Imports for consumption:
+    Celestite1                                                             1,060     106     9,160    2,060       100
+    Strontium compounds2                                                   4,440   5,020     5,740    3,330     4,000
+  Exports, strontium compounds3                                               32       6        15       53         3
+  Consumption, apparent:4
+    Celestite                                                              1,060     106    9,160     2,060       100
+    Strontium compounds                                                    4,410   5,010    5,720     3,270     4,000
+      Total                                                                5,470   5,120   14,900     5,330     4,100
+  Price, average unit value of celestite imports at port of exportation,      90     210      143        82       390
+    dollars per ton
+  Net import reliance4 as a percentage of apparent consumption               100     100       100      100       100
+
+ Recycling: None.
+
+ Import Sources (2020–23): Celestite: Mexico, 100%. Strontium compounds: Germany, 49%; Mexico, 43%;
+ China, 3%; and other, 5%. Total imports: Mexico, 65%; Germany, 30%; and other, 5%.
+
+  Tariff:   Item                                                    Number                 Normal Trade Relations
+                                                                                                 12–31–24
+  Celestite                                                      2530.90.8010                      Free.
+  Strontium compounds:
+   Strontium metal                                               2805.19.1000                 3.7% ad valorem.
+   Strontium oxide, hydroxide, peroxide                          2816.40.1000                 4.2% ad valorem.
+   Strontium nitrate                                             2834.29.2000                 4.2% ad valorem.
+   Strontium carbonate                                           2836.92.0000                 4.2% ad valorem.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile: None.
+
+ Events, Trends, and Issues: Imports of celestite in 2024 decreased by 95% compared with those in 2023, likely the
+ result of decreased use in natural-gas- and oil-well-drilling fluids and consumption of stockpiled celestite imported in
+ prior years. The weekly average active rig count5 decreased by 15% in the first 9 months in 2024 compared with that
+ in the same period in 2023 and remained 39% lower than that in the same period in 2019 before the global
+ coronavirus disease 2019 (COVID-19) pandemic in 2020. In recent years, nearly all celestite imports were from
+ Mexico and were estimated to be used as additives in drilling fluids for oil and natural gas exploration and production.
+ Substitution of celestite by barite may also have contributed to decreased imports because barite is preferred over
+ celestite for drilling mud. For these applications, celestite is ground but undergoes no chemical processing. A small
+ quantity of high-value celestite imports were reported; these were most likely mineral specimens. Celestite is the raw
+ material from which strontium carbonate and other strontium compounds are produced.
+
+
+
+
+ Prepared by Ashley K. Hatfield [(703) 648–7751, ahatfield@usgs.gov]
+                                                                                                                                              171
+                                                              STRONTIUM
+Imports of strontium compounds were estimated to have increased by 20% in 2024. Strontium carbonate is the most
+traded strontium compound and is used as the raw material from which other strontium compounds are derived.
+Strontium carbonate is sintered with iron oxide to produce permanent ceramic ferrite magnets. Strontium nitrate, the
+second most traded strontium compound, contributes a brilliant red color to fireworks and signal flares, including low-
+noise fireworks. Smaller quantities of these and other strontium compounds and strontium metal were consumed in
+several other applications, including electrolytic production of zinc, glass production, master alloys, and pigments and
+fillers. Various novel applications of strontium, such as its use in medical and technological applications, as well as in
+ultraprecise atomic optical clocks, continue to be researched. In 2024, a strontium atomic clock was recognized as
+the most accurate timepiece to date. Also in 2024, three of the oldest stars in the universe were identified through low
+amounts of strontium and barium in their spectra.
+
+In February 2024, the U.S. Department of Defense announced results of a funding opportunity under the Defense
+Production Act Investments program to establish domestic manufacturing for 22 critical chemicals. A company in
+Louisiana and a company in Ohio were selected for the domestic production of strontium nitrate, strontium oxalate,
+and strontium peroxide, among other chemicals. These awards were expected to improve the domestic supply chain,
+modernize manufacturing capacity, and lead to new jobs.
+
+World Mine Production and Reserves:6
+
+                                                                    Mine productione                                         Reserves7
+                                                                     2023      2024
+United States                                                          —          —                                                NA
+Argentina                                                             700        700                                               NA
+China                                                              80,000     80,000                                        12,000,000
+Iran                                                              200,000    200,000                                         7,100,000
+Mexico                                                            8
+                                                                   28,000     25,000                                               NA
+Spain                                                             200,000    200,000                                               NA
+   World total (rounded)                                          509,000    510,000                                             Large
+
+World Resources:7 World resources of strontium may exceed 1 billion tons.
+
+Substitutes: Barium can be substituted for strontium in ceramic ferrite magnets; however, the resulting barium
+composite will have a reduced maximum operating temperature when compared with that of strontium composites.
+Substituting for strontium in pyrotechnics is hindered by difficulty in obtaining the desired brilliance and visibility
+imparted by strontium and its compounds. In drilling mud, barite is the preferred material, but celestite may substitute
+for some barite, especially when barite prices are high.
+
+
+
+
+e
+ Estimated. NA Not available. — Zero.
+1
+ The strontium content of celestite ore is 43.88%, which was used to convert units of gross weight celestite ore to strontium content.
+2
+ Strontium compounds (with their respective strontium contents) include metal (100%); oxide, hydroxide, and peroxide (70%); carbonate (59.35%);
+and nitrate (41.40%). These factors were used to convert gross weight of strontium compounds to strontium content.
+3
+ Calculated from Schedule B number 2836.92.0000 for strontium carbonate. Other strontium compounds exports are not included because these
+shipments likely consisted of materials misclassified as strontium compounds.
+4
+ Defined as imports − exports.
+5
+ Source: Baker Hughes Co., 2024, Rig count overview & summary count: Baker Hughes Co. (Accessed October 17, 2024, at
+https://rigcount.bakerhughes.com/na-rig-count.)
+6
+ Gross weight of celestite in tons.
+7
+ See Appendix C for resource and reserve definitions and information concerning data sources.
+8
+ Reported.
+
+                                                   U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

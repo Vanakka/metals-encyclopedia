@@ -1,0 +1,13 @@
+{
+  "key": "lithium",
+  "name": "Lithium",
+  "atomicNumber": 3,
+  "url": "https://periodic-table.rsc.org/element/3/lithium",
+  "slug": "lithium",
+  "fetchedAt": "2026-07-20T01:44:59.770Z",
+  "appearance": "A soft, silvery metal. It has the lowest density of all metals. It reacts vigorously with water.",
+  "uses": "The most important use of lithium is in rechargeable batteries for mobile phones, laptops, digital cameras and electric vehicles. Lithium is also used in some non-rechargeable batteries for things like heart pacemakers, toys and clocks. Lithium metal is made into alloys with aluminium and magnesium, improving their strength and making them lighter. A magnesium-lithium alloy is used for armour plating. Aluminium-lithium alloys are used in aircraft, bicycle frames and high-speed trains. Lithium oxide is used in special glasses and glass ceramics. Lithium chloride is one of the most hygroscopic materials known, and is used in air conditioning and industrial drying systems (as is lithium bromide). Lithium stearate is used as an all-purpose and high-temperature lubricant. Lithium carbonate is used in drugs to treat manic depression, although its action on the brain is still not fully understood. Lithium hydride is used as a means of storing hydrogen for use as a fuel.",
+  "naturalAbundance": "Lithium does not occur as the metal in nature, but is found combined in small amounts in nearly all igneous rocks and in the waters of many mineral springs. Spodumene, petalite, lepidolite, and amblygonite are the more important minerals containing lithium. Most lithium is currently produced in Chile, from brines that yield lithium carbonate when treated with sodium carbonate. The metal is produced by the electrolysis of molten lithium chloride and potassium chloride.",
+  "biologicalRole": "Lithium has no known biological role. It is toxic, except in very small doses.",
+  "ok": true
+}

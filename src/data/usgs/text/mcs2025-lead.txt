@@ -1,0 +1,122 @@
+106
+                                                         LEAD
+                        (Data in thousand metric tons, lead content, unless otherwise specified)
+
+ Domestic Production and Use: Lead was produced domestically by five lead mines in Missouri plus as a byproduct
+ at two zinc mines in Alaska and two silver mines in Idaho. The value of recoverable lead from ore mined in 2024 was
+ an estimated $670 million compared with $660 million in 2023. Nearly all lead concentrate production has been
+ exported since the last primary lead refinery closed in 2013. The value of the secondary lead produced in 2024 was
+ $2.4 billion, 4% less than that in 2023. The lead-acid battery industry accounted for an estimated 86% of reported
+ U.S. lead consumption during 2024. Lead-acid batteries were primarily used as starting-lighting-ignition (SLI) batteries
+ for automobiles, as industrial-type batteries for standby power for computer and telecommunications networks, and
+ for motive power.
+
+  Salient Statistics—United States:                                        2020     2021      2022      2023     2024e
+  Production:
+    Mine, lead in concentrates                                              306       294       273       270       300
+    Mine, recoverable lead                                                  297       286       264       263       290
+    Primary refinery                                                         —         —         —         —         —
+    Secondary refinery, old scrap                                         1,090     1,050     1,010     1,010     1,000
+  Imports for consumption:
+    Lead in concentrates                                                     (1)        1        (1)       (1)      (1)
+    Refined metal, unwrought                                                382       614       652       519      420
+  Exports:
+    Lead in concentrates                                                    265       262       255       246       270
+    Refined metal, unwrought (gross weight)                                  17        22        26        23        24
+  Consumption, apparent2                                                  1,450     1,640     1,630     1,500     1,400
+  Price, average, North American, cents per pound3                         91.3     113.0     116.5     114.1       110
+  Net import reliance4 as a percentage of apparent consumption,              25        36        38        33        28
+    refined metal
+
+ Recycling: In 2024, an estimated 1 million tons of secondary lead was produced, an amount equivalent to 70% of
+ apparent domestic consumption. Nearly all secondary lead was recovered from old scrap, mostly lead-acid batteries.
+
+ Import Sources (2020–23): Refined metal: Canada, 32%; Republic of Korea, 16%; Mexico, 14%; Australia, 11%;
+ and other, 27%.
+
+  Tariff:   Item                                             Number                      Normal Trade Relations
+                                                                                                 12–31–24
+  Lead ores and concentrates, lead content                2607.00.0020                   1.1¢/kg on lead content.
+  Refined lead                                            7801.10.0000             2.5% on the value of the lead content.
+  Antimonial lead                                         7801.91.0000             2.5% on the value of the lead content.
+  Alloys of lead                                          7801.99.9030             2.5% on the value of the lead content.
+  Other unwrought lead                                    7801.99.9050             2.5% on the value of the lead content.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile: None.
+
+
+
+
+ Prepared by Kateryna Klochko [(703) 648–4977, kklochko@usgs.gov]
+                                                                                                                                              107
+                                                                   LEAD
+Events, Trends, and Issues: During the first 9 months of 2024, the average North American price for lead was
+110 cents per pound, 4% less than the annual average price of 114.1 cents per pound in 2023. Global stocks of lead
+in LME-approved warehouses were 199,000 tons at the end of September, 49% more than those at yearend 2023.
+
+In 2024, domestic mine production of recoverable lead increased by 10% from that in 2023, and production of
+secondary lead was essentially unchanged from that in 2023. Estimated U.S. apparent consumption of refined lead
+decreased by 7% from that in 2023, and the net import reliance decreased to 28% from 33%. In the first 9 months of
+2024, 20 million spent SLI lead-acid batteries were exported, an 11% increase from 18.5 million batteries exported in
+the same period in 2023.
+
+According to the International Lead and Zinc Study Group,5 global refined lead production in 2024 was forecast to
+increase by 2.4% to 13.5 million tons and refined lead consumption to increase by 0.2% to 13.1 million tons.
+
+World Mine Production and Reserves: Reserves for China and Russia were revised based on Government reports.
+
+                                                                    Mine production                                       Reserves6
+                                                                    2023      2024e
+United States                                                         270       300                                             4,600
+Australia                                                             430       430                                           7
+                                                                                                                               35,000
+Bolivia                                                                 60       60                                             1,600
+China                                                               1,960     1,900                                            22,000
+India                                                                 226       220                                             1,900
+Iran                                                                   e
+                                                                        60       60                                             2,000
+Mexico                                                                183       180                                             5,600
+Peru                                                                  273       270                                             5,000
+Russia                                                               e
+                                                                      218       220                                             8,900
+Sweden                                                                  72       70                                             1,700
+Tajikistan                                                             e
+                                                                        39       40                                               NA
+Turkey                                                                 e
+                                                                        68       70                                             1,600
+Other countries                                                        511      520                                             5,900
+   World total (rounded)                                            4,370     4,300                                            96,000
+
+World Resources:6 Identified world lead resources total more than 2 billion tons. In recent years, significant lead
+resources have been identified in association with zinc and (or) silver or copper deposits in Australia, China, Ireland,
+Mexico, Peru, Portugal, Russia, and the United States (Alaska).
+
+Substitutes: Substitution by plastics has reduced the use of lead in cable covering and cans. Tin has replaced lead
+in solder for potable water systems. The electronics industry has moved toward lead-free solders and flat-panel
+displays that do not require lead shielding. Steel and zinc are common substitutes for lead in wheel weights.
+
+
+
+
+e
+  Estimated. NA Not available. — Zero.
+1
+  Less than ½ unit.
+2
+  Defined as primary refined production + secondary refined production from old scrap + refined imports – refined exports.
+3
+  Source: S&P Global Platts Metals Week.
+4
+  Defined as refined imports – refined exports.
+5
+  Source: International Lead and Zinc Study Group, 2024, ILZSG session/forecasts: Lisbon, Portugal, International Lead and Zinc Study Group
+press release, September 30, [4] p.
+6
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+7
+  For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 10 million tons.
+
+                                                    U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

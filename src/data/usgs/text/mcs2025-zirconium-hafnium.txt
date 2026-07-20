@@ -1,0 +1,153 @@
+204
+                                          ZIRCONIUM AND HAFNIUM
+                                    (Data in metric tons unless otherwise specified)
+
+ Domestic Production and Use: In 2024, one company recovered zircon (zirconium silicate) from surface-mining
+ operations in Florida and Georgia as a coproduct from the mining of heavy-mineral sands, and a second company
+ processed existing mineral sands tailings in California. Abrasive sands, monazite, and titanium mineral concentrates
+ were coproducts of domestic heavy-mineral-sand operations. Zirconium metal and hafnium metal were produced from
+ zirconium chemical intermediates by one producer in Oregon and one in Utah. Zirconium and hafnium are typically
+ contained in zircon at a ratio of about 50 to 1. Zirconium chemicals were produced from domestic and imported
+ materials by the metal producer in Oregon and by at least 10 other companies. Ceramics, foundry sand, opacifiers,
+ and refractories were the leading end uses for zircon, and other end uses included abrasives, chemicals, metal alloys,
+ and welding rod coatings. The leading consumers of zirconium metal are the chemical process and nuclear energy
+ industries. The leading use of hafnium metal is in superalloys.
+
+  Salient Statistics—United States:                              2020        2021         2022       2023       2024e
+  Production, zirconium ores and concentrates [zirconium      <100,000    <100,000     <100,000   <100,000   <100,000
+    oxide (ZrO2) content]
+  Imports:
+    Zirconium ores and concentrates (ZrO2 content)1             15,600      18,500       31,900     20,400     19,000
+    Zirconium, unwrought, powder, and waste and scrap            2,030         746          346        451        580
+    Zirconium, wrought                                             302         265          286        314        340
+    Hafnium, unwrought, including powders                           16          23           43         70         50
+    Hafnium, wrought                                                NA          NA            2          6         10
+  Exports:
+    Zirconium ores and concentrates (ZrO2 content)1, 2          12,200      10,000       11,200     13,200     16,000
+    Zirconium, unwrought, powder, and waste and scrap              664         589        1,090      1,090      1,200
+    Zirconium, wrought                                             838         966          805        706        750
+    Hafnium, unwrought, including powders                            --          --          15         58         10
+    Hafnium, wrought                                                NA          NA            3          3          5
+  Consumption, apparent,3 zirconium ores and                  <100,000    <100,000     <100,000   <100,000   <100,000
+    concentrates (ZrO2 content)1
+  Price:
+    Zircon, dollars per metric ton (gross weight):
+      Premium grade, cost, insurance, and freight, China4        1,490       1,580        2,170      2,160      2,000
+      Imported5                                                  1,400       1,450        2,130      1,980      2,100
+    Zirconium, sponge, ex-works China,6 dollars per                 25          25           30         28         25
+      kilogram
+    Hafnium, unwrought,6 dollars per kilogram                      778         781        1,590      6,150      4,600
+  Net import reliance7 as a percentage of apparent
+    consumption:
+    Zirconium ores and concentrates                                <25         <25         <50        <25        <25
+    Hafnium                                                         NA          NA          NA         NA         NA
+
+ Recycling: Companies in Oregon and Utah recycled zirconium from new scrap generated during metal production
+ and fabrication and (or) from post-commercial old scrap. Zircon foundry mold cores and spent or rejected zirconia
+ refractories are often recycled but could not be quantified. Hafnium metal recycling was limited.
+
+ Import Sources (2020–23): Zirconium ores and concentrates: South Africa, 46%; Australia, 35%; Senegal, 16%; and
+ other, 3%. Zirconium, unwrought, including powder: China, 88%; Germany, 7%; and other, 5%. Zirconium, wrought:
+ France, 46%; Germany, 19%; Canada, 16%; Belgium, 5%; and other, 14%. Hafnium, unwrought: Germany, 50%;
+ China, 21%; France, 18%; United Kingdom, 5%; and other, 6%.
+
+  Tariff:   Item                                                     Number                 Normal Trade Relations
+                                                                                                  12–31–24
+  Zirconium ores and concentrates                                  2615.10.0000                     Free.
+  Ferrozirconium                                                   7202.99.1000               4.2% ad valorem.
+  Zirconium, unwrought and powder                           8109.21.0000, 8109.29.0000        4.2% ad valorem.
+  Zirconium waste and scrap                                 8109.31.0000, 8109.39.0000              Free.
+  Other zirconium articles                                  8109.91.0000, 8109.99.0000        3.7% ad valorem.
+  Hafnium, unwrought, including powders                            8112.31.0000                     Free.
+  Hafnium, other                                                   8112.39.0000                4% ad valorem.
+
+
+ Prepared by Shelby N. Johnston [(303) 236–5209, sjohnston@usgs.gov]
+                                                                                                                                      205
+                                                   ZIRCONIUM AND HAFNIUM
+Depletion Allowance: 22% (domestic), 14% (foreign).
+
+Government Stockpile:8 Fiscal year 2025 potential acquisitions include 2,300 tons of zirconium.
+
+Events, Trends, and Issues: Global mine production of zirconium mineral concentrates increased by 4% to an
+estimated 1.5 million tons gross weight in 2024. Several companies continued exploration and development projects
+with planned production of zirconium mineral concentrates in Australia, Mozambique, South Africa, Sri Lanka,
+Tanzania, and elsewhere. The leading global exporters of zirconium mineral concentrates were Australia and South
+Africa. China was the leading importer of zirconium mineral concentrates; China’s imports included zircon in mixed
+and separated heavy-mineral concentrates. U.S. imports of zirconium mineral concentrates continued to decrease in
+2024, whereas exports increased. Australia, Senegal, and South Africa were still the leading import sources of
+zirconium mineral concentrates. The United States was a net exporter of zirconium metal. U.S. exports of unwrought
+hafnium decreased by almost 80% in 2024 after a nearly fourfold increase in 2023, and imports decreased by almost
+30%. The leading global exporters of unwrought hafnium were China, Germany, and the Netherlands.
+
+World Mine Production and Reserves: World primary hafnium production data and quantitative estimates of
+hafnium reserves were not available. Zirconium reserves for Australia, Kenya, Madagascar, and South Africa were
+revised based on company and Government reports.
+
+                                                        Zirconium mineral concentrates,                        Zirconium reserves9
+                                                                mine productione                             (thousand metric tons,
+                                                      (thousand metric tons, gross weight)                        ZrO2 content)1
+                                                             2023                    2024
+United States                                                10
+                                                               100                   10
+                                                                                       100                                    500
+Australia                                                      500                     500                                 55,000
+                                                                                                                          11
+
+China                                                          100                     100                                     72
+Indonesia                                                        95                      95                                    NA
+Kenya                                                          12
+                                                                 20                      20                                     5
+Madagascar                                                       34                      30                                 2,100
+Mozambique                                                   12
+                                                               144                     160                                  1,500
+Senegal                                                        12
+                                                                 48                      60                                 2,600
+Sierra Leone                                                   12
+                                                                 28                      20                                   290
+South Africa                                                 12
+                                                               289                     300                                  5,300
+Other countries                                                   86                    110                                 5,700
+  World total (rounded)                                      1,440                  1,500                                 >70,000
+
+World Resources:8 Resources of zircon in the United States included about 14 million tons associated with titanium
+resources in heavy-mineral-sand deposits. Phosphate rock and sand and gravel deposits could potentially yield
+substantial amounts of zircon as a byproduct. World resources of hafnium are associated with those of zircon and
+baddeleyite. Quantitative estimates of hafnium resources were not available.
+
+Substitutes: Chromite and olivine can be used instead of zircon for some foundry applications. Dolomite and spinel
+refractories can also substitute for zircon in certain high-temperature applications. Niobium (columbium), stainless
+steel, and tantalum provide limited substitution in nuclear applications, and titanium and synthetic materials may
+substitute in some chemical processing plant applications. Boron or cadmium-silver-indium alloys are sometimes
+used in lieu of hafnium metal in control rods at nuclear powerplants. Zirconium can be used interchangeably with
+hafnium in certain superalloys.
+
+e
+  Estimated. E Net exporter. NA Not available.
+1
+  Calculated ZrO2 content as 65% of gross weight.
+2
+  Excludes zircon in mixed mineral concentrates.
+3
+  Defined as production + imports – exports.
+4
+  Source: Fastmarkets IM.
+5
+  Unit value based on landed-duty-paid United States imports for consumption from Australia, Senegal, and South Africa.
+6
+  Source: Argus Media Group, Argus Non-Ferrous Markets, annual average.
+7
+  Defined as imports – exports.
+8
+  See Appendix B for definitions.
+9
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+10
+   Data are rounded to the nearest hundred thousand tons to avoid disclosing company proprietary data.
+11
+   For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 20 million tons, ZrO2 content.
+12
+   Reported.
+
+                                                    U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+

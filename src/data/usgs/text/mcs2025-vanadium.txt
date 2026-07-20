@@ -1,0 +1,143 @@
+192
+                                                    VANADIUM
+                          (Data in metric tons, vanadium content, unless otherwise specified)
+
+ Domestic Production and Use: Vanadium production in Utah from the mining of uraniferous sandstones on the
+ Colorado Plateau ceased in early 2020 and was not restarted in 2024. Secondary vanadium production continued in
+ Arkansas, Delaware, Ohio, Pennsylvania, and Texas, where processed waste materials (petroleum residues, spent
+ catalysts, and utility ash) were used to produce ferrovanadium, vanadium-bearing chemicals or specialty alloys, and
+ vanadium pentoxide. Estimated U.S. apparent consumption of vanadium in 2024 decreased by 8% from that in 2023.
+ Metallurgical use, primarily as an alloying agent for iron and steel, accounted for more than 90% of domestic reported
+ vanadium consumption in 2024. Of the other uses for vanadium, the major nonmetallurgical use was in catalysts to
+ produce maleic anhydride and sulfuric acid.
+
+  Salient Statistics—United States:                                   2020       2021      2022      2023     2024e
+  Production from primary ore and concentrate                           17         —         —         —         —
+  Production from ash, residues, and spent catalystse                2,900      3,200     4,400     6,500     8,200
+  Imports for consumption:
+    Aluminum-vanadium master alloy                                     101         35       104       221       110
+    Ash and residues1, 2                                             1,550      1,680     2,240     3,140     2,300
+    Ferrovanadium                                                    1,360      2,170     2,650     2,280     1,800
+    Oxides and hydroxides, other                                        67         69       222       151       170
+    Vanadium chemicals3                                                382        846       804       793       530
+    Vanadium metal4                                                     (5)        (5)       28        20        10
+    Vanadium ores and concentrates1                                      2          4       492       674       160
+    Vanadium pentoxide                                               1,670      1,710     1,980     2,320     2,500
+  Exports:
+    Aluminum-vanadium master alloy                                      14         72        28        36        70
+    Ash and residues1                                                  503        930     1,130       861     1,500
+    Ferrovanadium                                                      210        173       154       159        70
+    Oxides and hydroxides, other                                        51        235       309       142       360
+    Vanadium metal4                                                      1          4         8        38         5
+    Vanadium ores and concentrates1                                     92         81       185        82        20
+    Vanadium pentoxide                                                  50         17       143        28       120
+  Consumption:
+    Apparent6                                                        7,110      8,200    11,000    14,800    14,000
+    Reported                                                         7,920      8,030     7,510    e8,000     8,000
+  Price, average, vanadium pentoxide,7 dollars per pound              6.47       8.17      9.29      7.50      5.45
+  Stocks, yearend8                                                     269        271       248       240       250
+  Net import reliance9 as a percentage of apparent consumption          59         61        60        56        40
+
+ Recycling: Recycling of vanadium is mainly associated with reprocessing vanadium catalysts into new catalysts. The
+ range in vanadium content in spent catalysts varies depending on the crude oil feedstock and the uncertainty
+ associated with the quantity of vanadium recycled from spent chemical process catalysts was significant.
+
+ Import Sources (2020–23): Ferrovanadium: Canada, 48%; Austria, 37%; Russia, 7%; and other, 8%. Vanadium
+ pentoxide: Brazil, 49%; South Africa, 35%; Russia, 7%; and other, 9%. Total: Canada, 34%; Brazil, 13%; Austria,
+ 11%; South Africa, 11%; and other, 31%.
+
+  Tariff:   Item                                                 Number                  Normal Trade Relations
+                                                                                               12–31–24
+  Vanadium ores and concentrates                              2615.90.6090                       Free.
+  Vanadium-bearing ash and residues                           2620.40.0030                       Free.
+  Vanadium-bearing ash and residues, other                    2620.99.1000                       Free.
+  Vanadium pentoxide, anhydride                               2825.30.0010                  5.5% ad valorem.
+  Vanadium oxides and hydroxides, other                       2825.30.0050                  5.5% ad valorem.
+  Ferrovanadium                                               7202.92.0000                  4.2% ad valorem.
+  Vanadium metal                                              8112.92.7000                   2% ad valorem.
+  Vanadium and articles thereof10                             8112.99.2000                   2% ad valorem.
+  Vanadium chemicals                                               (3)                      5.5% ad valorem.
+
+ Depletion Allowance: 22% (domestic), 14% (foreign).
+
+ Government Stockpile: None.
+ Prepared by Désirée E. Polyak [(703) 648–4909, dpolyak@usgs.gov]
+                                                                                                                                              193
+                                                             VANADIUM
+Events, Trends, and Issues: The estimated average Chinese vanadium pentoxide (V2O5) price (98% V2O5 content)
+in 2024 was $5.45 per pound compared with $7.50 in 2023. The estimated United States ferrovanadium price
+(78%–82% vanadium content) was $12.84 per pound in 2024 compared with $16.42 in 2023. The World Steel
+Association estimated that global steel consumption increased by 1.7% in 2024. Total world steel production was
+estimated to have decreased by 1.5% during the first 7 months of 2024 compared with the same period in 2023. Like
+most ferroalloys, vanadium is largely dependent on the market characteristics of steel and specifically the Chinese
+steel industry. In 2024, China continued to be the world’s top vanadium producer, producing most of its vanadium
+from vanadiferous iron ore processed for steel production.
+
+Vanadium redox flow battery (VRFB) technology continued to be an increasingly important part of large-scale energy
+storage as it allows for high-safety, large-scale, environmentally friendly, medium- and long-term energy storage.
+Installations of VRFB projects continued to increase worldwide as energy companies looked to support renewable
+energy projects as many countries attempt to lower their carbon emissions. Many governments worldwide are
+promoting energy storage technologies, which creates favorable conditions for VRFB adoption. However, high capital
+and operating costs as well as limited vanadium feedstock availability remain the main drawback of VRFB technology.
+Despite the anticipated growth of VRFBs, there will be continued competition from a variety of alternative battery
+technologies looking to capture a portion of the energy storage market share.
+
+World Mine Production and Reserves: Reserves for China and South Africa were revised based on company and
+Government reports.
+
+                                                       Mine production                                 Reserves11
+                                                         2023     2024e                          (thousand metric tons)
+United States                                              —          —                                     45
+Australia                                                  —          —                                128,500
+
+Brazil                                                  5,420     5,000                                    120
+China                                                 e70,000    70,000                                  4,100
+Russia                                                e20,000    21,000                                  5,000
+South Africa                                            8,670     8,000                                    430
+ World total (rounded)                                104,000   100,000                                 18,000
+
+World Resources:11 World resources of vanadium exceed 63 million tons. Vanadium occurs in deposits of
+phosphate rock, titaniferous magnetite, and uraniferous sandstone and siltstone, in which it constitutes less than 2%
+of the host rock. Significant quantities are also present in bauxite and carboniferous materials, such as coal, crude oil,
+oil shale, and tar sands. Because vanadium is typically recovered as a byproduct or coproduct, demonstrated world
+resources of the element are not fully indicative of available supplies.
+
+Substitutes: Steels containing various combinations of other alloying elements can be substituted for steels
+containing vanadium. Certain metals, such as manganese, molybdenum, niobium (columbium), titanium, and
+tungsten, are to some degree interchangeable with vanadium as alloying elements in steel. Platinum and nickel can
+replace vanadium compounds as catalysts in some chemical processes. Currently, no acceptable substitute for
+vanadium is available for use in aerospace titanium alloys.
+
+
+
+e
+ Estimated. — Zero.
+1
+ Reported by the U.S. Census Bureau as kilograms of V2O5. To convert V2O5 content to vanadium content, multiply by 0.56.
+2
+ Includes estimates for data suppressed by the U.S. Census Bureau in the years 2020 through 2024.
+3
+ Includes Harmonized Tariff Schedule of the United States codes for chloride oxides and hydroxides of vanadium (2827.49.1000), hydrides and
+nitrides of vanadium (2850.00.2000), vanadates (2841.90.1000), vanadium chlorides (2827.39.1000), and vanadium sulfates (2833.29.3000).
+4
+ Includes waste and scrap.
+5
+ Less than ½ unit.
+6
+ Defined as primary production + secondary production + imports – exports ± adjustments for industry stock changes.
+7
+ Chinese annual average V2O5 prices (98% V2O5 content). Source Argus Media Group, Argus Non-Ferrous Markets.
+8
+ Includes ferrovanadium, vanadium-aluminum alloy, other vanadium alloys, vanadium metal, vanadium pentoxide, and other specialty chemicals.
+9
+ Defined as imports – exports ± adjustments for industry stock changes.
+10
+  Aluminum-vanadium master alloy consisting of 35% aluminum and 64.5% vanadium and is the main master alloy for the vanadium industry.
+Unwrought aluminum-vanadium master alloy (Harmonized Tariff Schedule of the United States code 7601.20.9030) was not included.
+11
+  See Appendix C for resource and reserve definitions and information concerning data sources.
+12
+  For Australia, Joint Ore Reserves Committee-compliant or equivalent reserves were 3 million tons.
+
+                                                  U.S. Geological Survey, Mineral Commodity Summaries, January 2025
+
