@@ -13,6 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { USGS_MAP } from "./usgs-map.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -20,77 +21,19 @@ const raw = JSON.parse(fs.readFileSync(path.join(root, "src/data/metals-raw.json
 const rscAll = JSON.parse(fs.readFileSync(path.join(root, "src/data/rsc/_all.json"), "utf8"));
 const rscByKey = new Map(rscAll.map((r) => [r.key, r]));
 
-const USGS_MAP = {
-  lithium: "mcs2025-lithium.txt",
-  aluminum: "mcs2025-aluminum.txt",
-  copper: "mcs2025-copper.txt",
-  nickel: "mcs2025-nickel.txt",
-  titanium: "mcs2025-titanium.txt",
-  iron: "mcs2025-iron-ore.txt",
-  gold: "mcs2025-gold.txt",
-  silver: "mcs2025-silver.txt",
-  zinc: "mcs2025-zinc.txt",
-  lead: "mcs2025-lead.txt",
-  tin: "mcs2025-tin.txt",
-  tungsten: "mcs2025-tungsten.txt",
-  molybdenum: "mcs2025-molybdenum.txt",
-  cobalt: "mcs2025-cobalt.txt",
-  silicon: "mcs2025-silicon.txt",
-  antimony: "mcs2025-antimony.txt",
-  bismuth: "mcs2025-bismuth.txt",
-  cadmium: "mcs2025-cadmium.txt",
-  gallium: "mcs2025-gallium.txt",
-  germanium: "mcs2025-germanium.txt",
-  indium: "mcs2025-indium.txt",
-  mercury: "mcs2025-mercury.txt",
-  niobium: "mcs2025-niobium.txt",
-  rhenium: "mcs2025-rhenium.txt",
-  tantalum: "mcs2025-tantalum.txt",
-  tellurium: "mcs2025-tellurium.txt",
-  thallium: "mcs2025-thallium.txt",
-  vanadium: "mcs2025-vanadium.txt",
-  beryllium: "mcs2025-beryllium.txt",
-  boron: "mcs2025-boron.txt",
-  chromium: "mcs2025-chromium.txt",
-  manganese: "mcs2025-manganese.txt",
-  arsenic: "mcs2025-arsenic.txt",
-  magnesium: "mcs2025-magnesium-metal.txt",
-  thorium: "mcs2025-thorium.txt",
-  // newly mapped industrial-mineral chapters (element ↔ commodity)
-  sodium: "mcs2025-salt.txt",
-  potassium: "mcs2025-potash.txt",
-  calcium: "mcs2025-lime.txt",
-  rubidium: "mcs2025-rubidium.txt",
-  strontium: "mcs2025-strontium.txt",
-  cesium: "mcs2025-cesium.txt",
-  barium: "mcs2025-barite.txt",
-  zirconium: "mcs2025-zirconium-hafnium.txt",
-  hafnium: "mcs2025-zirconium-hafnium.txt",
-  // shared chapters
-  platinum: "mcs2025-platinum-group.txt",
-  palladium: "mcs2025-platinum-group.txt",
-  rhodium: "mcs2025-platinum-group.txt",
-  ruthenium: "mcs2025-platinum-group.txt",
-  iridium: "mcs2025-platinum-group.txt",
-  osmium: "mcs2025-platinum-group.txt",
-  lanthanum: "mcs2025-rare-earths.txt",
-  cerium: "mcs2025-rare-earths.txt",
-  praseodymium: "mcs2025-rare-earths.txt",
-  neodymium: "mcs2025-rare-earths.txt",
-  samarium: "mcs2025-rare-earths.txt",
-  europium: "mcs2025-rare-earths.txt",
-  gadolinium: "mcs2025-rare-earths.txt",
-  terbium: "mcs2025-rare-earths.txt",
-  dysprosium: "mcs2025-rare-earths.txt",
-  holmium: "mcs2025-rare-earths.txt",
-  erbium: "mcs2025-rare-earths.txt",
-  thulium: "mcs2025-rare-earths.txt",
-  ytterbium: "mcs2025-rare-earths.txt",
-  lutetium: "mcs2025-rare-earths.txt",
-  yttrium: "mcs2025-rare-earths.txt",
-  scandium: "mcs2025-rare-earths.txt",
-  promethium: "mcs2025-rare-earths.txt"
-};
+/** Chapters whose Domestic Production text is not about this element as metal.
+ * Shared group chapters (REE, PGM, Zr–Hf) and industrial-mineral aliases (salt/potash/lime/barite).
+ * Prefer RSC natural abundance for the UI “How it is made” blurb; USGS still counts as Confirmed.
+ */
+const USGS_PREFER_RSC_PRODUCTION = new Set([
+  "mcs2025-rare-earths.txt",
+  "mcs2025-platinum-group.txt",
+  "mcs2025-zirconium-hafnium.txt",
+  "mcs2025-salt.txt",
+  "mcs2025-potash.txt",
+  "mcs2025-lime.txt",
+  "mcs2025-barite.txt"
+]);
 
 function readUsgs(filename) {
   const full = path.join(root, "src/data/usgs/text", filename);
@@ -171,12 +114,20 @@ for (const metal of raw) {
   let narrativeConfidence = "unverified-model";
   const narrativeSources = [];
 
+  const preferRscProduction = Boolean(usgsFile && USGS_PREFER_RSC_PRODUCTION.has(usgsFile));
+
   if (hasRscNarrative) {
     overview = [rsc.appearance, rsc.naturalAbundance ? clip(rsc.naturalAbundance, 320) : ""]
       .filter(Boolean)
       .join(" ");
-    // Prefer USGS for industrial production detail when available; else RSC natural abundance.
-    production = usgsExcerpt || rsc.naturalAbundance || "";
+    // Element-specific USGS chapters win for industrial production. Group/alias chapters
+    // (rare earths, PGMs, Zr–Hf, salt/potash/lime/barite) are not about this metal —
+    // prefer RSC natural abundance so “How it is made” stays element-specific.
+    if (preferRscProduction) {
+      production = rsc.naturalAbundance || usgsExcerpt || "";
+    } else {
+      production = usgsExcerpt || rsc.naturalAbundance || "";
+    }
     uses = rsc.uses || "";
     narrativeSources.push(rscSource);
     if (usgsExcerpt) {
@@ -225,7 +176,7 @@ fs.writeFileSync(
       totals: stats,
       metals: Object.keys(narratives).length,
       method:
-        "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production and Use excerpts where a commodity chapter is mapped. Confirmed = RSC + USGS. Single-source = RSC only (or USGS only if RSC missing)."
+        "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production and Use excerpts where a commodity chapter is mapped. Group/alias chapters (rare-earths, platinum-group, zirconium-hafnium, salt, potash, lime, barite) keep USGS as a Confirmed source but use RSC natural abundance for the production blurb. Confirmed = RSC + USGS. Single-source = RSC only (or USGS only if RSC missing)."
     },
     null,
     2

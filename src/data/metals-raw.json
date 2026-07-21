@@ -4,7 +4,7 @@
     "name": "Lithium",
     "symbol": "Li",
     "atomicNumber": 3,
-    "atomicMass": 7,
+    "atomicMass": 6.94,
     "electronConfiguration": "[He]2s1",
     "standardState": "Solid",
     "yearDiscovered": "1817",
@@ -1759,7 +1759,7 @@
     "name": "Lead",
     "symbol": "Pb",
     "atomicNumber": 82,
-    "atomicMass": 207,
+    "atomicMass": 207.2,
     "electronConfiguration": "[Xe]6s2 4f14 5d10 6p2",
     "standardState": "Solid",
     "yearDiscovered": "Ancient",
@@ -2371,9 +2371,9 @@
     "density": null,
     "summary": "Seaborgium (Sg) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Seaborgium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seaborgium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "bohrium",
@@ -2398,9 +2398,9 @@
     "density": null,
     "summary": "Bohrium (Bh) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bohrium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bohrium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "hassium",
@@ -2425,9 +2425,9 @@
     "density": null,
     "summary": "Hassium (Hs) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hassium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hassium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "meitnerium",
@@ -2452,9 +2452,9 @@
     "density": null,
     "summary": "Meitnerium (Mt) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meitnerium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meitnerium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "darmstadtium",
@@ -2479,9 +2479,9 @@
     "density": null,
     "summary": "Darmstadtium (Ds) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Darmstadtium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Darmstadtium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "roentgenium",
@@ -2506,9 +2506,9 @@
     "density": null,
     "summary": "Roentgenium (Rg) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roentgenium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roentgenium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "copernicium",
@@ -2533,9 +2533,9 @@
     "density": null,
     "summary": "Copernicium (Cn) is classified here as transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Copernicium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Copernicium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "nihonium",
@@ -2560,9 +2560,9 @@
     "density": null,
     "summary": "Nihonium (Nh) is classified here as post-transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nihonium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nihonium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "flerovium",
@@ -2587,9 +2587,9 @@
     "density": null,
     "summary": "Flerovium (Fl) is classified here as post-transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flerovium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Flerovium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "moscovium",
@@ -2614,9 +2614,9 @@
     "density": null,
     "summary": "Moscovium (Mc) is classified here as post-transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moscovium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Moscovium.svg",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "key": "livermorium",
@@ -2641,8 +2641,8 @@
     "density": null,
     "summary": "Livermorium (Lv) is classified here as post-transition. PubChem does not list a reliable melting-point value for this element. PubChem does not list a density value for this element. For superheavy elements, many physical properties are unknown or not practical to measure.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable"
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Livermorium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Livermorium.svg",
+    "imageCredit": "Wikimedia Commons"
   }
 ]

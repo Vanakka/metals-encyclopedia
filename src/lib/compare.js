@@ -7,7 +7,8 @@ import {
   formatNumber,
   formatTemperature,
   formatThermalConductivity,
-  hasValue
+  hasValue,
+  sublimesAtOneAtm
 } from "./format.js";
 import { relativeConductivity } from "./filter.js";
 
@@ -45,7 +46,11 @@ export const COMPARE_PROPERTIES = [
     type: "number",
     higher: "higher",
     get: (m) => m.boilingPoint,
-    format: (m) => formatTemperature(m.boilingPoint),
+    format: (m) => {
+      const t = formatTemperature(m.boilingPoint);
+      if (t === "Unavailable") return t;
+      return sublimesAtOneAtm(m) ? `${t} · sublimes @ 1 atm` : t;
+    },
     deltaSuffix: " °C"
   },
   {

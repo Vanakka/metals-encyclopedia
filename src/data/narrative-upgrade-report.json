@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-20T04:53:53.794Z",
+  "generatedAt": "2026-07-20T23:23:39.807Z",
   "totals": {
     "confirmed": 67,
     "singleSource": 31,
     "unverified": 0
   },
   "metals": 98,
-  "method": "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production and Use excerpts where a commodity chapter is mapped. Confirmed = RSC + USGS. Single-source = RSC only (or USGS only if RSC missing)."
+  "method": "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production and Use excerpts where a commodity chapter is mapped. Group/alias chapters (rare-earths, platinum-group, zirconium-hafnium, salt, potash, lime, barite) keep USGS as a Confirmed source but use RSC natural abundance for the production blurb. Confirmed = RSC + USGS. Single-source = RSC only (or USGS only if RSC missing)."
 }

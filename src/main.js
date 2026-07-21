@@ -2,6 +2,7 @@ import "./style.css";
 /* MOBILE_BROWSE_V2 — remove this import (+ style.mobile-browse.css) to revert mobile list/entry UX */
 import "./style.mobile-browse.css";
 import { metals } from "./data/metals.js";
+import { CONFIDENCE_REFERENCE, SOURCE_REFERENCE } from "./data/sources.js";
 import {
   confidenceLabel,
   formatAbundance,
@@ -13,7 +14,11 @@ import {
   formatTemperature,
   formatThermalConductivity,
   hasValue,
-  dataCoverage
+  dataCoverage,
+  boilingPointLabel,
+  boilingPointTip,
+  meltingPointTip,
+  sublimesAtOneAtm
 } from "./lib/format.js";
 import { getFilteredMetals, relativeConductivity } from "./lib/filter.js";
 import {
@@ -45,6 +50,8 @@ const PROP_TIPS = {
   "Atomic mass": "Average mass of one atom in unified atomic mass units (u) — 1 u ≈ the mass of a single proton.",
   "Melting point": "Temperature where the solid turns to liquid.",
   "Boiling point": "Temperature where the liquid turns to gas.",
+  "Sublimation (1 atm)":
+    "Temperature where the solid sublimes to gas at ~1 atm. Used when the listed boiling point is below the melting point (e.g. arsenic).",
   Density: "Mass per volume, in g/cm³ (grams per cubic centimetre) — water is 1.0, so a value of 20 is 20× heavier than water.",
   "Electrical conductivity": "How well it carries electric current. Measured in S/m (siemens per metre).",
   "Conductivity vs silver": "Electrical conductivity as a percentage of silver, the best metallic conductor.",
@@ -227,6 +234,11 @@ function goHome() {
 
 function openSeriesHub() {
   state.page = "series";
+  renderApp();
+}
+
+function openSources() {
+  state.page = "sources";
   renderApp();
 }
 
@@ -465,6 +477,10 @@ function renderApp() {
     renderSeriesHub();
     return;
   }
+  if (state.page === "sources") {
+    renderSources();
+    return;
+  }
   renderBrowse();
 }
 
@@ -482,7 +498,7 @@ function renderDashboard() {
       <main class="dash-main">
         <div class="dash-hero">
           <div>
-            <p class="dash-kicker">// Materials reference console</p>
+            <p class="dash-kicker">// Materials reference index</p>
             <h1>Materials<br />Encyclopedia</h1>
           </div>
           <p class="dash-hero-copy">What each material is, how it is made, scientific facts, and images. Metals are live; composites and organics dock here later as sibling catalogs.</p>
@@ -523,17 +539,11 @@ function renderDashboard() {
             <p>Melting, density, conductivity in rows.</p>
             <span class="meta">Open →</span>
           </button>
-          <button type="button" class="tool-card" data-action="browse">
+          <button type="button" class="tool-card" data-action="sources">
             <span class="eyebrow">Reference</span>
             <h2>Sources</h2>
             <p>PubChem, RSC, USGS provenance per entry.</p>
-            <span class="meta">Tier 1–2</span>
-          </button>
-          <button type="button" class="tool-card" disabled>
-            <span class="eyebrow">Coming later</span>
-            <h2>3D Viewer</h2>
-            <p>Sample + atomic model, mount reserved.</p>
-            <span class="meta">Placeholder</span>
+            <span class="meta">Tier 1–2 →</span>
           </button>
         </div>
       </main>
@@ -541,13 +551,72 @@ function renderDashboard() {
   `;
 
   document.querySelector('[data-action="series"]')?.addEventListener("click", openSeriesHub);
-  document.querySelector('[data-action="browse"]')?.addEventListener("click", () => openBrowse({ family: "all" }));
+  document.querySelector('[data-action="sources"]')?.addEventListener("click", openSources);
   document.querySelector('[data-action="compare"]')?.addEventListener("click", () =>
     openBrowse({ family: "all", view: "compare", selectFirst: false })
   );
   document.querySelector('[data-action="table"]')?.addEventListener("click", () =>
     openBrowse({ family: "all", view: "table", selectFirst: false })
   );
+}
+
+function renderSources() {
+  const confCounts = { confirmed: 0, "single-source": 0, "unverified-model": 0 };
+  for (const m of metals) {
+    const key = m.narrativeConfidence || "unverified-model";
+    if (key in confCounts) confCounts[key] += 1;
+    else confCounts["unverified-model"] += 1;
+  }
+
+  const sourceRows = SOURCE_REFERENCE.map(
+    (s) => `
+      <article class="source-ref">
+        <header class="source-ref-head">
+          <span class="source-ref-tier">Tier ${s.tier}</span>
+          <span class="source-ref-role">${escapeHtml(s.role)}</span>
+        </header>
+        <h2>${escapeHtml(s.title)}</h2>
+        <p>${escapeHtml(s.blurb)}</p>
+        <a class="source-ref-link" href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">Open source ↗</a>
+      </article>`
+  ).join("");
+
+  const confRows = CONFIDENCE_REFERENCE.map((c) => {
+    const count = confCounts[c.id] ?? 0;
+    const color = CONF_COLORS[c.id] || "var(--muted)";
+    return `
+      <div class="source-conf-row">
+        <span class="source-conf-label" style="color: ${color}">${escapeHtml(c.label)}</span>
+        <span class="source-conf-count">${count}</span>
+        <p>${escapeHtml(c.meaning)}</p>
+      </div>`;
+  }).join("");
+
+  app.innerHTML = `
+    <div class="console-shell">
+      <main class="page-main sources-page">
+        <nav class="crumbs" aria-label="Breadcrumb">
+          <button type="button" class="crumb-link" data-nav="home">Console</button>
+          <span aria-hidden="true">/</span>
+          <span>Sources</span>
+        </nav>
+        <header class="series-hero">
+          <h1>Sources &amp; confidence</h1>
+          <p>Where encyclopedia text and property numbers come from. Per-entry citations also live under each metal’s Sources panel.</p>
+        </header>
+        <section class="source-ref-grid" aria-label="Data sources">
+          ${sourceRows}
+        </section>
+        <section class="source-conf" aria-label="Narrative confidence">
+          <h2>Narrative confidence</h2>
+          <p class="source-conf-lead">Labels on each entry. Counts across ${metals.length} metals:</p>
+          ${confRows}
+        </section>
+      </main>
+    </div>
+  `;
+
+  document.querySelector('[data-nav="home"]')?.addEventListener("click", goHome);
 }
 
 function renderSeriesHub() {
@@ -778,7 +847,7 @@ function renderEncyclopedia(filtered) {
         : "—"
     },
     {
-      label: "Boiling",
+      label: sublimesAtOneAtm(metal) ? "Sublim." : "Boiling",
       value: hasValue(metal.boilingPoint)
         ? `${formatNumber(metal.boilingPoint, 0)} °C / ${formatNumber((metal.boilingPoint * 9) / 5 + 32, 0)} °F`
         : "—"
@@ -797,6 +866,7 @@ function renderEncyclopedia(filtered) {
     )
     .join("");
 
+  const boilLabel = boilingPointLabel(metal);
   const dataRows = [
     ["Symbol", metal.symbol],
     ["Atomic no.", String(metal.atomicNumber)],
@@ -806,7 +876,7 @@ function renderEncyclopedia(filtered) {
     ["Discovered", metal.yearDiscovered || "Unknown"],
     ["Series", metal.family],
     ["Melting point", formatTemperature(metal.meltingPoint)],
-    ["Boiling point", formatTemperature(metal.boilingPoint)],
+    [boilLabel, formatTemperature(metal.boilingPoint)],
     ["Density", formatDensity(metal.density, 3)],
     ["Elec. cond.", formatConductivity(metal.conductivity)],
     ["vs silver", hasValue(rel) ? `${rel.toFixed(1)}%` : "Unavailable"],
@@ -818,17 +888,29 @@ function renderEncyclopedia(filtered) {
   ]
     .map(([label, value]) => {
       const unavailable = value === "Unavailable";
+      const tip =
+        label === "Melting point"
+          ? meltingPointTip(metal)
+          : label === boilLabel || label === "Boiling point" || label === "Sublimation (1 atm)"
+            ? boilingPointTip(metal)
+            : PROP_TIPS[label] || label;
       return `
       <div class="data-row${unavailable ? " is-unavailable" : ""}">
-        <dt data-om-tip="1"><span class="label">${escapeHtml(label)}</span><span data-tip-pop="1">${escapeHtml(PROP_TIPS[label] || label)}</span></dt>
+        <dt data-om-tip="1"><span class="label">${escapeHtml(label)}</span><span data-tip-pop="1">${escapeHtml(tip)}</span></dt>
         <dd>${escapeHtml(value)}</dd>
       </div>`;
     })
     .join("");
 
   const coverage = dataCoverage(metal);
-  const coverageNote = coverage.note
-    ? `<aside class="coverage-note" data-level="${coverage.level}"><strong>Data coverage</strong> — ${escapeHtml(coverage.note)}</aside>`
+  const coverageBits = [coverage.note].filter(Boolean);
+  if (sublimesAtOneAtm(metal)) {
+    coverageBits.push(
+      "At 1 atm this element sublimes rather than boiling; the sheet shows Sublimation (1 atm) for the lower temperature."
+    );
+  }
+  const coverageNote = coverageBits.length
+    ? `<aside class="coverage-note" data-level="${coverage.level}"><strong>Data coverage</strong> — ${escapeHtml(coverageBits.join(" "))}</aside>`
     : "";
 
   const facts = (metal.notableFacts || [])

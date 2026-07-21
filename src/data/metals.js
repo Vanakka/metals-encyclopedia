@@ -5,7 +5,7 @@ export const metals = [
     "name": "Lithium",
     "symbol": "Li",
     "atomicNumber": 3,
-    "atomicMass": 7,
+    "atomicMass": 6.94,
     "electronConfiguration": "[He]2s1",
     "standardState": "Solid",
     "yearDiscovered": "1817",
@@ -279,7 +279,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Na%20%28Sodium%29.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "Sodium is a soft metal that tarnishes within seconds of being exposed to the air. It also reacts vigorously with water. Sodium is the sixth most common element on Earth, and makes up 2.6% of the Earth’s crust. The most common compound is sodium chloride. This very soluble salt has been leached into the oceans over the lifetime of the planet, but many salt beds or ‘lakes’ are found where ancient seas have evaporated. It is also found in…",
-    "production": "Domestic production of salt was an estimated 40 million tons in 2024. The quantity of salt sold or used in 2024 was an estimated 39 million tons with a total estimated value of $2.5 billion. Salt was produced by 26 companies that operated 64 plants in 16 States. The top producing States were Kansas, Louisiana, Michigan, New York, Ohio, Texas, and Utah. These seven States produced about 95% of the salt in the United States in 2024. The estimated percentage of salt sold or used was, by type, salt in brine, 42%; rock salt, 40%; solar salt, 9%; and vacuum pan salt, 9%. Highway deicing accounted for about 41% of total salt consumed. The chemical industry accounted for about 39% of total salt…",
+    "production": "Sodium is the sixth most common element on Earth, and makes up 2.6% of the Earth’s crust. The most common compound is sodium chloride. This very soluble salt has been leached into the oceans over the lifetime of the planet, but many salt beds or ‘lakes’ are found where ancient seas have evaporated. It is also found in many minerals including cryolite, zeolite and sodalite. Because sodium is so reactive it is never found as the metal in nature. Sodium metal is produced by electrolysis of dry molten sodium chloride.",
     "uses": "Sodium is used as a heat exchanger in some nuclear reactors, and as a reagent in the chemicals industry. But sodium salts have more uses than the metal itself. The most common compound of sodium is sodium chloride (common salt). It is added to food and used to de-ice roads in winter. It is also used as a feedstock for the chemical industry. Sodium carbonate (washing soda) is also a useful sodium salt. It is used as a water softener.",
     "notableFacts": [
       "Sodium is essential to all living things, and humans have known this since prehistoric times. Our bodies contain about 100 grams, but we are constantly losing sodium in different ways so we need to replace it. We can…"
@@ -615,7 +615,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kalium.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal that tarnishes in air within minutes. Potassium is the seventh most abundant metal in the Earth’s crust. It makes up 2.4% by mass. There are deposits of billions of tonnes of potassium chloride throughout the world. Mining extracts about 35 million tonnes a year. Most potassium minerals are found in igneous rocks and are sparingly soluble. The metal is…",
-    "production": "In 2024, the estimated sales value of marketable potash, free on board (f.o.b.) mine, was $530 million, which was 6% higher than that in 2023. The majority of U.S. production was from southeastern New Mexico, where two companies operated two underground mines and one deep-well solution mine. Sylvinite and langbeinite ores in New Mexico were beneficiated by flotation, dissolution-recrystallization, heavy-media separation, solar evaporation, and (or) combinations of these processes. In Utah, two companies operated three facilities. One company extracted underground sylvinite ore by deep-well solution mining. Solar evaporation crystallized the sylvinite ore from the brine solution, and a…",
+    "production": "Potassium is the seventh most abundant metal in the Earth’s crust. It makes up 2.4% by mass. There are deposits of billions of tonnes of potassium chloride throughout the world. Mining extracts about 35 million tonnes a year. Most potassium minerals are found in igneous rocks and are sparingly soluble. The metal is difficult to obtain from these minerals. There are, however, other minerals such as sylvite (potassium chloride), sylvinite (a mixture of potassium and sodium chloride) and carnallite (potassium magnesium chloride) that are found in deposits formed by evaporation of old seas or lakes. The potassium salts can be easily recovered from these. Potassium salts are also found in the ocean but in smaller amounts compared with sodium.",
     "uses": "The greatest demand for potassium compounds is in fertilisers. Many other potassium salts are of great importance, including the nitrate, carbonate, chloride, bromide, cyanide and sulfate. Potassium carbonate is used in the manufacture of glass. Potassium hydroxide is used to make detergent and liquid soap. Potassium chloride is used in pharmaceuticals and saline drips.",
     "notableFacts": [
       "Potassium is essential to life. Potassium ions are found in all cells. It is important for maintaining fluid and electrolyte balance. Plant cells are particularly rich in potassium, which they get from the soil.…"
@@ -699,7 +699,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Calcium%201.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "Calcium is a silvery-white, soft metal that tarnishes rapidly in air and reacts with water. Calcium is the fifth most abundant metal in the Earth’s crust (4.1%). It is not found uncombined in nature, but occurs abundantly as limestone (calcium carbonate), gypsum (calcium sulfate), fluorite (calcium fluoride) and apatite (calcium chloro- or fluoro-phosphate). Hard water contains dissolved calcium bicarbonate.…",
-    "production": "In 2024, an estimated 16 million tons of quicklime and hydrated lime was produced (excluding independent commercial hydrators2), valued at about $3.2 billion. Lime was produced by 26 companies— 17 with commercial sales and 9 that produced lime strictly for internal use (for example, sugar companies). These companies had 73 primary lime plants (plants operating quicklime kilns) in 28 States and Puerto Rico. Of the 26 companies, 5 operated only hydrating plants in nine States. In 2024, the five leading U.S. lime companies produced quicklime or hydrated in 22 States and accounted for about 80% of U.S. lime production. Principal producing States were Alabama, Missouri, Ohio, and Texas. Major…",
+    "production": "Calcium is the fifth most abundant metal in the Earth’s crust (4.1%). It is not found uncombined in nature, but occurs abundantly as limestone (calcium carbonate), gypsum (calcium sulfate), fluorite (calcium fluoride) and apatite (calcium chloro- or fluoro-phosphate). Hard water contains dissolved calcium bicarbonate. When this filters through the ground and reaches a cave, it precipitates out to form stalactites and stalagmites. Calcium metal is prepared commercially by heating lime with aluminium in a vacuum.",
     "uses": "Calcium metal is used as a reducing agent in preparing other metals such as thorium and uranium. It is also used as an alloying agent for aluminium, beryllium, copper, lead and magnesium alloys. Calcium compounds are widely used. There are vast deposits of limestone (calcium carbonate) used directly as a building stone and indirectly for cement. When limestone is heated in kilns it gives off carbon dioxide gas leaving behind quicklime (calcium oxide). This reacts vigorously with water to give slaked lime (calcium hydroxide). Slaked lime is used to make cement, as a soil conditioner and in water treatment to reduce acidity, and in the chemicals industry. It is also used in steel making to remove impurities from the molten iron ore. When mixed with sand, slaked lime takes up carbon dioxide from the air and hardens as lime plaster. Gypsum (calcium sulfate) is used by builders as a plaster…",
     "notableFacts": [
       "Calcium is essential to all living things, particularly for the growth of healthy teeth and bones. Calcium phosphate is the main component of bone. The average human contains about 1 kilogram of calcium. Children and…"
@@ -783,7 +783,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Scandium%20sublimed%20dendritic%20and%201cm3%20cube.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A silvery metal that tarnishes in air, burns easily and reacts with water. Scandium is very widely distributed, and occurs in minute quantities in over 800 mineral species. It is the main component of the very rare and collectable mineral thortveitite, found in Scandinavia. Scandium can be recovered from thortveitite or extracted as a by-product from uranium mill tailings (sandy waste…",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Scandium is very widely distributed, and occurs in minute quantities in over 800 mineral species. It is the main component of the very rare and collectable mineral thortveitite, found in Scandinavia. Scandium can be recovered from thortveitite or extracted as a by-product from uranium mill tailings (sandy waste material). Metallic scandium can be prepared by reducing the fluoride with calcium metal. It can also be prepared by electrolysing molten potassium, lithium and scandium chlorides, using electrodes of tungsten wire and molten zinc.",
     "uses": "Scandium is mainly used for research purposes. It has, however, great potential because it has almost as low a density as aluminium and a much higher melting point. An aluminium-scandium alloy has been used in Russian MIG fighter planes, high-end bicycle frames and baseball bats. Scandium iodide is added to mercury vapour lamps to produce a highly efficient light source resembling sunlight. These lamps help television cameras to reproduce colour well when filming indoors or at night-time. The radioactive isotope scandium-46 is used as a tracer in oil refining to monitor the movement of various fractions. It can also be used in underground pipes to detect leaks.",
     "notableFacts": [
       "Scandium has no known biological role. It is a suspected carcinogen."
@@ -2043,7 +2043,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yttrium%20sublimed%20dendritic%20and%201cm3%20cube.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal. Xenotime can contain up to 50% yttrium phosphate. It is mined in China and Malaysia. Yttrium also occurs in the other ‘rare earth’ minerals, monazite and bastnaesite. Yttrium metal is produced by reducing yttrium fluoride with calcium metal.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Xenotime can contain up to 50% yttrium phosphate. It is mined in China and Malaysia. Yttrium also occurs in the other ‘rare earth’ minerals, monazite and bastnaesite. Yttrium metal is produced by reducing yttrium fluoride with calcium metal.",
     "uses": "Yttrium is often used as an additive in alloys. It increases the strength of aluminium and magnesium alloys. It is also used in the making of microwave filters for radar and has been used as a catalyst in ethene polymerisation. Yttrium-aluminium garnet (YAG) is used in lasers that can cut through metals. It is also used in white LED lights. Yttrium oxide is added to the glass used to make camera lenses to make them heat and shock resistant. It is also used to make superconductors. Yttrium oxysulfide used to be widely used to produce red phosphors for old-style colour television tubes. The radioactive isotope yttrium-90 has medical uses. It can be used to treat some cancers, such as liver cancer.",
     "notableFacts": [
       "Yttrium has no known biological role. Its soluble salts are mildly toxic."
@@ -2127,7 +2127,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Zirconium%20crystal%20bar%20and%201cm3%20cube.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A hard, silvery metal that is very resistant to corrosion. Zirconium occurs in about 30 mineral species, the major ones being zircon and baddeleyite. More than 1.5 million tonnes of zircon are mined each year, mainly in Australia and South Africa. Most baddeleyite is mined in Brazil. Zirconium metal is produced commercially by first converting zircon to zirconium chloride,…",
-    "production": "In 2024, one company recovered zircon (zirconium silicate) from surface-mining operations in Florida and Georgia as a coproduct from the mining of heavy-mineral sands, and a second company processed existing mineral sands tailings in California. Abrasive sands, monazite, and titanium mineral concentrates were coproducts of domestic heavy-mineral-sand operations. Zirconium metal and hafnium metal were produced from zirconium chemical intermediates by one producer in Oregon and one in Utah. Zirconium and hafnium are typically contained in zircon at a ratio of about 50 to 1. Zirconium chemicals were produced from domestic and imported materials by the metal producer in Oregon and by at least…",
+    "production": "Zirconium occurs in about 30 mineral species, the major ones being zircon and baddeleyite. More than 1.5 million tonnes of zircon are mined each year, mainly in Australia and South Africa. Most baddeleyite is mined in Brazil. Zirconium metal is produced commercially by first converting zircon to zirconium chloride, and then reducing the chloride with magnesium.",
     "uses": "Zirconium does not absorb neutrons, making it an ideal material for use in nuclear power stations. More than 90% of zirconium is used in this way. Nuclear reactors can have more than 100,000 metres of zirconium alloy tubing. With niobium, zirconium is superconductive at low temperatures and is used to make superconducting magnets. Zirconium metal is protected by a thin oxide layer making it exceptionally resistant to corrosion by acids, alkalis and seawater. For this reason it is extensively used by the chemical industry. Zirconium(IV) oxide is used in ultra-strong ceramics. It is used to make crucibles that will withstand heat-shock, furnace linings, foundry bricks, abrasives and by the glass and ceramics industries. It is so strong that even scissors and knives can be made from it. It is also used in cosmetics, antiperspirants, food packaging and to make microwave filters. Zircon is a…",
     "notableFacts": [
       "Zirconium has no known biological role. It has low toxicity."
@@ -2458,7 +2458,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ruthenium%20a%20half%20bar.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A shiny, silvery metal. Ruthenium is one of the rarest metals on Earth. It is found uncombined in nature; however, it is more commonly found associated with other platinum metals in the minerals pentlandite and pyroxinite. It is obtained commercially from the wastes of nickel refining.",
-    "production": "One company in Montana mined and processed PGMs with an estimated value of about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer ceramic capacitors; glass manufacturing; investment;…",
+    "production": "Ruthenium is one of the rarest metals on Earth. It is found uncombined in nature; however, it is more commonly found associated with other platinum metals in the minerals pentlandite and pyroxinite. It is obtained commercially from the wastes of nickel refining.",
     "uses": "Many new uses are emerging for ruthenium. Most is used in the electronics industry for chip resistors and electrical contacts. Ruthenium oxide is used in the chemical industry to coat the anodes of electrochemical cells for chlorine production. Ruthenium is also used in catalysts for ammonia and acetic acid production. Ruthenium compounds can be used in solar cells, which turn light energy into electrical energy. Ruthenium is one of the most effective hardeners for platinum and palladium, and is alloyed with these metals to make electrical contacts for severe wear resistance. It is used in some jewellery as an alloy with platinum.",
     "notableFacts": [
       "Ruthenium has no known biological role. Ruthenium(IV) oxide is highly toxic."
@@ -2542,7 +2542,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rhodium%20powder%20pressed%20melted.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A hard, shiny, silvery metal. Rhodium is the rarest of all non-radioactive metals. It occurs uncombined in nature, along with other platinum metals, in river sands in North and South America. It is also found in the copper-nickel sulfide ores of Ontario, Canada. Rhodium is obtained commercially as a by-product of copper and nickel refining. World…",
-    "production": "One company in Montana mined and processed PGMs with an estimated value of about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer ceramic capacitors; glass manufacturing; investment;…",
+    "production": "Rhodium is the rarest of all non-radioactive metals. It occurs uncombined in nature, along with other platinum metals, in river sands in North and South America. It is also found in the copper-nickel sulfide ores of Ontario, Canada. Rhodium is obtained commercially as a by-product of copper and nickel refining. World production is about 30 tonnes per year.",
     "uses": "The major use of rhodium is in catalytic converters for cars (80%). It reduces nitrogen oxides in exhaust gases. Rhodium is also used as catalysts in the chemical industry, for making nitric acid, acetic acid and hydrogenation reactions. It is used to coat optic fibres and optical mirrors, and for crucibles, thermocouple elements and headlight reflectors. It is used as an electrical contact material as it has a low electrical resistance and is highly resistant to corrosion.",
     "notableFacts": [
       "Rhodium has no known biological role. It is a suspected carcinogen."
@@ -2626,7 +2626,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Palladium%20%2846%20Pd%29.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A shiny, silvery-white metal that resists corrosion. Palladium has been found uncombined in nature, in Brazil, but most is found in sulfide minerals such as braggite. It is extracted commercially as a by-product of nickel refining. It is also extracted as a by-product of copper and zinc refining.",
-    "production": "One company in Montana mined and processed PGMs with an estimated value of about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer ceramic capacitors; glass manufacturing; investment;…",
+    "production": "Palladium has been found uncombined in nature, in Brazil, but most is found in sulfide minerals such as braggite. It is extracted commercially as a by-product of nickel refining. It is also extracted as a by-product of copper and zinc refining.",
     "uses": "Most palladium is used in catalytic converters for cars. It is also used in jewellery and some dental fillings and crowns. White gold is an alloy of gold that has been decolourised by alloying with another metal, sometimes palladium. It is used in the electronics industry in ceramic capacitors, found in laptop computers and mobile phones. These consist of layers of palladium sandwiched between layers of ceramic. Finely divided palladium is a good catalyst and is used for hydrogenation and dehydrogenation reactions. Hydrogen easily diffuses through heated palladium and this provides a way of separating and purifying the gas.",
     "notableFacts": [
       "Palladium has no known biological role. It is non-toxic."
@@ -3298,7 +3298,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Barium%201.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "Barium is a soft, silvery metal that rapidly tarnishes in air and reacts with water. Barium occurs only in combination with other elements. The major ores are barite (barium sulfate) and witherite (barium carbonate). Barium metal can be prepared by electrolysis of molten barium chloride, or by heating barium oxide with aluminium powder.",
-    "production": "In 2024, three companies mined barite at four operations in Nevada. Mine production increased, but data were withheld to avoid disclosing company proprietary data. An estimated 2.3 million tons of barite (from domestic production and imports) was sold by crushers and grinders operating in nine States. Typically, more than 90% of the barite sold in the United States is used as a weighting agent in fluids used in the drilling of oil and natural gas wells. The majority of Nevada crude barite was ground in Nevada and then sold to companies drilling in the Central and Western United States. Because of the higher cost of rail and truck transportation compared to ocean freight, offshore drilling…",
+    "production": "Barium occurs only in combination with other elements. The major ores are barite (barium sulfate) and witherite (barium carbonate). Barium metal can be prepared by electrolysis of molten barium chloride, or by heating barium oxide with aluminium powder.",
     "uses": "Barium is not an extensively used element. Most is used in drilling fluids for oil and gas wells. It is also used in paint and in glassmaking. All barium compounds are toxic; however, barium sulfate is insoluble and so can be safely swallowed. A suspension of barium sulfate is sometimes given to patients suffering from digestive disorders. This is a ‘barium meal’ or ‘barium enema’. Barium is a heavy element and scatters X-rays, so as it passes through the body the stomach and intestines can be distinguished on an X-ray. Barium carbonate has been used in the past as a rat poison. Barium nitrate gives fireworks a green colour.",
     "notableFacts": [
       "Barium has no known biological role, although barium sulfate has been found in one particular type of algae. Barium is toxic, as are its water- or acid-soluble compounds."
@@ -3382,7 +3382,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lanthan%201-cropflipped.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery-white metal. It rapidly tarnishes in air and burns easily when ignited. Lanthanum is found in ‘rare earth’ minerals, principally monazite (25% lanthanum) and bastnaesite (38% lanthanum). Ion-exchange and solvent extraction techniques are used to isolate the ‘rare earth’ elements from the minerals. Lanthanum metal is usually obtained by reducing the anhydrous fluoride with calcium.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Lanthanum is found in ‘rare earth’ minerals, principally monazite (25% lanthanum) and bastnaesite (38% lanthanum). Ion-exchange and solvent extraction techniques are used to isolate the ‘rare earth’ elements from the minerals. Lanthanum metal is usually obtained by reducing the anhydrous fluoride with calcium.",
     "uses": "Lanthanum metal has no commercial uses. However, its alloys have a variety of uses. A lanthanum-nickel alloy is used to store hydrogen gas for use in hydrogen-powered vehicles. Lanthanum is also found in the anode of nickel metal hydride batteries used in hybrid cars. Lanthanum is an important component of mischmetal alloy (about 20%). The best-known use for this alloy is in ‘flints’ for cigarette lighters. ‘Rare earth’ compounds containing lanthanum are used extensively in carbon lighting applications, such as studio lighting and cinema projection. They increase the brightness and give an emission spectrum similar to sunlight. Lanthanum(III) oxide is used in making special optical glasses, as it improves the optical properties and alkali resistance of the glass. Lanthanum salts are used in catalysts for petroleum refining. The ion La3+ is used as a biological tracer for Ca2+, and…",
     "notableFacts": [
       "Lanthanum has no known biological role. Both the element and its compounds are moderately toxic."
@@ -3466,7 +3466,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:CE2k2g.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "Cerium is a grey metal. It is little used because it tarnishes easily, reacts with water and burns when heated. Cerium is the most abundant of the lanthanides. It is more abundant than tin or lead and almost as abundant as zinc. It is found in a various minerals, the most common being bastnaesite and monazite. Cerium oxide is produced by heating bastnaesite ore, and treating with hydrochloric acid. Metallic cerium can be…",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Cerium is the most abundant of the lanthanides. It is more abundant than tin or lead and almost as abundant as zinc. It is found in a various minerals, the most common being bastnaesite and monazite. Cerium oxide is produced by heating bastnaesite ore, and treating with hydrochloric acid. Metallic cerium can be obtained by heating cerium(III) fluoride with calcium, or by the electrolysis of molten cerium oxide.",
     "uses": "Cerium is the major component of mischmetal alloy (just under 50%). The best-known use for this alloy is in ‘flints’ for cigarette lighters. This is because cerium will make sparks when struck. The only other element that does this is iron. Cerium(Ill) oxide has uses as a catalyst. It is used in the inside walls of self-cleaning ovens to prevent the build-up of cooking residues. It is also used in catalytic converters. Cerium(III) oxide nanoparticles are being studied as an additive for diesel fuel to help it burn more completely and reduce exhaust emissions. Cerium sulfide is a non-toxic compound that is a rich red colour. It is used as a pigment. Cerium is also used in flat-screen TVs, low-energy light bulbs and floodlights.",
     "notableFacts": [
       "Cerium has no known biological role."
@@ -3550,7 +3550,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Praseodym%201.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal. Praseodymium occurs along with other lanthanide elements in a variety of minerals. The two principal sources are monazite and bastnaesite. It is extracted from these minerals by ion exchange and solvent extraction. Praseodymium metal is prepared by reducing anhydrous chloride with calcium.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Praseodymium occurs along with other lanthanide elements in a variety of minerals. The two principal sources are monazite and bastnaesite. It is extracted from these minerals by ion exchange and solvent extraction. Praseodymium metal is prepared by reducing anhydrous chloride with calcium.",
     "uses": "Praseodymium is used in a variety of alloys. The high-strength alloy it forms with magnesium is used in aircraft engines. Mischmetal is an alloy containing about 5% praseodymium and is used to make flints for cigarette lighters. Praseodymium is also used in alloys for permanent magnets. Along with other lanthanide elements, it is used in carbon arc electrodes for studio lighting and projection. Praseodymium salts are used to colour glasses, enamel and glazes an intense and unusually clean yellow. Praseodymium oxide is a component of didymium glass (along with neodymium). This glass is used in goggles used by welders and glassmakers, because it filters out the yellow light and infrared (heat) radiation.",
     "notableFacts": [
       "Praseodymium has no known biological role. It has low toxicity."
@@ -3634,7 +3634,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Neodym%201.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A silvery-white metal. It rapidly tarnishes in air. The main sources of most lanthanide elements are the minerals monazite and bastnaesite. Neodymium can be extracted from these minerals by ion exchange and solvent extraction. The element can also be obtained by reducing anhydrous neodymium chloride or fluoride with calcium.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "The main sources of most lanthanide elements are the minerals monazite and bastnaesite. Neodymium can be extracted from these minerals by ion exchange and solvent extraction. The element can also be obtained by reducing anhydrous neodymium chloride or fluoride with calcium.",
     "uses": "The most important use for neodymium is in an alloy with iron and boron to make very strong permanent magnets. This discovery, in 1983, made it possible to miniaturise many electronic devices, including mobile phones, microphones, loudspeakers and electronic musical instruments. These magnets are also used in car windscreen wipers and wind turbines. Neodymium is a component, along with praseodymium, of didymium glass. This is a special glass for goggles used during glass blowing and welding. The element colours glass delicate shades of violet, wine-red and grey. Neodymium is also used in the glass for tanning booths, since it transmits the tanning UV rays but not the heating infrared rays. Neodymium glass is used to make lasers. These are used as laser pointers, as well as in eye surgery, cosmetic surgery and for the treatment of skin cancers. Neodymium oxide and nitrate are used as…",
     "notableFacts": [
       "Neodymium has no known biological role. It is moderately toxic and irritating to eyes."
@@ -3718,7 +3718,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Promethium-147%20solution.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A radioactive metal. Promethium’s longest-lived isotope has a half-life of only 18 years. For this reason it is not found naturally on Earth. It has been found that a star in the Andromeda galaxy is manufacturing promethium, but it is not known how. Promethium can be produced by irradiating neodymium and praseodymium with neutrons,…",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Promethium’s longest-lived isotope has a half-life of only 18 years. For this reason it is not found naturally on Earth. It has been found that a star in the Andromeda galaxy is manufacturing promethium, but it is not known how. Promethium can be produced by irradiating neodymium and praseodymium with neutrons, deuterons and alpha particles. It can also be prepared by ion exchange of nuclear reactor fuel processing wastes.",
     "uses": "Most promethium is used only in research. A little promethium is used in specialised atomic batteries. These are roughly the size of a drawing pin and are used for pacemakers, guided missiles and radios. The radioactive decay of promethium is used to make a phosphor give off light and this light is converted into electricity by a solar cell. Promethium can also be used as a source of x-rays and radioactivity in measuring instruments.",
     "notableFacts": [
       "Promethium has no known biological role."
@@ -3802,7 +3802,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Samarium%201.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A silvery-white metal. Samarium is found along with other lanthanide metals in several minerals, the principal ones being monazite and bastnaesite. It is separated from the other components of the mineral by ion exchange and solvent extraction. Recently, electrochemical deposition has been used to separate samarium from other lanthanides. A…",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Samarium is found along with other lanthanide metals in several minerals, the principal ones being monazite and bastnaesite. It is separated from the other components of the mineral by ion exchange and solvent extraction. Recently, electrochemical deposition has been used to separate samarium from other lanthanides. A lithium citrate electrolyte is used, and a mercury electrode. Samarium metal can also be produced by reducing the oxide with barium.",
     "uses": "Samarium-cobalt magnets are much more powerful than iron magnets. They remain magnetic at high temperatures and so are used in microwave applications. They enabled the miniaturisation of electronic devices like headphones, and the development of personal stereos. However, neodymium magnets are now more commonly used instead. Samarium is used to dope calcium chloride crystals for use in optical lasers. It is also used in infrared absorbing glass and as a neutron absorber in nuclear reactors. Samarium oxide finds specialised use in glass and ceramics. In common with other lanthanides, samarium is used in carbon arc lighting for studio lighting and projection.",
     "notableFacts": [
       "Samarium has no known biological role. It has low toxicity."
@@ -3886,7 +3886,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Eu-Block.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal that tarnishes quickly and reacts with water. In common with other lanthanides, europium is mainly found in the minerals monazite and bastnaesite. It can be prepared from these minerals. However, the usual method of preparation is by heating europium(Ill) oxide with an excess of lanthanum under vacuum.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "In common with other lanthanides, europium is mainly found in the minerals monazite and bastnaesite. It can be prepared from these minerals. However, the usual method of preparation is by heating europium(Ill) oxide with an excess of lanthanum under vacuum.",
     "uses": "Europium is used in the printing of euro banknotes. It glows red under UV light, and forgeries can be detected by the lack of this red glow. Low-energy light bulbs contain a little europium to give a more natural light, by balancing the blue (cold) light with a little red (warm) light. Europium is excellent at absorbing neutrons, making it valuable in control rods for nuclear reactors. Europium-doped plastic has been used as a laser material. It is also used in making thin super-conducting alloys.",
     "notableFacts": [
       "Europium has no known biological role. It has low toxicity."
@@ -3970,7 +3970,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gadolinium.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal that reacts with oxygen and water. In common with other lanthanides, gadolinium is mainly found in the minerals monazite and bastnaesite. It can be commercially prepared from these minerals by ion exchange and solvent extraction. It is also prepared by reducing anhydrous gadolinium fluoride with calcium metal.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "In common with other lanthanides, gadolinium is mainly found in the minerals monazite and bastnaesite. It can be commercially prepared from these minerals by ion exchange and solvent extraction. It is also prepared by reducing anhydrous gadolinium fluoride with calcium metal.",
     "uses": "Gadolinium has useful properties in alloys. As little as 1% gadolinium can improve the workability of iron and chromium alloys, and their resistance to high temperatures and oxidation. It is also used in alloys for making magnets, electronic components and data storage disks. Its compounds are useful in magnetic resonance imaging (MRI), particularly in diagnosing cancerous tumours. Gadolinium is excellent at absorbing neutrons, and so is used in the core of nuclear reactors.",
     "notableFacts": [
       "Gadolinium has no known biological role, and has low toxicity."
@@ -4054,7 +4054,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Terbium%20element.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal. Terbium can be recovered from the minerals monazite and bastnaesite by ion exchange and solvent extraction. It is also obtained from euxenite, a complex oxide containing 1% or more of terbium. The metal is usually produced commercially by reducing the anhydrous fluoride or chloride with calcium metal, under a vacuum.…",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Terbium can be recovered from the minerals monazite and bastnaesite by ion exchange and solvent extraction. It is also obtained from euxenite, a complex oxide containing 1% or more of terbium. The metal is usually produced commercially by reducing the anhydrous fluoride or chloride with calcium metal, under a vacuum. It is also possible to produce the metal by the electrolysis of terbium oxide in molten calcium chloride.",
     "uses": "Terbium is used to dope calcium fluoride, calcium tungstate and strontium molybdate, all used in solid-state devices. It is also used in low-energy lightbulbs and mercury lamps. It has been used to improve the safety of medical x-rays by allowing the same quality image to be produced with a much shorter exposure time. Terbium salts are used in laser devices. An alloy of terbium, dysprosium and iron lengthens and shortens in a magnetic field. This effect forms the basis of loudspeakers that sit on a flat surface, such as a window pane, which then acts as the speaker.",
     "notableFacts": [
       "Terbium has no known biological role. It has low toxicity."
@@ -4138,7 +4138,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dysprosium1.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A bright, silvery metallic element. In common with many other lanthanides, dysprosium is found in the minerals monazite and bastnaesite. It is also found in smaller quantities in several other minerals such as xenotime and fergusonite. It can be extracted from these minerals by ion exchange and solvent extraction. It can also be prepared by the…",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "In common with many other lanthanides, dysprosium is found in the minerals monazite and bastnaesite. It is also found in smaller quantities in several other minerals such as xenotime and fergusonite. It can be extracted from these minerals by ion exchange and solvent extraction. It can also be prepared by the reduction of dysprosium trifluoride with calcium metal.",
     "uses": "As a pure metal it is little used, because it reacts readily with water and air. Dysprosium’s main use is in alloys for neodymium-based magnets. This is because it is resistant to demagnetisation at high temperatures. This property is important for magnets used in motors or generators. These magnets are used in wind turbines and electrical vehicles, so demand for dysprosium is growing rapidly. Dysprosium iodide is used in halide discharge lamps. The salt enables the lamps to give out a very intense white light. A dysprosium oxide-nickel cermet (a composite material of ceramic and metal) is used in nuclear reactor control rods. It readily absorbs neutrons, and does not swell or contract when bombarded with neutrons for long periods.",
     "notableFacts": [
       "Dysprosium has no known biological role. It has low toxicity."
@@ -4222,7 +4222,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Holmium.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A bright, silvery metal. Holmium is found as a minor component of the minerals monazite and bastnaesite. It is extracted from those ores that are processed to extract yttrium. It is obtained by ion exchange and solvent extraction.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Holmium is found as a minor component of the minerals monazite and bastnaesite. It is extracted from those ores that are processed to extract yttrium. It is obtained by ion exchange and solvent extraction.",
     "uses": "Holmium can absorb neutrons, so it is used in nuclear reactors to keep a chain reaction under control. Its alloys are used in some magnets.",
     "notableFacts": [
       "Holmium has no known biological role, and is non-toxic."
@@ -4306,7 +4306,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Erbium.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metallic element. Erbium is found principally in the minerals monazite and bastnaesite. It can be extracted by ion exchange and solvent extraction.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Erbium is found principally in the minerals monazite and bastnaesite. It can be extracted by ion exchange and solvent extraction.",
     "uses": "Erbium finds little use as a metal because it slowly tarnishes in air and is attacked by water. When alloyed with metals such as vanadium, erbium lowers their hardness and improves their workability. Erbium oxide is occasionally used in infrared absorbing glass, for example safety glasses for welders and metal workers. When erbium is added to glass it gives the glass a pink tinge. It is used to give colour to some sunglasses and imitation gems. Broadband signals, carried by fibre optic cables, are amplified by including erbium in the glass fibre.",
     "notableFacts": [
       "Erbium has no known biological role, and has low toxicity."
@@ -4390,7 +4390,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Thulium%20sublimed%20dendritic%20and%201cm3%20cube.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A bright, silvery metal. Thulium is found principally in the mineral monazite, which contains about 20 parts per million. It is extracted by ion exchange and solvent extraction. The metal is obtained by reducing the anhydrous fluoride with calcium, or reducing the oxide with lanthanum.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "Thulium is found principally in the mineral monazite, which contains about 20 parts per million. It is extracted by ion exchange and solvent extraction. The metal is obtained by reducing the anhydrous fluoride with calcium, or reducing the oxide with lanthanum.",
     "uses": "When irradiated in a nuclear reactor, thulium produces an isotope that emits x-rays. A ‘button’ of this isotope is used to make a lightweight, portable x-ray machine for medical use. Thulium is used in lasers with surgical applications.",
     "notableFacts": [
       "Thulium has no known biological role. It is non-toxic."
@@ -4474,7 +4474,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ytterbium%20element.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A soft, silvery metal. It slowly oxidises in air, forming a protective surface layer. In common with many lanthanide elements, ytterbium is found principally in the mineral monazite. It can be extracted by ion exchange and solvent extraction.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "In common with many lanthanide elements, ytterbium is found principally in the mineral monazite. It can be extracted by ion exchange and solvent extraction.",
     "uses": "Ytterbium is beginning to find a variety of uses, such as in memory devices and tuneable lasers. It can also be used as an industrial catalyst and is increasingly being used to replace other catalysts considered to be too toxic and polluting.",
     "notableFacts": [
       "Ytterbium has no known biological role. It has low toxicity."
@@ -4558,7 +4558,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lutetium%20sublimed%20dendritic%20and%201cm3%20cube.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A silvery-white, hard, dense metal. In common with many other lanthanides, the main source of lutetium is the mineral monazite. It is extracted, with difficulty, by reducing the anhydrous fluoride with calcium metal.",
-    "production": "Rare earths were mined and processed domestically in 2024. An estimated 45,000 tons of REO in mineral concentrates were produced and were valued at $260 million. Bastnaesite (or bastnäsite), a rare-earth fluorocarbonate mineral, was mined as a primary product at a mine in Mountain Pass, CA. Monazite, a phosphate mineral, was stockpiled as a separated concentrate or included as an accessory mineral in heavy-mineral-sand concentrates in the southeastern United States. Mixed rare-earth compounds also were produced in the Western United States. The estimated value of rare-earth compounds and metals imported by the United States in 2024 was $170 million, an 11% decrease from $186 million in…",
+    "production": "In common with many other lanthanides, the main source of lutetium is the mineral monazite. It is extracted, with difficulty, by reducing the anhydrous fluoride with calcium metal.",
     "uses": "Lutetium is little used outside research. One of its few commercial uses is as a catalyst for cracking hydrocarbons in oil refineries.",
     "notableFacts": [
       "Lutetium has no known biological role. It has low toxicity."
@@ -4642,7 +4642,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hf-crystal%20bar.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A shiny, silvery metal that resists corrosion and can be drawn into wires. Most zirconium ores contain around 5% hafnium. The metal can be prepared by reducing hafnium tetrachloride with sodium or magnesium.",
-    "production": "In 2024, one company recovered zircon (zirconium silicate) from surface-mining operations in Florida and Georgia as a coproduct from the mining of heavy-mineral sands, and a second company processed existing mineral sands tailings in California. Abrasive sands, monazite, and titanium mineral concentrates were coproducts of domestic heavy-mineral-sand operations. Zirconium metal and hafnium metal were produced from zirconium chemical intermediates by one producer in Oregon and one in Utah. Zirconium and hafnium are typically contained in zircon at a ratio of about 50 to 1. Zirconium chemicals were produced from domestic and imported materials by the metal producer in Oregon and by at least…",
+    "production": "Most zirconium ores contain around 5% hafnium. The metal can be prepared by reducing hafnium tetrachloride with sodium or magnesium.",
     "uses": "Hafnium is a good absorber of neutrons and is used to make control rods, such as those found in nuclear submarines. It also has a very high melting point and because of this is used in plasma welding torches. Hafnium has been successfully alloyed with several metals including iron, titanium and niobium. Hafnium oxide is used as an electrical insulator in microchips, while hafnium catalysts have been used in polymerisation reactions.",
     "notableFacts": [
       "Hafnium has no known biological role, and it has low toxicity."
@@ -4978,7 +4978,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Osmium%20crystals.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A shiny, silver metal that resists corrosion. It is the densest of all the elements and is twice as dense as lead. Osmium occurs uncombined in nature and also in the mineral osmiridium (an alloy with iridium). Most osmium is obtained commercially from the wastes of nickel refining.",
-    "production": "One company in Montana mined and processed PGMs with an estimated value of about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer ceramic capacitors; glass manufacturing; investment;…",
+    "production": "Osmium occurs uncombined in nature and also in the mineral osmiridium (an alloy with iridium). Most osmium is obtained commercially from the wastes of nickel refining.",
     "uses": "Osmium has only a few uses. It is used to produce very hard alloys for fountain pen tips, instrument pivots, needles and electrical contacts. It is also used in the chemical industry as a catalyst.",
     "notableFacts": [
       "Osmium has no known biological role. The metal is not toxic, but its oxide is volatile and very toxic, causing lung, skin and eye damage."
@@ -5062,7 +5062,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Iridium%20foil.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "Iridium is a hard, silvery metal. It is almost as unreactive as gold. It has a very high density and melting point. Iridium is one of the rarest elements on Earth. It is found uncombined in nature in sediments that were deposited by rivers. It is commercially recovered as a by-product of nickel refining. A very thin layer of iridium exists in the Earth’s crust. It is thought that this was caused by a large meteor or asteroid…",
-    "production": "One company in Montana mined and processed PGMs with an estimated value of about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer ceramic capacitors; glass manufacturing; investment;…",
+    "production": "Iridium is one of the rarest elements on Earth. It is found uncombined in nature in sediments that were deposited by rivers. It is commercially recovered as a by-product of nickel refining. A very thin layer of iridium exists in the Earth’s crust. It is thought that this was caused by a large meteor or asteroid hitting the Earth. Meteors and asteroids contain higher levels of iridium than the Earth’s crust. The impact would have caused a huge dust cloud depositing the iridium all over the world. Some scientists think that this could be the same meteor or asteroid impact that wiped out the dinosaurs.",
     "uses": "Iridium is the most corrosion-resistant material known. It is used in special alloys and forms an alloy with osmium, which is used for pen tips and compass bearings. It was used in making the standard metre bar, which is an alloy of 90% platinum and 10% iridium. It is also used for the contacts in spark plugs because of its high melting point and low reactivity.",
     "notableFacts": [
       "Iridium has no known biological role, and has low toxicity."
@@ -5146,7 +5146,7 @@ export const metals = [
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Platinum%20crystals.jpg",
     "imageCredit": "Wikimedia Commons",
     "overview": "A shiny, silvery-white metal as resistant to corrosion as gold. Platinum is found uncombined in alluvial deposits. Most commercially produced platinum comes from South Africa, from the mineral cooperite (platinum sulfide). Some platinum is prepared as a by-product of copper and nickel refining.",
-    "production": "One company in Montana mined and processed PGMs with an estimated value of about $310 million in 2024, a decrease of 42% compared with $541 million in 2023. Small quantities of PGMs also were recovered as byproducts of copper-nickel mining in Michigan; however, this material was sold to foreign companies for refining. The leading domestic use for PGMs was in catalytic converters to decrease harmful emissions from automobiles. PGMs are also used in catalysts for bulk-chemical production and petroleum refining; dental and medical devices; electronic applications, such as in computer hard disks, hybridized integrated circuits, and multilayer ceramic capacitors; glass manufacturing; investment;…",
+    "production": "Platinum is found uncombined in alluvial deposits. Most commercially produced platinum comes from South Africa, from the mineral cooperite (platinum sulfide). Some platinum is prepared as a by-product of copper and nickel refining.",
     "uses": "Platinum is used extensively for jewellery. Its main use, however, is in catalytic converters for cars, trucks and buses. This accounts for about 50% of demand each year. Platinum is very effective at converting emissions from the vehicle’s engine into less harmful waste products. Platinum is used in the chemicals industry as a catalyst for the production of nitric acid, silicone and benzene. It is also used as a catalyst to improve the efficiency of fuel cells. The electronics industry uses platinum for computer hard disks and thermocouples. Platinum is also used to make optical fibres and LCDs, turbine blades, spark plugs, pacemakers and dental fillings. Platinum compounds are important chemotherapy drugs used to treat cancers.",
     "notableFacts": [
       "Platinum has no known biological role. It is non-toxic."
@@ -5460,7 +5460,7 @@ export const metals = [
     "name": "Lead",
     "symbol": "Pb",
     "atomicNumber": 82,
-    "atomicMass": 207,
+    "atomicMass": 207.2,
     "electronConfiguration": "[Xe]6s2 4f14 5d10 6p2",
     "standardState": "Solid",
     "yearDiscovered": "Ancient",
@@ -7231,9 +7231,9 @@ export const metals = [
     "density": null,
     "summary": "A radioactive metal that does not occur naturally. Only a few atoms have ever been made. Seaborgium is a transuranium element. It is created by bombarding californium-249 with oxygen-18 nuclei.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Seaborgium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seaborgium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A radioactive metal that does not occur naturally. Only a few atoms have ever been made. Seaborgium is a transuranium element. It is created by bombarding californium-249 with oxygen-18 nuclei.",
     "production": "Seaborgium is a transuranium element. It is created by bombarding californium-249 with oxygen-18 nuclei.",
     "uses": "At present, it is only used in research.",
@@ -7310,9 +7310,9 @@ export const metals = [
     "density": null,
     "summary": "Bohrium is a highly radioactive metal. Bohrium does not occur naturally and only a few atoms have ever been made. It will probably never be isolated in observable quantities. It was created by the so-called ‘cold fusion’ method. This involved the bombardment of bismuth with atoms of chromium.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bohrium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bohrium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "Bohrium is a highly radioactive metal. Bohrium does not occur naturally and only a few atoms have ever been made. It will probably never be isolated in observable quantities. It was created by the so-called ‘cold fusion’ method. This involved the bombardment of bismuth with atoms of chromium.",
     "production": "Bohrium does not occur naturally and only a few atoms have ever been made. It will probably never be isolated in observable quantities. It was created by the so-called ‘cold fusion’ method. This involved the bombardment of bismuth with atoms of chromium.",
     "uses": "At present, bohrium is of research interest only.",
@@ -7389,9 +7389,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. Hassium does not occur naturally and it will probably never be isolated in observable quantities. It is created by bombarding lead with iron atoms",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hassium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hassium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. Hassium does not occur naturally and it will probably never be isolated in observable quantities. It is created by bombarding lead with iron atoms",
     "production": "Hassium does not occur naturally and it will probably never be isolated in observable quantities. It is created by bombarding lead with iron atoms",
     "uses": "At present it is only used in research.",
@@ -7468,9 +7468,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. Fewer than 10 atoms of meitnerium have ever been made, and it will probably never be isolated in observable quantities. It is made by bombarding bismuth with iron atoms.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meitnerium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Meitnerium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. Fewer than 10 atoms of meitnerium have ever been made, and it will probably never be isolated in observable quantities. It is made by bombarding bismuth with iron atoms.",
     "production": "Fewer than 10 atoms of meitnerium have ever been made, and it will probably never be isolated in observable quantities. It is made by bombarding bismuth with iron atoms.",
     "uses": "At present it is only used in research.",
@@ -7547,9 +7547,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. A man-made element of which only a few atoms have ever been created. It that is formed by fusing nickel and lead atoms in a heavy ion accelerator.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Darmstadtium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Darmstadtium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. A man-made element of which only a few atoms have ever been created. It that is formed by fusing nickel and lead atoms in a heavy ion accelerator.",
     "production": "A man-made element of which only a few atoms have ever been created. It that is formed by fusing nickel and lead atoms in a heavy ion accelerator.",
     "uses": "At present, it is only used in research.",
@@ -7626,9 +7626,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. A man-made element of which only a few atoms have ever been created. It is made by fusing nickel and bismuth atoms in a heavy ion accelerator.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roentgenium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Roentgenium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. A man-made element of which only a few atoms have ever been created. It is made by fusing nickel and bismuth atoms in a heavy ion accelerator.",
     "production": "A man-made element of which only a few atoms have ever been created. It is made by fusing nickel and bismuth atoms in a heavy ion accelerator.",
     "uses": "At present, it is only used in research.",
@@ -7705,9 +7705,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. It is thought to be unreactive and more like a noble gas than a metal. Copernicium is a man-made element of which only a few atoms have ever been made. It is formed by fusing lead and zinc atoms in a heavy ion accelerator.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Copernicium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Copernicium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. It is thought to be unreactive and more like a noble gas than a metal. Copernicium is a man-made element of which only a few atoms have ever been made. It is formed by fusing lead and zinc atoms in a heavy ion accelerator.",
     "production": "Copernicium is a man-made element of which only a few atoms have ever been made. It is formed by fusing lead and zinc atoms in a heavy ion accelerator.",
     "uses": "At present, it is only used in research.",
@@ -7784,9 +7784,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. Unknown",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nihonium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nihonium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. Unknown",
     "production": "Unknown",
     "uses": "At present, it is only used in research.",
@@ -7863,9 +7863,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. Flerovium can be formed in nuclear reactors.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flerovium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Flerovium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. Flerovium can be formed in nuclear reactors.",
     "production": "Flerovium can be formed in nuclear reactors.",
     "uses": "At present, it is only used in research.",
@@ -7942,9 +7942,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. Unknown",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moscovium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Moscovium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. Unknown",
     "production": "Unknown",
     "uses": "At present, it is only used in research.",
@@ -8021,9 +8021,9 @@ export const metals = [
     "density": null,
     "summary": "A highly radioactive metal, of which only a few atoms have ever been made. Livermorium does not occur naturally. It is made by bombarding curium atoms with calcium. The most stable isotope has a half-life of about 53 milliseconds.",
     "safety": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities.",
-    "imageUrl": null,
-    "imageSourceUrl": null,
-    "imageCredit": "Image unavailable",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Livermorium.svg?width=720",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Livermorium.svg",
+    "imageCredit": "Wikimedia Commons",
     "overview": "A highly radioactive metal, of which only a few atoms have ever been made. Livermorium does not occur naturally. It is made by bombarding curium atoms with calcium. The most stable isotope has a half-life of about 53 milliseconds.",
     "production": "Livermorium does not occur naturally. It is made by bombarding curium atoms with calcium. The most stable isotope has a half-life of about 53 milliseconds.",
     "uses": "At present, it is only used in research.",

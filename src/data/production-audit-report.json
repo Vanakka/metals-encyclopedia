@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-07-20T23:23:39.901Z",
+  "summary": {
+    "totalMetals": 98,
+    "withUsgsMap": 67,
+    "sharedChapterMapped": 25,
+    "preferRscMapped": 29,
+    "exactDuplicateGroups": 1,
+    "metalsInExactDupes": 2,
+    "open120DuplicateGroups": 1,
+    "noNameOrAlias": 4,
+    "preferRscStillUsgsCommodityBlurb": 0,
+    "aliasMissingElementName": 0,
+    "sharedStillUsgsGroupBlurb": 0,
+    "genericOpeners": 0,
+    "shortOrPlaceholder": 3,
+    "multiElementUsgsFiles": 3,
+    "multiElementStillIdentical": 0
+  },
+  "multiElementUsgsFiles": [
+    {
+      "file": "mcs2025-rare-earths.txt",
+      "keys": [
+        "scandium",
+        "yttrium",
+        "lanthanum",
+        "cerium",
+        "praseodymium",
+        "neodymium",
+        "promethium",
+        "samarium",
+        "europium",
+        "gadolinium",
+        "terbium",
+        "dysprosium",
+        "holmium",
+        "erbium",
+        "thulium",
+        "ytterbium",
+        "lutetium"
+      ],
+      "uniqueProductionTexts": 17,
+      "allIdentical": false
+    },
+    {
+      "file": "mcs2025-zirconium-hafnium.txt",
+      "keys": [
+        "zirconium",
+        "hafnium"
+      ],
+      "uniqueProductionTexts": 2,
+      "allIdentical": false
+    },
+    {
+      "file": "mcs2025-platinum-group.txt",
+      "keys": [
+        "ruthenium",
+        "rhodium",
+        "palladium",
+        "osmium",
+        "iridium",
+        "platinum"
+      ],
+      "uniqueProductionTexts": 6,
+      "allIdentical": false
+    }
+  ],
+  "exactDuplicateProduction": [
+    {
+      "count": 2,
+      "keys": [
+        "nihonium",
+        "moscovium"
+      ],
+      "preview": "Unknown"
+    }
+  ],
+  "open120DuplicateProduction": [
+    {
+      "count": 2,
+      "keys": [
+        "nihonium",
+        "moscovium"
+      ],
+      "preview": "Unknown"
+    }
+  ],
+  "preferRscStillUsgsCommodityBlurb": [],
+  "sharedStillUsgsGroupBlurb": [],
+  "noNameOrAlias": [
+    {
+      "key": "darmstadtium",
+      "usgs": null,
+      "conf": "single-source",
+      "preview": "A man-made element of which only a few atoms have ever been created. It that is formed by fusing nickel and lead atoms in a heavy ion accelerator."
+    },
+    {
+      "key": "roentgenium",
+      "usgs": null,
+      "conf": "single-source",
+      "preview": "A man-made element of which only a few atoms have ever been created. It is made by fusing nickel and bismuth atoms in a heavy ion accelerator."
+    },
+    {
+      "key": "nihonium",
+      "usgs": null,
+      "conf": "single-source",
+      "preview": "Unknown"
+    },
+    {
+      "key": "moscovium",
+      "usgs": null,
+      "conf": "single-source",
+      "preview": "Unknown"
+    }
+  ],
+  "aliasCommodityMissingElementName": [],
+  "genericOpeners": [],
+  "shortOrPlaceholder": [
+    {
+      "key": "nihonium",
+      "len": 7,
+      "usgs": null,
+      "preview": "Unknown"
+    },
+    {
+      "key": "flerovium",
+      "len": 44,
+      "usgs": null,
+      "preview": "Flerovium can be formed in nuclear reactors."
+    },
+    {
+      "key": "moscovium",
+      "len": 7,
+      "usgs": null,
+      "preview": "Unknown"
+    }
+  ]
+}

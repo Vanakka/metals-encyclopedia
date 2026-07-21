@@ -1,0 +1,896 @@
+{
+  "generatedAt": "2026-07-20T23:52:07.920Z",
+  "scope": {
+    "definition": "All records in src/data/metals.js (built catalog), cross-checked against src/data/rsc/_all.json",
+    "totalMetals": 98,
+    "zMin": 3,
+    "zMax": 116,
+    "rscRecords": 98,
+    "assumptions": [
+      "Catalog is metals+metalloids in the app, not every periodic-table element",
+      "Null bulk properties for Z>92 / Z≥104 are often expected (sparse/synthetic)",
+      "Integer atomicMass may be PubChem rounding, not necessarily wrong"
+    ]
+  },
+  "summary": {
+    "identityDupes": 0,
+    "identityMissing": 0,
+    "zGapRanges": 5,
+    "thermoOrderBad": 1,
+    "propertyOutliers": 0,
+    "integerMassSuspect": 2,
+    "narrativeUnknown": 2,
+    "narrativeThin": 5,
+    "narrativeExactDupeGroups": 4,
+    "overviewEqualsSummary": 98,
+    "overviewEmbedsProduction": 57,
+    "missingImage": 11,
+    "missingNotable": 0,
+    "coverageSparse": 26,
+    "rscIssues": 0,
+    "safetyBoilerplateGroups": 4,
+    "confidence": {
+      "confirmed": 67,
+      "single-source": 31,
+      "unverified-model": 0,
+      "other": 0
+    }
+  },
+  "nullRates": {
+    "meltingPoint": {
+      "count": 13,
+      "pct": 13.3,
+      "keys": [
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "boilingPoint": {
+      "count": 22,
+      "pct": 22.4,
+      "keys": [
+        "francium",
+        "protactinium",
+        "berkelium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "density": {
+      "count": 20,
+      "pct": 20.4,
+      "keys": [
+        "francium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "conductivity": {
+      "count": 24,
+      "pct": 24.5,
+      "keys": [
+        "francium",
+        "actinium",
+        "americium",
+        "curium",
+        "berkelium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "thermalConductivity": {
+      "count": 22,
+      "pct": 22.4,
+      "keys": [
+        "polonium",
+        "francium",
+        "curium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "mohsHardness": {
+      "count": 35,
+      "pct": 35.7,
+      "keys": [
+        "scandium",
+        "yttrium",
+        "technetium",
+        "promethium",
+        "ytterbium",
+        "mercury",
+        "polonium",
+        "francium",
+        "radium",
+        "actinium",
+        "protactinium",
+        "neptunium",
+        "plutonium",
+        "americium",
+        "curium",
+        "berkelium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "brinellHardness": {
+      "count": 39,
+      "pct": 39.8,
+      "keys": [
+        "lithium",
+        "boron",
+        "silicon",
+        "strontium",
+        "technetium",
+        "barium",
+        "promethium",
+        "europium",
+        "gadolinium",
+        "mercury",
+        "polonium",
+        "francium",
+        "radium",
+        "actinium",
+        "protactinium",
+        "neptunium",
+        "plutonium",
+        "americium",
+        "curium",
+        "berkelium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "universeAbundancePercent": {
+      "count": 31,
+      "pct": 31.6,
+      "keys": [
+        "technetium",
+        "promethium",
+        "polonium",
+        "francium",
+        "radium",
+        "actinium",
+        "protactinium",
+        "neptunium",
+        "plutonium",
+        "americium",
+        "curium",
+        "berkelium",
+        "californium",
+        "einsteinium",
+        "fermium",
+        "mendelevium",
+        "nobelium",
+        "lawrencium",
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "bohrium",
+        "hassium",
+        "meitnerium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ]
+    },
+    "crustAbundancePercent": {
+      "count": 3,
+      "pct": 3.1,
+      "keys": [
+        "polonium",
+        "francium",
+        "actinium"
+      ]
+    },
+    "oceanAbundancePercent": {
+      "count": 8,
+      "pct": 8.2,
+      "keys": [
+        "rhodium",
+        "palladium",
+        "tellurium",
+        "osmium",
+        "iridium",
+        "platinum",
+        "francium",
+        "actinium"
+      ]
+    }
+  },
+  "stableMetalsMissingProps": {
+    "meltingPoint": {
+      "count": 0,
+      "keys": []
+    },
+    "boilingPoint": {
+      "count": 2,
+      "keys": [
+        "francium",
+        "protactinium"
+      ]
+    },
+    "density": {
+      "count": 1,
+      "keys": [
+        "francium"
+      ]
+    },
+    "conductivity": {
+      "count": 2,
+      "keys": [
+        "francium",
+        "actinium"
+      ]
+    },
+    "thermalConductivity": {
+      "count": 2,
+      "keys": [
+        "polonium",
+        "francium"
+      ]
+    },
+    "mohsHardness": {
+      "count": 11,
+      "keys": [
+        "scandium",
+        "yttrium",
+        "technetium",
+        "promethium",
+        "ytterbium",
+        "mercury",
+        "polonium",
+        "francium",
+        "radium",
+        "actinium",
+        "protactinium"
+      ]
+    },
+    "brinellHardness": {
+      "count": 15,
+      "keys": [
+        "lithium",
+        "boron",
+        "silicon",
+        "strontium",
+        "technetium",
+        "barium",
+        "promethium",
+        "europium",
+        "gadolinium",
+        "mercury",
+        "polonium",
+        "francium",
+        "radium",
+        "actinium",
+        "protactinium"
+      ]
+    },
+    "crustAbundancePercent": {
+      "count": 3,
+      "keys": [
+        "polonium",
+        "francium",
+        "actinium"
+      ]
+    }
+  },
+  "zGaps": [
+    {
+      "from": 5,
+      "to": 11,
+      "missing": 5
+    },
+    {
+      "from": 14,
+      "to": 19,
+      "missing": 4
+    },
+    {
+      "from": 33,
+      "to": 37,
+      "missing": 3
+    },
+    {
+      "from": 52,
+      "to": 55,
+      "missing": 2
+    },
+    {
+      "from": 84,
+      "to": 87,
+      "missing": 2
+    }
+  ],
+  "identityDupes": [],
+  "identityMissing": [],
+  "thermoOrder": [
+    {
+      "key": "arsenic",
+      "mp": 816.85,
+      "bp": 613.85
+    }
+  ],
+  "propertyOutliers": [],
+  "integerMassSuspect": [
+    {
+      "key": "lithium",
+      "atomicMass": 7,
+      "Z": 3
+    },
+    {
+      "key": "lead",
+      "atomicMass": 207,
+      "Z": 82
+    }
+  ],
+  "narrativeUnknown": [
+    {
+      "key": "nihonium",
+      "field": "production",
+      "value": "Unknown"
+    },
+    {
+      "key": "moscovium",
+      "field": "production",
+      "value": "Unknown"
+    }
+  ],
+  "narrativeThin": [
+    {
+      "key": "fermium",
+      "field": "uses",
+      "len": 37,
+      "preview": "Fermium has no uses outside research."
+    },
+    {
+      "key": "mendelevium",
+      "field": "uses",
+      "len": 38,
+      "preview": "Mendelevium is used only for research."
+    },
+    {
+      "key": "nobelium",
+      "field": "uses",
+      "len": 38,
+      "preview": "Nobelium has no uses outside research."
+    },
+    {
+      "key": "hassium",
+      "field": "uses",
+      "len": 39,
+      "preview": "At present it is only used in research."
+    },
+    {
+      "key": "meitnerium",
+      "field": "uses",
+      "len": 39,
+      "preview": "At present it is only used in research."
+    }
+  ],
+  "narrativeDupes": [
+    {
+      "field": "uses",
+      "count": 10,
+      "keys": [
+        "rutherfordium",
+        "dubnium",
+        "seaborgium",
+        "darmstadtium",
+        "roentgenium",
+        "copernicium",
+        "nihonium",
+        "flerovium",
+        "moscovium",
+        "livermorium"
+      ],
+      "preview": "At present, it is only used in research."
+    },
+    {
+      "field": "uses",
+      "count": 2,
+      "keys": [
+        "hassium",
+        "meitnerium"
+      ],
+      "preview": "At present it is only used in research."
+    },
+    {
+      "field": "overview",
+      "count": 2,
+      "keys": [
+        "nihonium",
+        "moscovium"
+      ],
+      "preview": "A highly radioactive metal, of which only a few atoms have ever been made. Unknown"
+    },
+    {
+      "field": "summary",
+      "count": 2,
+      "keys": [
+        "nihonium",
+        "moscovium"
+      ],
+      "preview": "A highly radioactive metal, of which only a few atoms have ever been made. Unknown"
+    }
+  ],
+  "overviewEqualsSummaryCount": 98,
+  "overviewEmbedsProduction": [
+    "sodium",
+    "potassium",
+    "calcium",
+    "scandium",
+    "yttrium",
+    "zirconium",
+    "technetium",
+    "ruthenium",
+    "rhodium",
+    "palladium",
+    "barium",
+    "lanthanum",
+    "cerium",
+    "praseodymium",
+    "neodymium",
+    "promethium",
+    "samarium",
+    "europium",
+    "gadolinium",
+    "terbium",
+    "dysprosium",
+    "holmium",
+    "erbium",
+    "thulium",
+    "ytterbium",
+    "lutetium",
+    "hafnium",
+    "osmium",
+    "iridium",
+    "platinum",
+    "polonium",
+    "francium",
+    "radium",
+    "actinium",
+    "protactinium",
+    "uranium",
+    "neptunium",
+    "plutonium",
+    "americium",
+    "curium",
+    "berkelium",
+    "californium",
+    "einsteinium",
+    "fermium",
+    "mendelevium",
+    "nobelium",
+    "lawrencium",
+    "rutherfordium",
+    "dubnium",
+    "seaborgium",
+    "bohrium",
+    "hassium",
+    "meitnerium",
+    "darmstadtium",
+    "roentgenium",
+    "copernicium",
+    "livermorium"
+  ],
+  "nameMissingInUses": [
+    "aluminum",
+    "cesium"
+  ],
+  "missingImage": [
+    "seaborgium",
+    "bohrium",
+    "hassium",
+    "meitnerium",
+    "darmstadtium",
+    "roentgenium",
+    "copernicium",
+    "nihonium",
+    "flerovium",
+    "moscovium",
+    "livermorium"
+  ],
+  "missingNotable": [],
+  "coverageSparse": [
+    {
+      "key": "polonium",
+      "Z": 84,
+      "missingBulk": 3,
+      "family": "Metalloid"
+    },
+    {
+      "key": "francium",
+      "Z": 87,
+      "missingBulk": 6,
+      "family": "Alkali"
+    },
+    {
+      "key": "actinium",
+      "Z": 89,
+      "missingBulk": 3,
+      "family": "Actinide"
+    },
+    {
+      "key": "protactinium",
+      "Z": 91,
+      "missingBulk": 3,
+      "family": "Actinide"
+    },
+    {
+      "key": "americium",
+      "Z": 95,
+      "missingBulk": 3,
+      "family": "Actinide"
+    },
+    {
+      "key": "curium",
+      "Z": 96,
+      "missingBulk": 4,
+      "family": "Actinide"
+    },
+    {
+      "key": "berkelium",
+      "Z": 97,
+      "missingBulk": 4,
+      "family": "Actinide"
+    },
+    {
+      "key": "californium",
+      "Z": 98,
+      "missingBulk": 6,
+      "family": "Actinide"
+    },
+    {
+      "key": "einsteinium",
+      "Z": 99,
+      "missingBulk": 6,
+      "family": "Actinide"
+    },
+    {
+      "key": "fermium",
+      "Z": 100,
+      "missingBulk": 6,
+      "family": "Actinide"
+    },
+    {
+      "key": "mendelevium",
+      "Z": 101,
+      "missingBulk": 6,
+      "family": "Actinide"
+    },
+    {
+      "key": "nobelium",
+      "Z": 102,
+      "missingBulk": 6,
+      "family": "Actinide"
+    },
+    {
+      "key": "lawrencium",
+      "Z": 103,
+      "missingBulk": 6,
+      "family": "Actinide"
+    },
+    {
+      "key": "rutherfordium",
+      "Z": 104,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "dubnium",
+      "Z": 105,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "seaborgium",
+      "Z": 106,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "bohrium",
+      "Z": 107,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "hassium",
+      "Z": 108,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "meitnerium",
+      "Z": 109,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "darmstadtium",
+      "Z": 110,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "roentgenium",
+      "Z": 111,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "copernicium",
+      "Z": 112,
+      "missingBulk": 7,
+      "family": "Transition"
+    },
+    {
+      "key": "nihonium",
+      "Z": 113,
+      "missingBulk": 7,
+      "family": "Post-transition"
+    },
+    {
+      "key": "flerovium",
+      "Z": 114,
+      "missingBulk": 7,
+      "family": "Post-transition"
+    },
+    {
+      "key": "moscovium",
+      "Z": 115,
+      "missingBulk": 7,
+      "family": "Post-transition"
+    },
+    {
+      "key": "livermorium",
+      "Z": 116,
+      "missingBulk": 7,
+      "family": "Post-transition"
+    }
+  ],
+  "rscMismatch": [],
+  "safetyGeneric": [
+    {
+      "count": 30,
+      "preview": "Bulk metal is generally more stable than powder; control dust, fumes, hot work, and compound-specific hazards."
+    },
+    {
+      "count": 15,
+      "preview": "Bulk metal is usually manageable, but dust can burn or irritate; compounds need normal lab caution."
+    },
+    {
+      "count": 13,
+      "preview": "Synthetic, short-lived element; practical handling is limited to specialized nuclear research facilities."
+    },
+    {
+      "count": 6,
+      "preview": "Reactive with water and air; store dry, isolated, and under suitable inert conditions."
+    }
+  ],
+  "familyOdd": [],
+  "confidenceLists": {
+    "confirmed": [
+      "lithium",
+      "beryllium",
+      "boron",
+      "sodium",
+      "magnesium",
+      "aluminum",
+      "silicon",
+      "potassium",
+      "calcium",
+      "scandium",
+      "titanium",
+      "vanadium",
+      "chromium",
+      "manganese",
+      "iron",
+      "cobalt",
+      "nickel",
+      "copper",
+      "zinc",
+      "gallium",
+      "germanium",
+      "arsenic",
+      "rubidium",
+      "strontium",
+      "yttrium",
+      "zirconium",
+      "niobium",
+      "molybdenum",
+      "ruthenium",
+      "rhodium",
+      "palladium",
+      "silver",
+      "cadmium",
+      "indium",
+      "tin",
+      "antimony",
+      "tellurium",
+      "cesium",
+      "barium",
+      "lanthanum",
+      "cerium",
+      "praseodymium",
+      "neodymium",
+      "promethium",
+      "samarium",
+      "europium",
+      "gadolinium",
+      "terbium",
+      "dysprosium",
+      "holmium",
+      "erbium",
+      "thulium",
+      "ytterbium",
+      "lutetium",
+      "hafnium",
+      "tantalum",
+      "tungsten",
+      "rhenium",
+      "osmium",
+      "iridium",
+      "platinum",
+      "gold",
+      "mercury",
+      "thallium",
+      "lead",
+      "bismuth",
+      "thorium"
+    ],
+    "single-source": [
+      "technetium",
+      "polonium",
+      "francium",
+      "radium",
+      "actinium",
+      "protactinium",
+      "uranium",
+      "neptunium",
+      "plutonium",
+      "americium",
+      "curium",
+      "berkelium",
+      "californium",
+      "einsteinium",
+      "fermium",
+      "mendelevium",
+      "nobelium",
+      "lawrencium",
+      "rutherfordium",
+      "dubnium",
+      "seaborgium",
+      "bohrium",
+      "hassium",
+      "meitnerium",
+      "darmstadtium",
+      "roentgenium",
+      "copernicium",
+      "nihonium",
+      "flerovium",
+      "moscovium",
+      "livermorium"
+    ],
+    "unverified-model": [],
+    "other": []
+  }
+}

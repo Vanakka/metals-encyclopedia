@@ -60,12 +60,12 @@ npm run build:data           # raw + narratives → metals.js
 - **Local text:** `src/data/usgs/text/mcs2025-*.txt`  
 
 - **Element → chapter map:** `USGS_MAP` in `scripts/upgrade-narratives.mjs`  
-- **We use in the UI:** Only the **Domestic Production and Use** paragraph (clipped).  
+- **We use in the UI:** Only the **Domestic Production and Use** paragraph (clipped) — except when the chapter is **not element-specific**: shared groups (rare-earths, platinum-group, zirconium-hafnium) and industrial-mineral aliases (salt→Na, potash→K, lime→Ca, barite→Ba). Those use **RSC Natural abundance** for “How it is made.” USGS still counts toward Confirmed.  
 - **Sitting on disk unused:** Recycling, Import Sources, Tariff, Salient Statistics tables, Events/Trends, World production & reserves, Substitutes.  
 - **When to revisit:**  
   1. Check whether an MCS chapter exists for the commodity (not always the element name — e.g. Na→salt, K→potash, Ba→barite, Zr/Hf→zirconium-hafnium).  
   2. Download PDF → `pdftotext` → `src/data/usgs/text/`.  
-  3. Add key to `USGS_MAP`.  
+  3. Add key to `USGS_MAP` (and `USGS_PREFER_RSC_PRODUCTION` in `upgrade-narratives.mjs` if the chapter is group-level or a mineral alias).  
   4. `npm run upgrade:narratives && npm run build:data`.  
 - **No MCS chapter (examples):** U (2025), Tc, Po, Fr, Ra, Ac, Pa, most superheavies — stay Single-source or sparse; don’t fake USGS.
 

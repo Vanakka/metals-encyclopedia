@@ -9,6 +9,7 @@
     "build:data": "node scripts/build-metals.mjs",
     "scrape:rsc": "node scripts/scrape-rsc.mjs",
     "upgrade:narratives": "node scripts/upgrade-narratives.mjs && node scripts/build-metals.mjs",
+    "fetch:reference-db": "node scripts/fetch-reference-db.mjs",
     "preview": "vite preview"
   },
   "devDependencies": {

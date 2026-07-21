@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Offline reference vault (fetched online — rebuild with npm run fetch:reference-db)
+reference-db/raw/
+reference-db/assembled/

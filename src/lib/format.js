@@ -16,6 +16,33 @@ export function formatTemperature(celsius) {
   return `${formatNumber(celsius, 1)} °C / ${formatNumber(fahrenheit, 1)} °F`;
 }
 
+/** True when listed boiling point is below melting — typically sublimation at 1 atm (e.g. arsenic). */
+export function sublimesAtOneAtm(metal) {
+  return (
+    hasValue(metal?.meltingPoint) &&
+    hasValue(metal?.boilingPoint) &&
+    metal.boilingPoint < metal.meltingPoint
+  );
+}
+
+export function boilingPointLabel(metal) {
+  return sublimesAtOneAtm(metal) ? "Sublimation (1 atm)" : "Boiling point";
+}
+
+export function meltingPointTip(metal) {
+  if (sublimesAtOneAtm(metal)) {
+    return "Listed melting point is under elevated pressure. At 1 atm this element sublimes (solid → gas) instead of boiling as a liquid.";
+  }
+  return "Temperature where the solid turns to liquid.";
+}
+
+export function boilingPointTip(metal) {
+  if (sublimesAtOneAtm(metal)) {
+    return "Temperature where the solid sublimes to gas at ~1 atm (PubChem lists this under boiling point). Below the high-pressure melting point, so the sheet labels it sublimation.";
+  }
+  return "Temperature where the liquid turns to gas.";
+}
+
 export function formatConductivity(value) {
   if (!hasValue(value)) return "Unavailable";
   if (value >= 1e6) return `${formatNumber(value / 1e6, 2)} MS/m`;
