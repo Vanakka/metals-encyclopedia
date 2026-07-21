@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-07-20T23:23:39.807Z",
+  "generatedAt": "2026-07-21T03:31:51.597Z",
   "totals": {
     "confirmed": 67,
     "singleSource": 31,
     "unverified": 0
   },
   "metals": 98,
-  "method": "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production and Use excerpts where a commodity chapter is mapped. Group/alias chapters (rare-earths, platinum-group, zirconium-hafnium, salt, potash, lime, barite) keep USGS as a Confirmed source but use RSC natural abundance for the production blurb. Confirmed = RSC + USGS. Single-source = RSC only (or USGS only if RSC missing)."
+  "narrativeOverrides": [
+    "lithium",
+    "aluminum",
+    "manganese",
+    "gold",
+    "flerovium",
+    "promethium"
+  ],
+  "method": "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production plus Recycling / Substitutes / World Resources excerpts where the mapped chapter covers the element (usgsChapterCovers / USGS_COVERAGE_EXCLUSIONS); uranium uses Fact Sheet 2025–3057; scandium uses mcs2025-scandium (not rare-earths); promethium has no USGS commodity chapter. Curated narrative-overrides.mjs patches known RSC errors. Dual-sourced = RSC + covering USGS (provenance, not per-claim fact-check). Single-source = RSC only (or USGS only if RSC missing)."
 }

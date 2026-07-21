@@ -1,0 +1,16 @@
+#!/bin/sh
+# Optional local guard. Enable once with:
+#   git config core.hooksPath .githooks
+#
+# Blocks commits when src/data/metals.js is stale vs metals-raw.json + narratives.
+
+set -e
+cd "$(git rev-parse --show-toplevel)"
+
+if git diff --cached --name-only | grep -qE '^(src/data/metals-raw\.json|scripts/narratives\.mjs|scripts/build-metals\.mjs)$'; then
+  echo "pre-commit: regenerating metals.js (inputs staged)…"
+  npm run build:data
+  git add src/data/metals.js
+fi
+
+npm run check:data

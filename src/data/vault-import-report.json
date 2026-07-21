@@ -1,0 +1,8 @@
+{
+  "generatedAt": "2026-07-21T03:17:43.317Z",
+  "mode": "apply",
+  "patchCount": 0,
+  "note": "No safe patches. IUPAC mass overrides (e.g. Li 6.94, Pb 207.2) already win over PubChem integers; remaining null MP/BP/density are radioactives/superheavies without usable PubChem CSV values.",
+  "patches": [],
+  "skipped": []
+}

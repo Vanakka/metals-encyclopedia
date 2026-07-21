@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T23:52:07.920Z",
+  "generatedAt": "2026-07-21T02:17:21.536Z",
   "scope": {
     "definition": "All records in src/data/metals.js (built catalog), cross-checked against src/data/rsc/_all.json",
     "totalMetals": 98,
@@ -18,20 +18,20 @@
     "zGapRanges": 5,
     "thermoOrderBad": 1,
     "propertyOutliers": 0,
-    "integerMassSuspect": 2,
+    "integerMassSuspect": 0,
     "narrativeUnknown": 2,
     "narrativeThin": 5,
     "narrativeExactDupeGroups": 4,
     "overviewEqualsSummary": 98,
-    "overviewEmbedsProduction": 57,
-    "missingImage": 11,
+    "overviewEmbedsProduction": 56,
+    "missingImage": 0,
     "missingNotable": 0,
     "coverageSparse": 26,
     "rscIssues": 0,
     "safetyBoilerplateGroups": 4,
     "confidence": {
-      "confirmed": 67,
-      "single-source": 31,
+      "confirmed": 68,
+      "single-source": 30,
       "unverified-model": 0,
       "other": 0
     }
@@ -429,18 +429,7 @@
     }
   ],
   "propertyOutliers": [],
-  "integerMassSuspect": [
-    {
-      "key": "lithium",
-      "atomicMass": 7,
-      "Z": 3
-    },
-    {
-      "key": "lead",
-      "atomicMass": 207,
-      "Z": 82
-    }
-  ],
+  "integerMassSuspect": [],
   "narrativeUnknown": [
     {
       "key": "nihonium",
@@ -568,7 +557,6 @@
     "radium",
     "actinium",
     "protactinium",
-    "uranium",
     "neptunium",
     "plutonium",
     "americium",
@@ -595,19 +583,7 @@
     "aluminum",
     "cesium"
   ],
-  "missingImage": [
-    "seaborgium",
-    "bohrium",
-    "hassium",
-    "meitnerium",
-    "darmstadtium",
-    "roentgenium",
-    "copernicium",
-    "nihonium",
-    "flerovium",
-    "moscovium",
-    "livermorium"
-  ],
+  "missingImage": [],
   "missingNotable": [],
   "coverageSparse": [
     {
@@ -855,7 +831,8 @@
       "thallium",
       "lead",
       "bismuth",
-      "thorium"
+      "thorium",
+      "uranium"
     ],
     "single-source": [
       "technetium",
@@ -864,7 +841,6 @@
       "radium",
       "actinium",
       "protactinium",
-      "uranium",
       "neptunium",
       "plutonium",
       "americium",

@@ -21,6 +21,7 @@ import {
   sublimesAtOneAtm
 } from "./lib/format.js";
 import { getFilteredMetals, relativeConductivity } from "./lib/filter.js";
+import { displayImageUrl, warmMetalImages } from "./lib/images.js";
 import {
   COMPARE_LIMIT,
   COMPARE_PRESETS,
@@ -135,8 +136,8 @@ function countFamily(family) {
 }
 
 function familyImage(family) {
-  const withImg = metals.find((m) => m.family === family && m.imageUrl);
-  return withImg?.imageUrl || null;
+  const withImg = metals.find((m) => m.family === family && displayImageUrl(m));
+  return withImg ? displayImageUrl(withImg) : null;
 }
 
 function heatColor(t) {
@@ -162,10 +163,12 @@ function cubeGrad(family) {
   return `linear-gradient(135deg, rgba(11, 13, 14, 0.85), rgba(11, 13, 14, 0.2)), ${famColors[family] || "#9fb3c4"}`;
 }
 
-function metalCardMedia(metal, { draggable = false } = {}) {
-  if (metal.imageUrl) {
+function metalCardMedia(metal, { draggable = false, eager = false } = {}) {
+  const src = displayImageUrl(metal);
+  if (src) {
     const drag = draggable ? "" : ' draggable="false"';
-    return `<img src="${metal.imageUrl}" alt="" loading="lazy" decoding="async"${drag}>`;
+    const load = eager ? 'loading="eager" fetchpriority="high"' : 'loading="lazy"';
+    return `<img src="${escapeHtml(src)}" alt="" ${load} decoding="async"${drag}>`;
   }
   const reason =
     metal.atomicNumber >= 104
@@ -234,6 +237,11 @@ function goHome() {
 
 function openSeriesHub() {
   state.page = "series";
+  // Warm one specimen per family so hub tiles feel instant.
+  warmMetalImages(
+    families.map((f) => metals.find((m) => m.family === f && displayImageUrl(m))).filter(Boolean),
+    { limit: 16 }
+  );
   renderApp();
 }
 
@@ -252,6 +260,9 @@ function openBrowse({ family = "all", view = "encyclopedia", selectFirst = true 
   if (selectFirst) {
     const filtered = getFilteredMetals(metals, state);
     if (filtered.length) state.selectedKey = filtered[0].key;
+    warmMetalImages(filtered, { limit: 48 });
+  } else {
+    warmMetalImages(getFilteredMetals(metals, state), { limit: 48 });
   }
   renderApp();
 }
@@ -378,6 +389,16 @@ function setFamilyFilter(family) {
   renderBrowse();
 }
 
+function seriesMenuOptionsHtml() {
+  return `${families
+    .map(
+      (f) =>
+        `<button type="button" role="option" data-family="${escapeHtml(f)}" aria-selected="${f === state.family}">${escapeHtml(f)}</button>`
+    )
+    .join("")}
+    <button type="button" role="option" data-family="all" aria-selected="${state.family === "all"}">All series</button>`;
+}
+
 function seriesPickerHtml(seriesLabel) {
   return `
     <div class="entry-series">
@@ -398,13 +419,7 @@ function seriesPickerHtml(seriesLabel) {
         aria-label="Series"
         ${state.seriesMenuOpen ? "" : "hidden"}
       >
-        <button type="button" role="option" data-family="all" aria-selected="${state.family === "all"}">All series</button>
-        ${families
-          .map(
-            (f) =>
-              `<button type="button" role="option" data-family="${escapeHtml(f)}" aria-selected="${f === state.family}">${escapeHtml(f)}</button>`
-          )
-          .join("")}
+        ${seriesMenuOptionsHtml()}
       </div>
     </div>`;
 }
@@ -668,7 +683,7 @@ function renderSeriesHub() {
   `;
 
   document.querySelector('[data-nav="home"]')?.addEventListener("click", goHome);
-  document.querySelectorAll("[data-series]").forEach((btn) => {
+  document.querySelectorAll("button[data-series]").forEach((btn) => {
     btn.addEventListener("click", () => openBrowse({ family: btn.dataset.series }));
   });
 }
@@ -681,13 +696,14 @@ function renderBrowse() {
   const filtered = getFilteredMetals(metals, state);
   const seriesLabel = state.family === "all" ? "All metals" : state.family;
   const showToolbar = state.view !== "compare";
+  const mobile = isMobileBrowse();
   const mobilePane =
-    isMobileBrowse() && state.view === "encyclopedia" ? state.mobilePane : isMobileBrowse() ? "list" : "desktop";
+    mobile && state.view === "encyclopedia" ? state.mobilePane : mobile ? "list" : "desktop";
   const onMobileEntry = mobilePane === "entry";
 
   app.innerHTML = `
     <div class="console-shell">
-      <main class="browse-main" data-mobile-pane="${mobilePane}" data-view="${state.view}">
+      <main class="browse-main" data-mobile-pane="${mobilePane}" data-browse-view="${state.view}">
         <nav class="browse-crumbs" aria-label="Breadcrumb">
           <button type="button" class="crumb-link" data-nav="home">Console</button>
           <span aria-hidden="true">/</span>
@@ -702,25 +718,21 @@ function renderBrowse() {
           </span>
         </nav>
         ${
-          showToolbar
+          showToolbar && !mobile
             ? `<div class="browse-toolbar">
-          <h1>${escapeHtml(seriesLabel)}</h1>
-          <select id="family-filter" aria-label="Series">
-            <option value="all">All series</option>
-            ${families.map((f) => `<option value="${f}" ${f === state.family ? "selected" : ""}>${f}</option>`).join("")}
-          </select>
-          <span class="count">${filtered.length} shown</span>
+          ${seriesPickerHtml(seriesLabel)}
+          <span class="count" role="status" aria-live="polite">${filtered.length} shown</span>
         </div>`
             : ""
         }
         ${
-          onMobileEntry
-            ? ""
-            : `<div class="mobile-series-bar">
+          !onMobileEntry && mobile
+            ? `<div class="mobile-series-bar">
           <button type="button" class="back-series" id="mobile-back-series" aria-label="Back to metals by series">‹</button>
           ${seriesPickerHtml(seriesLabel)}
-          ${showToolbar ? `<span class="mobile-series-count">${filtered.length} shown</span>` : ""}
+          ${showToolbar ? `<span class="mobile-series-count" role="status" aria-live="polite">${filtered.length} shown</span>` : ""}
         </div>`
+            : ""
         }
         <div id="browse-content"></div>
       </main>
@@ -745,7 +757,9 @@ function renderBrowse() {
     clearCompareAddListener();
     openSeriesHub();
   });
-  document.querySelectorAll("[data-view]").forEach((btn) => {
+  // Only the view-tab buttons — not <main data-view>, which would steal
+  // clicks from <details>/links inside the page and force a full re-render.
+  document.querySelectorAll("button[data-view]").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
@@ -762,10 +776,6 @@ function renderBrowse() {
       renderBrowse();
     });
   });
-  document.querySelector("#family-filter")?.addEventListener("change", (e) => {
-    setFamilyFilter(e.target.value);
-  });
-
   const content = document.querySelector("#browse-content");
   if (state.view === "encyclopedia") {
     content.innerHTML = renderEncyclopedia(filtered);
@@ -777,12 +787,14 @@ function renderBrowse() {
     content.innerHTML = renderTable(filtered);
     bindTable();
   }
+  // One custom Hybrid series picker (desktop toolbar, mobile list bar, or mobile entry bar).
   if (!onMobileEntry) bindSeriesPicker();
+  warmMetalImages(filtered, { limit: 48 });
 }
 
 function metalCardsHtml(filtered) {
   return filtered
-    .map((m) => {
+    .map((m, i) => {
       const r = relativeConductivity(m);
       const current = m.key === state.selectedKey ? ' aria-current="true"' : "";
       const sigma = hasValue(r) ? `σ ${r.toFixed(0)}%` : "σ —";
@@ -790,9 +802,10 @@ function metalCardsHtml(filtered) {
         state.family !== "all" && state.family === m.family
           ? sigma
           : `${escapeHtml(m.family)} · ${sigma}`;
+      const eager = m.key === state.selectedKey || i < 9;
       return `
         <button type="button" class="metal-card" data-key="${m.key}"${current}>
-          ${metalCardMedia(m)}
+          ${metalCardMedia(m, { eager })}
           <span class="shade" aria-hidden="true"></span>
           <strong class="name">${escapeHtml(m.name)}</strong>
           <span class="row">
@@ -916,6 +929,31 @@ function renderEncyclopedia(filtered) {
   const facts = (metal.notableFacts || [])
     .map((f) => `<li>${escapeHtml(f)}</li>`)
     .join("");
+
+  const notes = metal.commodityNotes;
+  const commodityHtml =
+    notes && (notes.recycling || notes.substitutes || notes.world)
+      ? `<details class="commodity-notes">
+            <summary>USGS commodity notes</summary>
+            <div class="commodity-notes-body">
+              ${
+                notes.recycling
+                  ? `<section><h3>Recycling</h3><p>${escapeHtml(notes.recycling)}</p></section>`
+                  : ""
+              }
+              ${
+                notes.world
+                  ? `<section><h3>World resources</h3><p>${escapeHtml(notes.world)}</p></section>`
+                  : ""
+              }
+              ${
+                notes.substitutes
+                  ? `<section><h3>Substitutes</h3><p>${escapeHtml(notes.substitutes)}</p></section>`
+                  : ""
+              }
+            </div>
+          </details>`
+      : "";
   const narrativeSources = (metal.narrativeSources || [])
     .map(
       (s) =>
@@ -971,7 +1009,7 @@ function renderEncyclopedia(filtered) {
       <article>
         <div class="mobile-entry-bar">
           <button type="button" class="back-list" id="mobile-back-list" aria-label="Back to list">‹</button>
-          ${seriesPickerHtml(state.family === "all" ? "All metals" : state.family)}
+          ${isMobileBrowse() ? seriesPickerHtml(state.family === "all" ? "All metals" : state.family) : ""}
           <div class="hero-controls hero-controls--bar" role="group" aria-label="Hero view" data-open="${state.heroControlsOpen ? "true" : "false"}">
             <button type="button" class="hero-controls-toggle" id="hero-controls-toggle" aria-expanded="${state.heroControlsOpen ? "true" : "false"}" aria-controls="hero-controls-panel">
               ${heroPhoto ? "Photo" : hero3d ? "3D" : "Atomic"} ▾
@@ -989,10 +1027,12 @@ function renderEncyclopedia(filtered) {
         <figure class="hero">
           ${
             heroPhoto
-              ? metal.imageUrl
-                ? `<img class="hero-blur" src="${metal.imageUrl}" alt="" aria-hidden="true" loading="lazy" decoding="async" />
-                   <img class="hero-photo" src="${metal.imageUrl}" alt="${escapeHtml(metal.name)} sample" loading="lazy" decoding="async" />`
-                : `<div class="hero-fallback-symbol" style="background: ${cubeGrad(metal.family)}">
+              ? (() => {
+                  const src = displayImageUrl(metal);
+                  return src
+                    ? `<img class="hero-blur" src="${escapeHtml(src)}" alt="" aria-hidden="true" loading="eager" decoding="async" />
+                   <img class="hero-photo" src="${escapeHtml(src)}" alt="${escapeHtml(metal.name)} sample" loading="eager" fetchpriority="high" decoding="async" />`
+                    : `<div class="hero-fallback-symbol" style="background: ${cubeGrad(metal.family)}">
                      <span class="hero-fallback-sym">${escapeHtml(metal.symbol)}</span>
                      <span class="hero-fallback-note">${
                        metal.atomicNumber >= 104
@@ -1001,7 +1041,8 @@ function renderEncyclopedia(filtered) {
                            ? "No photo — scarce radioactive specimen"
                            : "No specimen photo on file"
                      }</span>
-                   </div>`
+                   </div>`;
+                })()
               : ""
           }
           ${
@@ -1034,7 +1075,7 @@ function renderEncyclopedia(filtered) {
             </div>
           </div>
           <div class="hero-fade" aria-hidden="true"></div>
-          <h2 class="hero-title">${escapeHtml(metal.name)}</h2>
+          <h1 class="hero-title">${escapeHtml(metal.name)}</h1>
         </figure>
 
         <div class="stat-strip" aria-label="Key stats">${statCards}</div>
@@ -1042,22 +1083,23 @@ function renderEncyclopedia(filtered) {
 
         <div class="entry-grid">
           <div>
-            <section class="prose-block"><h3>What it is</h3><p>${escapeHtml(metal.overview)}</p></section>
-            <section class="prose-block"><h3>How it is made</h3><p>${escapeHtml(metal.production)}</p></section>
-            <section class="prose-block"><h3>Uses</h3><p>${escapeHtml(metal.uses)}</p></section>
+            <section class="prose-block"><h2>What it is</h2><p>${escapeHtml(metal.overview)}</p></section>
+            <section class="prose-block"><h2>How it is made</h2><p>${escapeHtml(metal.production)}</p></section>
+            <section class="prose-block"><h2>Uses</h2><p>${escapeHtml(metal.uses)}</p></section>
+            ${commodityHtml}
             ${
               facts
-                ? `<section class="prose-block"><h3>Notable facts</h3><ul>${facts}</ul></section>`
+                ? `<section class="prose-block"><h2>Notable facts</h2><ul>${facts}</ul></section>`
                 : ""
             }
             <section class="note-box">
-              <h3>Handling note</h3>
+              <h2>Handling note</h2>
               <p>${escapeHtml(metal.safety || "No handling note recorded.")}</p>
             </section>
           </div>
           <aside style="display:grid;gap:16px;align-content:start;">
             <section class="data-sheet" aria-label="Scientific facts">
-              <h3>Full data sheet</h3>
+              <h2>Full data sheet</h2>
               <dl>${dataRows}</dl>
             </section>
             <div class="compare-actions">
@@ -1072,7 +1114,7 @@ function renderEncyclopedia(filtered) {
             <span style="color:${CONF_COLORS[metal.narrativeConfidence] || "#d7dde0"}">${confidenceLabel(metal.narrativeConfidence)}</span>
           </summary>
           <div class="sources-body">
-            <p class="note">Numeric identity and thermo/density fields track PubChem’s periodic-table dataset. Conductivity, hardness, and abundance come from the prior PeriodicTable.com/Wolfram-backed set. Narratives are built from RSC Periodic Table text; where a USGS Mineral Commodity Summaries 2025 chapter exists, production is dual-sourced and marked Confirmed.</p>
+            <p class="note">Numeric identity and thermo/density fields track PubChem’s periodic-table dataset. Conductivity, hardness, and abundance come from the prior PeriodicTable.com/Wolfram-backed set. Narratives come from RSC Periodic Table text; where a USGS chapter is also mapped, the badge is <strong>Dual-sourced</strong> (provenance from two source families — not a per-claim fact-check). Known RSC errors are patched in <code>narrative-overrides.mjs</code>.</p>
             <div class="source-columns">
               <ul>${narrativeSources || "<li>None listed</li>"}</ul>
               <div>
@@ -1115,7 +1157,9 @@ function bindEncyclopedia(filtered) {
     clearSortMenuListener();
     renderBrowse();
   });
-  bindSeriesPicker();
+  // Series picker is bound once from renderBrowse (desktop toolbar / mobile list)
+  // or here when the only picker lives on the mobile entry bar.
+  if (isMobileBrowse() && state.mobilePane === "entry") bindSeriesPicker();
   document.querySelector("#hero-controls-toggle")?.addEventListener("click", (e) => {
     e.stopPropagation();
     clearHeroMenuListener();
@@ -1138,7 +1182,7 @@ function bindEncyclopedia(filtered) {
     };
     setTimeout(() => document.addEventListener("click", closeHeroMenuListener), 0);
   }
-  document.querySelectorAll("[data-hero]").forEach((btn) => {
+  document.querySelectorAll("button[data-hero]").forEach((btn) => {
     btn.addEventListener("click", () => {
       clearHeroMenuListener();
       state.heroView = btn.dataset.hero;
@@ -1299,6 +1343,7 @@ function renderCompareMobile() {
 
   return `
     <section class="compare-mobile">
+      <h1 class="compare-page-title">Head to head</h1>
       <p class="compare-mobile-meta">Up to ${COMPARE_LIMIT} · first is baseline</p>
       <div class="compare-presets" role="group" aria-label="Best-of presets">${presets}</div>
       <div class="compare-mobile-tools">
@@ -1308,7 +1353,7 @@ function renderCompareMobile() {
         <button type="button" class="btn-ghost" id="copy-compare">Copy</button>
         <button type="button" class="btn-ghost" id="clear-compare">Clear</button>
       </div>
-      ${state.compareNotice ? `<p class="notice">${escapeHtml(state.compareNotice)}</p>` : ""}
+      <p class="notice" role="status" aria-live="polite">${escapeHtml(state.compareNotice || "")}</p>
       ${
         selected.length
           ? `<div class="compare-sheet" aria-label="Comparison sheet">
@@ -1438,7 +1483,7 @@ function renderCompare() {
     <section>
       <div class="compare-head">
         <div>
-          <h2>Head to head</h2>
+          <h1>Head to head</h1>
           <p>Up to 4 metals · drag cards to reorder · first is baseline · dials show % of each row's leader.</p>
         </div>
         <div class="compare-tools">
@@ -1456,7 +1501,7 @@ function renderCompare() {
         </div>
       </div>
       <div class="compare-presets" role="group" aria-label="Best-of presets">${presets}</div>
-      ${state.compareNotice ? `<p class="notice">${escapeHtml(state.compareNotice)}</p>` : ""}
+      <p class="notice" role="status" aria-live="polite">${escapeHtml(state.compareNotice || "")}</p>
       <div class="compare-cards" aria-label="Compared metals">${cards || '<p class="empty-state">No metals selected.</p>'}</div>
       <div class="compare-matrix" style="grid-template-columns: 10.5rem repeat(${colCount}, minmax(9rem, 1fr));">
         <span class="matrix-col" style="background:#14181a"></span>
@@ -1464,7 +1509,7 @@ function renderCompare() {
         ${matrixRows}
   </div>
       <section class="production-section" aria-label="How each metal is made">
-        <h3>How they are made</h3>
+        <h2>How they are made</h2>
         <div class="production-cards">${production}</div>
       </section>
     </section>
@@ -1608,12 +1653,12 @@ function bindCompareMobileAdd() {
         return `<button type="button" data-add-key="${m.key}" ${inSet ? "disabled" : ""}>${escapeHtml(m.name)} <span>${escapeHtml(m.symbol)}${inSet ? " · in set" : ""}</span></button>`;
       })
       .join("");
-    list.querySelectorAll("[data-add-key]").forEach((btn) => {
+    list.querySelectorAll("button[data-add-key]").forEach((btn) => {
       btn.addEventListener("click", () => addMetalToCompare(btn.dataset.addKey));
     });
   });
 
-  document.querySelectorAll(".compare-add-list [data-add-key]").forEach((btn) => {
+  document.querySelectorAll(".compare-add-list button[data-add-key]").forEach((btn) => {
     btn.addEventListener("click", () => addMetalToCompare(btn.dataset.addKey));
   });
 }
@@ -1686,7 +1731,7 @@ function bindCompareSheetReorder() {
 }
 
 function bindCompare() {
-  document.querySelectorAll("[data-remove]").forEach((btn) => {
+  document.querySelectorAll("button[data-remove]").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.stopPropagation();
       state.compareKeys = state.compareKeys.filter((k) => k !== btn.dataset.remove);
@@ -1694,13 +1739,13 @@ function bindCompare() {
       renderBrowse();
     });
   });
-  document.querySelectorAll("[data-select]").forEach((btn) => {
+  document.querySelectorAll("button[data-select]").forEach((btn) => {
     btn.addEventListener("click", () => {
       state.selectedKey = btn.dataset.select;
       renderBrowse();
     });
   });
-  document.querySelectorAll("[data-preset]").forEach((btn) => {
+  document.querySelectorAll("button[data-preset]").forEach((btn) => {
     btn.addEventListener("click", () => {
       const preset = COMPARE_PRESETS.find((p) => p.id === btn.dataset.preset);
       if (!preset) return;
@@ -1883,6 +1928,7 @@ function renderTableMobile(filtered) {
 
   return `
     <section class="table-mobile" aria-label="Metals table">
+      <h1 class="table-page-title">Data table</h1>
       <p class="table-mobile-meta">${filtered.length} metals · tap for entry</p>
       <div class="table-mobile-sheet">
         <div class="table-mobile-head" role="row">
@@ -1918,6 +1964,7 @@ function renderTable(filtered) {
 
   return `
     <section>
+      <h1 class="table-page-title">Data table</h1>
       <div class="table-wrap">
         <table>
           <thead>
@@ -1940,7 +1987,7 @@ function renderTable(filtered) {
 
 function bindTable() {
   fitTableMobileIdColumn();
-  document.querySelectorAll("[data-table-sort]").forEach((btn) => {
+  document.querySelectorAll("button[data-table-sort]").forEach((btn) => {
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();

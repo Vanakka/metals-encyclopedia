@@ -87,7 +87,7 @@ export function formatDelta(value, suffix = "") {
 export function confidenceLabel(confidence) {
   switch (confidence) {
     case "confirmed":
-      return "Confirmed";
+      return "Dual-sourced";
     case "single-source":
       return "Single-source";
     case "unverified-model":

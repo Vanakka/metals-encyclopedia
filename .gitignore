@@ -26,3 +26,6 @@ dist-ssr
 # Offline reference vault (fetched online — rebuild with npm run fetch:reference-db)
 reference-db/raw/
 reference-db/assembled/
+
+# USGS chapter PDFs (text extracts under src/data/usgs/text/ are tracked)
+src/data/usgs/*.pdf

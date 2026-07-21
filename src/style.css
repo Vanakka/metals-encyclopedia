@@ -6,7 +6,10 @@
   --ink: #d7dde0;
   --ink-soft: #c3cbcf;
   --muted: #9aa6ab;
-  --faint: #565f63;
+  /* Text labels — ≥4.5:1 on --bg (#0b0d0e). Was #565f63 (~2.8:1). */
+  --faint: #8a949a;
+  /* Decorative only (borders/dividers) — keep darker for quiet chrome */
+  --faint-dim: #565f63;
   --line: #232a2e;
   --line-strong: #3a4348;
   --accent: #ffb454;
@@ -701,22 +704,73 @@ input::placeholder {
   margin-bottom: 22px;
 }
 
-.browse-toolbar h1 {
-  margin: 0 auto 0 0;
+.browse-toolbar .entry-series {
+  position: relative;
+  margin-right: auto;
+}
+
+.browse-toolbar .entry-series-name {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 1;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
+  color: var(--ink);
+  cursor: pointer;
 }
 
-.browse-toolbar select {
-  min-height: 40px;
-  border: 1px solid var(--line-strong);
-  background: var(--bg);
-  padding: 0 10px;
-  font-size: 0.88rem;
+.browse-toolbar .entry-series-name:hover,
+.browse-toolbar .entry-series-name[aria-expanded="true"] {
+  color: var(--accent);
+}
+
+.browse-toolbar .entry-series-name::after {
+  content: " ▾";
+  font-family: var(--font-mono);
+  font-size: 0.7em;
   font-weight: 600;
+  color: var(--faint);
+}
+
+.entry-series-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  z-index: 40;
+  display: grid;
+  min-width: 200px;
+  padding: 4px 0;
+  border: 1px solid var(--sep-line, var(--line));
+  background: #0e1112;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55);
+}
+
+.entry-series-menu[hidden] {
+  display: none;
+}
+
+.entry-series-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 14px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+
+.entry-series-menu button:hover,
+.entry-series-menu button[aria-selected="true"] {
+  background: rgba(255, 180, 84, 0.16);
+  color: var(--accent);
 }
 
 .browse-toolbar .count {
@@ -1237,7 +1291,7 @@ input::placeholder {
   margin-bottom: 24px;
 }
 
-.prose-block h3 {
+.prose-block h2 {
   margin: 0 0 8px;
   font-family: var(--font-display);
   font-weight: 600;
@@ -1261,6 +1315,66 @@ input::placeholder {
   padding-left: 1.2rem;
 }
 
+.commodity-notes {
+  margin: 0 0 24px;
+  border: 1px solid var(--sep-line, var(--line));
+  background: #121516;
+}
+
+.commodity-notes > summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 12px 14px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.commodity-notes > summary::-webkit-details-marker {
+  display: none;
+}
+
+.commodity-notes > summary::after {
+  content: "+";
+  float: right;
+  color: var(--faint);
+}
+
+.commodity-notes[open] > summary::after {
+  content: "–";
+}
+
+.commodity-notes:not([open]) > .commodity-notes-body,
+.sources-block:not([open]) > .sources-body,
+.compare-production:not([open]) > .compare-production-body {
+  display: none;
+}
+
+.commodity-notes[open] > .commodity-notes-body {
+  padding: 0 14px 14px;
+  display: grid;
+  gap: 14px;
+}
+
+.commodity-notes-body h3 {
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.commodity-notes-body p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.55;
+  font-size: 0.9rem;
+}
+
 .note-box {
   margin-bottom: 24px;
   padding: 14px 16px;
@@ -1268,7 +1382,7 @@ input::placeholder {
   background: var(--danger-bg);
 }
 
-.note-box h3 {
+.note-box h2 {
   margin: 0 0 6px;
   font-size: 0.76rem;
   font-weight: 600;
@@ -1357,7 +1471,7 @@ input::placeholder {
   border: 1px solid var(--line-strong);
 }
 
-.data-sheet h3 {
+.data-sheet h2 {
   margin: 0;
   padding: 10px 14px;
   background: #14181a;
@@ -1394,7 +1508,7 @@ input::placeholder {
 }
 
 .data-row dt .label {
-  border-bottom: 1px dotted var(--faint);
+  border-bottom: 1px dotted var(--faint-dim);
 }
 
 .data-row dd {
@@ -1507,7 +1621,7 @@ input::placeholder {
   margin-bottom: 18px;
 }
 
-.compare-head h2 {
+.compare-head h1 {
   margin: 0 0 6px;
   font-family: var(--font-display);
   font-weight: 700;
@@ -1594,6 +1708,21 @@ input::placeholder {
   color: var(--accent);
   font-weight: 600;
   font-size: 0.9rem;
+}
+
+.notice:empty {
+  display: none;
+}
+
+.table-page-title,
+.compare-page-title {
+  margin: 0 0 12px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
 }
 
 .compare-cards {
@@ -1860,7 +1989,7 @@ input::placeholder {
   font-family: var(--font-mono);
 }
 
-.production-section h3 {
+.production-section h2 {
   margin: 0 0 12px;
   font-family: var(--font-display);
   font-weight: 700;

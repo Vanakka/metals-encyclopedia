@@ -150,44 +150,11 @@
   }
 
   .entry-series-menu {
-    position: absolute;
-    top: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
-    z-index: 30;
-    display: grid;
-    min-width: 180px;
-    padding: 4px 0;
-    border: 1px solid var(--sep-line);
-    background: #0e1112;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55);
   }
 
-  .entry-series-menu[hidden] {
-    display: none;
-  }
-
-  .entry-series-menu button {
-    display: block;
-    width: 100%;
-    padding: 8px 12px;
-    border: 0;
-    background: transparent;
-    color: var(--ink);
-    font-family: var(--font-body);
-    font-size: 0.9rem;
-    text-align: left;
-    cursor: pointer;
-  }
-
-  .entry-series-menu button:hover,
-  .entry-series-menu button[aria-selected="true"] {
-    background: rgba(255, 180, 84, 0.16);
-    color: var(--accent);
-  }
-
-  /* Series title lives in the entry bar; hide toolbar chrome on entry */
-  /* Old toolbar only on desktop; mobile uses series name bar */
+  /* Desktop toolbar stays out of mobile; series bar / entry bar own the picker */
   .browse-toolbar {
     display: none !important;
   }
@@ -486,6 +453,12 @@
     font-size: 0.62rem;
     letter-spacing: 0.04em;
     color: var(--faint);
+  }
+
+  .compare-page-title,
+  .table-page-title {
+    margin: 0 0 6px;
+    font-size: 1.25rem;
   }
 
   .compare-mobile .compare-presets {

@@ -1,4 +1,4 @@
-/** Element key → USGS MCS 2025 chapter filename (shared by narratives + reference-db fetch). */
+/** Element key → USGS chapter filename (shared by narratives + reference-db fetch). */
 export const USGS_MAP = {
   lithium: "mcs2025-lithium.txt",
   aluminum: "mcs2025-aluminum.txt",
@@ -35,6 +35,8 @@ export const USGS_MAP = {
   arsenic: "mcs2025-arsenic.txt",
   magnesium: "mcs2025-magnesium-metal.txt",
   thorium: "mcs2025-thorium.txt",
+  /** Fuel mineral — not in MCS 2025; USGS Fact Sheet 2025–3057 (Apr 2026). */
+  uranium: "fs20253057-uranium.txt",
   sodium: "mcs2025-salt.txt",
   potassium: "mcs2025-potash.txt",
   calcium: "mcs2025-lime.txt",
@@ -65,10 +67,58 @@ export const USGS_MAP = {
   ytterbium: "mcs2025-rare-earths.txt",
   lutetium: "mcs2025-rare-earths.txt",
   yttrium: "mcs2025-rare-earths.txt",
-  scandium: "mcs2025-rare-earths.txt",
-  promethium: "mcs2025-rare-earths.txt"
+  /** Own MCS chapter — rare-earths text explicitly excludes most scandium. */
+  scandium: "mcs2025-scandium.txt"
+  // promethium: no MCS commodity chapter (synthetic; absent from rare-earth trade stats)
+};
+
+/**
+ * Mapped chapter filenames that must NOT count as covering these element keys.
+ * Prevents Dual-sourced + group commodityNotes on metals the chapter excludes
+ * or never documents (phase-5 audit: Pm on rare-earths; Sc if remapped wrongly).
+ */
+export const USGS_COVERAGE_EXCLUSIONS = {
+  "mcs2025-rare-earths.txt": new Set(["promethium", "scandium"])
+};
+
+/**
+ * Whether a mapped USGS chapter should confer Dual-sourced provenance and
+ * commodityNotes for this element. Exclusions win even if a production excerpt
+ * can be sliced from the file.
+ */
+export function usgsChapterCovers(elementKey, filename, text = "") {
+  if (!filename) return false;
+  const excluded = USGS_COVERAGE_EXCLUSIONS[filename];
+  if (excluded?.has(elementKey)) return false;
+  // Chapter body can also disclaim coverage (rare-earths → scandium).
+  if (
+    elementKey === "scandium" &&
+    text &&
+    /exclude[sd]?\s+most\s+scandium|exclude[sd]?\s+scandium/i.test(text)
+  ) {
+    return false;
+  }
+  return true;
+}
+
+/** Non-MCS chapters: custom title + PDF URL for citations and vault fetch. */
+export const USGS_SOURCE_META = {
+  "fs20253057-uranium.txt": {
+    title:
+      "USGS Fact Sheet 2025–3057: Uranium—Deposits, production and resources, market dynamics, and supply chain risks",
+    url: "https://pubs.usgs.gov/fs/2025/3057/fs20253057.pdf"
+  }
 };
 
 export function usgsPdfUrl(filename) {
+  const meta = USGS_SOURCE_META[filename];
+  if (meta?.url) return meta.url;
   return `https://pubs.usgs.gov/periodicals/mcs2025/${filename.replace(".txt", ".pdf")}`;
+}
+
+export function usgsSourceTitle(filename) {
+  const meta = USGS_SOURCE_META[filename];
+  if (meta?.title) return meta.title;
+  const slug = filename.replace("mcs2025-", "").replace(".txt", "");
+  return `USGS Mineral Commodity Summaries 2025 (${slug})`;
 }

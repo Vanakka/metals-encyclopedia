@@ -19,10 +19,13 @@ Use this file when something is missing or wrong. It lists **what we store**, **
 Rebuild after source changes:
 
 ```bash
-npm run upgrade:narratives   # RSC + USGS → narratives.mjs
+npm run upgrade:narratives   # RSC + USGS → narratives.mjs (+ metals.js)
 npm run build:data           # raw + narratives → metals.js
+npm run check:data           # CI guard — fails if metals.js is stale
 # or: npm run build
 ```
+
+`import:vault:apply` also rebuilds `metals.js` after writing `metals-raw.json`.
 
 ---
 
@@ -57,17 +60,19 @@ npm run build:data           # raw + narratives → metals.js
 ### 4. USGS Mineral Commodity Summaries 2025 (Tier 1)
 
 - **Chapter PDFs:** `https://pubs.usgs.gov/periodicals/mcs2025/mcs2025-{slug}.pdf`  
-- **Local text:** `src/data/usgs/text/mcs2025-*.txt`  
-
-- **Element → chapter map:** `USGS_MAP` in `scripts/upgrade-narratives.mjs`  
-- **We use in the UI:** Only the **Domestic Production and Use** paragraph (clipped) — except when the chapter is **not element-specific**: shared groups (rare-earths, platinum-group, zirconium-hafnium) and industrial-mineral aliases (salt→Na, potash→K, lime→Ca, barite→Ba). Those use **RSC Natural abundance** for “How it is made.” USGS still counts toward Confirmed.  
-- **Sitting on disk unused:** Recycling, Import Sources, Tariff, Salient Statistics tables, Events/Trends, World production & reserves, Substitutes.  
+- **Local text:** `src/data/usgs/text/mcs2025-*.txt` (plus `fs20253057-uranium.txt`)  
+- **Element → chapter map:** `scripts/usgs-map.mjs` (`USGS_MAP`, `USGS_SOURCE_META`, `usgsPdfUrl`)  
+- **We use in the UI:**  
+  - **How it is made** — Domestic Production and Use / Domestic Production and Resources (clipped), except group/alias chapters that prefer RSC (see `USGS_PREFER_RSC_PRODUCTION`).  
+  - **USGS commodity notes** (entry sheet `<details>`) — Recycling, Substitutes, World Resources / Global Production when present.  
+- **Still unused on disk:** Import Sources, Tariff, Salient Statistics tables, Events/Trends (except when they bleed into clipped sections).  
 - **When to revisit:**  
   1. Check whether an MCS chapter exists for the commodity (not always the element name — e.g. Na→salt, K→potash, Ba→barite, Zr/Hf→zirconium-hafnium).  
-  2. Download PDF → `pdftotext` → `src/data/usgs/text/`.  
-  3. Add key to `USGS_MAP` (and `USGS_PREFER_RSC_PRODUCTION` in `upgrade-narratives.mjs` if the chapter is group-level or a mineral alias).  
+  2. Download PDF → `pdftotext` (prefer **no** `-layout` for two-column sheets) → `src/data/usgs/text/`.  
+  3. Add key to `USGS_MAP` (and `USGS_PREFER_RSC_PRODUCTION` in `upgrade-narratives.mjs` if the chapter is group-level or a mineral alias). Non-MCS PDFs need an entry in `USGS_SOURCE_META`.  
   4. `npm run upgrade:narratives && npm run build:data`.  
-- **No MCS chapter (examples):** U (2025), Tc, Po, Fr, Ra, Ac, Pa, most superheavies — stay Single-source or sparse; don’t fake USGS.
+- **Uranium:** Not in MCS (fuel mineral). Mapped to USGS Fact Sheet 2025–3057 (`fs20253057-uranium.txt`).  
+- **Still no USGS commodity chapter:** Tc, Po, Fr, Ra, Ac, Pa, Pm, most superheavies — stay Single-source or sparse; don’t fake USGS.
 
 ### 5. Wikimedia Commons (Tier 2)
 
@@ -80,9 +85,13 @@ npm run build:data           # raw + narratives → metals.js
 
 | Label | Meaning |
 | --- | --- |
-| **Confirmed** | RSC narrative fields present **and** USGS production excerpt mapped |
+| **Dual-sourced** (id: `confirmed`) | RSC narrative fields present **and** a USGS chapter that **covers** the element (not merely mapped). Provenance only, not per-claim verification |
 | **Single-source** | RSC only (or USGS only if RSC missing) |
 | **Unverified** | Neither usable (should be rare) |
+
+Coverage gate: `usgsChapterCovers()` in `scripts/usgs-map.mjs` — `USGS_COVERAGE_EXCLUSIONS` blocks Dual-sourced / commodityNotes when a group chapter does not document the metal (promethium on rare-earths; scandium if wrongly mapped to rare-earths).
+
+Known RSC factual errors are corrected in `scripts/narrative-overrides.mjs` and reapplied on every `npm run upgrade:narratives`.
 
 Defined in `scripts/upgrade-narratives.mjs`.
 
@@ -137,6 +146,8 @@ Null bulk properties display as **Unavailable** — usually “not in PubChem/Wo
 | Fe | `iron-ore` |
 | Zr, Hf | `zirconium-hafnium` |
 | Pt-group | `platinum-group` |
-| La–Lu, Y, Sc, Pm | `rare-earths` |
+| La–Lu, Y | `rare-earths` |
+| Sc | `scandium` (own chapter; rare-earths text excludes most Sc) |
+| Pm | *(none — synthetic; not in MCS trade stats)* |
 
 Index of chapters: https://pubs.usgs.gov/periodicals/mcs2025/mcs2025.pdf

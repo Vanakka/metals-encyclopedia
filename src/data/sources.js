@@ -59,7 +59,7 @@ export const SOURCE_REFERENCE = [
     tier: 1,
     role: "Industrial production",
     blurb:
-      "U.S. Domestic Production and Use excerpts where a commodity chapter maps to an element. Group or mineral-alias chapters stay as Confirmed sources; element-specific “how made” text prefers RSC.",
+      "U.S. Domestic Production and Use excerpts where a commodity chapter maps to an element. Group or mineral-alias chapters still count toward Dual-sourced provenance; element-specific “how made” text prefers RSC.",
     url: "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries"
   },
   {
@@ -93,8 +93,9 @@ export const SOURCE_REFERENCE = [
 export const CONFIDENCE_REFERENCE = [
   {
     id: "confirmed",
-    label: "Confirmed",
-    meaning: "RSC narrative fields present and a USGS commodity chapter is mapped."
+    label: "Dual-sourced",
+    meaning:
+      "RSC narrative text and a USGS commodity chapter that actually covers this element. Provenance from two source families — not a claim-by-claim fact-check. Mapped-but-excluded chapters (e.g. rare-earths for promethium) do not count."
   },
   {
     id: "single-source",
@@ -104,7 +105,7 @@ export const CONFIDENCE_REFERENCE = [
   {
     id: "unverified-model",
     label: "Unverified",
-    meaning: "Neither RSC nor USGS narrative usable — rare; usually sparse superheavies."
+    meaning: "Neither RSC nor USGS narrative usable — rare."
   }
 ];
 

@@ -7,9 +7,13 @@
     "dev": "vite",
     "build": "node scripts/build-metals.mjs && vite build",
     "build:data": "node scripts/build-metals.mjs",
+    "check:data": "node scripts/check-metals-sync.mjs",
     "scrape:rsc": "node scripts/scrape-rsc.mjs",
     "upgrade:narratives": "node scripts/upgrade-narratives.mjs && node scripts/build-metals.mjs",
     "fetch:reference-db": "node scripts/fetch-reference-db.mjs",
+    "fetch:samples": "node scripts/fetch-sample-images.mjs",
+    "import:vault": "node scripts/import-vault-numerics.mjs",
+    "import:vault:apply": "node scripts/import-vault-numerics.mjs --apply",
     "preview": "vite preview"
   },
   "devDependencies": {

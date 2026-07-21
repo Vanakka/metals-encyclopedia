@@ -5,15 +5,21 @@
  * - PubChem element page links retained as Tier 1 property/identity anchors
  *
  * Confidence:
- * - confirmed: RSC narrative fields present AND USGS production excerpt present
- *   (independent: RSC encyclopedia vs USGS commodity survey)
- * - single-source: RSC narrative fields present, no USGS chapter mapped
+ * - confirmed (UI: Dual-sourced): RSC narrative fields present AND a USGS chapter
+ *   that actually covers this element (not merely mapped / excerpt-extractable)
+ * - single-source: RSC narrative fields present, no covering USGS chapter
  * - unverified-model: RSC scrape missing (should be rare)
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { USGS_MAP } from "./usgs-map.mjs";
+import {
+  USGS_MAP,
+  usgsChapterCovers,
+  usgsPdfUrl,
+  usgsSourceTitle
+} from "./usgs-map.mjs";
+import { applyNarrativeOverrides, NARRATIVE_OVERRIDES } from "./narrative-overrides.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
@@ -23,7 +29,7 @@ const rscByKey = new Map(rscAll.map((r) => [r.key, r]));
 
 /** Chapters whose Domestic Production text is not about this element as metal.
  * Shared group chapters (REE, PGM, Zr–Hf) and industrial-mineral aliases (salt/potash/lime/barite).
- * Prefer RSC natural abundance for the UI “How it is made” blurb; USGS still counts as Confirmed.
+ * Prefer RSC natural abundance for the UI “How it is made” blurb; USGS still counts toward Dual-sourced.
  */
 const USGS_PREFER_RSC_PRODUCTION = new Set([
   "mcs2025-rare-earths.txt",
@@ -41,24 +47,99 @@ function readUsgs(filename) {
   return fs.readFileSync(full, "utf8");
 }
 
-function usgsProductionExcerpt(text, maxLen = 700) {
+/** Extract a USGS MCS section by header markers; returns cleaned prose. */
+function usgsSection(text, startMarkers, endMarkers, maxLen = 650) {
   if (!text) return "";
-  // Prefer the Domestic Production and Use paragraph.
-  const marker = "Domestic Production and Use:";
-  const idx = text.indexOf(marker);
-  let chunk = idx >= 0 ? text.slice(idx + marker.length) : text;
-  // Cut at next major section header-ish line
-  const cutMarks = ["\nRecycling:", "\nImport Sources", "\nSalient Statistics", "\nEvents, Trends"];
+  let start = -1;
+  let markerLen = 0;
+  for (const marker of startMarkers) {
+    const at = text.indexOf(marker);
+    if (at >= 0 && (start < 0 || at < start)) {
+      start = at;
+      markerLen = marker.length;
+    }
+  }
+  if (start < 0) return "";
+  let chunk = text.slice(start + markerLen);
   let end = chunk.length;
-  for (const mark of cutMarks) {
-    const at = chunk.indexOf(mark);
+  for (const mark of endMarkers) {
+    const at = chunk.search(mark);
     if (at >= 0) end = Math.min(end, at);
   }
-  chunk = chunk.slice(0, end).replace(/\s+/g, " ").trim();
-  if (chunk.length > maxLen) {
-    chunk = chunk.slice(0, maxLen).replace(/\s+\S*$/, "") + "…";
+  chunk = chunk
+    .slice(0, end)
+    .replace(/\f/g, " ")
+    .replace(/Prepared by[\s\S]*?gov\]/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  // Drop leading table-ish noise if the section is mostly columns
+  if (/Mine production\s+Refinery/i.test(chunk) && chunk.length > 200) {
+    const wr = chunk.search(/World Resources:/i);
+    if (wr >= 0) chunk = chunk.slice(wr + "World Resources:".length).trim();
   }
-  return chunk;
+  return clip(chunk, maxLen);
+}
+
+function usgsProductionExcerpt(text, maxLen = 700) {
+  return usgsSection(
+    text,
+    ["Domestic Production and Use:", "Domestic Production and Resources"],
+    [
+      /\nRecycling:/,
+      /\nImport Sources/,
+      /\nSalient Statistics/,
+      /\nEvents, Trends/,
+      /\nConsumption, Import Reliance/,
+      /\nSummary\n/
+    ],
+    maxLen
+  );
+}
+
+function usgsCommodityNotes(text) {
+  const recycling = usgsSection(
+    text,
+    ["Recycling:"],
+    [/\nImport Sources/, /\nTariff:/, /\nDepletion Allowance/, /\nEvents, Trends/, /\nWorld Mine/],
+    550
+  );
+  const substitutes = usgsSection(
+    text,
+    ["Substitutes:"],
+    [/\ne\n\s*Estimated/, /\n\d+\n/, /\nU\.S\. Geological Survey/, /\nSee Appendix/],
+    550
+  );
+  // Prefer World Resources prose; fall back to World Mine / Global Production (Fact Sheet).
+  let world = usgsSection(
+    text,
+    ["World Resources:"],
+    [/\nSubstitutes:/, /\ne\n\s*Estimated/, /\nU\.S\. Geological Survey/, /\n\d+\n\s+[A-Z]/],
+    550
+  );
+  if (!world) {
+    world = usgsSection(
+      text,
+      [
+        "World Mine Production and Reserves:",
+        "World Mine and Refinery Production and Reserves:",
+        "Global Production and Resources"
+      ],
+      [
+        /\nWorld Resources:/,
+        /\nSubstitutes:/,
+        /\nDomestic Production/,
+        /\nConsumption, Import Reliance/,
+        /\nUnited States\s+\d/
+      ],
+      400
+    );
+  }
+  if (!recycling && !substitutes && !world) return null;
+  return {
+    ...(recycling ? { recycling } : {}),
+    ...(substitutes ? { substitutes } : {}),
+    ...(world ? { world } : {})
+  };
 }
 
 function clip(text, maxLen) {
@@ -82,7 +163,9 @@ for (const metal of raw) {
   const rsc = rscByKey.get(metal.key);
   const usgsFile = USGS_MAP[metal.key];
   const usgsText = usgsFile ? readUsgs(usgsFile) : null;
-  const usgsExcerpt = usgsProductionExcerpt(usgsText);
+  const covers = Boolean(usgsFile && usgsText && usgsChapterCovers(metal.key, usgsFile, usgsText));
+  const usgsExcerpt = covers ? usgsProductionExcerpt(usgsText) : "";
+  const commodityNotes = covers ? usgsCommodityNotes(usgsText) : null;
 
   const pubchem = {
     title: `PubChem element page: ${metal.name}`,
@@ -98,13 +181,14 @@ for (const metal of raw) {
         tier: 2
       }
     : null;
-  const usgsSource = usgsFile
-    ? {
-        title: `USGS Mineral Commodity Summaries 2025 (${usgsFile.replace("mcs2025-", "").replace(".txt", "")})`,
-        url: `https://pubs.usgs.gov/periodicals/mcs2025/${usgsFile.replace(".txt", ".pdf")}`,
-        tier: 1
-      }
-    : null;
+  const usgsSource =
+    covers && usgsFile
+      ? {
+          title: usgsSourceTitle(usgsFile),
+          url: usgsPdfUrl(usgsFile),
+          tier: 1
+        }
+      : null;
 
   const hasRscNarrative = Boolean(rsc?.ok && (rsc.appearance || rsc.uses || rsc.naturalAbundance));
 
@@ -114,7 +198,7 @@ for (const metal of raw) {
   let narrativeConfidence = "unverified-model";
   const narrativeSources = [];
 
-  const preferRscProduction = Boolean(usgsFile && USGS_PREFER_RSC_PRODUCTION.has(usgsFile));
+  const preferRscProduction = Boolean(covers && usgsFile && USGS_PREFER_RSC_PRODUCTION.has(usgsFile));
 
   if (hasRscNarrative) {
     overview = [rsc.appearance, rsc.naturalAbundance ? clip(rsc.naturalAbundance, 320) : ""]
@@ -130,7 +214,7 @@ for (const metal of raw) {
     }
     uses = rsc.uses || "";
     narrativeSources.push(rscSource);
-    if (usgsExcerpt) {
+    if (covers && usgsExcerpt) {
       narrativeSources.push(usgsSource);
       narrativeConfidence = "confirmed";
       stats.confirmed += 1;
@@ -144,7 +228,7 @@ for (const metal of raw) {
     overview = `${metal.name} (${metal.symbol}) is listed here as a ${metal.family.toLowerCase()} element. Curated RSC narrative text was unavailable at fetch time.`;
     production = usgsExcerpt || "Production route not yet verified from retrieved Tier-1/2 narrative sources.";
     uses = "Uses not yet verified from retrieved Tier-1/2 narrative sources.";
-    if (usgsExcerpt) {
+    if (covers && usgsExcerpt) {
       narrativeSources.push(usgsSource, pubchem);
       narrativeConfidence = "single-source";
       stats.singleSource += 1;
@@ -155,13 +239,21 @@ for (const metal of raw) {
     }
   }
 
-  narratives[metal.key] = {
-    overview: clip(overview, 700),
-    production: clip(production, 900),
-    uses: clip(uses, 900),
+  const built = applyNarrativeOverrides(metal.key, {
+    overview: overview,
+    production: production,
+    uses: uses,
+    commodityNotes,
     notableFacts: hasRscNarrative ? notableFromRsc(rsc) : [],
     narrativeConfidence,
     narrativeSources: narrativeSources.filter(Boolean)
+  });
+
+  narratives[metal.key] = {
+    ...built,
+    overview: clip(built.overview, 700),
+    production: clip(built.production, 900),
+    uses: clip(built.uses, 900)
   };
 }
 
@@ -175,8 +267,9 @@ fs.writeFileSync(
       generatedAt: new Date().toISOString(),
       totals: stats,
       metals: Object.keys(narratives).length,
+      narrativeOverrides: Object.keys(NARRATIVE_OVERRIDES),
       method:
-        "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production and Use excerpts where a commodity chapter is mapped. Group/alias chapters (rare-earths, platinum-group, zirconium-hafnium, salt, potash, lime, barite) keep USGS as a Confirmed source but use RSC natural abundance for the production blurb. Confirmed = RSC + USGS. Single-source = RSC only (or USGS only if RSC missing)."
+        "RSC accordion scrape for appearance/uses/natural abundance; USGS MCS 2025 Domestic Production plus Recycling / Substitutes / World Resources excerpts where the mapped chapter covers the element (usgsChapterCovers / USGS_COVERAGE_EXCLUSIONS); uranium uses Fact Sheet 2025–3057; scandium uses mcs2025-scandium (not rare-earths); promethium has no USGS commodity chapter. Curated narrative-overrides.mjs patches known RSC errors. Dual-sourced = RSC + covering USGS (provenance, not per-claim fact-check). Single-source = RSC only (or USGS only if RSC missing)."
     },
     null,
     2
@@ -184,4 +277,5 @@ fs.writeFileSync(
 );
 
 console.log("Upgrade complete:", stats);
+console.log("Narrative overrides applied:", Object.keys(NARRATIVE_OVERRIDES).join(", "));
 console.log("Wrote scripts/narratives.mjs");
